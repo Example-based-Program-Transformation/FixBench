@@ -1,0 +1,1 @@
+#590 Update methods are not supported for "method-and-conversion" methods (can currently cause NullPointerExceptions)

@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/oregon/OregonBasicGame.java b/src/net/sourceforge/plantuml/oregon/OregonBasicGame.java
+index abf45bed..0692d369 100644
+--- a/src/net/sourceforge/plantuml/oregon/OregonBasicGame.java
++++ b/src/net/sourceforge/plantuml/oregon/OregonBasicGame.java
+@@ -37,0 +38,2 @@ import java.util.Random;
++import net.sourceforge.plantuml.StringUtils;
++
+@@ -871 +873 @@ public class OregonBasicGame implements BasicGame {
+-				return valueOf(s.toUpperCase());
++				return valueOf(StringUtils.goUpperCase(s));

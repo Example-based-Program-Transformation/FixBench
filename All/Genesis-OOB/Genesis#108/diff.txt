@@ -1,0 +1,6 @@
+diff --git a/src/main/java/edu/uci/ics/crawler4j/url/WebURL.java b/src/main/java/edu/uci/ics/crawler4j/url/WebURL.java
+index ae5986a..422917c 100644
+--- a/src/main/java/edu/uci/ics/crawler4j/url/WebURL.java
++++ b/src/main/java/edu/uci/ics/crawler4j/url/WebURL.java
+@@ -93,0 +94 @@ public class WebURL implements Serializable {
++        domainEndIdx = domainEndIdx > domainStartIdx ? domainEndIdx : url.length();

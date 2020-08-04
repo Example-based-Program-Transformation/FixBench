@@ -1,0 +1,1 @@
+decoder had a 1 byte array out of bound exception. fixed

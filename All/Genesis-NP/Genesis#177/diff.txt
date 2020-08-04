@@ -1,0 +1,8 @@
+diff --git a/server/src/main/java/org/apache/kylin/rest/controller/CubeDescController.java b/server/src/main/java/org/apache/kylin/rest/controller/CubeDescController.java
+index 68f8c7d..d70819f 100644
+--- a/server/src/main/java/org/apache/kylin/rest/controller/CubeDescController.java
++++ b/server/src/main/java/org/apache/kylin/rest/controller/CubeDescController.java
+@@ -56,0 +57,3 @@ public class CubeDescController {
++        if (cubeInstance == null){
++            return null;
++        }

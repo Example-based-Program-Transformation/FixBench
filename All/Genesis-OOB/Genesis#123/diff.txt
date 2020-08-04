@@ -1,0 +1,9 @@
+diff --git a/project/src/main/java/org/springframework/roo/project/PomManagementServiceImpl.java b/project/src/main/java/org/springframework/roo/project/PomManagementServiceImpl.java
+index 409181e..6aade5e 100644
+--- a/project/src/main/java/org/springframework/roo/project/PomManagementServiceImpl.java
++++ b/project/src/main/java/org/springframework/roo/project/PomManagementServiceImpl.java
+@@ -132,0 +133,4 @@ public class PomManagementServiceImpl implements PomManagementService {
++            
++            if (startingPoint.lastIndexOf(SEPARATOR) < 0) {
++            	break;
++            }

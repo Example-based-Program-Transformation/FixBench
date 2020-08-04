@@ -1,0 +1,7 @@
+diff --git a/structr-core/src/main/java/org/structr/core/app/StructrApp.java b/structr-core/src/main/java/org/structr/core/app/StructrApp.java
+index e99ae5f..36bcc0b 100644
+--- a/structr-core/src/main/java/org/structr/core/app/StructrApp.java
++++ b/structr-core/src/main/java/org/structr/core/app/StructrApp.java
+@@ -217 +217 @@ public class StructrApp implements App {
+-		if (type.isAssignableFrom(entity.getClass())) {
++		if (type != null && entity != null && type.isAssignableFrom(entity.getClass())) {

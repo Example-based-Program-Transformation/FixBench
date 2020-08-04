@@ -1,0 +1,1 @@
+LOGBACK-960 Prevent a possible NPE in SyslogAppenderBase.close() when the SyslogOutputStream is null (due to a host lookup failure for example)

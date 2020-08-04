@@ -1,0 +1,1 @@
+KYLIN-512 fix min(cal_dt) issue: endpoint side null pointer

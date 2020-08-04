@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/mapdb/StoreDirect.java b/src/main/java/org/mapdb/StoreDirect.java
+index 0f28d2f..3644d49 100644
+--- a/src/main/java/org/mapdb/StoreDirect.java
++++ b/src/main/java/org/mapdb/StoreDirect.java
+@@ -1308,0 +1309,2 @@ public class StoreDirect extends Store {
++
++
+@@ -1311,0 +1314,3 @@ public class StoreDirect extends Store {
++                if(this instanceof StoreCached) {
++                    ((StoreCached) this).flushWriteCacheSegment(i);
++                }

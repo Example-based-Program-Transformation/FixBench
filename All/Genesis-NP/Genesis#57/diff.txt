@@ -1,0 +1,10 @@
+diff --git a/maven-compat/src/main/java/org/apache/maven/repository/MetadataResolutionResult.java b/maven-compat/src/main/java/org/apache/maven/repository/MetadataResolutionResult.java
+index 6224907..cfdd7f9 100644
+--- a/maven-compat/src/main/java/org/apache/maven/repository/MetadataResolutionResult.java
++++ b/maven-compat/src/main/java/org/apache/maven/repository/MetadataResolutionResult.java
+@@ -235,4 +235 @@ public MetadataResolutionResult addError( Exception e )
+-        if ( exceptions == null )
+-        {
+-            initList( exceptions );
+-        }
++        exceptions = initList( exceptions );

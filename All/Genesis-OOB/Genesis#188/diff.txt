@@ -1,0 +1,10 @@
+diff --git a/src/main/java/mikera/vectorz/impl/SparseIndexedVector.java b/src/main/java/mikera/vectorz/impl/SparseIndexedVector.java
+index 0f8e9d6..ed39a7c 100644
+--- a/src/main/java/mikera/vectorz/impl/SparseIndexedVector.java
++++ b/src/main/java/mikera/vectorz/impl/SparseIndexedVector.java
+@@ -494,0 +495 @@ public class SparseIndexedVector extends ASparseIndexedVector {
++        
+@@ -495,0 +497 @@ public class SparseIndexedVector extends ASparseIndexedVector {
++            if (si>=data.length) break;
+@@ -500 +501,0 @@ public class SparseIndexedVector extends ASparseIndexedVector {
+-				if (si>=data.length) break;

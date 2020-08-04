@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/arena/ArenaPlayer.java b/src/net/slipcor/pvparena/arena/ArenaPlayer.java
+index a2195019..caa65951 100644
+--- a/src/net/slipcor/pvparena/arena/ArenaPlayer.java
++++ b/src/net/slipcor/pvparena/arena/ArenaPlayer.java
+@@ -384 +384 @@ public class ArenaPlayer {
+-		debug.i("aClass: " + (aClass == null ? "null" : aClass.getName().toLowerCase()),
++		debug.i("aClass: " + (aClass == null ? "null" : aClass.getName()),

@@ -1,0 +1,1 @@
+[MNG-5721] Possible NullPointerException in org.apache.maven.repository.MetadataResolutionResult

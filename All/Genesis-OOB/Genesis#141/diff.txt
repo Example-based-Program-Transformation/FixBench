@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/pff/PSTTable7C.java b/src/main/java/com/pff/PSTTable7C.java
+index e092ebf..1cdcf38 100644
+--- a/src/main/java/com/pff/PSTTable7C.java
++++ b/src/main/java/com/pff/PSTTable7C.java
+@@ -209 +209 @@ class PSTTable7C extends PSTTable {
+-					if (currentValueArrayStart + TCI_bm < rowNodeInfo.length()) {
++					if (currentValueArrayStart + TCI_bm > rowNodeInfo.length()) {

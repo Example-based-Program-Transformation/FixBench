@@ -1,0 +1,1 @@
+StoreCached: fix NPE if compaction is called with dirty write cache

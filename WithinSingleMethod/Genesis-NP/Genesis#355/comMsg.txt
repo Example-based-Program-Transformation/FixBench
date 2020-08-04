@@ -1,0 +1,1 @@
+Fixes #67 BindingException is thrown when a collection which contains null is passed as the 'collection' of foreach tag.

@@ -1,0 +1,7 @@
+Id:334
+SATName:Genesis
+modifiedFPath:processing/src/main/java/io/druid/segment/incremental/IncrementalIndex.java
+comSha:f36d030ef20e9cf810ae229fa673b61ee6f69271
+parentComSha:f36d030ef20e9cf810ae229fa673b61ee6f69271^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

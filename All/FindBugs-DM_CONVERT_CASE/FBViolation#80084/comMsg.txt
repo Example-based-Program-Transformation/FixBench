@@ -1,0 +1,4 @@
+Merge branch 'develop'
+
+Conflicts:
+	pom.xml

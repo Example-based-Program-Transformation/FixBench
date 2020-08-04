@@ -1,0 +1,7 @@
+diff --git a/addon-dod/src/main/java/org/springframework/roo/addon/dod/DataOnDemandMetadata.java b/addon-dod/src/main/java/org/springframework/roo/addon/dod/DataOnDemandMetadata.java
+index 17ce1ce..1457adc 100644
+--- a/addon-dod/src/main/java/org/springframework/roo/addon/dod/DataOnDemandMetadata.java
++++ b/addon-dod/src/main/java/org/springframework/roo/addon/dod/DataOnDemandMetadata.java
+@@ -638 +638 @@ public class DataOnDemandMetadata extends AbstractItdTypeDetailsProvidingMetadat
+-				if (fieldInitializer != null) {
++				if (fieldInitializer != null && fieldInitializer.contains("\"")) {

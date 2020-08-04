@@ -1,0 +1,7 @@
+diff --git a/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java b/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
+index 1891ef5..5c1c65d 100644
+--- a/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
++++ b/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
+@@ -161 +161 @@ public class HttpClientDownloader extends AbstractDownloader {
+-            if (nameValuePair.length > 0) {
++            if (nameValuePair != null && nameValuePair.length > 0) {

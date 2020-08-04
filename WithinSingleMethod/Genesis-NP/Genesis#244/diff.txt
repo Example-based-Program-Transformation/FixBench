@@ -1,0 +1,19 @@
+diff --git a/src/main/java/org/mapdb/HTreeMap.java b/src/main/java/org/mapdb/HTreeMap.java
+index 714fd63..85f9015 100644
+--- a/src/main/java/org/mapdb/HTreeMap.java
++++ b/src/main/java/org/mapdb/HTreeMap.java
+@@ -538 +538,2 @@ public class HTreeMap<K,V>
+-        if(o==null) return null;
++        if(o==null)
++            return null;
+@@ -565,2 +566,4 @@ public class HTreeMap<K,V>
+-        //there is race condition, vc could be called twice. But map will be updated only once
+-        V prevVal = putIfAbsent((K) o,value);
++        //there is race condition, valueCreator could be called twice. But map will be updated only once
++        V prevVal = value==null ?
++                        null :
++                        putIfAbsent((K) o,value);
+@@ -1617 +1620,2 @@ public class HTreeMap<K,V>
+-        if(key==null||value==null) throw new NullPointerException();
++        if(key==null||value==null)
++            throw new NullPointerException();

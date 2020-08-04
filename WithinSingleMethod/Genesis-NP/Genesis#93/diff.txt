@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/design/MutableExceptionCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/design/MutableExceptionCheck.java
+index c080b8c..6564d8f 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/design/MutableExceptionCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/design/MutableExceptionCheck.java
+@@ -158 +158 @@ public final class MutableExceptionCheck extends AbstractFormatCheck {
+-            while (currentNode.getType() != TokenTypes.IDENT) {
++            while (currentNode.getLastChild() != null) {

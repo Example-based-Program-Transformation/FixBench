@@ -1,0 +1,1 @@
+[LOGMGR-42] Guard against java.lang.StringIndexOutOfBoundsException when the resource path matches the class name.

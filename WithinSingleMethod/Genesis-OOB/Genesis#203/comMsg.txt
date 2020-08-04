@@ -1,0 +1,1 @@
+Issue 83 fix, contributed by dboitnot, "If the text area does not have enough lines to fill itself and the user presses the End key, repaint() will fail with ArrayIndexOutOfBoundsException"

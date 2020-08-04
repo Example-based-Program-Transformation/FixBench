@@ -1,0 +1,8 @@
+diff --git a/forge/addons/camel/src/main/java/io/fabric8/forge/camel/commands/project/helper/CamelCommandsHelper.java b/forge/addons/camel/src/main/java/io/fabric8/forge/camel/commands/project/helper/CamelCommandsHelper.java
+index dca2743..011b455 100644
+--- a/forge/addons/camel/src/main/java/io/fabric8/forge/camel/commands/project/helper/CamelCommandsHelper.java
++++ b/forge/addons/camel/src/main/java/io/fabric8/forge/camel/commands/project/helper/CamelCommandsHelper.java
+@@ -308,0 +309 @@ public final class CamelCommandsHelper {
++        if (uri != null) {
+@@ -309,0 +311 @@ public final class CamelCommandsHelper {
++        }

@@ -1,0 +1,13 @@
+diff --git a/src/main/java/lcmc/gui/resources/VMSFilesystemInfo.java b/src/main/java/lcmc/gui/resources/VMSFilesystemInfo.java
+index dfdbb3d6..70d5386c 100644
+--- a/src/main/java/lcmc/gui/resources/VMSFilesystemInfo.java
++++ b/src/main/java/lcmc/gui/resources/VMSFilesystemInfo.java
+@@ -58 +58 @@ public final class VMSFilesystemInfo extends VMSHardwareInfo {
+-    /** Choices for source directories */
++    /** Choices for source directories. */
+@@ -60,2 +59,0 @@ public final class VMSFilesystemInfo extends VMSHardwareInfo {
+-    /** Previous target bus value. */
+-    private String prevTargetBus = null;
+@@ -121 +119 @@ public final class VMSFilesystemInfo extends VMSHardwareInfo {
+-    /** LXC source dir */
++    /** LXC source dir. */

@@ -1,0 +1,7 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/runtime/ExecutionEntity.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/runtime/ExecutionEntity.java
+index 33e8e65..176a5a9 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/runtime/ExecutionEntity.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/runtime/ExecutionEntity.java
+@@ -582 +582 @@ public class ExecutionEntity extends VariableScopeImpl implements ActivityExecut
+-    return getProcessDefinition().getId();
++    return processDefinitionId;

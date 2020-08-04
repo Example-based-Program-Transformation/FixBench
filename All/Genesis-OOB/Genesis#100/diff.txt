@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/wicketstuff/htmlvalidator/HtmlValidationResponseFilter.java b/src/main/java/org/wicketstuff/htmlvalidator/HtmlValidationResponseFilter.java
+index 400315f..c099207 100644
+--- a/src/main/java/org/wicketstuff/htmlvalidator/HtmlValidationResponseFilter.java
++++ b/src/main/java/org/wicketstuff/htmlvalidator/HtmlValidationResponseFilter.java
+@@ -9,2 +8,0 @@ import org.apache.wicket.RequestCycle;
+-import org.apache.wicket.RestartResponseException;
+-import org.apache.wicket.protocol.http.WebRequestCycle;
+@@ -45 +43,2 @@ public class HtmlValidationResponseFilter implements IResponseFilter {
+-		String contentSoFar = response.substring(0, 128);
++		int maxLength = Math.min(response.length(), 128);
++		String contentSoFar = response.substring(0, maxLength);

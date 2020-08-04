@@ -1,0 +1,10 @@
+diff --git a/src/org/traccar/protocol/Gt06ProtocolEncoder.java b/src/org/traccar/protocol/Gt06ProtocolEncoder.java
+index f5b914b1..f518d422 100644
+--- a/src/org/traccar/protocol/Gt06ProtocolEncoder.java
++++ b/src/org/traccar/protocol/Gt06ProtocolEncoder.java
+@@ -23,0 +24,2 @@ import org.traccar.model.Command;
++import java.nio.charset.Charset;
++
+@@ -39 +41 @@ public class Gt06ProtocolEncoder extends BaseProtocolEncoder {
+-        buf.writeBytes(content.getBytes()); // command
++        buf.writeBytes(content.getBytes(Charset.defaultCharset())); // command

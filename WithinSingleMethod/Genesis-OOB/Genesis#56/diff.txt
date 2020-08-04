@@ -1,0 +1,9 @@
+diff --git a/src/main/java/hex/glm/GLM2.java b/src/main/java/hex/glm/GLM2.java
+index 5ec9039..0432208 100644
+--- a/src/main/java/hex/glm/GLM2.java
++++ b/src/main/java/hex/glm/GLM2.java
+@@ -442,0 +443 @@ public class GLM2 extends Job.ModelJobWithoutClassificationField {
++        source2.remove(ignored_cols);
+@@ -480 +481 @@ public class GLM2 extends Job.ModelJobWithoutClassificationField {
+-      Frame fr = DataInfo.prepareFrame(source2, response, ignored_cols, toEnum, true, true);
++      Frame fr = DataInfo.prepareFrame(source2, response, new int[0], toEnum, true, true);

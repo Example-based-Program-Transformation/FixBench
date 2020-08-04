@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/bytedeco/javacpp/tools/Parser.java b/src/main/java/org/bytedeco/javacpp/tools/Parser.java
+index fd0647f..4bf8617 100644
+--- a/src/main/java/org/bytedeco/javacpp/tools/Parser.java
++++ b/src/main/java/org/bytedeco/javacpp/tools/Parser.java
+@@ -1261 +1261 @@ public class Parser {
+-            if (type.constructor || type.destructor || type.operator) {
++            if ((type.constructor || type.destructor || type.operator) && params != null) {

@@ -1,0 +1,1 @@
+Fix for #245 Null pointer exceptions when using % for warnings

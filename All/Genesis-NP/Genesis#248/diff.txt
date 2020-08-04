@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/mapdb/StoreAppend.java b/src/main/java/org/mapdb/StoreAppend.java
+index 001a4de..7c7ad59 100644
+--- a/src/main/java/org/mapdb/StoreAppend.java
++++ b/src/main/java/org/mapdb/StoreAppend.java
+@@ -441,0 +442 @@ public class StoreAppend extends Store{
++        if(closed) return;

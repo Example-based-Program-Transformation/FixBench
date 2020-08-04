@@ -1,0 +1,18 @@
+diff --git a/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlternativeAlignmentFrame.java b/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlternativeAlignmentFrame.java
+index 95b29eb42..d2f95d576 100644
+--- a/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlternativeAlignmentFrame.java
++++ b/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlternativeAlignmentFrame.java
+@@ -33 +33 @@ import java.util.List;
+-import java.util.logging.Logger;
++
+@@ -53,0 +54,2 @@ import org.biojava.bio.structure.gui.SequenceDisplay;
++import org.slf4j.Logger;
++import org.slf4j.LoggerFactory;
+@@ -67,2 +69,2 @@ extends JFrame{
+-
+-	public static Logger logger =  Logger.getLogger("org.biojava");
++	
++	private static final Logger logger = LoggerFactory.getLogger(AlternativeAlignmentFrame.class);
+@@ -230,2 +231,0 @@ extends JFrame{
+-		n.setNmr(true);
+-

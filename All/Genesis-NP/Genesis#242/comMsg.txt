@@ -1,0 +1,1 @@
+HTreeMap: add workaround for NPE in expiration, #588

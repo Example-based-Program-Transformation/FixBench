@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/blocks/ReplCache.java b/src/org/jgroups/blocks/ReplCache.java
+index bf61b1aeb..4711dbb14 100644
+--- a/src/org/jgroups/blocks/ReplCache.java
++++ b/src/org/jgroups/blocks/ReplCache.java
+@@ -78 +78 @@ public class ReplCache<K,V> implements MembershipListener, Cache.ChangeListener
+-    protected static Map<Short, Method> methods=Util.createConcurrentMap(8);
++    protected static final Map<Short, Method> methods=Util.createConcurrentMap(8);

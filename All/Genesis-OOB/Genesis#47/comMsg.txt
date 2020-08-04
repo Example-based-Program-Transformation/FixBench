@@ -1,0 +1,1 @@
+Fixes #1253: ArrayIndexOutOfBoundsException has been fixed

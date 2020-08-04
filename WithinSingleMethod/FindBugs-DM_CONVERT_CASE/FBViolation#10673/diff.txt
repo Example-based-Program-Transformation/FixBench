@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/managers/ArenaManager.java b/src/net/slipcor/pvparena/managers/ArenaManager.java
+index 0e535e84..96243bc4 100644
+--- a/src/net/slipcor/pvparena/managers/ArenaManager.java
++++ b/src/net/slipcor/pvparena/managers/ArenaManager.java
+@@ -303 +303 @@ public final class ArenaManager {
+-						if (!ARENAS.containsKey(sName.toLowerCase())) {
++						if (getArenaByName(sName) == null) {

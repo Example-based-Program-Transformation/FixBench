@@ -1,0 +1,18 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/index/sbtree/local/OSBTree.java b/core/src/main/java/com/orientechnologies/orient/core/index/sbtree/local/OSBTree.java
+index 6461e89..0efa838 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/index/sbtree/local/OSBTree.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/index/sbtree/local/OSBTree.java
+@@ -1823,2 +1822,0 @@ public class OSBTree<K, V> extends ODurableComponent {
+-    int hop = 0;
+-
+@@ -1855,10 +1852,0 @@ public class OSBTree<K, V> extends ODurableComponent {
+-
+-      if (hop++ > 1000) {
+-        OLogManager
+-            .instance()
+-            .error(
+-                this,
+-                "Index '%s' (engine=OSBTree) reached maximum hop=%d on lookup. Index could be corrupted, due to a previous hard kill. Please drop and recreate it",
+-                getName(), hop);
+-        return null;
+-      }

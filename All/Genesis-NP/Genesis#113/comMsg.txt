@@ -1,0 +1,1 @@
+Fixed NPE when using logstash appender without any custom fields.

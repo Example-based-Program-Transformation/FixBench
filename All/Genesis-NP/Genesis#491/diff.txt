@@ -1,0 +1,7 @@
+diff --git a/openid-connect-server/src/main/java/org/mitre/openid/connect/token/TofuUserApprovalHandler.java b/openid-connect-server/src/main/java/org/mitre/openid/connect/token/TofuUserApprovalHandler.java
+index dfbdb30..9b87dfc 100644
+--- a/openid-connect-server/src/main/java/org/mitre/openid/connect/token/TofuUserApprovalHandler.java
++++ b/openid-connect-server/src/main/java/org/mitre/openid/connect/token/TofuUserApprovalHandler.java
+@@ -211 +211 @@ public class TofuUserApprovalHandler implements UserApprovalHandler {
+-						if (systemScope.isStructured()){
++						if (systemScope != null && systemScope.isStructured()){

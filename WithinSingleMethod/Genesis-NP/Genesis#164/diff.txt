@@ -1,0 +1,7 @@
+diff --git a/structr-core/src/main/java/org/structr/core/property/ArrayProperty.java b/structr-core/src/main/java/org/structr/core/property/ArrayProperty.java
+index 9db9b36..0c81a3e 100644
+--- a/structr-core/src/main/java/org/structr/core/property/ArrayProperty.java
++++ b/structr-core/src/main/java/org/structr/core/property/ArrayProperty.java
+@@ -88 +88 @@ public class ArrayProperty<T> extends AbstractPrimitiveProperty<T[]> {
+-			return Arrays.asList(source);
++			return source != null ? Arrays.asList(source) : null;

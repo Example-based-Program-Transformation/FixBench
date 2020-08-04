@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/bukkit/event/block/BlockIgniteEvent.java b/src/main/java/org/bukkit/event/block/BlockIgniteEvent.java
+index deb66f19..e014c8db 100644
+--- a/src/main/java/org/bukkit/event/block/BlockIgniteEvent.java
++++ b/src/main/java/org/bukkit/event/block/BlockIgniteEvent.java
+@@ -18 +17,0 @@ public class BlockIgniteEvent extends BlockEvent implements Cancellable {
+-    private Block theBlock;
+@@ -26 +24,0 @@ public class BlockIgniteEvent extends BlockEvent implements Cancellable {
+-        this.theBlock = theBlock;

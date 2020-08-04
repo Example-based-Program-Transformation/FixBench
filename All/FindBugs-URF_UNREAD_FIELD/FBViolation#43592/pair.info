@@ -1,0 +1,8 @@
+Id:43592
+comSha:717a22d2048bb5a60c02caa79a093d1a92034781
+parentComSha:9327f93d87e36adf1bc8ae0c37725b0149735953
+BuggyFilePath:capital-uat/src/main/java/com/capital/DriverManager.java
+FixedFilePath:capital-uat/src/main/java/com/capital/DriverManager.java
+StartLineNum:10
+EndLineNum:10
+repoName:eileenzheng#playground

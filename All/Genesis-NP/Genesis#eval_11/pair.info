@@ -1,0 +1,7 @@
+Id:11
+SATName:Genesis
+modifiedFPath:sdk/src/main/java/com/google/cloud/dataflow/sdk/transforms/join/CoGbkResult.java
+comSha:c06125d29229309b8e2d2070d7fa140c9a2e14f5
+parentComSha:c06125d29229309b8e2d2070d7fa140c9a2e14f5^1
+githubUrl:https://github.com/GoogleCloudPlatform/DataflowJavaSDK
+repoName:GoogleCloudPlatform#DataflowJavaSDK

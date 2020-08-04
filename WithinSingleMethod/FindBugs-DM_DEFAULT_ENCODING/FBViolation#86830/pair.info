@@ -1,0 +1,8 @@
+Id:86830
+comSha:9f5ef558f07ead0e2dd09aa6223dd8d67994e0a4
+parentComSha:77b32064b6034ea6097d05bd043d947fec53e161
+BuggyFilePath:src/main/java/de/is24/deadcode4j/analyzer/JavaFileAnalyzer.java
+FixedFilePath:src/main/java/de/is24/deadcode4j/analyzer/JavaFileAnalyzer.java
+StartLineNum:66
+EndLineNum:66
+repoName:ImmobilienScout24#deadcode4j

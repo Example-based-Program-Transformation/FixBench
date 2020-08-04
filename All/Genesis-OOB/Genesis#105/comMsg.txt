@@ -1,0 +1,1 @@
+Fixed issue: DIRMINA-536 - TextLineDecoder throws an IndexOutOfBoundsException * Added an if block that checks the case that matchCount is greater than the current buffer position

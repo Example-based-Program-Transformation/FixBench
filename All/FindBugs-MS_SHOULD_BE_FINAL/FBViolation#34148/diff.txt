@@ -1,0 +1,7 @@
+diff --git a/src/main/java/uk/co/caprica/vlcj/filter/SubTitleFileFilter.java b/src/main/java/uk/co/caprica/vlcj/filter/SubTitleFileFilter.java
+index 653e71c71..9e43fcf59 100644
+--- a/src/main/java/uk/co/caprica/vlcj/filter/SubTitleFileFilter.java
++++ b/src/main/java/uk/co/caprica/vlcj/filter/SubTitleFileFilter.java
+@@ -55 +55 @@ public class SubTitleFileFilter extends ExtensionFileFilter {
+-    public static SubTitleFileFilter INSTANCE = new SubTitleFileFilter();
++    public static final SubTitleFileFilter INSTANCE = new SubTitleFileFilter();

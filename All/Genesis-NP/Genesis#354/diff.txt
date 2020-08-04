@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java b/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java
+index e5a2df5..b42e418 100644
+--- a/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java
++++ b/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java
+@@ -159,2 +159,4 @@ public class DefaultResultSetHandler implements ResultSetHandler {
+-    while (rsw != null && resultSetCount < mappedStatement.getResulSets().length) {
+-      ResultMapping parentMapping = nextResultMaps.get(mappedStatement.getResulSets()[resultSetCount]);
++    String[] resultSets = mappedStatement.getResulSets();
++    if (resultSets != null) {
++      while (rsw != null && resultSetCount < resultSets.length) {
++        ResultMapping parentMapping = nextResultMaps.get(resultSets[resultSetCount]);
+@@ -169,0 +172 @@ public class DefaultResultSetHandler implements ResultSetHandler {
++    }

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/mapdb/SerializerPojo.java b/src/main/java/org/mapdb/SerializerPojo.java
+index 9c55761..75936f9 100644
+--- a/src/main/java/org/mapdb/SerializerPojo.java
++++ b/src/main/java/org/mapdb/SerializerPojo.java
+@@ -387 +387 @@ public class SerializerPojo extends SerializerBase implements Serializable{
+-            streamClass = ObjectStreamClass.lookup(clazz);
++            streamClass = clazz!=null? ObjectStreamClass.lookup(clazz) : null;

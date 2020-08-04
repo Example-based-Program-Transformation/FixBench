@@ -1,0 +1,7 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleOntologyStorerFactory.java b/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleOntologyStorerFactory.java
+index a46178e17..57d49deb7 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleOntologyStorerFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleOntologyStorerFactory.java
+@@ -53,0 +54,2 @@ public class RioTurtleOntologyStorerFactory implements
++    private static final long serialVersionUID = 40000L;
++

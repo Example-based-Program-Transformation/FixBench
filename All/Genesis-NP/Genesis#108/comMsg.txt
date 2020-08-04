@@ -1,0 +1,1 @@
+Fix NPE in crawler when a file has an invalid header

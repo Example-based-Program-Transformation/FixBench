@@ -1,0 +1,8 @@
+Id:74060
+comSha:e0e89fcbd531fa382914be537bc5a368fe88b296
+parentComSha:c8f917ecd3f54c282e7871c29b942306e4de24a7
+BuggyFilePath:src/main/java/name/richardson/james/bukkit/banhammer/player/PlayerRecordMatcher.java
+FixedFilePath:src/main/java/name/richardson/james/bukkit/banhammer/player/PlayerRecordMatcher.java
+StartLineNum:31
+EndLineNum:31
+repoName:grandwazir#BanHammer

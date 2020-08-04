@@ -1,0 +1,14 @@
+diff --git a/src/main/java/org/perfcake/message/sender/HTTPSender.java b/src/main/java/org/perfcake/message/sender/HTTPSender.java
+index 55c18158..5ead2335 100644
+--- a/src/main/java/org/perfcake/message/sender/HTTPSender.java
++++ b/src/main/java/org/perfcake/message/sender/HTTPSender.java
+@@ -37,0 +38 @@ import org.perfcake.reporting.MeasurementUnit;
++import org.perfcake.util.Utils;
+@@ -246 +247 @@ public class HTTPSender extends AbstractSender {
+-         OutputStreamWriter out = new OutputStreamWriter(requestConnection.getOutputStream());
++         OutputStreamWriter out = new OutputStreamWriter(requestConnection.getOutputStream(), Utils.getDefaultEncoding());
+@@ -248,0 +250 @@ public class HTTPSender extends AbstractSender {
++         out.close();
+@@ -267 +269 @@ public class HTTPSender extends AbstractSender {
+-      InputStreamReader read = new InputStreamReader(rcis);
++      InputStreamReader read = new InputStreamReader(rcis, Utils.getDefaultEncoding());

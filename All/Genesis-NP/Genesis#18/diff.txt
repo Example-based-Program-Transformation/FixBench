@@ -1,0 +1,8 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java b/org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java
+index 8e0c03c..d62b1f5 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java
+@@ -534,0 +535 @@ public boolean diff(final ProgressMonitor monitor, int estWorkTreeSize,
++				if (subRepo != null) {
+@@ -558,0 +560 @@ else if (ignoreSubmoduleMode != IgnoreSubmoduleMode.DIRTY) {
++			}

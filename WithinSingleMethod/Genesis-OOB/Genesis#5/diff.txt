@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/com/zaxxer/hikari/HikariPool.java b/core/src/main/java/com/zaxxer/hikari/HikariPool.java
+index b5edbd0..f7077ff 100644
+--- a/core/src/main/java/com/zaxxer/hikari/HikariPool.java
++++ b/core/src/main/java/com/zaxxer/hikari/HikariPool.java
+@@ -465 +465 @@ public final class HikariPool implements HikariPoolMBean
+-        LOGGER.debug("{}Pool stats (total={}, inUse={}, avail={})", (prefix != null ? prefix[0] : ""), total, total - idle, idle);
++        LOGGER.debug("{}Pool stats (total={}, inUse={}, avail={})", (prefix != null && prefix.length > 0? prefix[0] : ""), total, total - idle, idle);

@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/commands/PAA_Region.java b/src/net/slipcor/pvparena/commands/PAA_Region.java
+index f69a662c..687467f9 100644
+--- a/src/net/slipcor/pvparena/commands/PAA_Region.java
++++ b/src/net/slipcor/pvparena/commands/PAA_Region.java
+@@ -36 +36 @@ public class PAA_Region extends AbstractArenaCommand {
+-    public static Map<String, Arena> activeSelections = new HashMap<String, Arena>();
++    public static final Map<String, Arena> activeSelections = new HashMap<String, Arena>();

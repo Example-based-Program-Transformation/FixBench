@@ -1,0 +1,7 @@
+diff --git a/etl/src/main/java/com/orientechnologies/orient/etl/loader/OOrientDBLoader.java b/etl/src/main/java/com/orientechnologies/orient/etl/loader/OOrientDBLoader.java
+index dec8172..af4cc8f 100644
+--- a/etl/src/main/java/com/orientechnologies/orient/etl/loader/OOrientDBLoader.java
++++ b/etl/src/main/java/com/orientechnologies/orient/etl/loader/OOrientDBLoader.java
+@@ -413,0 +414,2 @@ public class OOrientDBLoader extends OAbstractLoader implements OLoader {
++      pipeline.setDocumentDatabase(documentDatabase);
++      

@@ -1,0 +1,1 @@
+Fix NPE in cases where cookies were null in underlying servlet request

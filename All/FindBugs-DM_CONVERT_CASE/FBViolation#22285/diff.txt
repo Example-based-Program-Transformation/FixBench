@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/sudoku/PSystemSudokuFactory.java b/src/net/sourceforge/plantuml/sudoku/PSystemSudokuFactory.java
+index 70cd87ef..020c5e7d 100644
+--- a/src/net/sourceforge/plantuml/sudoku/PSystemSudokuFactory.java
++++ b/src/net/sourceforge/plantuml/sudoku/PSystemSudokuFactory.java
+@@ -39,0 +40 @@ import net.sourceforge.plantuml.AbstractPSystem;
++import net.sourceforge.plantuml.StringUtils;
+@@ -57 +58 @@ public class PSystemSudokuFactory extends PSystemSingleLineFactory {
+-		return new PSystemSudoku(Long.parseLong(m.group(1).toLowerCase(), 36));
++		return new PSystemSudoku(Long.parseLong(StringUtils.goLowerCase(m.group(1)), 36));

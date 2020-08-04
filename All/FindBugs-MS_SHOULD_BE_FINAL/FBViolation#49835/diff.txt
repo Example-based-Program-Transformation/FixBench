@@ -1,0 +1,9 @@
+diff --git a/src/main/java/ch/metzenthin/svm/dataTypes/Schuljahre.java b/src/main/java/ch/metzenthin/svm/dataTypes/Schuljahre.java
+index 9c06417..d79464c 100644
+--- a/src/main/java/ch/metzenthin/svm/dataTypes/Schuljahre.java
++++ b/src/main/java/ch/metzenthin/svm/dataTypes/Schuljahre.java
+@@ -8,2 +8,2 @@ public class Schuljahre {
+-    public static int SCHULJAHR_VALID_MIN = 2000;
+-    public static int SCHULJAHR_VALID_MAX = 2049;
++    public final static int SCHULJAHR_VALID_MIN = 2000;
++    public final static int SCHULJAHR_VALID_MAX = 2049;

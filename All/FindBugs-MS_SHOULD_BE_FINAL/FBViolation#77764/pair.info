@@ -1,0 +1,8 @@
+Id:77764
+comSha:a2090c9029f14ae72fb37f0921cd29245bcb45c8
+parentComSha:3200cb32b231c905d172414ad6093ad744119842
+BuggyFilePath:src/main/java/com/graphhopper/routing/Path.java
+FixedFilePath:src/main/java/com/graphhopper/routing/Path.java
+StartLineNum:37
+EndLineNum:37
+repoName:graphhopper#graphhopper

@@ -1,0 +1,8 @@
+Id:75259
+comSha:e39327fb9de4ae258b64fff179a96aa8812223fc
+parentComSha:c069f6619b4d9666859109881cdb80cdcc226545
+BuggyFilePath:src/main/java/org/optimizationBenchmarking/utils/io/encoding/StreamEncoding.java
+FixedFilePath:src/main/java/org/optimizationBenchmarking/utils/io/encoding/StreamEncoding.java
+StartLineNum:440
+EndLineNum:440
+repoName:optimizationBenchmarking#optimizationBenchmarking

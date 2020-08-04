@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/yinwang/pysonar/ProxyParser.java b/src/main/java/org/yinwang/pysonar/ProxyParser.java
+index 23c7dd3..e3a280d 100644
+--- a/src/main/java/org/yinwang/pysonar/ProxyParser.java
++++ b/src/main/java/org/yinwang/pysonar/ProxyParser.java
+@@ -232,4 +232,2 @@ public class ProxyParser {
+-            Name attr;
+-            if (map.containsKey("attr_name")) {
+-                attr = (Name) deJson(map.get("attr_name"));
+-            } else {
++            Name attr = (Name) deJson(map.get("attr_name"));
++            if (attr == null) {

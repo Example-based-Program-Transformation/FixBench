@@ -1,0 +1,12 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/csvedi/CSVEDIInput.java b/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/csvedi/CSVEDIInput.java
+index dd1cd935..b90d2388 100644
+--- a/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/csvedi/CSVEDIInput.java
++++ b/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/csvedi/CSVEDIInput.java
+@@ -164 +164,2 @@ public final class CSVEDIInput extends EDIInputToolBase {
+-    for (final String str1 : new String[] { base, base.toUpperCase() }) {
++    for (final String str1 : new String[] { base,
++        TextUtils.toUpperCase(base) }) {
+@@ -170 +171,2 @@ public final class CSVEDIInput extends EDIInputToolBase {
+-        for (final String str3 : new String[] { str2, str2.toUpperCase() }) {
++        for (final String str3 : new String[] { str2,
++            TextUtils.toUpperCase(str2) }) {

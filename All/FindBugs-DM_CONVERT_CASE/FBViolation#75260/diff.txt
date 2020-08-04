@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/_TransformationParser.java b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/_TransformationParser.java
+index a70bc7b8..5924f6ff 100644
+--- a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/_TransformationParser.java
++++ b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/_TransformationParser.java
+@@ -170 +170 @@ abstract class _TransformationParser<TT extends Transformation> extends
+-            lower = processed.toLowerCase();
++            lower = TextUtils.toLowerCase(processed);

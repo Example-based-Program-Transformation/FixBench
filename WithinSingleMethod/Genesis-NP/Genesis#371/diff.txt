@@ -1,0 +1,8 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResponse.java b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResponse.java
+index b585898..33d5417 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResponse.java
++++ b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResponse.java
+@@ -882 +881,0 @@ public class AtmosphereResponse extends HttpServletResponseWrapper {
+-        }
+@@ -884,0 +884 @@ public class AtmosphereResponse extends HttpServletResponseWrapper {
++        }

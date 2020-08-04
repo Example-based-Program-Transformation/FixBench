@@ -1,0 +1,1 @@
+WICKET-5402 NullPointerException when logging out with wicket-atmosphere

@@ -1,0 +1,7 @@
+Id:342
+SATName:Genesis
+modifiedFPath:server/src/main/java/io/druid/client/DirectDruidClient.java
+comSha:3134affac9e1f6fc628289f345c1f0ebfdbf6307
+parentComSha:3134affac9e1f6fc628289f345c1f0ebfdbf6307^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

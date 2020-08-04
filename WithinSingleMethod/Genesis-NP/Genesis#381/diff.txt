@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/bytedeco/javacpp/tools/Parser.java b/src/main/java/org/bytedeco/javacpp/tools/Parser.java
+index 36ca499..d03ce7a 100644
+--- a/src/main/java/org/bytedeco/javacpp/tools/Parser.java
++++ b/src/main/java/org/bytedeco/javacpp/tools/Parser.java
+@@ -1005 +1005,4 @@ public class Parser {
+-                String functionType = Character.toUpperCase(originalName.charAt(0)) + originalName.substring(1);
++                String functionType = null;
++                if (originalName != null) {
++                    functionType = Character.toUpperCase(originalName.charAt(0)) + originalName.substring(1);
++                }

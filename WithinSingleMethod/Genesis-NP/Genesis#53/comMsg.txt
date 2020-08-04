@@ -1,0 +1,1 @@
+fix NPE if you attempt to call JCommander#usage when you have not specified the @Parameters annotation

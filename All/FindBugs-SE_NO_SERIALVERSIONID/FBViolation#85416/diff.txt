@@ -1,0 +1,9 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/formats/N3OntologyFormatFactory.java b/rio/src/main/java/org/semanticweb/owlapi/formats/N3OntologyFormatFactory.java
+index ddaf83072..3b8d84088 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/formats/N3OntologyFormatFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/formats/N3OntologyFormatFactory.java
+@@ -17,3 +17 @@ public class N3OntologyFormatFactory extends
+-    public N3OntologyFormatFactory() {
+-        super();
+-    }
++    private static final long serialVersionUID = 40000L;

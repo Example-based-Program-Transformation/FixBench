@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/svek/DotStringFactory.java b/src/net/sourceforge/plantuml/svek/DotStringFactory.java
+index 2b513ab5..6c45d0e4 100644
+--- a/src/net/sourceforge/plantuml/svek/DotStringFactory.java
++++ b/src/net/sourceforge/plantuml/svek/DotStringFactory.java
+@@ -378 +378 @@ public class DotStringFactory implements Moveable {
+-		final String colorString = StringUtils.getAsHtml(colorInt).toLowerCase();
++		final String colorString = StringUtils.goLowerCase(StringUtils.getAsHtml(colorInt));

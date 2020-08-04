@@ -1,0 +1,12 @@
+diff --git a/src/net/sourceforge/plantuml/command/CommandFooter.java b/src/net/sourceforge/plantuml/command/CommandFooter.java
+index f6568746..fe11bf12 100644
+--- a/src/net/sourceforge/plantuml/command/CommandFooter.java
++++ b/src/net/sourceforge/plantuml/command/CommandFooter.java
+@@ -31 +31 @@
+- * Revision $Revision: 12235 $
++ * Revision $Revision: 14726 $
+@@ -37,0 +38 @@ import java.util.List;
++import net.sourceforge.plantuml.StringUtils;
+@@ -52 +53 @@ public class CommandFooter extends SingleLineCommand<UmlDiagram> {
+-			diagram.setFooterAlignment(HorizontalAlignment.valueOf(align.toUpperCase()));
++			diagram.setFooterAlignment(HorizontalAlignment.valueOf(StringUtils.goUpperCase(align)));

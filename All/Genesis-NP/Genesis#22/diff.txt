@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java b/src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java
+index e3fe21e..dc03e76 100644
+--- a/src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java
++++ b/src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java
+@@ -255 +255 @@ public abstract class ProxyConnection implements Connection
+-            poolEntry = null; leakTask = null; openStatements = null; // HELP GC
++            poolEntry = null; leakTask = null; // HELP GC

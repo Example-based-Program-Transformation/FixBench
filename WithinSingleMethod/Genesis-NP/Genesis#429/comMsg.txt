@@ -1,0 +1,1 @@
+Modified to throw HiveException when inputStructOI is null

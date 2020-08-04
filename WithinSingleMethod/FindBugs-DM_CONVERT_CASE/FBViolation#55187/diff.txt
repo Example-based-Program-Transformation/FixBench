@@ -1,0 +1,7 @@
+diff --git a/karamel-core/src/main/java/se/kth/karamel/backend/command/CommandService.java b/karamel-core/src/main/java/se/kth/karamel/backend/command/CommandService.java
+index e46d26b0..136f9d2f 100644
+--- a/karamel-core/src/main/java/se/kth/karamel/backend/command/CommandService.java
++++ b/karamel-core/src/main/java/se/kth/karamel/backend/command/CommandService.java
+@@ -76 +76 @@ public class CommandService {
+-    String cmd = command.toLowerCase();
++    String cmd = command;

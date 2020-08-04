@@ -1,0 +1,13 @@
+diff --git a/src/main/java/ch/metzenthin/svm/common/utils/SvmProperties.java b/src/main/java/ch/metzenthin/svm/common/utils/SvmProperties.java
+index 1f86c1b..26298fa 100644
+--- a/src/main/java/ch/metzenthin/svm/common/utils/SvmProperties.java
++++ b/src/main/java/ch/metzenthin/svm/common/utils/SvmProperties.java
+@@ -15,4 +15,4 @@ public class SvmProperties {
+-    public static String SVM_PROPERTIES_FILE_NAME = System.getProperty("user.home") + File.separator + ".svm";
+-    public static String KEY_TEMPLATES_DIRECTORY = "templates_directory";
+-    public static String KEY_DEFAULT_OUTPUT_DIRECTORY = "default_output_directory";
+-    public static String KEY_ABSENZENLISTE_TEMPLATE = "absenzenlisten_template";
++    public static final String SVM_PROPERTIES_FILE_NAME = System.getProperty("user.home") + File.separator + ".svm";
++    public static final String KEY_TEMPLATES_DIRECTORY = "templates_directory";
++    public static final String KEY_DEFAULT_OUTPUT_DIRECTORY = "default_output_directory";
++    public static final String KEY_ABSENZENLISTE_TEMPLATE = "absenzenlisten_template";

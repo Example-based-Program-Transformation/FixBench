@@ -1,0 +1,8 @@
+Id:28024
+comSha:66fd725d12ec558fd0a2ff14b4eb1c89fb008752
+parentComSha:4ed42fd73c00332e966baf3e400a30b287ae38db
+BuggyFilePath:src/main/java/teetime/variant/methodcall/framework/core/AbstractStage.java
+FixedFilePath:src/main/java/teetime/variant/methodcall/framework/core/AbstractStage.java
+StartLineNum:76
+EndLineNum:76
+repoName:eXistence#TeeTime

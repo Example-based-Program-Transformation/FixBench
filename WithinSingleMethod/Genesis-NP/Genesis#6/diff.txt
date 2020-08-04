@@ -1,0 +1,8 @@
+diff --git a/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/aggregator/swingui/BenchmarkAggregatorFrame.java b/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/aggregator/swingui/BenchmarkAggregatorFrame.java
+index fe3c0a1..2adf7f6 100644
+--- a/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/aggregator/swingui/BenchmarkAggregatorFrame.java
++++ b/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/aggregator/swingui/BenchmarkAggregatorFrame.java
+@@ -489 +489,2 @@ public class BenchmarkAggregatorFrame extends JFrame {
+-                millisecondsSpentNumberFormat.format(solverBenchmarkResult.getAverageTimeMillisSpent()),
++                solverBenchmarkResult.getAverageTimeMillisSpent() == null
++                        ? "" : millisecondsSpentNumberFormat.format(solverBenchmarkResult.getAverageTimeMillisSpent()),

@@ -1,0 +1,1 @@
+[MNG-5971] Imported dependencies should be available to inheritance processing

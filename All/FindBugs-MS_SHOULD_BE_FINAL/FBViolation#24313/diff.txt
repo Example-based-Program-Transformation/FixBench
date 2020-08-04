@@ -1,0 +1,7 @@
+diff --git a/californium/src/main/java/ch/ethz/inf/vs/californium/util/Properties.java b/californium/src/main/java/ch/ethz/inf/vs/californium/util/Properties.java
+index f99cd442..0ebe283b 100644
+--- a/californium/src/main/java/ch/ethz/inf/vs/californium/util/Properties.java
++++ b/californium/src/main/java/ch/ethz/inf/vs/californium/util/Properties.java
+@@ -68 +68 @@ public class Properties extends java.util.Properties {
+-	public static Properties std = new Properties(DEFAULT_FILENAME);
++	public static final Properties std = new Properties(DEFAULT_FILENAME);

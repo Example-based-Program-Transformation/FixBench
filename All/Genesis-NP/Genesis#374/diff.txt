@@ -1,0 +1,27 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/interceptor/SSEAtmosphereInterceptor.java b/modules/cpr/src/main/java/org/atmosphere/interceptor/SSEAtmosphereInterceptor.java
+index d065d17..55c5ef5 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/interceptor/SSEAtmosphereInterceptor.java
++++ b/modules/cpr/src/main/java/org/atmosphere/interceptor/SSEAtmosphereInterceptor.java
+@@ -80 +79,0 @@ public class SSEAtmosphereInterceptor extends AtmosphereInterceptorAdapter {
+-            OutputStream stream = null;
+@@ -82,5 +81 @@ public class SSEAtmosphereInterceptor extends AtmosphereInterceptorAdapter {
+-                stream = response.getResponse().getOutputStream();
+-            } catch (IOException e) {
+-                logger.trace("", e);
+-            }
+-
++                OutputStream stream = response.getResponse().getOutputStream();
+@@ -93,4 +87,0 @@ public class SSEAtmosphereInterceptor extends AtmosphereInterceptorAdapter {
+-        } else {
+-            PrintWriter w = null;
+-            try {
+-                w = response.getResponse().getWriter();
+@@ -100 +91,3 @@ public class SSEAtmosphereInterceptor extends AtmosphereInterceptorAdapter {
+-
++        } else {
++            try {
++                PrintWriter w = response.getResponse().getWriter();
+@@ -102,0 +96,3 @@ public class SSEAtmosphereInterceptor extends AtmosphereInterceptorAdapter {
++            } catch (IOException e) {
++                logger.trace("", e);
++            }

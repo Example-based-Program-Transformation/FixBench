@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/ParameterNameCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/ParameterNameCheck.java
+index 9152f70..3658dc4 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/ParameterNameCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/ParameterNameCheck.java
+@@ -120,0 +121 @@ public class ParameterNameCheck
++        if (parent.getFirstChild().getFirstChild() != null) {
+@@ -127,0 +129 @@ public class ParameterNameCheck
++        }

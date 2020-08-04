@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/googlecode/lanterna/screen/ScreenBuffer.java b/src/main/java/com/googlecode/lanterna/screen/ScreenBuffer.java
+index e0b70f3..8fe5d94 100644
+--- a/src/main/java/com/googlecode/lanterna/screen/ScreenBuffer.java
++++ b/src/main/java/com/googlecode/lanterna/screen/ScreenBuffer.java
+@@ -62 +62 @@ class ScreenBuffer {
+-                pendingResize.getColumns() == buffer[0].length) {
++                (buffer.length == 0 || pendingResize.getColumns() == buffer[0].length)) {

@@ -1,0 +1,1 @@
+Defensive coding against race condition / bug in TokenStore

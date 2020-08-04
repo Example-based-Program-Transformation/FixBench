@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/codesecure/dependencycheck/analyzer/JarAnalyzer.java b/src/main/java/org/codesecure/dependencycheck/analyzer/JarAnalyzer.java
+index 3444dac0b..d7eb1338c 100644
+--- a/src/main/java/org/codesecure/dependencycheck/analyzer/JarAnalyzer.java
++++ b/src/main/java/org/codesecure/dependencycheck/analyzer/JarAnalyzer.java
+@@ -232 +232 @@ public class JarAnalyzer extends AbstractAnalyzer {
+-                        Reader reader = new InputStreamReader(zin);
++                        Reader reader = new InputStreamReader(zin, "UTF-8");

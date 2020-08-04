@@ -1,0 +1,1 @@
+Issue #1257: Fixed NPE in FinalLocalVariableCheck

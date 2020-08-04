@@ -1,0 +1,1 @@
+Fixed DIRMINA-542 (ArrayIndexOutOfBoundsException in CircularQueue.shrinkIfNeeded()) * Added related test case * Made sure shrinkIfNeeded doesn't copy anything if empty

@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/document/impl/abstr/ComplexObject.java b/src/main/java/org/optimizationBenchmarking/utils/document/impl/abstr/ComplexObject.java
+index deee8d28..dd8092f2 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/document/impl/abstr/ComplexObject.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/document/impl/abstr/ComplexObject.java
+@@ -191 +191 @@ public abstract class ComplexObject extends DocumentPart implements
+-            s = s.toLowerCase();
++            s = TextUtils.toLowerCase(s);
+@@ -201 +201 @@ public abstract class ComplexObject extends DocumentPart implements
+-          s = s.substring(i + 1).toLowerCase();
++          s = TextUtils.toLowerCase(s.substring(i + 1));

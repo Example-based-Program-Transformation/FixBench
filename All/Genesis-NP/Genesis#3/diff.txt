@@ -1,0 +1,20 @@
+diff --git a/optaplanner-core/src/main/java/org/optaplanner/core/config/exhaustivesearch/ExhaustiveSearchPhaseConfig.java b/optaplanner-core/src/main/java/org/optaplanner/core/config/exhaustivesearch/ExhaustiveSearchPhaseConfig.java
+index 3732155..55cb971 100644
+--- a/optaplanner-core/src/main/java/org/optaplanner/core/config/exhaustivesearch/ExhaustiveSearchPhaseConfig.java
++++ b/optaplanner-core/src/main/java/org/optaplanner/core/config/exhaustivesearch/ExhaustiveSearchPhaseConfig.java
+@@ -132,3 +132,12 @@ public class ExhaustiveSearchPhaseConfig extends PhaseConfig {
+-        NodeExplorationType nodeExplorationType_ = nodeExplorationType != null ? nodeExplorationType
+-                : (exhaustiveSearchType_ == ExhaustiveSearchType.BRUTE_FORCE
+-                ? NodeExplorationType.ORIGINAL_ORDER : NodeExplorationType.DEPTH_FIRST);
++        NodeExplorationType nodeExplorationType_;
++        if (exhaustiveSearchType_ == ExhaustiveSearchType.BRUTE_FORCE) {
++            nodeExplorationType_ = nodeExplorationType != null ? nodeExplorationType : NodeExplorationType.ORIGINAL_ORDER;
++            if (nodeExplorationType_ != NodeExplorationType.ORIGINAL_ORDER) {
++                throw new IllegalArgumentException("The phaseConfig (" + this
++                        + ") has an nodeExplorationType ("  + nodeExplorationType
++                        + ") which is not compatible with its exhaustiveSearchType (" + exhaustiveSearchType
++                        + ").");
++            }
++        } else {
++            nodeExplorationType_ = nodeExplorationType != null ? nodeExplorationType : NodeExplorationType.DEPTH_FIRST;
++        }

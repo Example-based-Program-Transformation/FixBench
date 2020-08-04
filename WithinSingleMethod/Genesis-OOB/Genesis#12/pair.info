@@ -1,0 +1,7 @@
+Id:12
+SATName:Genesis
+modifiedFPath:maven-model-builder/src/main/java/org/apache/maven/model/inheritance/DefaultInheritanceAssembler.java
+comSha:f684761dee739b4ec8a7e6db5a0a6a0b809e66c9
+parentComSha:f684761dee739b4ec8a7e6db5a0a6a0b809e66c9^1
+githubUrl:https://github.com/apache/maven
+repoName:apache#maven

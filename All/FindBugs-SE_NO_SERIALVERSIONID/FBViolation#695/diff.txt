@@ -1,0 +1,8 @@
+diff --git a/biojava3-ontology/src/main/java/org/biojava3/ontology/Variable.java b/biojava3-ontology/src/main/java/org/biojava3/ontology/Variable.java
+index fdfc00dc1..4716b89c0 100644
+--- a/biojava3-ontology/src/main/java/org/biojava3/ontology/Variable.java
++++ b/biojava3-ontology/src/main/java/org/biojava3/ontology/Variable.java
+@@ -14 +14,2 @@ extends Term {
+-    public Impl(Ontology ontology, String name, String description) {
++	private static final long serialVersionUID = 1L;
++	public Impl(Ontology ontology, String name, String description) {

@@ -1,0 +1,11 @@
+diff --git a/rapidoid-net/src/main/java/org/rapidoid/net/impl/RapidoidServerLoop.java b/rapidoid-net/src/main/java/org/rapidoid/net/impl/RapidoidServerLoop.java
+index 965b02b..16bbbdb 100644
+--- a/rapidoid-net/src/main/java/org/rapidoid/net/impl/RapidoidServerLoop.java
++++ b/rapidoid-net/src/main/java/org/rapidoid/net/impl/RapidoidServerLoop.java
+@@ -177,0 +178 @@ public class RapidoidServerLoop extends AbstractLoop<TCPServer> implements TCPSe
++		if (ioWorkers != null) {
+@@ -180,0 +182 @@ public class RapidoidServerLoop extends AbstractLoop<TCPServer> implements TCPSe
++		}
+@@ -182 +184 @@ public class RapidoidServerLoop extends AbstractLoop<TCPServer> implements TCPSe
+-		if ((serverSocketChannel.isOpen()) && (selector.isOpen())) {
++		if (serverSocketChannel != null && selector != null && serverSocketChannel.isOpen() && selector.isOpen()) {

@@ -1,0 +1,9 @@
+diff --git a/src/org/nutz/dao/impl/entity/EntityObjectContext.java b/src/org/nutz/dao/impl/entity/EntityObjectContext.java
+index d96db27..4cb5129 100644
+--- a/src/org/nutz/dao/impl/entity/EntityObjectContext.java
++++ b/src/org/nutz/dao/impl/entity/EntityObjectContext.java
+@@ -24 +24,3 @@ public class EntityObjectContext extends AbstractContext {
+-        en.getField(name).setValue(obj, value);
++    	MappingField field = en.getField(name);
++    	if (field != null)
++    		field.setValue(obj, value);

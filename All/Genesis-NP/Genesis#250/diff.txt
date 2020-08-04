@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/mapdb/SerializerPojo.java b/src/main/java/org/mapdb/SerializerPojo.java
+index 6fd028e..8a664eb 100644
+--- a/src/main/java/org/mapdb/SerializerPojo.java
++++ b/src/main/java/org/mapdb/SerializerPojo.java
+@@ -97,2 +97 @@ public class SerializerPojo extends SerializerBase implements Serializable{
+-            this.registered = new CopyOnWriteArrayList<ClassInfo>();
+-        else
++            registered = new CopyOnWriteArrayList<ClassInfo>();

@@ -1,0 +1,9 @@
+diff --git a/api/src/main/java/org/semanticweb/owlapi/reasoner/ConsoleProgressMonitor.java b/api/src/main/java/org/semanticweb/owlapi/reasoner/ConsoleProgressMonitor.java
+index 062aafed6..8ce27dc83 100644
+--- a/api/src/main/java/org/semanticweb/owlapi/reasoner/ConsoleProgressMonitor.java
++++ b/api/src/main/java/org/semanticweb/owlapi/reasoner/ConsoleProgressMonitor.java
+@@ -45 +45,3 @@ import java.io.Serializable;
+-public class ConsoleProgressMonitor implements ReasonerProgressMonitor, Serializable {
++public class ConsoleProgressMonitor implements ReasonerProgressMonitor,
++        Serializable {
++    private static final long serialVersionUID = 40000L;

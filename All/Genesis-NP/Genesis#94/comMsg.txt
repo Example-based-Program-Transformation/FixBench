@@ -1,0 +1,1 @@
+Issue #1539: Fixed NPE in MultipleVariableDeclarationsCheck

@@ -1,0 +1,7 @@
+Id:385
+SATName:Genesis
+modifiedFPath:spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/BaseClientDetails.java
+comSha:fa7f4c93e579044320f3b0640f02250ba753b449
+parentComSha:fa7f4c93e579044320f3b0640f02250ba753b449^1
+githubUrl:https://github.com/spring-projects/spring-security-oauth
+repoName:spring-projects#spring-security-oauth

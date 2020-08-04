@@ -1,0 +1,7 @@
+Id:24
+SATName:Genesis
+modifiedFPath:src/main/java/org/jolokia/docker/maven/access/log/LogRequestor.java
+comSha:944f2d98d913bf639fff3ad9773342a39ce904f8
+parentComSha:944f2d98d913bf639fff3ad9773342a39ce904f8^1
+githubUrl:https://github.com/rhuss/docker-maven-plugin
+repoName:rhuss#docker-maven-plugin

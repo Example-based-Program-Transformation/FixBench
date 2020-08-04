@@ -1,0 +1,1 @@
+Issue #160: Fixed freeform network NPE

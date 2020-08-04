@@ -1,0 +1,7 @@
+diff --git a/stella-faces/src/main/java/br/com/caelum/stella/faces/validation/StellaCPFValidator.java b/stella-faces/src/main/java/br/com/caelum/stella/faces/validation/StellaCPFValidator.java
+index 68e4aa8..44518d6 100644
+--- a/stella-faces/src/main/java/br/com/caelum/stella/faces/validation/StellaCPFValidator.java
++++ b/stella-faces/src/main/java/br/com/caelum/stella/faces/validation/StellaCPFValidator.java
+@@ -59,0 +60,2 @@ public class StellaCPFValidator implements Validator, StateHolder {
++    	if (value == null) return;
++    	

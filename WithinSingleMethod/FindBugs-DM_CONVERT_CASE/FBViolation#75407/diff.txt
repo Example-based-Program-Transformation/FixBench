@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/bbob/_BBOBHandler.java b/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/bbob/_BBOBHandler.java
+index 0549e006..952ef27e 100644
+--- a/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/bbob/_BBOBHandler.java
++++ b/src/main/java/org/optimizationBenchmarking/experimentation/io/impl/bbob/_BBOBHandler.java
+@@ -462 +462 @@ final class _BBOBHandler implements Comparator<Number[]> {
+-              name = name.toLowerCase();
++              name = TextUtils.toLowerCase(name);

@@ -1,0 +1,12 @@
+diff --git a/src/net/slipcor/pvparena/loadables/ArenaRegion.java b/src/net/slipcor/pvparena/loadables/ArenaRegion.java
+index a375e840..06544f9a 100644
+--- a/src/net/slipcor/pvparena/loadables/ArenaRegion.java
++++ b/src/net/slipcor/pvparena/loadables/ArenaRegion.java
+@@ -40,2 +40,2 @@ public class ArenaRegion {
+-    protected static Debug debug = new Debug(34);
+-    protected String world;
++    private static final Debug debug = new Debug(34);
++    private final String world;
+@@ -54 +54 @@ public class ArenaRegion {
+-    protected final ArenaRegionShape shape;
++    private final ArenaRegionShape shape;

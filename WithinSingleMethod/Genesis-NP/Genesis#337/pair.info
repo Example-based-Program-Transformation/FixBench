@@ -1,0 +1,7 @@
+Id:337
+SATName:Genesis
+modifiedFPath:server/src/main/java/io/druid/client/CachingQueryRunner.java
+comSha:69a8723f1851a32c557670f2d0b7c9beb29a78ab
+parentComSha:69a8723f1851a32c557670f2d0b7c9beb29a78ab^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

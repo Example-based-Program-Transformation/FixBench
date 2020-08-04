@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/docx4j/XmlUtils.java b/src/main/java/org/docx4j/XmlUtils.java
+index 33df374..f4a02cb 100644
+--- a/src/main/java/org/docx4j/XmlUtils.java
++++ b/src/main/java/org/docx4j/XmlUtils.java
+@@ -1111,0 +1112,3 @@ public class XmlUtils {
++		if (node==null) {
++			throw new XPathBinderAssociationIsPartialException("binder.getXMLNode returned null");
++		}
+@@ -1115,0 +1119 @@ public class XmlUtils {
++        

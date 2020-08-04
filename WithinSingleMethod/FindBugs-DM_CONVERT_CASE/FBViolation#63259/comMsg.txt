@@ -1,0 +1,1 @@
+Upgrade to junit 4.8, and adopt junit 4 idiom throughout the code. Add a lot of tests to OptiqSuite that weren't in OptiqAssert. Fix a few tests.

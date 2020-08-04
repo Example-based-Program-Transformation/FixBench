@@ -1,0 +1,13 @@
+diff --git a/lealone-cluster/src/main/java/org/lealone/cluster/config/DatabaseDescriptor.java b/lealone-cluster/src/main/java/org/lealone/cluster/config/DatabaseDescriptor.java
+index 4e994b2..e5d3497 100644
+--- a/lealone-cluster/src/main/java/org/lealone/cluster/config/DatabaseDescriptor.java
++++ b/lealone-cluster/src/main/java/org/lealone/cluster/config/DatabaseDescriptor.java
+@@ -327,3 +327,3 @@ public class DatabaseDescriptor {
+-        try {
+-            return UUID.fromString(System.getProperty("lealone.replace_node", null));
+-        } catch (NullPointerException e) {
++        String replaceNode = System.getProperty("lealone.replace_node", null);
++        if (replaceNode != null)
++            return UUID.fromString(replaceNode);
+@@ -332 +331,0 @@ public class DatabaseDescriptor {
+-    }

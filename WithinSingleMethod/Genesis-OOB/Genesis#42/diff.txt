@@ -1,0 +1,8 @@
+diff --git a/integration/src/main/java/org/apache/mahout/benchmark/VectorBenchmarks.java b/integration/src/main/java/org/apache/mahout/benchmark/VectorBenchmarks.java
+index 02bb9b9..c69e02c 100644
+--- a/integration/src/main/java/org/apache/mahout/benchmark/VectorBenchmarks.java
++++ b/integration/src/main/java/org/apache/mahout/benchmark/VectorBenchmarks.java
+@@ -425,0 +426,3 @@ public class VectorBenchmarks {
++        if (stats.length < 8) {
++          continue;
++        }

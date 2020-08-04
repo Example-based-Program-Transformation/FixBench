@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/auth/sasl/SaslUtils.java b/src/org/jgroups/auth/sasl/SaslUtils.java
+index 6360ae4..7309c9c 100644
+--- a/src/org/jgroups/auth/sasl/SaslUtils.java
++++ b/src/org/jgroups/auth/sasl/SaslUtils.java
+@@ -118 +118 @@ public final class SaslUtils {
+-                if (mech.equals(supportedMech)) {
++                if (supportedMech.equals(mech)) {

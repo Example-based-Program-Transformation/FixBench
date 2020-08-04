@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/beust/jcommander/JCommander.java b/src/main/java/com/beust/jcommander/JCommander.java
+index 3a1b684..5899bb8 100644
+--- a/src/main/java/com/beust/jcommander/JCommander.java
++++ b/src/main/java/com/beust/jcommander/JCommander.java
+@@ -386 +386 @@ public class JCommander {
+-    return prefixes.indexOf(arg.charAt(0)) >= 0;
++    return arg.length() > 0 && prefixes.indexOf(arg.charAt(0)) >= 0;

@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/cucadiagram/dot/OSWindows.java b/src/net/sourceforge/plantuml/cucadiagram/dot/OSWindows.java
+index ea2fd395..fcd76ee2 100644
+--- a/src/net/sourceforge/plantuml/cucadiagram/dot/OSWindows.java
++++ b/src/net/sourceforge/plantuml/cucadiagram/dot/OSWindows.java
+@@ -41,0 +42,2 @@ import java.util.List;
++import net.sourceforge.plantuml.StringUtils;
++
+@@ -86 +88 @@ class OSWindows extends OS {
+-		return strategy.name().toLowerCase() + ".exe";
++		return StringUtils.goLowerCase(strategy.name()) + ".exe";

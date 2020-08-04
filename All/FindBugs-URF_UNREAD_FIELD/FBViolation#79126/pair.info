@@ -1,0 +1,8 @@
+Id:79126
+comSha:500931405da5c1200de41c0857e3019a1b5d8272
+parentComSha:7be01ea9cad6b2ddde03b574683206be27dd4bcd
+BuggyFilePath:src/main/java/in/twizmwaz/cardinal/module/modules/teamManager/TeamManagerModule.java
+FixedFilePath:src/main/java/in/twizmwaz/cardinal/module/modules/teamManager/TeamManagerModule.java
+StartLineNum:39
+EndLineNum:39
+repoName:twizmwazin#CardinalPGM

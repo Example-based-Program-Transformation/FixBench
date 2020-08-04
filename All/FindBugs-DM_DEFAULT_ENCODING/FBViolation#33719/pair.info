@@ -1,0 +1,8 @@
+Id:33719
+comSha:dfb2e9ab5908a3f7db9ace89de814122dce951d2
+parentComSha:db244ab9c9abd3d338ecd38cd89466f5476fab0c
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java
+StartLineNum:771
+EndLineNum:771
+repoName:GenomicParisCentre#eoulsan

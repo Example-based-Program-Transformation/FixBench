@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/MultipleVariableDeclarationsCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/MultipleVariableDeclarationsCheck.java
+index 4c7e9a1..b1fb2bf 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/MultipleVariableDeclarationsCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/MultipleVariableDeclarationsCheck.java
+@@ -91 +91,2 @@ public class MultipleVariableDeclarationsCheck extends Check {
+-        if (nextNode.getType() == TokenTypes.VARIABLE_DEF) {
++        if (nextNode != null
++                && nextNode.getType() == TokenTypes.VARIABLE_DEF) {

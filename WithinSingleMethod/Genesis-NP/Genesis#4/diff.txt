@@ -1,0 +1,11 @@
+diff --git a/optaplanner-examples/src/main/java/org/optaplanner/examples/tennis/swingui/TennisPanel.java b/optaplanner-examples/src/main/java/org/optaplanner/examples/tennis/swingui/TennisPanel.java
+index a87d4dd..6ac0bd5 100644
+--- a/optaplanner-examples/src/main/java/org/optaplanner/examples/tennis/swingui/TennisPanel.java
++++ b/optaplanner-examples/src/main/java/org/optaplanner/examples/tennis/swingui/TennisPanel.java
+@@ -216,0 +217 @@ public class TennisPanel extends SolutionPanel {
++                if (left.getTeam() != null) {
+@@ -218 +219 @@ public class TennisPanel extends SolutionPanel {
+-                    if (left.getTeam() != right.getTeam()) {
++                        if (right.getTeam() != null && left.getTeam() != right.getTeam()) {
+@@ -226,0 +228 @@ public class TennisPanel extends SolutionPanel {
++        }

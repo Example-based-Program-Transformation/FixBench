@@ -1,0 +1,10 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/TextComparator.java b/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/TextComparator.java
+index 4e322728..4a8912e5 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/TextComparator.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/TextComparator.java
+@@ -33,0 +34 @@ import com.google.common.collect.Sets;
++import fr.ens.transcriptome.eoulsan.Globals;
+@@ -53 +54,2 @@ public class TextComparator extends AbstractComparatorWithBloomFilter {
+-    final BufferedReader reader = new BufferedReader(new InputStreamReader(is));
++    final BufferedReader reader =
++        new BufferedReader(new InputStreamReader(is, Globals.DEFAULT_CHARSET));

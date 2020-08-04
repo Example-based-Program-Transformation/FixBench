@@ -1,0 +1,7 @@
+Id:455
+SATName:Genesis
+modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/handler/ScriptTaskParseHandler.java
+comSha:73deb77183b92929be29d11f696af246800af9a4
+parentComSha:73deb77183b92929be29d11f696af246800af9a4^1
+githubUrl:https://github.com/Activiti/Activiti
+repoName:Activiti#Activiti

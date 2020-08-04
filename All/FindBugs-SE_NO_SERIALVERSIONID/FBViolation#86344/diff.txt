@@ -1,0 +1,7 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfParserFactory.java b/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfParserFactory.java
+index 647a3997d..66fa7837a 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfParserFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfParserFactory.java
+@@ -48,0 +49,2 @@ public class RioBinaryRdfParserFactory extends AbstractRioParserFactory
++    private static final long serialVersionUID = 40000L;
++

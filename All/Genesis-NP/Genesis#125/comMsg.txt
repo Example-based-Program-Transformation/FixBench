@@ -1,0 +1,1 @@
+Prevent potential NPE when getting package reference.

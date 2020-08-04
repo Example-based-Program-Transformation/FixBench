@@ -1,0 +1,7 @@
+diff --git a/wicket-native-websocket/wicket-native-websocket-javax/src/main/java/org/apache/wicket/protocol/ws/javax/JavaxUpgradeHttpRequest.java b/wicket-native-websocket/wicket-native-websocket-javax/src/main/java/org/apache/wicket/protocol/ws/javax/JavaxUpgradeHttpRequest.java
+index b6e40be..699337b 100644
+--- a/wicket-native-websocket/wicket-native-websocket-javax/src/main/java/org/apache/wicket/protocol/ws/javax/JavaxUpgradeHttpRequest.java
++++ b/wicket-native-websocket/wicket-native-websocket-javax/src/main/java/org/apache/wicket/protocol/ws/javax/JavaxUpgradeHttpRequest.java
+@@ -257 +257 @@ public class JavaxUpgradeHttpRequest implements HttpServletRequest
+-		return null;
++		return new StringBuffer(requestUri);

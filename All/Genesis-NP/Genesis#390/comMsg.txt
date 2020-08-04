@@ -1,0 +1,1 @@
+Fix potential NPE in KubernetesHelper.

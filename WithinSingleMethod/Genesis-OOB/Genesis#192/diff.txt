@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/jboss/logmanager/formatters/Formatters.java b/src/main/java/org/jboss/logmanager/formatters/Formatters.java
+index ed3eded..49731ac 100644
+--- a/src/main/java/org/jboss/logmanager/formatters/Formatters.java
++++ b/src/main/java/org/jboss/logmanager/formatters/Formatters.java
+@@ -521 +521 @@ public final class Formatters {
+-                        if (endIdx != -1) {
++                        if (endIdx > 0) {

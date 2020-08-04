@@ -1,0 +1,8 @@
+Id:82546
+comSha:035cd992a98c1e4e715b3ca0e5a238a192c14e2d
+parentComSha:3bec589ae854528b4156102d2e5287246549b990
+BuggyFilePath:src/main/java/org/getspout/api/inventory/Inventory.java
+FixedFilePath:src/main/java/org/getspout/api/inventory/Inventory.java
+StartLineNum:9
+EndLineNum:32
+repoName:SpoutDev#Spout

@@ -1,0 +1,1 @@
+Handle NPE when no changes in backing index but a changed unique constraint

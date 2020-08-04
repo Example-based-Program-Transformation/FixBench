@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/document/impl/latex/LaTeXDocument.java b/src/main/java/org/optimizationBenchmarking/utils/document/impl/latex/LaTeXDocument.java
+index 8c885a20..bd4d7a99 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/document/impl/latex/LaTeXDocument.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/document/impl/latex/LaTeXDocument.java
+@@ -977,2 +977,2 @@ public final class LaTeXDocument extends Document {
+-                html = Integer.toHexString(color.getRGB() & 0xffffff)
+-                    .toUpperCase();
++                html = TextUtils.toUpperCase(Integer.toHexString(//
++                    color.getRGB() & 0xffffff));

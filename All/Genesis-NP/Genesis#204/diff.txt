@@ -1,0 +1,8 @@
+diff --git a/src/main/java/pl/project13/maven/git/JGitProvider.java b/src/main/java/pl/project13/maven/git/JGitProvider.java
+index 37a4a08..5564632 100644
+--- a/src/main/java/pl/project13/maven/git/JGitProvider.java
++++ b/src/main/java/pl/project13/maven/git/JGitProvider.java
+@@ -218,0 +219 @@ public class JGitProvider extends GitDataProvider {
++    if (revWalk != null) {
+@@ -220,0 +222 @@ public class JGitProvider extends GitDataProvider {
++  }

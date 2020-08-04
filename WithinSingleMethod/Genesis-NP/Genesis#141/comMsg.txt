@@ -1,0 +1,1 @@
+Return null, instead of NullPointerException, should no exposedPorts be found

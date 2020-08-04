@@ -1,0 +1,8 @@
+Id:75408
+comSha:e39327fb9de4ae258b64fff179a96aa8812223fc
+parentComSha:c069f6619b4d9666859109881cdb80cdcc226545
+BuggyFilePath:src/main/java/org/optimizationBenchmarking/utils/document/impl/latex/LaTeXDocument.java
+FixedFilePath:src/main/java/org/optimizationBenchmarking/utils/document/impl/latex/LaTeXDocument.java
+StartLineNum:977
+EndLineNum:977
+repoName:optimizationBenchmarking#optimizationBenchmarking

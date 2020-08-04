@@ -1,0 +1,1 @@
+ACT-1418 Unit tests and suggested fix for NPE on uncaught error event

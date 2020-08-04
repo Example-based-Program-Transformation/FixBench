@@ -1,0 +1,9 @@
+diff --git a/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java b/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
+index 4f70c7b..0769028 100755
+--- a/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
++++ b/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
+@@ -172,0 +173 @@ public class SpecFilter {
++        if (m.getProperties() == null) return;
+@@ -177 +178 @@ public class SpecFilter {
+-                if (ap.getItems() instanceof RefProperty) {
++                if (ap.getItems() != null && ap.getItems() instanceof RefProperty) {

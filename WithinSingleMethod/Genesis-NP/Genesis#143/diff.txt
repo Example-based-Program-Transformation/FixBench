@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/github/dockerjava/core/command/ExecStartCmdImpl.java b/src/main/java/com/github/dockerjava/core/command/ExecStartCmdImpl.java
+index 6090172..0340a7a 100644
+--- a/src/main/java/com/github/dockerjava/core/command/ExecStartCmdImpl.java
++++ b/src/main/java/com/github/dockerjava/core/command/ExecStartCmdImpl.java
+@@ -52 +52 @@ public class ExecStartCmdImpl extends AbstrDockerCmd<ExecStartCmd, InputStream>
+-		return null;
++		return this;

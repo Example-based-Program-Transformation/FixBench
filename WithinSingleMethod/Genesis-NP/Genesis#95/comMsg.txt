@@ -1,0 +1,1 @@
+Fix NPE in ModifiedControlVariable check, issue #1012

@@ -1,0 +1,6 @@
+diff --git a/src/org/nutz/dao/util/cri/SimpleCriteria.java b/src/org/nutz/dao/util/cri/SimpleCriteria.java
+index fb40344..873b807 100644
+--- a/src/org/nutz/dao/util/cri/SimpleCriteria.java
++++ b/src/org/nutz/dao/util/cri/SimpleCriteria.java
+@@ -38,0 +39 @@ public class SimpleCriteria extends AbstractPItem implements Criteria, OrderBy,
++        if (groupBy != null)

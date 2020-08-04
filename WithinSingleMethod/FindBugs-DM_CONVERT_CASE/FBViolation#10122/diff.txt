@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/arena/Arena.java b/src/net/slipcor/pvparena/arena/Arena.java
+index 4ee3d3de..a578bc0f 100644
+--- a/src/net/slipcor/pvparena/arena/Arena.java
++++ b/src/net/slipcor/pvparena/arena/Arena.java
+@@ -926 +926 @@ public class Arena {
+-						this.selectClass(p, aClass.getName().toLowerCase());
++						this.selectClass(p, aClass.getName());

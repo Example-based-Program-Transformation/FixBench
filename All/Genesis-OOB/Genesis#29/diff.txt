@@ -1,0 +1,7 @@
+diff --git a/src/main/java/japa/parser/ast/visitor/DumpVisitor.java b/src/main/java/japa/parser/ast/visitor/DumpVisitor.java
+index 9c73edf..15980f3 100644
+--- a/src/main/java/japa/parser/ast/visitor/DumpVisitor.java
++++ b/src/main/java/japa/parser/ast/visitor/DumpVisitor.java
+@@ -1481 +1481 @@ public final class DumpVisitor implements VoidVisitor<Object> {
+-       while (findingComments){
++       while (findingComments&&commentsAtEnd<everything.size()){

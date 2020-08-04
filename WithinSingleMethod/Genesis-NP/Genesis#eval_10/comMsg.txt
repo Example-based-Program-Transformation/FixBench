@@ -1,0 +1,1 @@
+Fixing NullPointerException when annotation is on Getter

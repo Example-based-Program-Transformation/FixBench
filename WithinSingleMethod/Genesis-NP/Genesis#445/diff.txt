@@ -1,0 +1,7 @@
+diff --git a/rapidoid-wire/src/main/java/org/rapidoid/wire/Wire.java b/rapidoid-wire/src/main/java/org/rapidoid/wire/Wire.java
+index 761bcb8..3eaa2a7 100644
+--- a/rapidoid-wire/src/main/java/org/rapidoid/wire/Wire.java
++++ b/rapidoid-wire/src/main/java/org/rapidoid/wire/Wire.java
+@@ -378 +378 @@ public class Wire {
+-			Cls.invoke(null, method, target);
++			Cls.invoke(method, target);

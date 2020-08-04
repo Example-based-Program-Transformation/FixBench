@@ -1,0 +1,9 @@
+diff --git a/core/src/main/java/com/google/errorprone/refaster/ControlFlowVisitor.java b/core/src/main/java/com/google/errorprone/refaster/ControlFlowVisitor.java
+index efc8008..486db40 100644
+--- a/core/src/main/java/com/google/errorprone/refaster/ControlFlowVisitor.java
++++ b/core/src/main/java/com/google/errorprone/refaster/ControlFlowVisitor.java
+@@ -229 +229,3 @@ class ControlFlowVisitor extends SimpleTreeVisitor<Result, BreakContext> {
+-        } else if (result == null) {
++        }
++        
++        if (result == null) {

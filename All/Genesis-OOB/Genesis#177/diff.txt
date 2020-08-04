@@ -1,0 +1,11 @@
+diff --git a/parser/src/main/java/org/htmlparser/beans/StringBean.java b/parser/src/main/java/org/htmlparser/beans/StringBean.java
+index c07d765..3fc9659 100644
+--- a/parser/src/main/java/org/htmlparser/beans/StringBean.java
++++ b/parser/src/main/java/org/htmlparser/beans/StringBean.java
+@@ -46 +46 @@ import org.htmlparser.visitors.NodeVisitor;
+- * <p>The property <code>Strings</code>, which is the output property is null
++ * <p>The property <code>Strings</code>, which is the output property is <code>null</code>
+@@ -695 +695,2 @@ public class StringBean extends NodeVisitor implements Serializable
+-        if ((name.charAt (0) == 'H') && (2 == name.length ()) && Character.isDigit (name.charAt (1)))
++        // Length check must be first as otherwise the 'tag' </> will cause a StringIndexOutOfBoundsException to be thrown. 
++        if ((2 == name.length ()) && (name.charAt (0) == 'H') && (Character.isDigit (name.charAt (1))))

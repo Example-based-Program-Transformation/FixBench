@@ -1,0 +1,6 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
+index 88a892a..60d1a72 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
+@@ -158,0 +159 @@ public final class ModifiedControlVariableCheck extends Check
++        variableStack.push(new ArrayDeque<String>());

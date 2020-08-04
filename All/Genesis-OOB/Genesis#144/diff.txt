@@ -1,0 +1,7 @@
+diff --git a/src/main/java/cz/vutbr/web/domassign/AnalyzerUtil.java b/src/main/java/cz/vutbr/web/domassign/AnalyzerUtil.java
+index c6fc98b..20df242 100644
+--- a/src/main/java/cz/vutbr/web/domassign/AnalyzerUtil.java
++++ b/src/main/java/cz/vutbr/web/domassign/AnalyzerUtil.java
+@@ -116 +116 @@ public final class AnalyzerUtil {
+-          final int lastOrder = clist[totalCandidates-1].getOrder();
++          final int lastOrder = totalCandidates > 0 ? clist[totalCandidates-1].getOrder() : 0;

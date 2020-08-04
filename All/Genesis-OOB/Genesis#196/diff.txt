@@ -1,0 +1,10 @@
+diff --git a/bobo-browse/src/main/java/com/browseengine/bobo/facets/filter/BitSetFilter.java b/bobo-browse/src/main/java/com/browseengine/bobo/facets/filter/BitSetFilter.java
+index ea290bd..2400535 100644
+--- a/bobo-browse/src/main/java/com/browseengine/bobo/facets/filter/BitSetFilter.java
++++ b/bobo-browse/src/main/java/com/browseengine/bobo/facets/filter/BitSetFilter.java
+@@ -77 +77 @@ public class BitSetFilter extends RandomAccessFilter {
+-      int index = openBitSet.nextSetBit(-1);
++      int index = openBitSet.nextSetBit(0);
+@@ -80 +80 @@ public class BitSetFilter extends RandomAccessFilter {
+-        index = openBitSet.nextSetBit(index);
++        index = openBitSet.nextSetBit(index + 1);

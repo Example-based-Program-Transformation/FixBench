@@ -1,0 +1,16 @@
+diff --git a/rapidoid-widget/src/main/java/org/rapidoid/widget/AbstractWidget.java b/rapidoid-widget/src/main/java/org/rapidoid/widget/AbstractWidget.java
+index 3c3765c..5568c86 100644
+--- a/rapidoid-widget/src/main/java/org/rapidoid/widget/AbstractWidget.java
++++ b/rapidoid-widget/src/main/java/org/rapidoid/widget/AbstractWidget.java
+@@ -57 +57,3 @@ public abstract class AbstractWidget extends BootstrapWidgets implements TagWidg
+-		HttpExchange x = Ctxs.ctx().exchange();
++		if (!Ctxs.hasContext()) {
++			return -1;
++		}
+@@ -59 +61 @@ public abstract class AbstractWidget extends BootstrapWidgets implements TagWidg
+-		if (x != null) {
++		HttpExchange x = Ctxs.ctx().exchange();
+@@ -64,3 +65,0 @@ public abstract class AbstractWidget extends BootstrapWidgets implements TagWidg
+-		} else {
+-			return -1;
+-		}

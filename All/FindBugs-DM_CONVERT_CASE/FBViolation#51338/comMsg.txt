@@ -1,0 +1,1 @@
+Fixes all violations of PMD design.xml/UseLocaleWithCaseConversions.

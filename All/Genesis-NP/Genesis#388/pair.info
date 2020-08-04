@@ -1,0 +1,7 @@
+Id:388
+SATName:Genesis
+modifiedFPath:components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/builds/Builds.java
+comSha:4c0ddd76a087356ad7cfd49bbe4e594f1e88588a
+parentComSha:4c0ddd76a087356ad7cfd49bbe4e594f1e88588a^1
+githubUrl:https://github.com/fabric8io/fabric8
+repoName:fabric8io#fabric8

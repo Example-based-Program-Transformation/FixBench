@@ -1,0 +1,15 @@
+diff --git a/module-client/src/main/java/org/apache/http/auth/AuthSchemeRegistry.java b/module-client/src/main/java/org/apache/http/auth/AuthSchemeRegistry.java
+index 198fd9e14..59ff7ae21 100644
+--- a/module-client/src/main/java/org/apache/http/auth/AuthSchemeRegistry.java
++++ b/module-client/src/main/java/org/apache/http/auth/AuthSchemeRegistry.java
+@@ -35,0 +36 @@ import java.util.List;
++import java.util.Locale;
+@@ -83 +84 @@ public final class AuthSchemeRegistry {
+-        registeredSchemes.put(name.toLowerCase(), factory);
++        registeredSchemes.put(name.toLowerCase(Locale.ENGLISH), factory);
+@@ -96 +97 @@ public final class AuthSchemeRegistry {
+-        registeredSchemes.remove(name.toLowerCase());
++        registeredSchemes.remove(name.toLowerCase(Locale.ENGLISH));
+@@ -116 +117 @@ public final class AuthSchemeRegistry {
+-        AuthSchemeFactory factory = registeredSchemes.get(name.toLowerCase());
++        AuthSchemeFactory factory = registeredSchemes.get(name.toLowerCase(Locale.ENGLISH));

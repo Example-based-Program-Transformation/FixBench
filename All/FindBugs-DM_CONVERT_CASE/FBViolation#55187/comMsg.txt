@@ -1,0 +1,1 @@
+new ansi processing, including clear screen and line

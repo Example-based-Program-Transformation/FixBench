@@ -1,0 +1,1 @@
+Amend HBASE-14771 RpcServer#getRemoteAddress always returns null

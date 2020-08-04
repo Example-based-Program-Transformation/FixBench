@@ -1,0 +1,12 @@
+diff --git a/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java b/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
+index 11ffa97..1377572 100644
+--- a/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
++++ b/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
+@@ -1158,0 +1159,4 @@ public abstract class DOMNode extends LinkedTreeNode<DOMChildren, DOMSiblings, D
++					
++					GraphObject detailsObject = renderContext.getDetailsDataObject();
++					
++					if (detailsObject != null) {
+@@ -1161,0 +1166,2 @@ public abstract class DOMNode extends LinkedTreeNode<DOMChildren, DOMSiblings, D
++				}
++

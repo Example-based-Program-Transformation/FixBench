@@ -1,0 +1,10 @@
+diff --git a/src/org/jgroups/protocols/relay/Relayer.java b/src/org/jgroups/protocols/relay/Relayer.java
+index 3418d91..62bed31 100644
+--- a/src/org/jgroups/protocols/relay/Relayer.java
++++ b/src/org/jgroups/protocols/relay/Relayer.java
+@@ -287,0 +288 @@ public class Relayer {
++                    if(up != null)
+@@ -307,0 +309 @@ public class Relayer {
++                    if(listener != null) {
+@@ -311,0 +314 @@ public class Relayer {
++            }

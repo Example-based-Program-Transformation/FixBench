@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/command/note/FactoryNoteOnEntityCommand.java b/src/net/sourceforge/plantuml/command/note/FactoryNoteOnEntityCommand.java
+index a3100de4..22ea58bc 100644
+--- a/src/net/sourceforge/plantuml/command/note/FactoryNoteOnEntityCommand.java
++++ b/src/net/sourceforge/plantuml/command/note/FactoryNoteOnEntityCommand.java
+@@ -161 +161 @@ public final class FactoryNoteOnEntityCommand implements SingleMultiFactoryComma
+-		final Position position = Position.valueOf(pos.toUpperCase()).withRankdir(diagram.getSkinParam().getRankdir());
++		final Position position = Position.valueOf(StringUtils.goUpperCase(pos)).withRankdir(diagram.getSkinParam().getRankdir());

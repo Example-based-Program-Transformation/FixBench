@@ -1,0 +1,10 @@
+diff --git a/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/builds/Builds.java b/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/builds/Builds.java
+index ab92eb2..0891f1f 100644
+--- a/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/builds/Builds.java
++++ b/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/builds/Builds.java
+@@ -33,0 +34 @@ import io.fabric8.utils.URLUtils;
++import java.util.ArrayList;
+@@ -111,0 +113,3 @@ public class Builds {
++        if (triggers == null) {
++            triggers = new ArrayList<>();
++            }

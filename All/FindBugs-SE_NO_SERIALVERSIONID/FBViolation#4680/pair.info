@@ -1,0 +1,8 @@
+Id:4680
+comSha:85d26a997c36a95299ed869287449b0a05c1ab99
+parentComSha:13f2477d96214a9301b2fdc57b36d3e3716b8411
+BuggyFilePath:src/main/java/org/mapdb/StoreHeap.java
+FixedFilePath:src/main/java/org/mapdb/StoreHeap.java
+StartLineNum:15
+EndLineNum:256
+repoName:jankotek#MapDB

@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/mapdb/HTreeMap.java b/src/main/java/org/mapdb/HTreeMap.java
+index 129cd6f..9b469e6 100644
+--- a/src/main/java/org/mapdb/HTreeMap.java
++++ b/src/main/java/org/mapdb/HTreeMap.java
+@@ -339 +339,2 @@ public class HTreeMap<K,V>   extends AbstractMap<K,V> implements ConcurrentMap<K
+-        if(!expireSingleThreadFlag){
++
++        if(expireFlag && executor!=null){

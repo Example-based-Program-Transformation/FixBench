@@ -1,0 +1,1 @@
+Minor: check if graph instance is active avoiding NPE

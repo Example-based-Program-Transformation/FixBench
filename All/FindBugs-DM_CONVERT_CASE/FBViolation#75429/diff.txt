@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/document/impl/FigureSizeParser.java b/src/main/java/org/optimizationBenchmarking/utils/document/impl/FigureSizeParser.java
+index 352d14db..8c77ead3 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/document/impl/FigureSizeParser.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/document/impl/FigureSizeParser.java
+@@ -6,0 +7 @@ import org.optimizationBenchmarking.utils.reflection.ReflectionUtils;
++import org.optimizationBenchmarking.utils.text.TextUtils;
+@@ -66 +67 @@ public class FigureSizeParser extends Parser<EFigureSize> {
+-      name = name.toLowerCase();
++      name = TextUtils.toLowerCase(name);

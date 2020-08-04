@@ -1,0 +1,8 @@
+Id:15885
+comSha:8f8704bfb8c375a907bbd5ff31616e8391a29392
+parentComSha:54da4e019fcfb2d4ae3836626882286ccee722e5
+BuggyFilePath:src/org/jgroups/protocols/FRAG.java
+FixedFilePath:src/org/jgroups/protocols/FRAG.java
+StartLineNum:54
+EndLineNum:54
+repoName:belaban#JGroups

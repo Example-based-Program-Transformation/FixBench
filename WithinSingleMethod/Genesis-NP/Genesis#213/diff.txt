@@ -1,0 +1,10 @@
+diff --git a/ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java b/ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+index 3150438..0c8ed64 100644
+--- a/ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
++++ b/ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+@@ -324,0 +325,5 @@ public class ContextImpl implements Context.Impl {
++        
++        if (servletCookies == null) {
++            return Collections.EMPTY_LIST;
++        }
++        

@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/samskivert/depot/DepotRepository.java b/src/main/java/com/samskivert/depot/DepotRepository.java
+index 793dc67..383e1ae 100644
+--- a/src/main/java/com/samskivert/depot/DepotRepository.java
++++ b/src/main/java/com/samskivert/depot/DepotRepository.java
+@@ -7 +6,0 @@ package com.samskivert.depot;
+-import com.samskivert.depot.clause.Where;
+@@ -32,0 +32 @@ import com.samskivert.depot.clause.QueryClause;
++import com.samskivert.depot.clause.Where;
+@@ -966 +966 @@ public abstract class DepotRepository
+-    protected static SQLExpression<?>[] EMPTY_CONDS = new SQLExpression<?>[0];
++    protected static final SQLExpression<?>[] EMPTY_CONDS = new SQLExpression<?>[0];

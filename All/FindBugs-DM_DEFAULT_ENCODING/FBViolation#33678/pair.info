@@ -1,0 +1,8 @@
+Id:33678
+comSha:8ae4eb8cfcb27185be49de726d96703b5911be67
+parentComSha:30cbbe29c7dfa484099ae2b1a2ac1e301b208fe5
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/expressioncounters/HTSeqCounter.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/expressioncounters/HTSeqCounter.java
+StartLineNum:126
+EndLineNum:126
+repoName:GenomicParisCentre#eoulsan

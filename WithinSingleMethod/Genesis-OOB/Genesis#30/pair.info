@@ -1,0 +1,7 @@
+Id:30
+SATName:Genesis
+modifiedFPath:mongo/src/main/java/org/axonframework/eventstore/mongo/DocumentPerCommitStorageStrategy.java
+comSha:9fbbc3f17df8830bf930dd1b9646014546d0bed8
+parentComSha:9fbbc3f17df8830bf930dd1b9646014546d0bed8^1
+githubUrl:https://github.com/AxonFramework/AxonFramework
+repoName:AxonFramework#AxonFramework

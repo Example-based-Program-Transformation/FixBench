@@ -1,0 +1,8 @@
+Id:1413
+comSha:e8234f39c5c30cc3a4a9543aa41035f20bb143ff
+parentComSha:f017c02a97a2f26d58119405fef70853b62137ac
+BuggyFilePath:biojava3-ontology/src/main/java/org/biojava3/ontology/OntologyTerm.java
+FixedFilePath:biojava3-ontology/src/main/java/org/biojava3/ontology/OntologyTerm.java
+StartLineNum:72
+EndLineNum:125
+repoName:biojava#biojava

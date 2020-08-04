@@ -1,0 +1,1 @@
+[MNG-4864] npe when transferring artifacts

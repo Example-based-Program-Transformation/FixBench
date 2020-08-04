@@ -1,0 +1,10 @@
+diff --git a/hydra-store/src/main/java/com/addthis/hydra/store/kv/ReadExternalPagedStore.java b/hydra-store/src/main/java/com/addthis/hydra/store/kv/ReadExternalPagedStore.java
+index 766710b..7f91a6c 100644
+--- a/hydra-store/src/main/java/com/addthis/hydra/store/kv/ReadExternalPagedStore.java
++++ b/hydra-store/src/main/java/com/addthis/hydra/store/kv/ReadExternalPagedStore.java
+@@ -236 +236,4 @@ public class ReadExternalPagedStore<K extends Comparable<K>, V extends IReadWeig
+-            decode.originalByteSize = 4 + firstKeyBytes.length + nextFirstKeyBytes.length;
++            decode.originalByteSize = 4 + firstKeyBytes.length;
++            if (nextFirstKeyBytes != null) {
++                decode.originalByteSize += nextFirstKeyBytes.length;
++            }

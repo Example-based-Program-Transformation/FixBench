@@ -1,0 +1,14 @@
+diff --git a/src/test/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheckTest.java b/src/test/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheckTest.java
+index cdea0f1d8..f73441e5b 100644
+--- a/src/test/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheckTest.java
++++ b/src/test/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheckTest.java
+@@ -30 +30 @@ import java.io.BufferedReader;
+-import java.io.FileReader;
++import java.io.FileInputStream;
+@@ -31,0 +32,2 @@ import java.io.IOException;
++import java.io.InputStreamReader;
++import java.nio.charset.StandardCharsets;
+@@ -73 +75,2 @@ public class IndentationCheckTest extends BaseCheckTestSupport {
+-        try (BufferedReader br = new BufferedReader(new FileReader(aFileName))) {
++        try (BufferedReader br = new BufferedReader(new InputStreamReader(
++                new FileInputStream(aFileName), StandardCharsets.UTF_8))) {

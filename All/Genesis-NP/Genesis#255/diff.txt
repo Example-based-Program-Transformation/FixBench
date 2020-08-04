@@ -1,0 +1,13 @@
+diff --git a/core/src/main/java/fi/iki/elonen/NanoHTTPD.java b/core/src/main/java/fi/iki/elonen/NanoHTTPD.java
+index b764903..f416190 100644
+--- a/core/src/main/java/fi/iki/elonen/NanoHTTPD.java
++++ b/core/src/main/java/fi/iki/elonen/NanoHTTPD.java
+@@ -326,3 +326,3 @@ public abstract class NanoHTTPD {
+-                    // multipart/form-data, boundary="agi90jbRx:FMpMKOpjMg7N''IM4bL=,he2WVeQdbD17M+)bKcw1Y20z?bKy77qmGTV9blo"
+-
+-                    StringTokenizer st = new StringTokenizer(contentTypeHeader, ",; ");
++                    StringTokenizer st = null;
++                    if (contentTypeHeader != null) {
++                        st = new StringTokenizer(contentTypeHeader, ",; ");
+@@ -331,0 +332 @@ public abstract class NanoHTTPD {
++                    }

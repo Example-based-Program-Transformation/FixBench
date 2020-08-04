@@ -1,0 +1,8 @@
+Id:22281
+comSha:b5f659f3a14253faefc977142cf29ed8fe14b2e6
+parentComSha:fd60132b3e3abd6b7029cff222421150b42a0dba
+BuggyFilePath:src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteCommand.java
+FixedFilePath:src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteCommand.java
+StartLineNum:116
+EndLineNum:116
+repoName:jensnerche#plantuml

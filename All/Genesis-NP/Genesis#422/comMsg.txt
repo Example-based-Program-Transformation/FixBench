@@ -1,0 +1,1 @@
+Fix #1707 - Fix NPE in case of model with no props

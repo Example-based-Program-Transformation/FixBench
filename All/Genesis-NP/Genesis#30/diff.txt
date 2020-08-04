@@ -1,0 +1,8 @@
+diff --git a/xchange-bitstamp/src/main/java/com/xeiam/xchange/bitstamp/service/polling/BitstampAccountService.java b/xchange-bitstamp/src/main/java/com/xeiam/xchange/bitstamp/service/polling/BitstampAccountService.java
+index 60b6ca2..b25cb0a 100644
+--- a/xchange-bitstamp/src/main/java/com/xeiam/xchange/bitstamp/service/polling/BitstampAccountService.java
++++ b/xchange-bitstamp/src/main/java/com/xeiam/xchange/bitstamp/service/polling/BitstampAccountService.java
+@@ -38,0 +39,3 @@ public class BitstampAccountService extends BitstampAccountServiceRaw implements
++    if (response.getId() == null) {
++      return null;
++    }

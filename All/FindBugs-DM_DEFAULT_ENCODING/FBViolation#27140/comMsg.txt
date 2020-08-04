@@ -1,0 +1,1 @@
+Merge branch 'stable' of github.com:code4craft/webmagic

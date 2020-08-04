@@ -1,0 +1,8 @@
+Id:15820
+comSha:b1f7477ceb585e50dbc7582a79fd76169ecd8370
+parentComSha:eb091906627db74edf7153ad2c5bf40c45683156
+BuggyFilePath:src/org/jgroups/blocks/PartitionedHashMap.java
+FixedFilePath:src/org/jgroups/blocks/PartitionedHashMap.java
+StartLineNum:74
+EndLineNum:74
+repoName:belaban#JGroups

@@ -1,0 +1,16 @@
+diff --git a/src/net/sourceforge/plantuml/svek/Line.java b/src/net/sourceforge/plantuml/svek/Line.java
+index 12a03d1a..7eda6fdb 100644
+--- a/src/net/sourceforge/plantuml/svek/Line.java
++++ b/src/net/sourceforge/plantuml/svek/Line.java
+@@ -520 +520 @@ public class Line implements Moveable, Hideable {
+-		String s = "stroke=\"" + StringUtils.getAsHtml(color).toLowerCase() + "\"";
++		String s = "stroke=\"" + StringUtils.goLowerCase(StringUtils.getAsHtml(color)) + "\"";
+@@ -525 +525 @@ public class Line implements Moveable, Hideable {
+-		s = ";stroke:" + StringUtils.getAsHtml(color).toLowerCase() + ";";
++		s = ";stroke:" + StringUtils.goLowerCase(StringUtils.getAsHtml(color)) + ";";
+@@ -530 +530 @@ public class Line implements Moveable, Hideable {
+-		s = "fill=\"" + StringUtils.getAsHtml(color).toLowerCase() + "\"";
++		s = "fill=\"" + StringUtils.goLowerCase(StringUtils.getAsHtml(color)) + "\"";
+@@ -535 +535 @@ public class Line implements Moveable, Hideable {
+-		Log.info("Cannot find color=" + color + " " + StringUtils.getAsHtml(color).toLowerCase());
++		Log.info("Cannot find color=" + color + " " + StringUtils.goLowerCase(StringUtils.getAsHtml(color)));

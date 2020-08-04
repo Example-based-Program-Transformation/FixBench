@@ -1,0 +1,8 @@
+Id:21957
+comSha:21ed44a07c9626e34730bfaf3c4f69e2bde9a95f
+parentComSha:170471b5ecbe5e88e1aee27fe378796447029e3b
+BuggyFilePath:src/main/java/com/salesforce/hbase/index/builder/IndexBuildManager.java
+FixedFilePath:src/main/java/com/salesforce/hbase/index/builder/IndexBuildManager.java
+StartLineNum:75
+EndLineNum:75
+repoName:forcedotcom#phoenix

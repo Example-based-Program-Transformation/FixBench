@@ -1,0 +1,7 @@
+diff --git a/addon-web-mvc-jsp/src/main/java/org/springframework/roo/addon/web/mvc/jsp/JspViewManager.java b/addon-web-mvc-jsp/src/main/java/org/springframework/roo/addon/web/mvc/jsp/JspViewManager.java
+index 9dabec2..35fa787 100644
+--- a/addon-web-mvc-jsp/src/main/java/org/springframework/roo/addon/web/mvc/jsp/JspViewManager.java
++++ b/addon-web-mvc-jsp/src/main/java/org/springframework/roo/addon/web/mvc/jsp/JspViewManager.java
+@@ -198 +198 @@ public class JspViewManager {
+-				fieldLoop: for (int i = 0; i <= fieldCopy.size(); i++) {
++				fieldLoop: for (int i = 0; i < fieldCopy.size(); i++) {

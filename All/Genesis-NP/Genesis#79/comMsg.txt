@@ -1,0 +1,1 @@
+ROO-3574: Solving NullPointerException when create mongo repository db

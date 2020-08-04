@@ -1,0 +1,1 @@
+Fix NullPointerException in duplicate when buffer is null

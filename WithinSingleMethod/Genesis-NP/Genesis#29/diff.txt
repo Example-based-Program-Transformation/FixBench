@@ -1,0 +1,27 @@
+diff --git a/pac4j-oidc/src/main/java/org/pac4j/oidc/client/OidcClient.java b/pac4j-oidc/src/main/java/org/pac4j/oidc/client/OidcClient.java
+index 011434f..3c9c469 100644
+--- a/pac4j-oidc/src/main/java/org/pac4j/oidc/client/OidcClient.java
++++ b/pac4j-oidc/src/main/java/org/pac4j/oidc/client/OidcClient.java
+@@ -282,0 +283,4 @@ public class OidcClient extends IndirectClient<OidcCredentials, OidcProfile> {
++            // Create Oidc profile
++            OidcProfile profile = new OidcProfile(accessToken);
++            profile.setIdTokenString(oidcTokens.getIDTokenString());
++
+@@ -299,0 +304,3 @@ public class OidcClient extends IndirectClient<OidcCredentials, OidcProfile> {
++                    if(userInfo != null){
++                    	profile.addAttributes(userInfo.toJWTClaimsSet().getClaims());
++                    }
+@@ -304,0 +312,5 @@ public class OidcClient extends IndirectClient<OidcCredentials, OidcProfile> {
++            if(claimsSet != null){
++            	profile.setId(claimsSet.getSubject());
++            	profile.addAttributes(claimsSet.getClaims());
++            }
++            
+@@ -314,7 +325,0 @@ public class OidcClient extends IndirectClient<OidcCredentials, OidcProfile> {
+-            // Return profile with Claims Set, User Info and Access Token
+-            OidcProfile profile = new OidcProfile(accessToken);
+-            profile.setId(claimsSet.getSubject());
+-            profile.setIdTokenString(oidcTokens.getIDTokenString());
+-            profile.addAttributes(claimsSet.getClaims());
+-            profile.addAttributes(userInfo.toJWTClaimsSet().getClaims());
+-

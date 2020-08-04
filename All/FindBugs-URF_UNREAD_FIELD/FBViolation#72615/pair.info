@@ -1,0 +1,8 @@
+Id:72615
+comSha:5c5eea4e2ebc1103a7f3b84cdae45dca6d363c8a
+parentComSha:4863eb6b80d6853096102e110b40b94fd2dbcb67
+BuggyFilePath:src/main/java/com/publicuhc/commands/routing/DefaultRouter.java
+FixedFilePath:src/main/java/com/publicuhc/commands/routing/DefaultRouter.java
+StartLineNum:32
+EndLineNum:32
+repoName:Eluinhost#pluginframework

@@ -1,0 +1,11 @@
+diff --git a/liquibase-core/src/main/java/liquibase/diff/core/StandardDiffGenerator.java b/liquibase-core/src/main/java/liquibase/diff/core/StandardDiffGenerator.java
+index b0150ce..c76a833 100644
+--- a/liquibase-core/src/main/java/liquibase/diff/core/StandardDiffGenerator.java
++++ b/liquibase-core/src/main/java/liquibase/diff/core/StandardDiffGenerator.java
+@@ -73 +73,3 @@ public class StandardDiffGenerator implements DiffGenerator {
+-        for (CompareControl.SchemaComparison schemaComparison : diffResult.getCompareControl().getSchemaComparisons()) {
++        CompareControl.SchemaComparison[] schemaComparisons = diffResult.getCompareControl().getSchemaComparisons();
++        if (schemaComparisons != null) {
++            for (CompareControl.SchemaComparison schemaComparison : schemaComparisons) {
+@@ -97,0 +100 @@ public class StandardDiffGenerator implements DiffGenerator {
++            }

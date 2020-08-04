@@ -1,0 +1,1 @@
+HBASE-14662 Fix NPE in HFileOutputFormat2 (Heng Chen)

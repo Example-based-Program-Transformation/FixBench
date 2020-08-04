@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/ObjectLayout/ReferenceArray.java b/src/main/java/org/ObjectLayout/ReferenceArray.java
+index c384b44..bed5c56 100644
+--- a/src/main/java/org/ObjectLayout/ReferenceArray.java
++++ b/src/main/java/org/ObjectLayout/ReferenceArray.java
+@@ -60,0 +61,4 @@ public class ReferenceArray<T> extends PrimitiveArray {
++        if (srcOffset + count > Integer.MAX_VALUE || dstOffset + count > Integer.MAX_VALUE) {
++            throw new ArrayIndexOutOfBoundsException();
++        }
++        

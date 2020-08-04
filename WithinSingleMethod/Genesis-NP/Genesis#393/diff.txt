@@ -1,0 +1,8 @@
+diff --git a/components/fabric8-arquillian/src/main/java/io/fabric8/arquillian/kubernetes/SessionListener.java b/components/fabric8-arquillian/src/main/java/io/fabric8/arquillian/kubernetes/SessionListener.java
+index 49c39b8..17e0e85 100644
+--- a/components/fabric8-arquillian/src/main/java/io/fabric8/arquillian/kubernetes/SessionListener.java
++++ b/components/fabric8-arquillian/src/main/java/io/fabric8/arquillian/kubernetes/SessionListener.java
+@@ -330,0 +331 @@ public class SessionListener {
++        if ( annotations != null && !annotations.isEmpty()) {
+@@ -353,0 +355 @@ public class SessionListener {
++        }

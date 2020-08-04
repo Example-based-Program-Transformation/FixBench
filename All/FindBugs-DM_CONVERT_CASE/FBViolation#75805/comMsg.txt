@@ -1,0 +1,2 @@
+Fixed wrong imported file extension detection. Unit test is part of
+less.js 1.3.3 tests, so I did not added special one. Close #113

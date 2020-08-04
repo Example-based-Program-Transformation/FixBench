@@ -1,0 +1,7 @@
+diff --git a/logback-core/src/main/java/ch/qos/logback/core/rolling/helper/RenameUtil.java b/logback-core/src/main/java/ch/qos/logback/core/rolling/helper/RenameUtil.java
+index 0939fae..7dd1cb1 100755
+--- a/logback-core/src/main/java/ch/qos/logback/core/rolling/helper/RenameUtil.java
++++ b/logback-core/src/main/java/ch/qos/logback/core/rolling/helper/RenameUtil.java
+@@ -94 +94 @@ public class RenameUtil extends ContextAwareBase {
+-    File parentOfTarget = targetFile.getParentFile();
++    File parentOfTarget = targetFile.getAbsoluteFile().getParentFile();

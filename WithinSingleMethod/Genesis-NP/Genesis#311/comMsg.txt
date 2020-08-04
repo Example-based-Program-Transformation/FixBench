@@ -1,0 +1,1 @@
+minor change based on Nate's suggestion to protect against NPE when calling doAddNodes

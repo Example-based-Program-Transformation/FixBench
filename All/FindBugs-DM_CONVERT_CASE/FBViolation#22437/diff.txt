@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNoteLong3.java b/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNoteLong3.java
+index 0f82524f..960ed8e2 100644
+--- a/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNoteLong3.java
++++ b/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNoteLong3.java
+@@ -72 +72 @@ public class CommandNoteLong3 extends CommandMultilines2<ActivityDiagram3> {
+-		return NotePosition.valueOf(s.toUpperCase());
++		return NotePosition.valueOf(StringUtils.goUpperCase(s));

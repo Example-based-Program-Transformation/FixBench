@@ -1,0 +1,8 @@
+diff --git a/addon-javabean/src/main/java/org/springframework/roo/addon/javabean/JavaBeanMetadataProvider.java b/addon-javabean/src/main/java/org/springframework/roo/addon/javabean/JavaBeanMetadataProvider.java
+index aa6ad5f..3cd8ad4 100644
+--- a/addon-javabean/src/main/java/org/springframework/roo/addon/javabean/JavaBeanMetadataProvider.java
++++ b/addon-javabean/src/main/java/org/springframework/roo/addon/javabean/JavaBeanMetadataProvider.java
+@@ -158,0 +159 @@ public class JavaBeanMetadataProvider extends AbstractItdMetadataProvider {
++				if(currentInterfaceDetails != null){
+@@ -161,0 +163 @@ public class JavaBeanMetadataProvider extends AbstractItdMetadataProvider {
++		}

@@ -1,0 +1,8 @@
+Id:51931
+comSha:8970195fe3598264b52d39e5d8472321e48cce95
+parentComSha:954c97460f670ff5747bfaa8e5698f48cf37ce52
+BuggyFilePath:util/src/main/java/com/psddev/dari/util/TypeDefinition.java
+FixedFilePath:util/src/main/java/com/psddev/dari/util/TypeDefinition.java
+StartLineNum:412
+EndLineNum:412
+repoName:perfectsense#dari

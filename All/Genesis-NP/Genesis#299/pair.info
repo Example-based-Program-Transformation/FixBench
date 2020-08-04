@@ -1,0 +1,7 @@
+Id:299
+SATName:Genesis
+modifiedFPath:logback-core/src/main/java/ch/qos/logback/core/net/SyslogAppenderBase.java
+comSha:4b8c11d1dbdeca2ff14e4e432f7d567a905fc787
+parentComSha:4b8c11d1dbdeca2ff14e4e432f7d567a905fc787^1
+githubUrl:https://github.com/qos-ch/logback
+repoName:qos-ch#logback

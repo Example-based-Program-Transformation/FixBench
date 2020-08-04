@@ -1,0 +1,7 @@
+diff --git a/server/src/main/java/com/metamx/druid/index/v1/QueryableIndexStorageAdapter.java b/server/src/main/java/com/metamx/druid/index/v1/QueryableIndexStorageAdapter.java
+index 0dfded5..1cde70b 100644
+--- a/server/src/main/java/com/metamx/druid/index/v1/QueryableIndexStorageAdapter.java
++++ b/server/src/main/java/com/metamx/druid/index/v1/QueryableIndexStorageAdapter.java
+@@ -275 +275 @@ public class QueryableIndexStorageAdapter extends BaseStorageAdapter
+-                      baseOffset, timestamps, Math.min(interval.getEndMillis(), gran.next(timeStart))
++                      baseOffset, timestamps, Math.min(interval.getEndMillis(), gran.next(input))

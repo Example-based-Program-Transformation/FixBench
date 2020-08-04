@@ -1,0 +1,1 @@
+Fixed NPE in CypherQueryCommand when a user has no permissions on an entity returned by a Cypher query.

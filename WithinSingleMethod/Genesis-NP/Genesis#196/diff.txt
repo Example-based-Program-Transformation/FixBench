@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/jolokia/docker/maven/assembly/DockerFileBuilder.java b/src/main/java/org/jolokia/docker/maven/assembly/DockerFileBuilder.java
+index 52aeddf..dc78b73 100644
+--- a/src/main/java/org/jolokia/docker/maven/assembly/DockerFileBuilder.java
++++ b/src/main/java/org/jolokia/docker/maven/assembly/DockerFileBuilder.java
+@@ -133,0 +134 @@ public class DockerFileBuilder {
++        if (ports != null) {
+@@ -138,0 +140 @@ public class DockerFileBuilder {
++        }

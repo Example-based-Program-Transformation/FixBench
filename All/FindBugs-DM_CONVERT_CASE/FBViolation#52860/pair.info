@@ -1,0 +1,8 @@
+Id:52860
+comSha:641bc27d5470a167d3ca2fefd6ae4c619a27c012
+parentComSha:5f098cd76c5e7aff3237dc54664709c515095ad4
+BuggyFilePath:util/src/main/java/com/psddev/dari/util/ObjectUtils.java
+FixedFilePath:util/src/main/java/com/psddev/dari/util/ObjectUtils.java
+StartLineNum:598
+EndLineNum:598
+repoName:perfectsense#dari

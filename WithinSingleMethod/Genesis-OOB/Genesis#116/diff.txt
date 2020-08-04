@@ -1,0 +1,7 @@
+diff --git a/org.eclipse.jgit.iplog/src/org/eclipse/jgit/iplog/CSV.java b/org.eclipse.jgit.iplog/src/org/eclipse/jgit/iplog/CSV.java
+index 3f80c7d..12dbf47 100644
+--- a/org.eclipse.jgit.iplog/src/org/eclipse/jgit/iplog/CSV.java
++++ b/org.eclipse.jgit.iplog/src/org/eclipse/jgit/iplog/CSV.java
+@@ -118,0 +119,2 @@
++				if (p == line.length())
++					row.add("");

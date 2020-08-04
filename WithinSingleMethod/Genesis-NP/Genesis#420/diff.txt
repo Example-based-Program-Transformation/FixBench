@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/mpatric/mp3agic/ID3v2TextFrameData.java b/src/main/java/com/mpatric/mp3agic/ID3v2TextFrameData.java
+index 1219530..35afa79 100644
+--- a/src/main/java/com/mpatric/mp3agic/ID3v2TextFrameData.java
++++ b/src/main/java/com/mpatric/mp3agic/ID3v2TextFrameData.java
+@@ -27,2 +27,2 @@ public class ID3v2TextFrameData extends AbstractID3v2FrameData {
+-		if (text != null) bytes[0] = text.getTextEncoding();
+-		else bytes[0] = 0;
++		if (text != null) {
++			bytes[0] = text.getTextEncoding();
+@@ -32,0 +33 @@ public class ID3v2TextFrameData extends AbstractID3v2FrameData {
++		}

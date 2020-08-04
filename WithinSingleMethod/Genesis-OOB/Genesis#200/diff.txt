@@ -1,0 +1,7 @@
+diff --git a/slf4j-ext/src/main/java/org/slf4j/ext/XLogger.java b/slf4j-ext/src/main/java/org/slf4j/ext/XLogger.java
+index 04817db..1e967ea 100644
+--- a/slf4j-ext/src/main/java/org/slf4j/ext/XLogger.java
++++ b/slf4j-ext/src/main/java/org/slf4j/ext/XLogger.java
+@@ -96 +96 @@ public class XLogger extends LoggerWrapper implements Logger {
+-      if (argArray.length <= ENTRY_MESSAGE_ARRAY_LEN) {
++      if (argArray.length < ENTRY_MESSAGE_ARRAY_LEN) {

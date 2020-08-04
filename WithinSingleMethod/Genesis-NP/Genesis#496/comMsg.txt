@@ -1,0 +1,1 @@
+WICKET-5912 NPE in Page#hasInvisibleTransparentChild

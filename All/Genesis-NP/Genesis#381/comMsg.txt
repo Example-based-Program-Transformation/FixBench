@@ -1,0 +1,1 @@
+ * Fix `NullPointerException` in `Parser` on unexpected forms of function pointers (issue #70)

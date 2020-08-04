@@ -1,0 +1,6 @@
+diff --git a/core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java b/core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java
+index 245558b..0257915 100644
+--- a/core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java
++++ b/core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java
+@@ -184,0 +185 @@ public class GuardedByBinder {
++              checkGuardedBy(method != null, identifier.toString());

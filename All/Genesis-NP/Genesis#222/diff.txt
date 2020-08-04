@@ -1,0 +1,8 @@
+diff --git a/API/src/main/java/org/sikuli/script/RunTime.java b/API/src/main/java/org/sikuli/script/RunTime.java
+index 3d3ee33..45e6148 100644
+--- a/API/src/main/java/org/sikuli/script/RunTime.java
++++ b/API/src/main/java/org/sikuli/script/RunTime.java
+@@ -1014,0 +1015 @@ int nMonitors = 0;
++		if (hasOptions()) {
+@@ -1041,0 +1043 @@ int nMonitors = 0;
++  }

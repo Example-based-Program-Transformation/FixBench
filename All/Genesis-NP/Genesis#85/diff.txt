@@ -1,0 +1,8 @@
+diff --git a/src/main/java/io/mycat/parser/druid/impl/DruidUpdateParser.java b/src/main/java/io/mycat/parser/druid/impl/DruidUpdateParser.java
+index e906694..8fe915a 100644
+--- a/src/main/java/io/mycat/parser/druid/impl/DruidUpdateParser.java
++++ b/src/main/java/io/mycat/parser/druid/impl/DruidUpdateParser.java
+@@ -28,0 +29,3 @@ public class DruidUpdateParser extends DefaultDruidParser {
++		if (tc == null) {
++            return;
++        }

@@ -1,0 +1,8 @@
+Id:5202
+comSha:0c35772c49974aa16da5d6c7f012c01236f009d9
+parentComSha:7fa5fc401efad5d78b011241ff420f37dbf44366
+BuggyFilePath:src/main/java/nodebox/client/NodeSelectionDialog.java
+FixedFilePath:src/main/java/nodebox/client/NodeSelectionDialog.java
+StartLineNum:45
+EndLineNum:45
+repoName:nodebox#nodebox

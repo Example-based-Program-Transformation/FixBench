@@ -1,0 +1,1 @@
+Added null check for task name to avoid NPE when task name is not specified in process

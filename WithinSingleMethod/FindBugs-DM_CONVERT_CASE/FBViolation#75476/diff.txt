@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/graphics/style/font/FontStyleBuilder.java b/src/main/java/org/optimizationBenchmarking/utils/graphics/style/font/FontStyleBuilder.java
+index 2ca35c43..eb8a521d 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/graphics/style/font/FontStyleBuilder.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/graphics/style/font/FontStyleBuilder.java
+@@ -731 +731,2 @@ public final class FontStyleBuilder extends
+-    this.setFontFamily(EFontFamily.valueOf(strings.next().toUpperCase()));
++    this.setFontFamily(EFontFamily.valueOf(TextUtils.toUpperCase(//
++        strings.next())));

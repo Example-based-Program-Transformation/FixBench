@@ -1,0 +1,1 @@
+Added protection from NullPointerException when dotGitDirectory is wrong.

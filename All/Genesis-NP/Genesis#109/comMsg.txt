@@ -1,0 +1,1 @@
+WW-4622 - getRealPath NPE check

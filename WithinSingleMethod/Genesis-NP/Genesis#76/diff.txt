@@ -1,0 +1,18 @@
+diff --git a/src/main/java/org/yinwang/pysonar/ast/NameBinder.java b/src/main/java/org/yinwang/pysonar/ast/NameBinder.java
+index f214c5b..7e6ed9b 100644
+--- a/src/main/java/org/yinwang/pysonar/ast/NameBinder.java
++++ b/src/main/java/org/yinwang/pysonar/ast/NameBinder.java
+@@ -109,0 +110 @@ public class NameBinder {
++            if (ents != null) {
+@@ -111,2 +112,3 @@ public class NameBinder {
+-                if (ent == null || !ent.getType().isFuncType()) {
+-                    if (!iterType.isUnknownType()) {
++                    if (ent.getType().isFuncType()) {
++                        bind(s, target, ent.getType().asFuncType().getReturnType(), kind);
++                    } else {
+@@ -114 +115,0 @@ public class NameBinder {
+-                    }
+@@ -116,2 +117 @@ public class NameBinder {
+-                } else {
+-                    bind(s, target, ent.getType().asFuncType().getReturnType(), kind);
++                    }

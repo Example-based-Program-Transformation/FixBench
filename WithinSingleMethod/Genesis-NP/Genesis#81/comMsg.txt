@@ -1,0 +1,1 @@
+ROO-3455: DBRE NullPointerException at org.springframework.roo.addon.dbre.DbreMetadata.addOneTo OneFields(DbreMetadata.java:460)

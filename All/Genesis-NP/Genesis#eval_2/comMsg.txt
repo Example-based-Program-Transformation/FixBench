@@ -1,0 +1,1 @@
+Evitando NullPointerException quando CPF  nulo

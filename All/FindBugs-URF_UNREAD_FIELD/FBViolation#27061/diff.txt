@@ -1,0 +1,17 @@
+diff --git a/src/main/java/com/github/davidmoten/rtree/NonLeaf.java b/src/main/java/com/github/davidmoten/rtree/NonLeaf.java
+index 55635f7..018b290 100644
+--- a/src/main/java/com/github/davidmoten/rtree/NonLeaf.java
++++ b/src/main/java/com/github/davidmoten/rtree/NonLeaf.java
+@@ -12 +11,0 @@ public class NonLeaf implements Node {
+-	private final Context context;
+@@ -14 +13 @@ public class NonLeaf implements Node {
+-	public NonLeaf(List<? extends Node> children, Context context) {
++	public NonLeaf(List<? extends Node> children) {
+@@ -18 +16,0 @@ public class NonLeaf implements Node {
+-		this.context = context;
+@@ -31,2 +29,3 @@ public class NonLeaf implements Node {
+-	public NonLeaf add(Entry entry, ImmutableStack<NonLeaf> stack) {
+-		return null;
++	public Node add(Entry entry, ImmutableStack<NonLeaf> stack) {
++		final HasMbr child = Util.findLeastIncreaseInMbr(entry.mbr(), children);
++		return ((Node) child).add(entry, stack.push(this));

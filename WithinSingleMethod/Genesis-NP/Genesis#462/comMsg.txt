@@ -1,0 +1,1 @@
+added parsing error instead of NPE with unconfigured timer

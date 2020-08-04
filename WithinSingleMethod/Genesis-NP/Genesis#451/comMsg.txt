@@ -1,0 +1,1 @@
+Fix the NPE in isBulkInsertable() by changing .get() to .containsKey()

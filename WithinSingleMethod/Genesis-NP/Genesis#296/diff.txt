@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java b/src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java
+index a174824..2bf6a86 100644
+--- a/src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java
++++ b/src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java
+@@ -18 +18 @@ public class ParameterizedAssertionError extends AssertionError {
+-        return toString().equals(obj.toString());
++        return obj instanceof ParameterizedAssertionError && toString().equals(obj.toString());

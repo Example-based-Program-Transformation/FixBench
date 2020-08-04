@@ -1,0 +1,1 @@
+a fix for a NullPointerException whenever a client requests a client scope to be granted.

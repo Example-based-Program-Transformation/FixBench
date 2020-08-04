@@ -1,0 +1,7 @@
+diff --git a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
+index bec4f07..c9608dd 100644
+--- a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
++++ b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
+@@ -1201 +1201 @@ public abstract class Model extends CallbackSupport implements Externalizable {
+-    public void refresh() {
++    public synchronized void refresh() {

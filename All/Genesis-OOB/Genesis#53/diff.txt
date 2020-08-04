@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/springframework/hateoas/core/AnnotationMappingDiscoverer.java b/src/main/java/org/springframework/hateoas/core/AnnotationMappingDiscoverer.java
+index 9b6d52e..884771d 100644
+--- a/src/main/java/org/springframework/hateoas/core/AnnotationMappingDiscoverer.java
++++ b/src/main/java/org/springframework/hateoas/core/AnnotationMappingDiscoverer.java
+@@ -90,0 +91,5 @@ public class AnnotationMappingDiscoverer implements MappingDiscoverer {
++
++		if (mapping == null || mapping.length == 0) {
++			return typeMapping;
++		}
++

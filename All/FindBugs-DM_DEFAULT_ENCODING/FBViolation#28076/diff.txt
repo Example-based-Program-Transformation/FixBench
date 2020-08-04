@@ -1,0 +1,7 @@
+diff --git a/src/main/java/teetime/framework/pipe/PipeFactoryLoader.java b/src/main/java/teetime/framework/pipe/PipeFactoryLoader.java
+index 12799988..6e564014 100644
+--- a/src/main/java/teetime/framework/pipe/PipeFactoryLoader.java
++++ b/src/main/java/teetime/framework/pipe/PipeFactoryLoader.java
+@@ -28 +28 @@ public final class PipeFactoryLoader {
+-		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(stream));
++		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(stream, "UTF-8"));

@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/bukkit/util/config/Configuration.java b/src/main/java/org/bukkit/util/config/Configuration.java
+index 427a94d..3b5d95a 100644
+--- a/src/main/java/org/bukkit/util/config/Configuration.java
++++ b/src/main/java/org/bukkit/util/config/Configuration.java
+@@ -117,0 +118,3 @@ public class Configuration extends ConfigurationNode {
++            if ( null == input ) {
++                root = new HashMap<String, Object>();
++            } else {
+@@ -118,0 +122 @@ public class Configuration extends ConfigurationNode {
++            }

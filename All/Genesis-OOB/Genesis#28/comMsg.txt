@@ -1,0 +1,1 @@
+Fixed IndexOutOfBoundsException with store larger 1 GB.

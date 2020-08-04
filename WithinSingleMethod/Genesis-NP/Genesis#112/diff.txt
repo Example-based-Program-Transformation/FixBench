@@ -1,0 +1,9 @@
+diff --git a/api/mockito/src/main/java/org/powermock/api/mockito/internal/verification/DefaultConstructorArgumentsVerfication.java b/api/mockito/src/main/java/org/powermock/api/mockito/internal/verification/DefaultConstructorArgumentsVerfication.java
+index 6524825..a920231 100644
+--- a/api/mockito/src/main/java/org/powermock/api/mockito/internal/verification/DefaultConstructorArgumentsVerfication.java
++++ b/api/mockito/src/main/java/org/powermock/api/mockito/internal/verification/DefaultConstructorArgumentsVerfication.java
+@@ -37,2 +37,2 @@ public class DefaultConstructorArgumentsVerfication<T> implements ConstructorArg
+-        if (argument == null && arguments.length == 0) {
+-            realArguments = null;
++        if (arguments == null) {
++            realArguments = new Object[]{argument, null};

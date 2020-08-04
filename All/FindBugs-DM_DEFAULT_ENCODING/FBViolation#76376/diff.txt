@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/perfcake/validation/ValidatorUtil.java b/src/main/java/org/perfcake/validation/ValidatorUtil.java
+index d8c0d675..a06f3087 100644
+--- a/src/main/java/org/perfcake/validation/ValidatorUtil.java
++++ b/src/main/java/org/perfcake/validation/ValidatorUtil.java
+@@ -22,0 +23 @@ import java.io.UnsupportedEncodingException;
++import java.nio.charset.Charset;
+@@ -220 +221 @@ public final class ValidatorUtil {
+-               return new String((byte[]) data);
++               return new String((byte[]) data, Charset.defaultCharset());

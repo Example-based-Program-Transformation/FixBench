@@ -1,0 +1,1 @@
+Fixed NPE when the context class loader is null.

@@ -1,0 +1,8 @@
+diff --git a/liquibase-core/src/main/java/liquibase/changelog/visitor/ChangeLogSyncVisitor.java b/liquibase-core/src/main/java/liquibase/changelog/visitor/ChangeLogSyncVisitor.java
+index 760efc9..00e50be 100644
+--- a/liquibase-core/src/main/java/liquibase/changelog/visitor/ChangeLogSyncVisitor.java
++++ b/liquibase-core/src/main/java/liquibase/changelog/visitor/ChangeLogSyncVisitor.java
+@@ -32,0 +33 @@ public class ChangeLogSyncVisitor implements ChangeSetVisitor {
++        if(listener != null) {
+@@ -35,0 +37 @@ public class ChangeLogSyncVisitor implements ChangeSetVisitor {
++}

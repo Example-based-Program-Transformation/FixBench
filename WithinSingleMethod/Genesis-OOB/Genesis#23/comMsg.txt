@@ -1,0 +1,1 @@
+Explicitly disallow NaN arguments, so we don't explode with ArrayIndexOutOfBoundsException

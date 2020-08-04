@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/salesforce/phoenix/compile/JoinCompiler.java b/src/main/java/com/salesforce/phoenix/compile/JoinCompiler.java
+index 00ad54d..f9c4317 100644
+--- a/src/main/java/com/salesforce/phoenix/compile/JoinCompiler.java
++++ b/src/main/java/com/salesforce/phoenix/compile/JoinCompiler.java
+@@ -29,0 +30,2 @@ package com.salesforce.phoenix.compile;
++import static com.salesforce.phoenix.schema.SaltingUtil.SALTING_COLUMN;
++
+@@ -280,0 +283,3 @@ public class JoinCompiler {
++            if (sourceColumn == SALTING_COLUMN)
++                return;
++            

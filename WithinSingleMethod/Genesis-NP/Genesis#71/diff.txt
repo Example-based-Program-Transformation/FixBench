@@ -1,0 +1,10 @@
+diff --git a/src/main/java/net/mindengine/galen/api/Galen.java b/src/main/java/net/mindengine/galen/api/Galen.java
+index 02b4640..3158431 100644
+--- a/src/main/java/net/mindengine/galen/api/Galen.java
++++ b/src/main/java/net/mindengine/galen/api/Galen.java
+@@ -71 +71,4 @@ public class Galen {
+-            layoutReport.setScreenshotFullPath(page.createScreenshot().getAbsolutePath());
++            final File screenshot = page.createScreenshot();
++            if (screenshot != null) {
++                layoutReport.setScreenshotFullPath(screenshot.getAbsolutePath());
++            }

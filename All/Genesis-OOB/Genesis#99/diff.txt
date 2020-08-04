@@ -1,0 +1,17 @@
+diff --git a/src/main/java/de/hpi/oryxengine/navigator/impl/NavigationThread.java b/src/main/java/de/hpi/oryxengine/navigator/impl/NavigationThread.java
+index 3da89ff..0b32126 100644
+--- a/src/main/java/de/hpi/oryxengine/navigator/impl/NavigationThread.java
++++ b/src/main/java/de/hpi/oryxengine/navigator/impl/NavigationThread.java
+@@ -40,0 +41,5 @@ public class NavigationThread extends Thread {
++      ProcessInstance instance = null;
++      
++      // This has to be an atomic operation on toNavigate, otherwise
++      // an IndexOutOfBoundsException might occur
++      synchronized(this.toNavigate) {
+@@ -42 +47,5 @@ public class NavigationThread extends Thread {
+-        ProcessInstance instance = this.toNavigate.remove(0);
++          instance = this.toNavigate.remove(0);
++        }
++      }
++      
++      if (instance != null) {

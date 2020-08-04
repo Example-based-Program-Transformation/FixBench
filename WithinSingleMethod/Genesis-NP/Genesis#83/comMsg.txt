@@ -1,0 +1,1 @@
+ROO-3308: NullPointerException thrown by Roo Shell prevents Roo from adding ITDs to a service

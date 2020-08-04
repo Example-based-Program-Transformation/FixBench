@@ -1,0 +1,14 @@
+diff --git a/src/main/java/com/mashape/unirest/http/utils/MapUtil.java b/src/main/java/com/mashape/unirest/http/utils/MapUtil.java
+index 3fc8c9f..35325c2 100644
+--- a/src/main/java/com/mashape/unirest/http/utils/MapUtil.java
++++ b/src/main/java/com/mashape/unirest/http/utils/MapUtil.java
+@@ -41 +40,0 @@ public class MapUtil {
+-
+@@ -43 +42,3 @@ public class MapUtil {
+-				for(Object cur : entry.getValue()) {
++				List<Object> entryValue = entry.getValue();
++				if (entryValue != null) {
++					for(Object cur : entryValue) {
+@@ -47 +48 @@ public class MapUtil {
+-
++			}

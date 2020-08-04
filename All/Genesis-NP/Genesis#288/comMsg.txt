@@ -1,0 +1,1 @@
+CORE-1936 NullPointerException while diffing database against hibernate.cfg.xml

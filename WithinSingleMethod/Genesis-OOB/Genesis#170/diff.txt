@@ -1,0 +1,14 @@
+diff --git a/src/main/java/org/couchbase/mock/http/AuthContext.java b/src/main/java/org/couchbase/mock/http/AuthContext.java
+index 54b1baa..fc44538 100644
+--- a/src/main/java/org/couchbase/mock/http/AuthContext.java
++++ b/src/main/java/org/couchbase/mock/http/AuthContext.java
+@@ -39,0 +40,2 @@ public class AuthContext {
++        String decoded = Base64.decode(b64);
++        parts = decoded.split(":", 2);
+@@ -41 +43 @@ public class AuthContext {
+-        parts = Base64.decode(b64).split(":");
++        if (parts.length == 2) {
+@@ -43,0 +46,3 @@ public class AuthContext {
++        } else {
++            throw new IOException("Don't know what to do with " + decoded);
++        }

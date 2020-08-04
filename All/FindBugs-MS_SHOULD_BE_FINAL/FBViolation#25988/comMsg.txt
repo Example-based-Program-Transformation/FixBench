@@ -1,0 +1,1 @@
+static GEO reference should be final.  Thanks FindBugs!

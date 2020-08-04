@@ -1,0 +1,9 @@
+diff --git a/liquibase-core/src/main/java/liquibase/parser/core/yaml/YamlChangeLogParser.java b/liquibase-core/src/main/java/liquibase/parser/core/yaml/YamlChangeLogParser.java
+index 3bb710c..595e531 100644
+--- a/liquibase-core/src/main/java/liquibase/parser/core/yaml/YamlChangeLogParser.java
++++ b/liquibase-core/src/main/java/liquibase/parser/core/yaml/YamlChangeLogParser.java
+@@ -58,0 +59,4 @@ public class YamlChangeLogParser implements ChangeLogParser {
++            if (parsedYaml == null || parsedYaml.size() == 0) {
++                throw new ChangeLogParseException("Empty file " + physicalChangeLogLocation);
++            }
++

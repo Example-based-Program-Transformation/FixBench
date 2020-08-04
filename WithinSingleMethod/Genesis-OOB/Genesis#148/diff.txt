@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/greplin/lucene/filter/PhraseFilter.java b/src/main/java/com/greplin/lucene/filter/PhraseFilter.java
+index 14dba79..7b62df1 100644
+--- a/src/main/java/com/greplin/lucene/filter/PhraseFilter.java
++++ b/src/main/java/com/greplin/lucene/filter/PhraseFilter.java
+@@ -220 +220,2 @@ public class PhraseFilter extends Filter {
+-      return this.ints[this.index];
++      return this.index < this.ints.length
++          ? this.ints[this.index] : NO_MORE_DOCS;

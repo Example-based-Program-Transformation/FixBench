@@ -1,0 +1,13 @@
+diff --git a/indexing-service/src/main/java/io/druid/indexing/firehose/IngestSegmentFirehoseFactory.java b/indexing-service/src/main/java/io/druid/indexing/firehose/IngestSegmentFirehoseFactory.java
+index 94adbc0..5744fa7 100644
+--- a/indexing-service/src/main/java/io/druid/indexing/firehose/IngestSegmentFirehoseFactory.java
++++ b/indexing-service/src/main/java/io/druid/indexing/firehose/IngestSegmentFirehoseFactory.java
+@@ -257,0 +258,2 @@ public class IngestSegmentFirehoseFactory implements FirehoseFactory<InputRowPar
++                        // dimSelector is null if the dimension is not present
++                        if (dimSelector != null) {
+@@ -259,0 +262 @@ public class IngestSegmentFirehoseFactory implements FirehoseFactory<InputRowPar
++                      }
+@@ -263,0 +267 @@ public class IngestSegmentFirehoseFactory implements FirehoseFactory<InputRowPar
++                        if (metricSelector != null) {
+@@ -265,0 +270 @@ public class IngestSegmentFirehoseFactory implements FirehoseFactory<InputRowPar
++                      }

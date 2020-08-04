@@ -1,0 +1,5 @@
+Make the unit tests more realistic and fix two bugs this revealed:
+1) Receiving coins regressed after the last optimization. Resolves issue 49.
+2) Reorg handling expected to be able to connect all inputs.
+
+Also other minor fixes and small additions.

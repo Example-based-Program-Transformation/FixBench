@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/mapdb/SerializerPojo.java b/src/main/java/org/mapdb/SerializerPojo.java
+index 795e218a..7d851997 100644
+--- a/src/main/java/org/mapdb/SerializerPojo.java
++++ b/src/main/java/org/mapdb/SerializerPojo.java
+@@ -86,0 +87 @@ public class SerializerPojo extends SerializerBase implements Serializable{
++    private static final long serialVersionUID = 3181417366609199703L;

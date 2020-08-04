@@ -1,0 +1,8 @@
+Id:30115
+comSha:bf02fdbe35dd1177552f31e6c5c484340d99b0a6
+parentComSha:c6e444a7ea1d2a5d513bce18e57fb8aa4363114d
+BuggyFilePath:src/main/java/nl/inl/blacklab/externalstorage/ContentStoreDir.java
+FixedFilePath:src/main/java/nl/inl/blacklab/externalstorage/ContentStoreDir.java
+StartLineNum:186
+EndLineNum:186
+repoName:INL#BlackLab

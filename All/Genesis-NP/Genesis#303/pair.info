@@ -1,0 +1,7 @@
+Id:303
+SATName:Genesis
+modifiedFPath:logback-classic/src/main/java/ch/qos/logback/classic/util/JNDIUtil.java
+comSha:e68718c9528492805058fc0270676fa2199e50d4
+parentComSha:e68718c9528492805058fc0270676fa2199e50d4^1
+githubUrl:https://github.com/qos-ch/logback
+repoName:qos-ch#logback

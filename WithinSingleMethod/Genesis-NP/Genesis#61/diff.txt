@@ -1,0 +1,7 @@
+diff --git a/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java b/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+index 6f06614..e79b238 100644
+--- a/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
++++ b/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+@@ -312 +312 @@ public int compareTo( Item item )
+-                        int result = l == null ? -1 * r.compareTo( l ) : l.compareTo( r );
++                        int result = l == null ? ( r == null ? 0 : -1 * r.compareTo( l ) ) : l.compareTo( r );

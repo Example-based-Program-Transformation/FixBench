@@ -1,0 +1,1 @@
+Fix pageSize assumptions in Page.split().

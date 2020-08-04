@@ -1,0 +1,8 @@
+Id:47258
+comSha:17bacf5e7f4c0b23999f5341aa0458c71d452fcf
+parentComSha:f761a1746069932c13d918563c6e26fae2208cf0
+BuggyFilePath:module-client/src/main/java/org/apache/http/auth/AuthScope.java
+FixedFilePath:module-client/src/main/java/org/apache/http/auth/AuthScope.java
+StartLineNum:107
+EndLineNum:107
+repoName:apache#httpclient

@@ -1,0 +1,17 @@
+diff --git a/src/main/java/net/spy/memcached/util/StringUtils.java b/src/main/java/net/spy/memcached/util/StringUtils.java
+index 32fdade..f72a59d 100644
+--- a/src/main/java/net/spy/memcached/util/StringUtils.java
++++ b/src/main/java/net/spy/memcached/util/StringUtils.java
+@@ -24,0 +25,3 @@ package net.spy.memcached.util;
++import net.spy.memcached.KeyUtil;
++import net.spy.memcached.MemcachedClientIF;
++
+@@ -30,3 +32,0 @@ import java.util.regex.Pattern;
+-import net.spy.memcached.KeyUtil;
+-import net.spy.memcached.MemcachedClientIF;
+-
+@@ -108,0 +109,4 @@ public final class StringUtils {
++    if (s == null || s.isEmpty()) {
++      return false;
++    }
++

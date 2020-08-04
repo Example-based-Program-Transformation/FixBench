@@ -1,0 +1,1 @@
+Fixed NPE when getting query parameters without a value: ?nothing=&some=thing

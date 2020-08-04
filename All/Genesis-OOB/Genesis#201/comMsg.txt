@@ -1,0 +1,1 @@
+Index bounds exception fix, when the window is REALLY small

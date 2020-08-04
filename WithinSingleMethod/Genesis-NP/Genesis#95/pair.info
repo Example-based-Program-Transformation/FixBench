@@ -1,0 +1,7 @@
+Id:95
+SATName:Genesis
+modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
+comSha:260490c05b6a483ab3b340825dceb64415cdb55a
+parentComSha:260490c05b6a483ab3b340825dceb64415cdb55a^1
+githubUrl:https://github.com/checkstyle/checkstyle
+repoName:checkstyle#checkstyle

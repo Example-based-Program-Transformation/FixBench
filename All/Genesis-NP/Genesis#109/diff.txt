@@ -1,0 +1,12 @@
+diff --git a/plugins/tiles/src/main/java/org/apache/struts2/tiles/StrutsWildcardServletApplicationContext.java b/plugins/tiles/src/main/java/org/apache/struts2/tiles/StrutsWildcardServletApplicationContext.java
+index 70a21ed..df6152b 100644
+--- a/plugins/tiles/src/main/java/org/apache/struts2/tiles/StrutsWildcardServletApplicationContext.java
++++ b/plugins/tiles/src/main/java/org/apache/struts2/tiles/StrutsWildcardServletApplicationContext.java
+@@ -57 +57,4 @@ public class StrutsWildcardServletApplicationContext extends ServletApplicationC
+-                URL url = new File(context.getRealPath(String.valueOf(path))).toURI().toURL();
++                String realPath = context.getRealPath(String.valueOf(path));
++
++                if (realPath != null) {
++                    URL url = new File(realPath).toURI().toURL();
+@@ -58,0 +62 @@ public class StrutsWildcardServletApplicationContext extends ServletApplicationC
++                }

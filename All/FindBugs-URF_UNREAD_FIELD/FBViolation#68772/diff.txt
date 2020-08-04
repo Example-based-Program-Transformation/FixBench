@@ -1,0 +1,10 @@
+diff --git a/src/org/traccar/BasePipelineFactory.java b/src/org/traccar/BasePipelineFactory.java
+index 47803831..8e6cd0a1 100644
+--- a/src/org/traccar/BasePipelineFactory.java
++++ b/src/org/traccar/BasePipelineFactory.java
+@@ -39,2 +39 @@ public abstract class BasePipelineFactory implements ChannelPipelineFactory {
+-    private Boolean processInvalidPositions;
+-    
++
+@@ -94 +92,0 @@ public abstract class BasePipelineFactory implements ChannelPipelineFactory {
+-        processInvalidPositions = Context.getConfig().getBoolean("geocode.processInvalidPositions");

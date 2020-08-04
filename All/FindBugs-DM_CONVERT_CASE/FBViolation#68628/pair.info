@@ -1,0 +1,8 @@
+Id:68628
+comSha:423e12ec265597bc196635b7b7a4e07570ccae59
+parentComSha:849beb061a04b8f5826c0e039533d4da559a4e80
+BuggyFilePath:src/main/java/br/com/dbsoft/mail/DBSEmailSend.java
+FixedFilePath:src/main/java/br/com/dbsoft/mail/DBSEmailSend.java
+StartLineNum:196
+EndLineNum:196
+repoName:dbsoftcombr#dbssdk

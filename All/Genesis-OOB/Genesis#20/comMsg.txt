@@ -1,0 +1,1 @@
+HBASE-13329 ArrayIndexOutOfBoundsException in CellComparator#getMinimumMidpointArray.

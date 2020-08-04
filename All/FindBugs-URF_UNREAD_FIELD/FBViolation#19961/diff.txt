@@ -1,0 +1,16 @@
+diff --git a/src/test/java/org/jboss/aesh/console/masking/ConsoleMaskingTest.java b/src/test/java/org/jboss/aesh/console/masking/ConsoleMaskingTest.java
+index 0a687744..f6b8fdbe 100644
+--- a/src/test/java/org/jboss/aesh/console/masking/ConsoleMaskingTest.java
++++ b/src/test/java/org/jboss/aesh/console/masking/ConsoleMaskingTest.java
+@@ -10,0 +11 @@ import org.jboss.aesh.console.BaseConsoleTest;
++import org.jboss.aesh.console.Config;
+@@ -30,2 +30,0 @@ public class ConsoleMaskingTest extends BaseConsoleTest {
+-    private boolean didFail = false;
+-
+@@ -40 +39 @@ public class ConsoleMaskingTest extends BaseConsoleTest {
+-        console.setPrompt(new Prompt("", new Character('\u0000')));
++        console.setPrompt(new Prompt("", '\u0000'));
+@@ -51 +50,2 @@ public class ConsoleMaskingTest extends BaseConsoleTest {
+-        outputStream.write(("\n").getBytes());
++        outputStream.write((Config.getLineSeparator()).getBytes());
++        outputStream.flush();

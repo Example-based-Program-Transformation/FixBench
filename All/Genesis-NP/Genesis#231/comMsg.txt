@@ -1,0 +1,1 @@
+Catching NPE (https://issues.jboss.org/browse/JGRP-1845)

@@ -1,0 +1,1 @@
+Fixed ReadCSV to throw an error whenever an out of bounds column is requested.  Should move to C#, maybe to 3.0.

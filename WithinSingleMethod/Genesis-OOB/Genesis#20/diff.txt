@@ -1,0 +1,7 @@
+diff --git a/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileWriterImpl.java b/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileWriterImpl.java
+index 42b94d4..fcb264d 100644
+--- a/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileWriterImpl.java
++++ b/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileWriterImpl.java
+@@ -434 +434 @@ public class HFileWriterImpl implements HFile.Writer {
+-    short diffIdx = 0;
++    int diffIdx = 0;

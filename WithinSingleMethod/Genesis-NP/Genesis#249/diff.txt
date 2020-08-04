@@ -1,0 +1,12 @@
+diff --git a/src/main/java/org/mapdb/StoreAppend.java b/src/main/java/org/mapdb/StoreAppend.java
+index f9bdaeb..02c037e 100644
+--- a/src/main/java/org/mapdb/StoreAppend.java
++++ b/src/main/java/org/mapdb/StoreAppend.java
+@@ -93,2 +93,2 @@ public class StoreAppend extends Store{
+-
+-        if(!file.getParentFile().exists() || !file.getParentFile().isDirectory())
++        final File parent = file.getAbsoluteFile().getParentFile();
++        if(!parent.exists() || !parent.isDirectory())
+@@ -100 +100 @@ public class StoreAppend extends Store{
+-        for(File f:file.getParentFile().listFiles()){
++        for(File f:parent.listFiles()){

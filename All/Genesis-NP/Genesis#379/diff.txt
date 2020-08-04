@@ -1,0 +1,7 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/cpr/DefaultAnnotationProcessor.java b/modules/cpr/src/main/java/org/atmosphere/cpr/DefaultAnnotationProcessor.java
+index 2581521..af593aa 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/cpr/DefaultAnnotationProcessor.java
++++ b/modules/cpr/src/main/java/org/atmosphere/cpr/DefaultAnnotationProcessor.java
+@@ -270 +270 @@ public class DefaultAnnotationProcessor implements AnnotationProcessor {
+-            if (atmosphereAnnotatedClasses.size() > AnnotationScanningServletContainerInitializer.class.getAnnotation(HandlesTypes.class).value().length) {
++            if (atmosphereAnnotatedClasses != null && atmosphereAnnotatedClasses.size() > AnnotationScanningServletContainerInitializer.class.getAnnotation(HandlesTypes.class).value().length) {

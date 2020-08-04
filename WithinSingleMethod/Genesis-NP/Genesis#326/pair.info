@@ -1,0 +1,7 @@
+Id:326
+SATName:Genesis
+modifiedFPath:processing/src/main/java/io/druid/segment/ColumnSelectorBitmapIndexSelector.java
+comSha:c73418c181124709a963b6dccc2a6e155754fa90
+parentComSha:c73418c181124709a963b6dccc2a6e155754fa90^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

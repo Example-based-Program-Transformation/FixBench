@@ -1,0 +1,1 @@
+Null pointer exception running derby in offline mode

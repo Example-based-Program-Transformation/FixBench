@@ -1,0 +1,1 @@
+NAKACK2: Fix IndexOutOfBoundsException with trace enabled

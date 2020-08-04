@@ -1,0 +1,13 @@
+diff --git a/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java b/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
+index cb5477a..70d6cfe 100644
+--- a/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
++++ b/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
+@@ -280 +280,2 @@ public class TextLineDecoder implements ProtocolDecoder {
+-                // fix for DIRMINA-506
++                // fix for DIRMINA-506 & DIRMINA-536
++                if (in.position() >= matchCount) {
+@@ -282,0 +284,4 @@ public class TextLineDecoder implements ProtocolDecoder {
++                } else {
++                    matchCount -= in.position();
++                    in.position(0);
++                }

@@ -1,0 +1,8 @@
+diff --git a/spring-security-oauth/src/main/java/org/springframework/security/oauth/config/ConsumerServiceBeanDefinitionParser.java b/spring-security-oauth/src/main/java/org/springframework/security/oauth/config/ConsumerServiceBeanDefinitionParser.java
+index 1a59249..4afeb49 100644
+--- a/spring-security-oauth/src/main/java/org/springframework/security/oauth/config/ConsumerServiceBeanDefinitionParser.java
++++ b/spring-security-oauth/src/main/java/org/springframework/security/oauth/config/ConsumerServiceBeanDefinitionParser.java
+@@ -78,0 +79,3 @@ public class ConsumerServiceBeanDefinitionParser extends AbstractSingleBeanDefin
++          catch (NullPointerException e) {
++              parserContext.getReaderContext().error("Could not load RSA certificate at " + secret + ".", consumerElement, e);
++            }

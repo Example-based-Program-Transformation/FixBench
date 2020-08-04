@@ -1,0 +1,13 @@
+diff --git a/wicket-core/src/main/java/org/apache/wicket/MarkupContainer.java b/wicket-core/src/main/java/org/apache/wicket/MarkupContainer.java
+index 6b0ddb1..c01b90e 100644
+--- a/wicket-core/src/main/java/org/apache/wicket/MarkupContainer.java
++++ b/wicket-core/src/main/java/org/apache/wicket/MarkupContainer.java
+@@ -730,2 +730,2 @@ public abstract class MarkupContainer extends Component implements Iterable<Comp
+-			// Add to map
+-			final Component replaced = put(child);
++			// Get the child component to replace
++			final Component replaced = children_get(child.getId());
+@@ -740,0 +741,3 @@ public abstract class MarkupContainer extends Component implements Iterable<Comp
++			// Add to map
++			put(child);
++			

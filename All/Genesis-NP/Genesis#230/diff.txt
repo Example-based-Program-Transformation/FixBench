@@ -1,0 +1,9 @@
+diff --git a/src/org/jgroups/protocols/MERGE2.java b/src/org/jgroups/protocols/MERGE2.java
+index 8015d47..6519fa0 100644
+--- a/src/org/jgroups/protocols/MERGE2.java
++++ b/src/org/jgroups/protocols/MERGE2.java
+@@ -430 +430,3 @@ public class MERGE2 extends Protocol {
+-            views.put(local_addr,view);
++            View tmp_view=view;
++            if(tmp_view != null)
++                views.put(local_addr, tmp_view);

@@ -1,0 +1,7 @@
+diff --git a/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryRestExceptionHandler.java b/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryRestExceptionHandler.java
+index 1d7ce72..c37e709 100644
+--- a/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryRestExceptionHandler.java
++++ b/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryRestExceptionHandler.java
+@@ -162 +162 @@ public class RepositoryRestExceptionHandler {
+-		return badRequest(null, throwable);
++		return badRequest(new HttpHeaders(), throwable);

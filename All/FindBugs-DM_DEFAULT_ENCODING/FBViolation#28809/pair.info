@@ -1,0 +1,8 @@
+Id:28809
+comSha:291305f54d705ab6432a59e3c95743ac5656e512
+parentComSha:19ec8ffd5c6fc6adceaab3ccdfb6977e03352bcc
+BuggyFilePath:drools-planner-examples/src/main/java/org/drools/planner/examples/machinereassignment/persistence/MachineReassignmentSolutionImporter.java
+FixedFilePath:drools-planner-examples/src/main/java/org/drools/planner/examples/machinereassignment/persistence/MachineReassignmentSolutionImporter.java
+StartLineNum:354
+EndLineNum:354
+repoName:droolsjbpm#optaplanner

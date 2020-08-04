@@ -1,0 +1,13 @@
+diff --git a/src/main/java/de/unihildesheim/iw/tools/StopwordsFileReader.java b/src/main/java/de/unihildesheim/iw/tools/StopwordsFileReader.java
+index fcccb0f..6d6cdbc 100644
+--- a/src/main/java/de/unihildesheim/iw/tools/StopwordsFileReader.java
++++ b/src/main/java/de/unihildesheim/iw/tools/StopwordsFileReader.java
+@@ -23,0 +24 @@ import java.io.InputStreamReader;
++import java.nio.charset.Charset;
+@@ -41 +42,2 @@ public class StopwordsFileReader {
+-  public static Set<String> readWords(final Format format, final String source)
++  public static Set<String> readWords(final Format format,
++      final String source, final Charset cs)
+@@ -50 +52 @@ public class StopwordsFileReader {
+-        new InputStreamReader(new FileInputStream(source)))) {
++        new InputStreamReader(new FileInputStream(source), cs))) {

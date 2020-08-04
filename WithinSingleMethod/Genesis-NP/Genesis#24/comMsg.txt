@@ -1,0 +1,1 @@
+Fix not to throw NPE if username or password is null

@@ -1,0 +1,1 @@
+Issue #2094: fix StringIndexOutOfBoundsException

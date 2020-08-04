@@ -1,0 +1,6 @@
+diff --git a/src/org/nutz/lang/util/Disks.java b/src/org/nutz/lang/util/Disks.java
+index 7738b89..d5e8321 100644
+--- a/src/org/nutz/lang/util/Disks.java
++++ b/src/org/nutz/lang/util/Disks.java
+@@ -39,0 +40 @@ public abstract class Disks {
++            if (fs != null)

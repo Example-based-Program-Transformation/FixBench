@@ -1,0 +1,24 @@
+diff --git a/lealone-db/src/main/java/org/lealone/db/table/Column.java b/lealone-db/src/main/java/org/lealone/db/table/Column.java
+index a6fcd71..8b26436 100644
+--- a/lealone-db/src/main/java/org/lealone/db/table/Column.java
++++ b/lealone-db/src/main/java/org/lealone/db/table/Column.java
+@@ -270,0 +271,6 @@ public class Column {
++        // take a local copy of defaultExpression to avoid holding the lock
++        // while calling getValue
++        final Expression localDefaultExpression;
++        synchronized (this) {
++            localDefaultExpression = defaultExpression;
++        }
+@@ -272 +278 @@ public class Column {
+-            if (defaultExpression == null) {
++            if (localDefaultExpression == null) {
+@@ -276 +282 @@ public class Column {
+-                    value = defaultExpression.getValue(session).convertTo(type);
++                    value = localDefaultExpression.getValue(session).convertTo(type);
+@@ -285,4 +291,2 @@ public class Column {
+-            if (convertNullToDefault) {
+-                synchronized (this) {
+-                    value = defaultExpression.getValue(session).convertTo(type);
+-                }
++            if (convertNullToDefault && localDefaultExpression != null) {
++                value = localDefaultExpression.getValue(session).convertTo(type);

@@ -1,0 +1,10 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/cmd/GetRenderedTaskFormCmd.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/cmd/GetRenderedTaskFormCmd.java
+index cc0d022..567b598 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/cmd/GetRenderedTaskFormCmd.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/cmd/GetRenderedTaskFormCmd.java
+@@ -50,0 +51,5 @@ public class GetRenderedTaskFormCmd  implements Command<Object>, Serializable {
++    
++    if (task.getTaskDefinition() == null) {
++      throw new ActivitiException("Task form definition for '" + taskId +"' not found");
++    }
++    

@@ -1,0 +1,6 @@
+diff --git a/src/com/google/javascript/refactoring/RefactoringDriver.java b/src/com/google/javascript/refactoring/RefactoringDriver.java
+index 1b574d8..b42296a 100644
+--- a/src/com/google/javascript/refactoring/RefactoringDriver.java
++++ b/src/com/google/javascript/refactoring/RefactoringDriver.java
+@@ -94,0 +95 @@ public final class RefactoringDriver {
++    options.setGenerateExports(true);

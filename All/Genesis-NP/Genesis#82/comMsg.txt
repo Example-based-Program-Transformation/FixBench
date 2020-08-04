@@ -1,0 +1,1 @@
+ROO-3304: NullPointerException at ConversionServiceMetadata when push in method of ApplicationConversionServiceFactoryBean

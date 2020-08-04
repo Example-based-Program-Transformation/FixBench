@@ -1,0 +1,16 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/paginated/OLocalPaginatedStorage.java b/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/paginated/OLocalPaginatedStorage.java
+index b770d1a..6149b11 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/paginated/OLocalPaginatedStorage.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/paginated/OLocalPaginatedStorage.java
+@@ -1844 +1844,2 @@ public class OLocalPaginatedStorage extends OStorageLocalAbstract {
+-        List<OLogSequenceNumber> records = operationUnits.get(unitId);
++
++        final List<OLogSequenceNumber> records = operationUnits.get(unitId);
+@@ -1847,0 +1849,7 @@ public class OLocalPaginatedStorage extends OStorageLocalAbstract {
++        if (records == null) {
++          OLogManager.instance().warn(this,
++              "Record which indicates start of atomic operation was truncated record with lsn %s will be skipped.",
++              walRecord.getLsn());
++          continue;
++        }
++

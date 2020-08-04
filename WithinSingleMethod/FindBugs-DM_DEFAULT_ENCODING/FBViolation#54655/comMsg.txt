@@ -1,0 +1,4 @@
+added find bugs and fixed some bugs
+
+
+Former-commit-id: 2266d86317f4fb20b7d3262b41b14d962916078f

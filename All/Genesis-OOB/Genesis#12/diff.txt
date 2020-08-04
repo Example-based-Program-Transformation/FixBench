@@ -1,0 +1,7 @@
+diff --git a/maven-model-builder/src/main/java/org/apache/maven/model/inheritance/DefaultInheritanceAssembler.java b/maven-model-builder/src/main/java/org/apache/maven/model/inheritance/DefaultInheritanceAssembler.java
+index 5ffcf6d..fd1c07f 100644
+--- a/maven-model-builder/src/main/java/org/apache/maven/model/inheritance/DefaultInheritanceAssembler.java
++++ b/maven-model-builder/src/main/java/org/apache/maven/model/inheritance/DefaultInheritanceAssembler.java
+@@ -164 +164 @@ private void concatPath( StringBuilder url, String path )
+-            if ( path.length() > 0 )
++            if ( url.length() > 0 && path.length() > 0 )

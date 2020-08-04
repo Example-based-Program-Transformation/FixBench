@@ -1,0 +1,1 @@
+bugfix for NullPointerException when switching off tenured generation (fixes #38)

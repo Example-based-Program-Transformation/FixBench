@@ -1,0 +1,1 @@
+#298 fix for not found annotation nullpointer

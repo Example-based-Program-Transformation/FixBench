@@ -1,0 +1,1 @@
+PDFBOX-900: ArrayIndexOutOfBoundsException with extracting labels from malformed document Patch contributed by Kevin Jackson, test case added by Adam Nichols

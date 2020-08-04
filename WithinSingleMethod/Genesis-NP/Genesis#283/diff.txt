@@ -1,0 +1,7 @@
+diff --git a/liquibase-core/src/main/java/liquibase/database/core/DerbyDatabase.java b/liquibase-core/src/main/java/liquibase/database/core/DerbyDatabase.java
+index d2d381b..9d62fe3 100644
+--- a/liquibase-core/src/main/java/liquibase/database/core/DerbyDatabase.java
++++ b/liquibase-core/src/main/java/liquibase/database/core/DerbyDatabase.java
+@@ -142 +142 @@ public class DerbyDatabase extends AbstractJdbcDatabase {
+-        if (driverName.toLowerCase().contains("embedded")) {
++        if (driverName != null && driverName.toLowerCase().contains("embedded")) {

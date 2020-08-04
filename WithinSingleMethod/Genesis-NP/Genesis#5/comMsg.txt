@@ -1,0 +1,1 @@
+exhaustive search: fix NPE during FULL_ASSERT

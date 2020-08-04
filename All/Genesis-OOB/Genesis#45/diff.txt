@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/command/script/OScriptManager.java b/core/src/main/java/com/orientechnologies/orient/core/command/script/OScriptManager.java
+index f4a317c..8c5bd4e 100644
+--- a/core/src/main/java/com/orientechnologies/orient/core/command/script/OScriptManager.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/command/script/OScriptManager.java
+@@ -241 +241 @@ public class OScriptManager {
+-            final String[] words = OStringParser.getWords(currentLine.substring(pos + "function".length() + 1), " \r\n\t");
++            final String[] words = OStringParser.getWords(currentLine.substring(Math.min(pos + "function".length() + 1, currentLine.length())), " \r\n\t");

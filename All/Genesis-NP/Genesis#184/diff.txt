@@ -1,0 +1,8 @@
+diff --git a/src/main/java/redis/clients/jedis/BuilderFactory.java b/src/main/java/redis/clients/jedis/BuilderFactory.java
+index ad94282..8a2320a 100644
+--- a/src/main/java/redis/clients/jedis/BuilderFactory.java
++++ b/src/main/java/redis/clients/jedis/BuilderFactory.java
+@@ -10 +10,2 @@ public class BuilderFactory {
+-            return Double.valueOf(STRING.build(data));
++            String asString = STRING.build(data);
++            return asString == null ? null : Double.valueOf(asString);

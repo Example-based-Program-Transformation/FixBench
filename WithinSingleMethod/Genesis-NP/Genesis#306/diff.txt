@@ -1,0 +1,8 @@
+diff --git a/logback-classic/src/main/java/ch/qos/logback/classic/net/server/RemoteAppenderStreamClient.java b/logback-classic/src/main/java/ch/qos/logback/classic/net/server/RemoteAppenderStreamClient.java
+index 82dc106..49c1585 100644
+--- a/logback-classic/src/main/java/ch/qos/logback/classic/net/server/RemoteAppenderStreamClient.java
++++ b/logback-classic/src/main/java/ch/qos/logback/classic/net/server/RemoteAppenderStreamClient.java
+@@ -122,0 +123 @@ class RemoteAppenderStreamClient implements RemoteAppenderClient {
++      if (ois != null) {
+@@ -128,0 +130 @@ class RemoteAppenderStreamClient implements RemoteAppenderClient {
++      }

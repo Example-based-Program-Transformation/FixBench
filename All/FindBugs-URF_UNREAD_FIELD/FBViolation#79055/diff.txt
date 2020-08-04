@@ -1,0 +1,12 @@
+diff --git a/src/main/java/in/twizmwaz/cardinal/module/modules/buildHeight/BuildHeight.java b/src/main/java/in/twizmwaz/cardinal/module/modules/buildHeight/BuildHeight.java
+index f35c88f0..d5b15dcc 100644
+--- a/src/main/java/in/twizmwaz/cardinal/module/modules/buildHeight/BuildHeight.java
++++ b/src/main/java/in/twizmwaz/cardinal/module/modules/buildHeight/BuildHeight.java
+@@ -16 +15,0 @@ import org.bukkit.event.world.StructureGrowEvent;
+-import org.bukkit.plugin.java.JavaPlugin;
+@@ -23 +21,0 @@ public class BuildHeight implements Module {
+-    private final JavaPlugin plugin;
+@@ -26,2 +24 @@ public class BuildHeight implements Module {
+-    protected BuildHeight(JavaPlugin plugin, int height) {
+-        this.plugin = plugin;
++    protected BuildHeight(int height) {

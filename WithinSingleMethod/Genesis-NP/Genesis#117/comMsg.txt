@@ -1,0 +1,1 @@
+Fixes nullpointer when no parameters are registered

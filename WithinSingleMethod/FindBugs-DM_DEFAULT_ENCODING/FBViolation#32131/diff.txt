@@ -1,0 +1,8 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/Common.java b/src/main/java/fr/ens/transcriptome/eoulsan/Common.java
+index 385a070f..0294da68 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/Common.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/Common.java
+@@ -59 +59,2 @@ public final class Common {
+-    final Writer writer = new OutputStreamWriter(os);
++    final Writer writer =
++        new OutputStreamWriter(os, Globals.DEFAULT_FILE_ENCODING);

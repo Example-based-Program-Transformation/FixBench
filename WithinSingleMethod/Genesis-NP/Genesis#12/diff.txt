@@ -1,0 +1,8 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/transport/HttpAuthMethod.java b/org.eclipse.jgit/src/org/eclipse/jgit/transport/HttpAuthMethod.java
+index 3594ea9..998f280 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/transport/HttpAuthMethod.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/transport/HttpAuthMethod.java
+@@ -222 +222,2 @@ boolean authorize(URIish uri, CredentialsProvider credentialsProvider) {
+-				password = new String(p.getValue());
++				char[] v = p.getValue();
++				password = (v == null) ? null : new String(p.getValue());

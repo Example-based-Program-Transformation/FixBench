@@ -1,0 +1,1 @@
+load() operations now return LoadResult<?> instead of Ref<?>

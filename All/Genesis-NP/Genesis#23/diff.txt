@@ -1,0 +1,14 @@
+diff --git a/src/main/java/com/zaxxer/hikari/HikariConfig.java b/src/main/java/com/zaxxer/hikari/HikariConfig.java
+index ea60976..c6affab 100644
+--- a/src/main/java/com/zaxxer/hikari/HikariConfig.java
++++ b/src/main/java/com/zaxxer/hikari/HikariConfig.java
+@@ -706,0 +707,4 @@ public class HikariConfig implements HikariConfigMBean
++      if (poolName == null) {
++         poolName = "HikariPool-" + poolNumber++;
++      }
++
+@@ -734,4 +737,0 @@ public class HikariConfig implements HikariConfigMBean
+-      if (poolName == null) {
+-         poolName = "HikariPool-" + poolNumber++;
+-      }
+-

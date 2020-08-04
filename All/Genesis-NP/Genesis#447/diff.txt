@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/zeromq/ZMsg.java b/src/main/java/org/zeromq/ZMsg.java
+index 3f701da..d906966 100644
+--- a/src/main/java/org/zeromq/ZMsg.java
++++ b/src/main/java/org/zeromq/ZMsg.java
+@@ -401,0 +402,3 @@ public class ZMsg implements Iterable<ZFrame>, Deque<ZFrame>
++        if (frames == null) {
++            return;
++        }

@@ -1,0 +1,11 @@
+diff --git a/src/org/jgroups/protocols/FRAG.java b/src/org/jgroups/protocols/FRAG.java
+index 0a6c1fc02..9ef1f0df6 100644
+--- a/src/org/jgroups/protocols/FRAG.java
++++ b/src/org/jgroups/protocols/FRAG.java
+@@ -54,4 +53,0 @@ public class FRAG extends Protocol {
+-    @Property(description="The max size in bytes for the byte array output buffer",
+-              deprecatedMessage="not used anymore")
+-    @Deprecated
+-    private int max_retained_buffer=70000;
+@@ -59 +54,0 @@ public class FRAG extends Protocol {
+-

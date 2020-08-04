@@ -1,0 +1,8 @@
+diff --git a/openid-connect-server/src/main/java/org/mitre/openid/connect/service/impl/MITREidDataService_1_1.java b/openid-connect-server/src/main/java/org/mitre/openid/connect/service/impl/MITREidDataService_1_1.java
+index 4117f0b..1572242 100644
+--- a/openid-connect-server/src/main/java/org/mitre/openid/connect/service/impl/MITREidDataService_1_1.java
++++ b/openid-connect-server/src/main/java/org/mitre/openid/connect/service/impl/MITREidDataService_1_1.java
+@@ -278,0 +279 @@ public class MITREidDataService_1_1 implements MITREidDataService {
++        if(authReq.getResourceIds() != null) {
+@@ -281,0 +283 @@ public class MITREidDataService_1_1 implements MITREidDataService {
++        }

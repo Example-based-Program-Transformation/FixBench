@@ -1,0 +1,1 @@
+Using the oomKillDisable flag throws a null pointer exception.

@@ -1,0 +1,9 @@
+diff --git a/IDE/src/main/java/org/sikuli/scriptrunner/ScriptingSupport.java b/IDE/src/main/java/org/sikuli/scriptrunner/ScriptingSupport.java
+index 913453f..e1c5437 100644
+--- a/IDE/src/main/java/org/sikuli/scriptrunner/ScriptingSupport.java
++++ b/IDE/src/main/java/org/sikuli/scriptrunner/ScriptingSupport.java
+@@ -421,0 +422,4 @@ public class ScriptingSupport {
++		if (runScripts == null) {
++			runTime.terminate(1, "option -r without any script");
++		}
++

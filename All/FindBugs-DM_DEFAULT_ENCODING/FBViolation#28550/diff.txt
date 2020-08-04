@@ -1,0 +1,7 @@
+diff --git a/src/main/java/hudson/remoting/Launcher.java b/src/main/java/hudson/remoting/Launcher.java
+index 083165ae..02e50ad2 100644
+--- a/src/main/java/hudson/remoting/Launcher.java
++++ b/src/main/java/hudson/remoting/Launcher.java
+@@ -254 +254 @@ public class Launcher {
+-                    String encoding = Base64.encode(userPassword.getBytes());
++                    String encoding = Base64.encode(userPassword.getBytes("UTF-8"));

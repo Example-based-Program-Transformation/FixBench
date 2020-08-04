@@ -1,0 +1,10 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/MapperResult2SAMInputStream.java b/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/MapperResult2SAMInputStream.java
+index 3e120f6b..4f120831 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/MapperResult2SAMInputStream.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/MapperResult2SAMInputStream.java
+@@ -38,0 +39,2 @@ import com.google.common.collect.Lists;
++import fr.ens.transcriptome.eoulsan.Globals;
++
+@@ -74 +76 @@ public class MapperResult2SAMInputStream extends FilterInputStream {
+-        - this.pos));
++        - this.pos, Globals.DEFAULT_CHARSET));

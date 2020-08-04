@@ -1,0 +1,1 @@
+Fix NullpointerException occured on referring Historic Variable(Serializable Type) #753

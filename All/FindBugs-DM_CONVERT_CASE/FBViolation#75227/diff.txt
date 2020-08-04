@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/document/impl/export/_ExportMathCompare.java b/src/main/java/org/optimizationBenchmarking/utils/document/impl/export/_ExportMathCompare.java
+index fa48edc8..2b59126d 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/document/impl/export/_ExportMathCompare.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/document/impl/export/_ExportMathCompare.java
+@@ -5,0 +6 @@ import org.optimizationBenchmarking.utils.document.spec.EMathComparison;
++import org.optimizationBenchmarking.utils.text.TextUtils;
+@@ -33 +34 @@ final class _ExportMathCompare extends MathCompare {
+-    out.append(this.getComparison().toString().toLowerCase());
++    out.append(TextUtils.toLowerCase(this.getComparison().toString()));

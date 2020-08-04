@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/redisson/connection/ClusterConnectionManager.java b/src/main/java/org/redisson/connection/ClusterConnectionManager.java
+index 3efa79f..33c93b6 100644
+--- a/src/main/java/org/redisson/connection/ClusterConnectionManager.java
++++ b/src/main/java/org/redisson/connection/ClusterConnectionManager.java
+@@ -55,0 +56,2 @@ public class ClusterConnectionManager extends MasterSlaveConnectionManager {
++        this.config = create(cfg);
++
+@@ -76,2 +77,0 @@ public class ClusterConnectionManager extends MasterSlaveConnectionManager {
+-        this.config = create(cfg);
+-

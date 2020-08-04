@@ -1,0 +1,18 @@
+diff --git a/liquibase-core/src/main/java/liquibase/changelog/StandardChangeLogHistoryService.java b/liquibase-core/src/main/java/liquibase/changelog/StandardChangeLogHistoryService.java
+index 1cd27b4..3442b1a 100644
+--- a/liquibase-core/src/main/java/liquibase/changelog/StandardChangeLogHistoryService.java
++++ b/liquibase-core/src/main/java/liquibase/changelog/StandardChangeLogHistoryService.java
+@@ -108 +108,3 @@ public class StandardChangeLogHistoryService extends AbstractChangeLogHistorySer
+-                Integer columnSize = changeLogTable.getColumn("LIQUIBASE").getType().getColumnSize();
++                Column liquibaseColumn = changeLogTable.getColumn("LIQUIBASE");
++                if (liquibaseColumn != null) {
++                    Integer columnSize = liquibaseColumn.getType().getColumnSize();
+@@ -110,0 +113 @@ public class StandardChangeLogHistoryService extends AbstractChangeLogHistorySer
++            }
+@@ -114 +117,3 @@ public class StandardChangeLogHistoryService extends AbstractChangeLogHistorySer
+-                Integer columnSize = changeLogTable.getColumn("MD5SUM").getType().getColumnSize();
++                Column md5SumColumn = changeLogTable.getColumn("MD5SUM");
++                if (md5SumColumn != null) {
++                    Integer columnSize = md5SumColumn.getType().getColumnSize();
+@@ -116,0 +122 @@ public class StandardChangeLogHistoryService extends AbstractChangeLogHistorySer
++            }

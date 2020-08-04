@@ -1,0 +1,11 @@
+diff --git a/parsers/src/main/java/org/coode/owlapi/latex/LatexAxiomsListOntologyFormat.java b/parsers/src/main/java/org/coode/owlapi/latex/LatexAxiomsListOntologyFormat.java
+index a2b9cd76c..323859aef 100644
+--- a/parsers/src/main/java/org/coode/owlapi/latex/LatexAxiomsListOntologyFormat.java
++++ b/parsers/src/main/java/org/coode/owlapi/latex/LatexAxiomsListOntologyFormat.java
+@@ -50,5 +50 @@ public class LatexAxiomsListOntologyFormat extends OWLOntologyFormat {
+-
+-	@SuppressWarnings("javadoc")
+-    public LatexAxiomsListOntologyFormat() {
+-    }
+-
++    private static final long serialVersionUID = 30405L;

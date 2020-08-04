@@ -1,0 +1,1 @@
+#316 Adding a null instead of child causes NPE

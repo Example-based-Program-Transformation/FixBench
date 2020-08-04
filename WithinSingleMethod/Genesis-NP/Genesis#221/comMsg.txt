@@ -1,0 +1,1 @@
+fixed: runScript: possible NPE when using -r with no script

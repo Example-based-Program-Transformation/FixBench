@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/sequencediagram/command/CommandGrouping.java b/src/net/sourceforge/plantuml/sequencediagram/command/CommandGrouping.java
+index 39c29e77..61769e2c 100644
+--- a/src/net/sourceforge/plantuml/sequencediagram/command/CommandGrouping.java
++++ b/src/net/sourceforge/plantuml/sequencediagram/command/CommandGrouping.java
+@@ -31 +31 @@
+- * Revision $Revision: 14321 $
++ * Revision $Revision: 14727 $
+@@ -66 +66 @@ public class CommandGrouping extends SingleLineCommand2<SequenceDiagram> {
+-		String type = arg.get("TYPE", 0).toLowerCase();
++		String type = StringUtils.goLowerCase(arg.get("TYPE", 0));

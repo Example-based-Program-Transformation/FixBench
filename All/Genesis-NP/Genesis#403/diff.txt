@@ -1,0 +1,7 @@
+diff --git a/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java b/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+index 931d022..a6b1615 100755
+--- a/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
++++ b/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+@@ -247 +247 @@ public class ONetworkProtocolBinary extends OBinaryNetworkProtocolAbstract {
+-          if (!connection.database.isClosed())
++          if (!connection.database.isClosed() && connection.database.getLocalCache() != null)

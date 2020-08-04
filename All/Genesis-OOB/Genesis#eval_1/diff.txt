@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/roaringbitmap/RunContainer.java b/src/main/java/org/roaringbitmap/RunContainer.java
+index 8b10788..7070576 100644
+--- a/src/main/java/org/roaringbitmap/RunContainer.java
++++ b/src/main/java/org/roaringbitmap/RunContainer.java
+@@ -674 +674,2 @@ public final class RunContainer extends Container implements Cloneable {
+-        if (valueslength.length <= 2*nbrruns)  {
++        // the +1 below is needed in case the valueslength.length is odd
++        if (valueslength.length <= 2*nbrruns+1)  {

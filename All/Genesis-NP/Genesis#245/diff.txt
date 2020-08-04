@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/mapdb/StoreWAL.java b/src/main/java/org/mapdb/StoreWAL.java
+index df961f1..d9a9f5d 100644
+--- a/src/main/java/org/mapdb/StoreWAL.java
++++ b/src/main/java/org/mapdb/StoreWAL.java
+@@ -1018,0 +1019 @@ public class StoreWAL extends StoreCached {
++                    walCCompact = null;

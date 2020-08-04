@@ -1,0 +1,9 @@
+diff --git a/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/variable/listener/support/VariableListenerSupport.java b/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/variable/listener/support/VariableListenerSupport.java
+index 2cec1d2..fb25453 100644
+--- a/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/variable/listener/support/VariableListenerSupport.java
++++ b/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/variable/listener/support/VariableListenerSupport.java
+@@ -102,0 +103,2 @@ public class VariableListenerSupport implements SupplyManager {
++                // An external ScoreDirector can be created before the working solution is set
++                if (scoreDirector.getWorkingSolution() != null) {
+@@ -103,0 +106 @@ public class VariableListenerSupport implements SupplyManager {
++                }

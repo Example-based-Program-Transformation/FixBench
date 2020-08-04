@@ -1,0 +1,7 @@
+Id:14
+SATName:Genesis
+modifiedFPath:org.eclipse.jgit/src/org/eclipse/jgit/api/CloneCommand.java
+comSha:852963db3b6c58533e36104bf17f8758fd6071dc
+parentComSha:852963db3b6c58533e36104bf17f8758fd6071dc^1
+githubUrl:https://github.com/eclipse/jgit
+repoName:eclipse#jgit

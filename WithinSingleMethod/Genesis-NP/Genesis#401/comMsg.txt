@@ -1,0 +1,1 @@
+fixed issue #4284 - NullPointerException when querying out vertices

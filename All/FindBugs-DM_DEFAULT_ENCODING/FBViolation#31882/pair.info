@@ -1,0 +1,8 @@
+Id:31882
+comSha:a8aa6a4d759a91a3a112cfecab982ca64e4135fd
+parentComSha:d118dfdf1a72f3e4a0f33ced5071e4d1038c9620
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/STARReadsMapper.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/STARReadsMapper.java
+StartLineNum:88
+EndLineNum:88
+repoName:GenomicParisCentre#eoulsan

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/jongo/marshall/jackson/JacksonObjectIdUpdater.java b/src/main/java/org/jongo/marshall/jackson/JacksonObjectIdUpdater.java
+index 46adf96..4838177 100644
+--- a/src/main/java/org/jongo/marshall/jackson/JacksonObjectIdUpdater.java
++++ b/src/main/java/org/jongo/marshall/jackson/JacksonObjectIdUpdater.java
+@@ -87 +87 @@ public class JacksonObjectIdUpdater implements ObjectIdUpdater {
+-                || ObjectId.class.isAssignableFrom(property.getField().getRawType());
++                || ObjectId.class.isAssignableFrom(property.getAccessor().getRawType());

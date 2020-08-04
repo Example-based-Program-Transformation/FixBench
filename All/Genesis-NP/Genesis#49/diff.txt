@@ -1,0 +1,9 @@
+diff --git a/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryEntityController.java b/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryEntityController.java
+index 8127182..b670ad9 100644
+--- a/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryEntityController.java
++++ b/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryEntityController.java
+@@ -362,0 +363,4 @@ class RepositoryEntityController extends AbstractRepositoryRestController implem
++		if (domainObj == null) {
++			throw new ResourceNotFoundException();
++		}
++

@@ -1,0 +1,1 @@
+findbugs SolutionDescriptor defines non-transient non-serializable instance field solutionBeanInfo

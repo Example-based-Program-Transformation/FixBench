@@ -1,0 +1,7 @@
+diff --git a/processor/src/main/java/org/mapstruct/ap/MappingProcessor.java b/processor/src/main/java/org/mapstruct/ap/MappingProcessor.java
+index dba726e..3b8ece2 100644
+--- a/processor/src/main/java/org/mapstruct/ap/MappingProcessor.java
++++ b/processor/src/main/java/org/mapstruct/ap/MappingProcessor.java
+@@ -140 +140 @@ public boolean process(final Set<? extends TypeElement> annotations, final Round
+-                if ( MapperPrism.getInstanceOn( mapperTypeElement ) == null ) {
++                if ( mapperTypeElement == null || MapperPrism.getInstanceOn( mapperTypeElement ) == null ) {

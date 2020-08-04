@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/mapdb/Volume.java b/src/main/java/org/mapdb/Volume.java
+index 406d700..19d9a07 100644
+--- a/src/main/java/org/mapdb/Volume.java
++++ b/src/main/java/org/mapdb/Volume.java
+@@ -680,0 +681,6 @@ public abstract class Volume {
++            if(parent == null) {
++                parent = file.getCanonicalFile().getParentFile();
++            }
++            if (parent == null) {
++                throw new IOException("Parent folder could not be determined for: "+file);
++            }

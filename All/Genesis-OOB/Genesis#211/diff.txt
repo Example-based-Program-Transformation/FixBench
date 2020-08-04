@@ -1,0 +1,7 @@
+diff --git a/maven-reporting-impl/src/main/java/org/apache/maven/reporting/AbstractMavenReportRenderer.java b/maven-reporting-impl/src/main/java/org/apache/maven/reporting/AbstractMavenReportRenderer.java
+index 72411a2..63237b9 100644
+--- a/maven-reporting-impl/src/main/java/org/apache/maven/reporting/AbstractMavenReportRenderer.java
++++ b/maven-reporting-impl/src/main/java/org/apache/maven/reporting/AbstractMavenReportRenderer.java
+@@ -691 +691 @@ public abstract class AbstractMavenReportRenderer
+-            if ( lastComma != -1 && lastSemi != -1 )
++            if ( lastComma != -1 && lastSemi != -1 && lastComma < lastSemi )

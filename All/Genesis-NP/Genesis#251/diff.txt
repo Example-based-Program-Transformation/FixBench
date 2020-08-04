@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/mapdb/CacheWeakSoftRef.java b/src/main/java/org/mapdb/CacheWeakSoftRef.java
+index a162b66..ed5cd32 100644
+--- a/src/main/java/org/mapdb/CacheWeakSoftRef.java
++++ b/src/main/java/org/mapdb/CacheWeakSoftRef.java
+@@ -98,0 +99 @@ public class CacheWeakSoftRef extends EngineWrapper implements Engine {
++            if(queue == null)return;

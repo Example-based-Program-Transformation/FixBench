@@ -1,0 +1,13 @@
+diff --git a/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/ResourceProcessorHandlerMethodReturnValueHandler.java b/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/ResourceProcessorHandlerMethodReturnValueHandler.java
+index 50a6ec2..210d491 100644
+--- a/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/ResourceProcessorHandlerMethodReturnValueHandler.java
++++ b/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/ResourceProcessorHandlerMethodReturnValueHandler.java
+@@ -442 +442,7 @@ public class ResourceProcessorHandlerMethodReturnValueHandler implements Handler
+-			TypeInformation<?> resourceTypeInformation = target.getSuperTypeInformation(resourcesType).getComponentType();
++			TypeInformation<?> superTypeInformation = target.getSuperTypeInformation(resourcesType);
++
++			if (superTypeInformation == null) {
++				return false;
++			}
++
++			TypeInformation<?> resourceTypeInformation = superTypeInformation.getComponentType();

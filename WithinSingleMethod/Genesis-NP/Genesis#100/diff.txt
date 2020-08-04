@@ -1,0 +1,10 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java
+index b83a284..6ff7cb1 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java
+@@ -266,3 +266,2 @@ public class AbbreviationAsWordInNameCheck extends Check
+-                final String annotationText =
+-                        child.findFirstToken(TokenTypes.IDENT).getText();
+-                if ("Override".equals(annotationText)) {
++                final DetailAST annotationIdent = child.findFirstToken(TokenTypes.IDENT);
++                if (annotationIdent != null && "Override".equals(annotationIdent.getText())) {

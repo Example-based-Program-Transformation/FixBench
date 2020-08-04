@@ -1,0 +1,4 @@
+Merge pull request #23 from fmmfonseca/skip_external_relationships
+
+skip external relationships in RelationshipsPart.getRel().
+TMP FIX (since in principle, you should be able to get an external rel)

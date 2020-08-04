@@ -1,0 +1,10 @@
+diff --git a/src/main/java/ch/metzenthin/svm/domain/model/ListenExportModelImpl.java b/src/main/java/ch/metzenthin/svm/domain/model/ListenExportModelImpl.java
+index f394f9c..ab0db69 100644
+--- a/src/main/java/ch/metzenthin/svm/domain/model/ListenExportModelImpl.java
++++ b/src/main/java/ch/metzenthin/svm/domain/model/ListenExportModelImpl.java
+@@ -166 +166 @@ public class ListenExportModelImpl extends AbstractModel implements ListenExport
+-                    titleInit = titleInit + " Gruppe " + schuelerSuchenTableModel.getGruppe().toString().toUpperCase();
++                    titleInit = titleInit + " Gruppe " + schuelerSuchenTableModel.getGruppe().toString();
+@@ -175 +175 @@ public class ListenExportModelImpl extends AbstractModel implements ListenExport
+-                    titleInit = titleInit + " Gruppe " + schuelerSuchenTableModel.getGruppe().toString().toUpperCase();
++                    titleInit = titleInit + " Gruppe " + schuelerSuchenTableModel.getGruppe().toString();

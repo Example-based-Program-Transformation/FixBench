@@ -1,0 +1,1 @@
+Fix for #303 NullPointer exception when loops are empty in spec file

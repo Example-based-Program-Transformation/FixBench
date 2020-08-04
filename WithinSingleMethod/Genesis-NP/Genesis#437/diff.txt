@@ -1,0 +1,7 @@
+diff --git a/rapidoid-http-fast/src/main/java/org/rapidoid/http/ReqImpl.java b/rapidoid-http-fast/src/main/java/org/rapidoid/http/ReqImpl.java
+index 7cafcf9..5481117 100644
+--- a/rapidoid-http-fast/src/main/java/org/rapidoid/http/ReqImpl.java
++++ b/rapidoid-http-fast/src/main/java/org/rapidoid/http/ReqImpl.java
+@@ -378 +378 @@ public class ReqImpl implements Req, Constants, HttpMetadata {
+-		if (response != null || !U.isEmpty(cookies)) {
++		if (response != null) {

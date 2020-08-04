@@ -1,0 +1,1 @@
+fix ArrayOutOfBoundsException when holder doesn't have any stylesheets

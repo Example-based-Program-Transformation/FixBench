@@ -1,0 +1,7 @@
+diff --git a/src/org/jcodings/specific/NonStrictUTF8Encoding.java b/src/org/jcodings/specific/NonStrictUTF8Encoding.java
+index eee4450..81719d9 100644
+--- a/src/org/jcodings/specific/NonStrictUTF8Encoding.java
++++ b/src/org/jcodings/specific/NonStrictUTF8Encoding.java
+@@ -31 +31 @@ public final class NonStrictUTF8Encoding extends BaseUTF8Encoding {
+-        return len == -1 ? 1 : len; 
++        return len < 0 ? 1 : len; 

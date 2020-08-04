@@ -1,0 +1,14 @@
+diff --git a/structr-core/src/main/java/org/structr/rest/GraphObjectGSONAdapter.java b/structr-core/src/main/java/org/structr/rest/GraphObjectGSONAdapter.java
+index cef78b1..4ab1786 100644
+--- a/structr-core/src/main/java/org/structr/rest/GraphObjectGSONAdapter.java
++++ b/structr-core/src/main/java/org/structr/rest/GraphObjectGSONAdapter.java
+@@ -248 +248,8 @@ public class GraphObjectGSONAdapter {
+-			jsonObject.add("id", new JsonPrimitive(source.getUuid()));
++			final String uuid = source.getUuid();
++			if (uuid != null) {
++				jsonObject.add("id", new JsonPrimitive(uuid));
++
++			} else {
++
++				logger.log(Level.WARNING, "Found object without UUID: {0}", source);
++			}

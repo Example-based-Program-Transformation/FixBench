@@ -1,0 +1,1 @@
+fixed:java.lang.NullPointerException at org.opencloudb.parser.druid.DruidShardingParseInfo.addShardingExpr(DruidShardingParseInfo.java:54)

@@ -1,0 +1,12 @@
+diff --git a/galen-core/src/main/java/com/galenframework/speclang2/reader/pagespec/MacroProcessor.java b/galen-core/src/main/java/com/galenframework/speclang2/reader/pagespec/MacroProcessor.java
+index cbfc82a..516583a 100644
+--- a/galen-core/src/main/java/com/galenframework/speclang2/reader/pagespec/MacroProcessor.java
++++ b/galen-core/src/main/java/com/galenframework/speclang2/reader/pagespec/MacroProcessor.java
+@@ -58,0 +59 @@ public class MacroProcessor {
++        if (nodes != null) {
+@@ -60 +60,0 @@ public class MacroProcessor {
+-
+@@ -82,0 +83,3 @@ public class MacroProcessor {
++        } else {
++            return Collections.emptyList();
++        }

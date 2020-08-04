@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java b/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java
+index c9ff80d..8b733ad 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java
+@@ -251 +251 @@ public class ODatabaseDocumentTx extends OListenerManger<ODatabaseListener> impl
+-        if (!name.equals(iUserName)) {
++        if (name== null || !name.equals(iUserName)) {

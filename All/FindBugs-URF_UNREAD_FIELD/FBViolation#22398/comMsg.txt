@@ -1,0 +1,3 @@
+Version 8005
+
+git-svn-id: svn://svn.code.sf.net/p/plantuml/code/trunk@493 2bfd43ce-aac2-44f9-bcbc-61bf0d4e0ab5

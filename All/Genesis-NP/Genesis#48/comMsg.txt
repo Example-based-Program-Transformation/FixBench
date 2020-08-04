@@ -1,0 +1,1 @@
+DATAREST-427 - Fixed NullPointerException in RepositoryRestExceptionHandler.

@@ -1,0 +1,9 @@
+diff --git a/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/Preprocess.java b/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/Preprocess.java
+index 2a8fe37..a508684 100644
+--- a/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/Preprocess.java
++++ b/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/Preprocess.java
+@@ -564,0 +565,4 @@ public class Preprocess extends InternalModule {
++		if (!abbrevMap.containsKey(expAbb)) {
++			logger.warn(String.format("Could not expand unknown abbreviation \"%s\", ignoring", abbrev));
++			return abbrev;
++		}

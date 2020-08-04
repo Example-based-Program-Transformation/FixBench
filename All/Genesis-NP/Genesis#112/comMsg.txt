@@ -1,0 +1,1 @@
+Fix NPE constructor withArguments()

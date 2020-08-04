@@ -1,0 +1,8 @@
+diff --git a/src/main/java/in/twizmwaz/cardinal/module/modules/teamManager/TeamManagerModule.java b/src/main/java/in/twizmwaz/cardinal/module/modules/teamManager/TeamManagerModule.java
+index 3d3c74be..ee41e1ac 100644
+--- a/src/main/java/in/twizmwaz/cardinal/module/modules/teamManager/TeamManagerModule.java
++++ b/src/main/java/in/twizmwaz/cardinal/module/modules/teamManager/TeamManagerModule.java
+@@ -35 +34,0 @@ public class TeamManagerModule implements Module {
+-    private final JavaPlugin plugin;
+@@ -39 +37,0 @@ public class TeamManagerModule implements Module {
+-        this.plugin = GameHandler.getGameHandler().getPlugin();

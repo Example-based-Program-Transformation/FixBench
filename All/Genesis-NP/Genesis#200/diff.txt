@@ -1,0 +1,13 @@
+diff --git a/client/src/main/java/org/asynchttpclient/netty/request/NettyRequestSender.java b/client/src/main/java/org/asynchttpclient/netty/request/NettyRequestSender.java
+index d895348..f26b0c6 100755
+--- a/client/src/main/java/org/asynchttpclient/netty/request/NettyRequestSender.java
++++ b/client/src/main/java/org/asynchttpclient/netty/request/NettyRequestSender.java
+@@ -363 +362,0 @@ public final class NettyRequestSender {
+-        nettyResponseFuture.touch();
+@@ -364,0 +364,4 @@ public final class NettyRequestSender {
++        if (timeoutsHolder != null) {
++            // on very fast requests, it's entirely possible that the response has already been completed
++            // by the time we try to schedule the read timeout
++            nettyResponseFuture.touch();
+@@ -366,0 +370 @@ public final class NettyRequestSender {
++    }

@@ -1,0 +1,1 @@
+Fixing IndexOutOfBoundsException when handling BatchResults

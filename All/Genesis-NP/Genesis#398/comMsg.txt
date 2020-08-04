@@ -1,0 +1,1 @@
+fix null pointer during traversal of missing record

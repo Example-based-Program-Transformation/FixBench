@@ -1,0 +1,9 @@
+diff --git a/client/src/main/java/com/metamx/druid/curator/inventory/CuratorInventoryManager.java b/client/src/main/java/com/metamx/druid/curator/inventory/CuratorInventoryManager.java
+index ab1e31b..bfd7548 100644
+--- a/client/src/main/java/com/metamx/druid/curator/inventory/CuratorInventoryManager.java
++++ b/client/src/main/java/com/metamx/druid/curator/inventory/CuratorInventoryManager.java
+@@ -290,0 +291,4 @@ public class CuratorInventoryManager<ContainerClass, InventoryClass>
++        if (inventoryKey == null) {
++          return;
++        }
++

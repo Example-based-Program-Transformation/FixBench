@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/jolokia/docker/maven/access/log/LogRequestor.java b/src/main/java/org/jolokia/docker/maven/access/log/LogRequestor.java
+index ad865d4..7aecd26 100644
+--- a/src/main/java/org/jolokia/docker/maven/access/log/LogRequestor.java
++++ b/src/main/java/org/jolokia/docker/maven/access/log/LogRequestor.java
+@@ -31,0 +32 @@ import org.jolokia.docker.maven.util.Timestamp;
++import static java.lang.Math.min;
+@@ -106 +106,0 @@ public class LogRequestor extends Thread implements LogGetHandle {
+-            byte[] buf = new byte[8129];
+@@ -109,0 +110 @@ public class LogRequestor extends Thread implements LogGetHandle {
++                byte[] buf = new byte[declaredLength];

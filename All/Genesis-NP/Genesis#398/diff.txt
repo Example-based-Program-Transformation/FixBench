@@ -1,0 +1,11 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLFilterCondition.java b/core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLFilterCondition.java
+index 19fa6a2..b34d054 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLFilterCondition.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLFilterCondition.java
+@@ -303 +303,3 @@ public class OSQLFilterCondition {
+-    if (iCurrentRecord != null && iCurrentRecord.getRecord().getInternalStatus() == ORecordElement.STATUS.NOT_LOADED) {
++    if (iCurrentRecord != null) {
++      iCurrentRecord = iCurrentRecord.getRecord();
++      if (iCurrentRecord!=null && ((ODocument)iCurrentRecord).getInternalStatus() == ORecordElement.STATUS.NOT_LOADED) {
+@@ -309,0 +312 @@ public class OSQLFilterCondition {
++    }

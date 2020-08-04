@@ -1,0 +1,7 @@
+diff --git a/addon-layers-repository-mongo/src/main/java/org/springframework/roo/addon/layers/repository/mongo/RepositoryMongoMetadataProviderImpl.java b/addon-layers-repository-mongo/src/main/java/org/springframework/roo/addon/layers/repository/mongo/RepositoryMongoMetadataProviderImpl.java
+index f2379c8..865eca8 100644
+--- a/addon-layers-repository-mongo/src/main/java/org/springframework/roo/addon/layers/repository/mongo/RepositoryMongoMetadataProviderImpl.java
++++ b/addon-layers-repository-mongo/src/main/java/org/springframework/roo/addon/layers/repository/mongo/RepositoryMongoMetadataProviderImpl.java
+@@ -122 +122 @@ public class RepositoryMongoMetadataProviderImpl extends
+-        final JavaType identifierType = persistenceMemberLocator
++        final JavaType identifierType = getPersistenceMemberLocator()

@@ -1,0 +1,7 @@
+diff --git a/parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntaxHTMLOntologyFormat.java b/parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntaxHTMLOntologyFormat.java
+index 389421dd8..6e4e55ba8 100644
+--- a/parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntaxHTMLOntologyFormat.java
++++ b/parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntaxHTMLOntologyFormat.java
+@@ -48,0 +49,2 @@ public class DLSyntaxHTMLOntologyFormat extends OWLOntologyFormat {
++    private static final long serialVersionUID = 40000L;
++

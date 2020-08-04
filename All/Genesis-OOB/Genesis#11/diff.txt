@@ -1,0 +1,10 @@
+diff --git a/src/main/java/com/beust/jcommander/JCommander.java b/src/main/java/com/beust/jcommander/JCommander.java
+index 615b638..0175a78 100644
+--- a/src/main/java/com/beust/jcommander/JCommander.java
++++ b/src/main/java/com/beust/jcommander/JCommander.java
+@@ -482,0 +483 @@ public class JCommander {
++              if (i < args.length - 1) {
+@@ -493,0 +495,3 @@ public class JCommander {
++              } else {
++                throw new ParameterException("Expected a value after parameter " + arg);
++              }

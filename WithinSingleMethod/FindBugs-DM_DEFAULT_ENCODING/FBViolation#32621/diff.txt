@@ -1,0 +1,7 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java b/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java
+index d69fb38e..67d458be 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java
+@@ -192 +192 @@ public class SAMFilterMapper extends Mapper<LongWritable, Text, Text, Text> {
+-                context.getConfiguration()));
++                context.getConfiguration()), "ISO-8859-1");

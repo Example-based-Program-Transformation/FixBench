@@ -1,0 +1,8 @@
+Id:77943
+comSha:f693f6c753186c92bcf5b5ab2b9e1ae234da1429
+parentComSha:58d4404e84ac69958f949f33c3eb246dc91bb15f
+BuggyFilePath:core/src/main/java/com/graphhopper/GraphHopper.java
+FixedFilePath:core/src/main/java/com/graphhopper/GraphHopper.java
+StartLineNum:65
+EndLineNum:65
+repoName:graphhopper#graphhopper

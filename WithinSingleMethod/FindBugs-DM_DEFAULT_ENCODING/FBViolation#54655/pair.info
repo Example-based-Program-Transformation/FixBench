@@ -1,0 +1,8 @@
+Id:54655
+comSha:283dcae297eda64826cd9130aaed02d34ed81eaa
+parentComSha:566f36e57716c31d9e7f985e0b5e617b2da6889a
+BuggyFilePath:src/main/java/org/codesecure/dependencycheck/analyzer/JarAnalyzer.java
+FixedFilePath:src/main/java/org/codesecure/dependencycheck/analyzer/JarAnalyzer.java
+StartLineNum:232
+EndLineNum:232
+repoName:jeremylong#DependencyCheck

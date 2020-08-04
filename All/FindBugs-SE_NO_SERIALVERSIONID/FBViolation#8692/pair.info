@@ -1,0 +1,8 @@
+Id:8692
+comSha:eb571d9053962d98bd61fc4b800f0d215265ee98
+parentComSha:3102d9eae87f8512a8110661e7f5e5a293919886
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/BusinessRuleTaskActivityBehavior.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/BusinessRuleTaskActivityBehavior.java
+StartLineNum:39
+EndLineNum:102
+repoName:Activiti#Activiti

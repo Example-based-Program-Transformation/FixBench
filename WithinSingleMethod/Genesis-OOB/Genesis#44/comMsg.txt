@@ -1,0 +1,1 @@
+Fix index out of bounds for key-value with no value

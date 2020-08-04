@@ -1,0 +1,7 @@
+diff --git a/src/main/java/net/mindengine/galen/validation/PageValidation.java b/src/main/java/net/mindengine/galen/validation/PageValidation.java
+index 27e73be..13919b7 100644
+--- a/src/main/java/net/mindengine/galen/validation/PageValidation.java
++++ b/src/main/java/net/mindengine/galen/validation/PageValidation.java
+@@ -63 +63 @@ public class PageValidation {
+-        if (spec.isOnlyWarn()) {
++        if (spec.isOnlyWarn() && result.getError() != null) {

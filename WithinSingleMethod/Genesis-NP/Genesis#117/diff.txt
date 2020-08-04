@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/thymeleaf/standard/fragment/StandardFragment.java b/src/main/java/org/thymeleaf/standard/fragment/StandardFragment.java
+index 4e462c1..a4435f4 100755
+--- a/src/main/java/org/thymeleaf/standard/fragment/StandardFragment.java
++++ b/src/main/java/org/thymeleaf/standard/fragment/StandardFragment.java
+@@ -121 +121 @@ public IFragmentSpec getFragmentSpec() {
+-     * @return the map of parameters.
++     * @return the map of parameters. May return null if no parameters exist.
+@@ -123,0 +124,3 @@ public IFragmentSpec getFragmentSpec() {
++        if (this.parameters == null) {
++            return null;
++        }

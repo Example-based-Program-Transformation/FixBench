@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/docx4j/openpackaging/parts/WordprocessingML/MainDocumentPart.java b/src/main/java/org/docx4j/openpackaging/parts/WordprocessingML/MainDocumentPart.java
+index f73d9a8..cb1055d 100644
+--- a/src/main/java/org/docx4j/openpackaging/parts/WordprocessingML/MainDocumentPart.java
++++ b/src/main/java/org/docx4j/openpackaging/parts/WordprocessingML/MainDocumentPart.java
+@@ -549,0 +550 @@ public class MainDocumentPart extends DocumentPart<org.docx4j.wml.Document> impl
++							if (stylesInUse !=null) { 
+@@ -558,0 +560 @@ public class MainDocumentPart extends DocumentPart<org.docx4j.wml.Document> impl
++				}

@@ -1,0 +1,10 @@
+diff --git a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedPrimaryKeyChangeGenerator.java b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedPrimaryKeyChangeGenerator.java
+index b989321..92de8b0 100644
+--- a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedPrimaryKeyChangeGenerator.java
++++ b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedPrimaryKeyChangeGenerator.java
+@@ -60 +60,4 @@ public class ChangedPrimaryKeyChangeGenerator  implements ChangedObjectChangeGen
+-                returnList.addAll(Arrays.asList(ChangeGeneratorFactory.getInstance().fixMissing(backingIndex, control, referenceDatabase, comparisonDatabase)));
++                Change[] indexChanges = ChangeGeneratorFactory.getInstance().fixMissing(backingIndex, control, referenceDatabase, comparisonDatabase);
++                if (indexChanges != null) {
++                    returnList.addAll(Arrays.asList(indexChanges));
++                }

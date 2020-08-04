@@ -1,0 +1,27 @@
+diff --git a/ninja-core/src/main/java/ninja/template/TemplateEngineManagerImpl.java b/ninja-core/src/main/java/ninja/template/TemplateEngineManagerImpl.java
+index 06596b7..8cfb2e1 100644
+--- a/ninja-core/src/main/java/ninja/template/TemplateEngineManagerImpl.java
++++ b/ninja-core/src/main/java/ninja/template/TemplateEngineManagerImpl.java
+@@ -3,3 +2,0 @@ package ninja.template;
+-import com.google.common.collect.ImmutableMap;
+-import com.google.inject.*;
+-
+@@ -8,0 +6,8 @@ import java.util.Map;
++import com.google.common.collect.ImmutableMap;
++import com.google.inject.Binding;
++import com.google.inject.Inject;
++import com.google.inject.Injector;
++import com.google.inject.Key;
++import com.google.inject.Provider;
++import com.google.inject.Singleton;
++
+@@ -43 +48,8 @@ public class TemplateEngineManagerImpl implements TemplateEngineManager {
+-        return contentTypeToTemplateEngineMap.get(contentType).get();
++		Provider<? extends TemplateEngine> provider = contentTypeToTemplateEngineMap
++		        .get(contentType);
++
++		if (provider != null) {
++			return provider.get();
++		} else {
++			return null;
++		}

@@ -1,0 +1,7 @@
+diff --git a/processing/src/main/java/io/druid/query/extraction/PartialDimExtractionFn.java b/processing/src/main/java/io/druid/query/extraction/PartialDimExtractionFn.java
+index 7e2bd29..34c026f 100644
+--- a/processing/src/main/java/io/druid/query/extraction/PartialDimExtractionFn.java
++++ b/processing/src/main/java/io/druid/query/extraction/PartialDimExtractionFn.java
+@@ -61 +61 @@ public class PartialDimExtractionFn implements DimExtractionFn
+-    if (dimValue == null) return null;
++    dimValue = (dimValue == null) ? "" : dimValue;

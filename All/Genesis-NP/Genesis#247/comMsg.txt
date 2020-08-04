@@ -1,0 +1,1 @@
+Fix for NPE while getting parent in Volume.checkFolder - see issue #292 for details.

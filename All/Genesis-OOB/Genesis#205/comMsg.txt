@@ -1,0 +1,1 @@
+COMPRESS-317 ArrayIndexOutOfBoundsException in ZipArchiveEntry#getMergedFields

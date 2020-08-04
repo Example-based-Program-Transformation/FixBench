@@ -1,0 +1,1 @@
+ACT-1309: Fixed NPE for SignalBoundaryEvent on sub process without Task

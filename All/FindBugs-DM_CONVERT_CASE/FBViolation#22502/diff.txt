@@ -1,0 +1,12 @@
+diff --git a/src/net/sourceforge/plantuml/classdiagram/command/CommandCreateClass.java b/src/net/sourceforge/plantuml/classdiagram/command/CommandCreateClass.java
+index de830f24..7cfdd43a 100644
+--- a/src/net/sourceforge/plantuml/classdiagram/command/CommandCreateClass.java
++++ b/src/net/sourceforge/plantuml/classdiagram/command/CommandCreateClass.java
+@@ -35,0 +36,2 @@ package net.sourceforge.plantuml.classdiagram.command;
++import java.util.Locale;
++
+@@ -36,0 +39 @@ import net.sourceforge.plantuml.FontParam;
++import net.sourceforge.plantuml.StringUtils;
+@@ -97 +100 @@ public class CommandCreateClass extends SingleLineCommand2<ClassDiagram> {
+-		final LeafType type = LeafType.getLeafType(arg.get("TYPE", 0).toUpperCase());
++		final LeafType type = LeafType.getLeafType(StringUtils.goUpperCase(arg.get("TYPE", 0)));

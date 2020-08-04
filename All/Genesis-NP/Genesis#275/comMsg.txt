@@ -1,0 +1,1 @@
+CORE-2679 Hibernate diffChangeLog NullPointerException

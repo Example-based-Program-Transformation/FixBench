@@ -1,0 +1,8 @@
+Id:42937
+comSha:646eaad2ce7823a20cf7b163ddfbba4ae2da5bb8
+parentComSha:d90183ca02b77bacafd5346f1776f0782de6bd46
+BuggyFilePath:src/main/java/fr/xephi/authme/datasource/CacheDataSource.java
+FixedFilePath:src/main/java/fr/xephi/authme/datasource/CacheDataSource.java
+StartLineNum:24
+EndLineNum:24
+repoName:Xephi#AuthMeReloaded

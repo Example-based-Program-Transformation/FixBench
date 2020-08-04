@@ -1,0 +1,8 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
+index 0a36a85..fa00362 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
+@@ -404,0 +405 @@ public class BpmnParse extends Parse {
++      if (outMessageRefElement != null) {
+@@ -409,0 +411 @@ public class BpmnParse extends Parse {
++      }

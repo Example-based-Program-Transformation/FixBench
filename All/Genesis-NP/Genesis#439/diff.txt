@@ -1,0 +1,11 @@
+diff --git a/rapidoid-http-fast/src/main/java/org/rapidoid/http/fast/HttpParser.java b/rapidoid-http-fast/src/main/java/org/rapidoid/http/fast/HttpParser.java
+index 0ca4348..d803180 100644
+--- a/rapidoid-http-fast/src/main/java/org/rapidoid/http/fast/HttpParser.java
++++ b/rapidoid-http-fast/src/main/java/org/rapidoid/http/fast/HttpParser.java
+@@ -452 +452 @@ public class HttpParser implements Constants {
+-		if (!completed) {
++		if (!completed && !rBody.isEmpty()) {
+@@ -453,0 +454 @@ public class HttpParser implements Constants {
++			if (jsonData != null) {
+@@ -456,0 +458 @@ public class HttpParser implements Constants {
++	}

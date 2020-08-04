@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/opencloudb/server/handler/ServerLoadDataInfileHandler.java b/src/main/java/org/opencloudb/server/handler/ServerLoadDataInfileHandler.java
+index 3fefd71..69547bd 100644
+--- a/src/main/java/org/opencloudb/server/handler/ServerLoadDataInfileHandler.java
++++ b/src/main/java/org/opencloudb/server/handler/ServerLoadDataInfileHandler.java
+@@ -174,0 +175,2 @@ public final class ServerLoadDataInfileHandler implements LoadDataInfileHandler
++        if(tableConfig!=null)
++        {
+@@ -192 +194 @@ public final class ServerLoadDataInfileHandler implements LoadDataInfileHandler
+-
++        }

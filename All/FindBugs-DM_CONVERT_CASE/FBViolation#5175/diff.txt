@@ -1,0 +1,7 @@
+diff --git a/src/main/java/nodebox/node/NodeLibrary.java b/src/main/java/nodebox/node/NodeLibrary.java
+index db0d8b25..aea3148d 100644
+--- a/src/main/java/nodebox/node/NodeLibrary.java
++++ b/src/main/java/nodebox/node/NodeLibrary.java
+@@ -545 +545 @@ public class NodeLibrary {
+-            node = node.withOutputRange(Port.Range.valueOf(outputRange.toUpperCase()));
++            node = node.withOutputRange(Port.Range.valueOf(outputRange.toUpperCase(Locale.US)));

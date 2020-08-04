@@ -1,0 +1,15 @@
+diff --git a/src/main/java/net/mindengine/galen/specs/reader/page/PageSpecLineProcessor.java b/src/main/java/net/mindengine/galen/specs/reader/page/PageSpecLineProcessor.java
+index ec51286..8230587 100644
+--- a/src/main/java/net/mindengine/galen/specs/reader/page/PageSpecLineProcessor.java
++++ b/src/main/java/net/mindengine/galen/specs/reader/page/PageSpecLineProcessor.java
+@@ -147 +147,9 @@ public class PageSpecLineProcessor {
+-		PageSpec spec = pageSpecReader.read(new File(contextPath + File.separator + filePath.trim()));
++        filePath = filePath.trim();
++        String path;
++        if (contextPath != null) {
++            path = contextPath + File.separator + filePath;
++        }
++        else {
++            path = filePath;
++        }
++		PageSpec spec = pageSpecReader.read(new File(path));

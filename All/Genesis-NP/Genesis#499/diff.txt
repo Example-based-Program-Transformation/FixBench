@@ -1,0 +1,26 @@
+diff --git a/wicket-core/src/main/java/org/apache/wicket/markup/html/form/FormComponent.java b/wicket-core/src/main/java/org/apache/wicket/markup/html/form/FormComponent.java
+index 2b2ae49..660cf53 100644
+--- a/wicket-core/src/main/java/org/apache/wicket/markup/html/form/FormComponent.java
++++ b/wicket-core/src/main/java/org/apache/wicket/markup/html/form/FormComponent.java
+@@ -1506,2 +1505,0 @@ public abstract class FormComponent<T> extends LabeledWebMarkupContainer impleme
+-		try
+-		{
+@@ -1523,3 +1521 @@ public abstract class FormComponent<T> extends LabeledWebMarkupContainer impleme
+-						validator.validate(validatable);
+-					}
+-					if (!isValid())
++					try
+@@ -1527,4 +1523 @@ public abstract class FormComponent<T> extends LabeledWebMarkupContainer impleme
+-						break;
+-					}
+-				}
+-			}
++						validator.validate(validatable);
+@@ -1538,0 +1532,7 @@ public abstract class FormComponent<T> extends LabeledWebMarkupContainer impleme
++				if (!isValid())
++				{
++					break;
++				}
++			}
++		}
++	}

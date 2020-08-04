@@ -1,0 +1,8 @@
+Id:1828
+comSha:20040795b15f589020a8fce96b55bec6911d6814
+parentComSha:9870db51763788e68339f8310691d1b8070ec6df
+BuggyFilePath:biojava3-alignment/src/main/java/org/biojava3/alignment/SimpleProfile.java
+FixedFilePath:biojava3-alignment/src/main/java/org/biojava3/alignment/SimpleProfile.java
+StartLineNum:646
+EndLineNum:646
+repoName:biojava#biojava

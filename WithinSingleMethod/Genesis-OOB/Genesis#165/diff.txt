@@ -1,0 +1,11 @@
+diff --git a/src/org/jgroups/protocols/pbcast/NAKACK2.java b/src/org/jgroups/protocols/pbcast/NAKACK2.java
+index 1cec4aa..2c913ca 100644
+--- a/src/org/jgroups/protocols/pbcast/NAKACK2.java
++++ b/src/org/jgroups/protocols/pbcast/NAKACK2.java
+@@ -843,2 +843 @@ public class NAKACK2 extends Protocol implements DiagnosticsHandler.ProbeHandler
+-        int size=msgs.size();
+-        num_messages_received+=size;
++        num_messages_received+= msgs.size();
+@@ -850 +849 @@ public class NAKACK2 extends Protocol implements DiagnosticsHandler.ProbeHandler
+-                      local_addr, sender, msgs.get(0).getVal1(), msgs.get(size-1).getVal1(), msgs.size());
++                      local_addr, sender, msgs.get(0).getVal1(), msgs.get(msgs.size() -1).getVal1(), msgs.size());

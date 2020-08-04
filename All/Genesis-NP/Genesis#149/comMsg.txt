@@ -1,0 +1,1 @@
+Fixed NPE in StructrApp when accessing the get() method with null entity or type.

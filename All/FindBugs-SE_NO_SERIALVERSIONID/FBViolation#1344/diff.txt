@@ -1,0 +1,8 @@
+diff --git a/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/core/QuatSymmetryParameters.java b/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/core/QuatSymmetryParameters.java
+index f583686f9..af4697664 100644
+--- a/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/core/QuatSymmetryParameters.java
++++ b/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/core/QuatSymmetryParameters.java
+@@ -26,0 +27,3 @@ public class QuatSymmetryParameters implements Serializable{
++
++	private static final long serialVersionUID = 1L;
++

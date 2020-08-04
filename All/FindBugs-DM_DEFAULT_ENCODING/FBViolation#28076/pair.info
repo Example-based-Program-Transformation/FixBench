@@ -1,0 +1,8 @@
+Id:28076
+comSha:49c92f4c877671fccc1094a2f1428e1f6863b64d
+parentComSha:c583f81584217f85b9cdb5d2b5bbaf6ff44f96d4
+BuggyFilePath:src/main/java/teetime/framework/pipe/PipeFactoryLoader.java
+FixedFilePath:src/main/java/teetime/framework/pipe/PipeFactoryLoader.java
+StartLineNum:28
+EndLineNum:28
+repoName:eXistence#TeeTime

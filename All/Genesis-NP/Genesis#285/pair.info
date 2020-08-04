@@ -1,0 +1,7 @@
+Id:285
+SATName:Genesis
+modifiedFPath:liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedIndexChangeGenerator.java
+comSha:f1d82ee91445a4428813dd9c84e748a6199640b0
+parentComSha:f1d82ee91445a4428813dd9c84e748a6199640b0^1
+githubUrl:https://github.com/liquibase/liquibase
+repoName:liquibase#liquibase

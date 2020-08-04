@@ -1,0 +1,7 @@
+Id:129
+SATName:Genesis
+modifiedFPath:hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/DeleteTableProcedure.java
+comSha:03e4712f0ca08d57586b3fc4d93cf02c999515d8
+parentComSha:03e4712f0ca08d57586b3fc4d93cf02c999515d8^1
+githubUrl:https://github.com/apache/hbase
+repoName:apache#hbase

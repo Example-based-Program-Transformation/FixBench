@@ -1,0 +1,12 @@
+diff --git a/addon-layers-service/src/main/java/org/springframework/roo/addon/layers/service/ServiceInterfaceLocatorImpl.java b/addon-layers-service/src/main/java/org/springframework/roo/addon/layers/service/ServiceInterfaceLocatorImpl.java
+index 87e7cf9..5be2e62 100644
+--- a/addon-layers-service/src/main/java/org/springframework/roo/addon/layers/service/ServiceInterfaceLocatorImpl.java
++++ b/addon-layers-service/src/main/java/org/springframework/roo/addon/layers/service/ServiceInterfaceLocatorImpl.java
+@@ -44 +44,4 @@ public class ServiceInterfaceLocatorImpl implements ServiceInterfaceLocator {
+-            for (final JavaType javaType : annotationValues.getDomainTypes()) {
++            if (annotationValues != null
++                    && annotationValues.getDomainTypes() != null) {
++                for (final JavaType javaType : annotationValues
++                        .getDomainTypes()) {
+@@ -49,0 +53 @@ public class ServiceInterfaceLocatorImpl implements ServiceInterfaceLocator {
++        }

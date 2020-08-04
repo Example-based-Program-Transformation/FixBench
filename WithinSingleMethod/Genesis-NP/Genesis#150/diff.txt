@@ -1,0 +1,7 @@
+diff --git a/structr-rest/src/main/java/org/structr/rest/resource/SchemaTypeResource.java b/structr-rest/src/main/java/org/structr/rest/resource/SchemaTypeResource.java
+index d705d76..7dfdf43 100644
+--- a/structr-rest/src/main/java/org/structr/rest/resource/SchemaTypeResource.java
++++ b/structr-rest/src/main/java/org/structr/rest/resource/SchemaTypeResource.java
+@@ -94 +94 @@ public class SchemaTypeResource extends Resource {
+-						property.setProperty(new StringProperty(prop.getKey()), prop.getValue());
++						property.setProperty(new GenericProperty(prop.getKey()), prop.getValue());

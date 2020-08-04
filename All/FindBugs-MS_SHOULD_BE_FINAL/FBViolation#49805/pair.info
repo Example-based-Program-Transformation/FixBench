@@ -1,0 +1,8 @@
+Id:49805
+comSha:6fa32cd4c13b970ab3d7f950b43635b667300523
+parentComSha:b56497192e2af8845af2aae017f2485aa14b9702
+BuggyFilePath:src/main/java/ch/metzenthin/svm/common/utils/SvmProperties.java
+FixedFilePath:src/main/java/ch/metzenthin/svm/common/utils/SvmProperties.java
+StartLineNum:18
+EndLineNum:18
+repoName:marschraner#svm

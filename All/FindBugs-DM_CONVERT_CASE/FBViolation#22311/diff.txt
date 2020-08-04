@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/project/Project.java b/src/net/sourceforge/plantuml/project/Project.java
+index 77c6f3ca..28699e29 100644
+--- a/src/net/sourceforge/plantuml/project/Project.java
++++ b/src/net/sourceforge/plantuml/project/Project.java
+@@ -41,0 +42,2 @@ import java.util.TreeMap;
++import net.sourceforge.plantuml.StringUtils;
++
+@@ -124 +126 @@ public class Project {
+-			return new Constant(ItemCaract.valueOf(desc.substring(idx + 1).toUpperCase()).getData(item));
++			return new Constant(ItemCaract.valueOf(StringUtils.goUpperCase(desc.substring(idx + 1))).getData(item));

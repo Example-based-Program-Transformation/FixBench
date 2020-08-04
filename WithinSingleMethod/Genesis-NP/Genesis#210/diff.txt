@@ -1,0 +1,7 @@
+diff --git a/processor/src/main/java/org/mapstruct/ap/MapperGenerationVisitor.java b/processor/src/main/java/org/mapstruct/ap/MapperGenerationVisitor.java
+index deea4b9..ef7ad72 100644
+--- a/processor/src/main/java/org/mapstruct/ap/MapperGenerationVisitor.java
++++ b/processor/src/main/java/org/mapstruct/ap/MapperGenerationVisitor.java
+@@ -196 +196 @@ private Mapper retrieveModel(TypeElement element) {
+-                        conversion != null ? conversion.from(
++                        conversion != null && reverseMappingMethod != null ? conversion.from(

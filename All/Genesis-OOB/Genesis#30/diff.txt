@@ -1,0 +1,9 @@
+diff --git a/mongo/src/main/java/org/axonframework/eventstore/mongo/DocumentPerCommitStorageStrategy.java b/mongo/src/main/java/org/axonframework/eventstore/mongo/DocumentPerCommitStorageStrategy.java
+index b895a60..fb24089 100644
+--- a/mongo/src/main/java/org/axonframework/eventstore/mongo/DocumentPerCommitStorageStrategy.java
++++ b/mongo/src/main/java/org/axonframework/eventstore/mongo/DocumentPerCommitStorageStrategy.java
+@@ -81,0 +82 @@
++        if(messages != null && messages.size() > 0){
+@@ -83,0 +85,2 @@
++        return new DBObject[]{};
++    }

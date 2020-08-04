@@ -1,0 +1,10 @@
+diff --git a/src/org/encog/app/analyst/script/normalize/AnalystNormalize.java b/src/org/encog/app/analyst/script/normalize/AnalystNormalize.java
+index 2711154..1af8663 100644
+--- a/src/org/encog/app/analyst/script/normalize/AnalystNormalize.java
++++ b/src/org/encog/app/analyst/script/normalize/AnalystNormalize.java
+@@ -43,0 +44,5 @@ public void init(AnalystScript script) {
++		
++		if( this.normalizedFields== null) {
++			return;
++		}
++		

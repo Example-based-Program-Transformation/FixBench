@@ -1,0 +1,14 @@
+diff --git a/maven-embedder/src/main/java/org/apache/maven/cli/ConsoleMavenTransferListener.java b/maven-embedder/src/main/java/org/apache/maven/cli/ConsoleMavenTransferListener.java
+index b006710..6419e9e 100644
+--- a/maven-embedder/src/main/java/org/apache/maven/cli/ConsoleMavenTransferListener.java
++++ b/maven-embedder/src/main/java/org/apache/maven/cli/ConsoleMavenTransferListener.java
+@@ -60,3 +60,6 @@ public void transferProgressed( TransferEvent event )
+-            long complete = entry.getValue().longValue();
+-
+-            buffer.append( getStatus( complete, total ) ).append( "  " );
++            Long complete = entry.getValue();
++            // NOTE: This null check guards against http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6312056
++            if ( complete != null )
++            {
++                buffer.append( getStatus( complete.longValue(), total ) ).append( "  " );
++            }

@@ -1,0 +1,8 @@
+diff --git a/src/main/java/net/mindengine/galen/reports/HtmlReportingListener.java b/src/main/java/net/mindengine/galen/reports/HtmlReportingListener.java
+index 860da7f..73280bf 100644
+--- a/src/main/java/net/mindengine/galen/reports/HtmlReportingListener.java
++++ b/src/main/java/net/mindengine/galen/reports/HtmlReportingListener.java
+@@ -198,0 +199 @@ public class HtmlReportingListener implements CompleteListener {
++            suiteRun.listener.onSuiteStarted(galenSuiteRunner, suite);
+@@ -207 +207,0 @@ public class HtmlReportingListener implements CompleteListener {
+-        suiteRun.listener.onSuiteStarted(galenSuiteRunner, suite);

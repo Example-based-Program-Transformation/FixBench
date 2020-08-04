@@ -1,0 +1,1 @@
+- Validao de CNPJ nulo para evitar NullPointerException no mtodo CNPJValidator.isEligible

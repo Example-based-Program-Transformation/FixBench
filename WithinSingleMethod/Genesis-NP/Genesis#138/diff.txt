@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/alibaba/druid/support/http/WebStatFilter.java b/src/main/java/com/alibaba/druid/support/http/WebStatFilter.java
+index cca0018..dc413d3 100644
+--- a/src/main/java/com/alibaba/druid/support/http/WebStatFilter.java
++++ b/src/main/java/com/alibaba/druid/support/http/WebStatFilter.java
+@@ -195,0 +196 @@ public class WebStatFilter implements Filter {
++                if (uriStat != null) {
+@@ -196,0 +198 @@ public class WebStatFilter implements Filter {
++                }

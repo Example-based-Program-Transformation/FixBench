@@ -1,0 +1,8 @@
+diff --git a/structr-rest/src/main/java/org/structr/rest/resource/Resource.java b/structr-rest/src/main/java/org/structr/rest/resource/Resource.java
+index 10a3033..29d6d2c 100644
+--- a/structr-rest/src/main/java/org/structr/rest/resource/Resource.java
++++ b/structr-rest/src/main/java/org/structr/rest/resource/Resource.java
+@@ -305,0 +306 @@ public abstract class Resource {
++			if (finalSortKey != null) {
+@@ -308,0 +310 @@ public abstract class Resource {
++	}

@@ -1,0 +1,8 @@
+Id:44412
+comSha:d7a0b1fe3d440e6493020d8fccf121d7e813c9f6
+parentComSha:18dbd83ee30e00ae17cc61b687663488d6665360
+BuggyFilePath:API/src/main/java/com/comze_instancelabs/minigamesapi/Classes.java
+FixedFilePath:API/src/main/java/com/comze_instancelabs/minigamesapi/Classes.java
+StartLineNum:118
+EndLineNum:118
+repoName:instance01#MinigamesAPI

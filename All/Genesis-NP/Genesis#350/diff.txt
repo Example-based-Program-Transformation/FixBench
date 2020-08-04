@@ -1,0 +1,13 @@
+diff --git a/src/main/java/com/github/nkzawa/socketio/client/Socket.java b/src/main/java/com/github/nkzawa/socketio/client/Socket.java
+index 36291a6..f917bf1 100644
+--- a/src/main/java/com/github/nkzawa/socketio/client/Socket.java
++++ b/src/main/java/com/github/nkzawa/socketio/client/Socket.java
+@@ -347 +346,0 @@ public class Socket extends Emitter {
+-        logger.fine(String.format("calling ack %s with %s", packet.id, packet.data));
+@@ -348,0 +348,2 @@ public class Socket extends Emitter {
++        if (fn != null) {
++            logger.fine(String.format("calling ack %s with %s", packet.id, packet.data));
+@@ -349,0 +351,3 @@ public class Socket extends Emitter {
++        } else {
++            logger.fine(String.format("bad ack %s", packet.id));
++        }

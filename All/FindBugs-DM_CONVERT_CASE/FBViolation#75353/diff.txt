@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/bibliography/data/BibRecord.java b/src/main/java/org/optimizationBenchmarking/utils/bibliography/data/BibRecord.java
+index 72893d73..71cc7f4e 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/bibliography/data/BibRecord.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/bibliography/data/BibRecord.java
+@@ -219 +219 @@ public abstract class BibRecord extends _BibElement<BibRecord> implements
+-    d2 = d.substring(0, Math.min(d.length(), 18)).toLowerCase();
++    d2 = TextUtils.toLowerCase(d.substring(0, Math.min(d.length(), 18)));

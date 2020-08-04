@@ -1,0 +1,1 @@
+Move the try/catch just around the 'validator.validate()' call. Otherwise the construction of the error message will fail with NPE because 'validator' my be null

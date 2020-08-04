@@ -1,0 +1,7 @@
+diff --git a/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatFlexible.java b/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatFlexible.java
+index 7b38439ca..c15a51f25 100644
+--- a/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatFlexible.java
++++ b/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatFlexible.java
+@@ -41 +41 @@ public class FatCatFlexible  extends FatCat implements StructureAlignment{
+-	public static String algorithmName = "jFatCat_flexible";
++	public static final String algorithmName = "jFatCat_flexible";

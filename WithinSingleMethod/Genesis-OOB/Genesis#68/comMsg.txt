@@ -1,0 +1,1 @@
+S3_PING.readAll(): fixed ArrayIndexOutOfBounds error

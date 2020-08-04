@@ -1,0 +1,1 @@
+FIX: Many small fix after running Findbugs on Eoulsan source code.

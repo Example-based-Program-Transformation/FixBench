@@ -1,0 +1,34 @@
+diff --git a/object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceProvider.java b/object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceProvider.java
+index 35b5887..88fd304 100644
+--- a/object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceProvider.java
++++ b/object/src/main/java/com/orientechnologies/orient/object/jpa/OJPAPersistenceProvider.java
+@@ -22,11 +21,0 @@ package com.orientechnologies.orient.object.jpa;
+-import static com.orientechnologies.orient.core.entity.OEntityManager.getEntityManagerByDatabaseURL;
+-import static com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_XML;
+-
+-import java.net.URL;
+-import java.util.Collection;
+-import java.util.Map;
+-import java.util.logging.Logger;
+-
+-
+- 
+-
+@@ -33,0 +23 @@ import com.orientechnologies.orient.core.entity.OEntityManager;
++import com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil;
+@@ -35 +24,0 @@ import com.orientechnologies.orient.core.entity.OEntityManager;
+-import com.orientechnologies.orient.object.jpa.OJPAProviderUtil;
+@@ -39,0 +29,4 @@ import javax.persistence.spi.ProviderUtil;
++import java.net.URL;
++import java.util.Collection;
++import java.util.Map;
++import java.util.logging.Logger;
+@@ -41,2 +34,2 @@ import javax.persistence.spi.ProviderUtil;
+-import com.orientechnologies.orient.core.entity.OEntityManager;
+-import com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil;
++import static com.orientechnologies.orient.core.entity.OEntityManager.getEntityManagerByDatabaseURL;
++import static com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_XML;
+@@ -50 +42,0 @@ public class OJPAPersistenceProvider implements PersistenceProvider {
+- 
+@@ -54,0 +47 @@ public class OJPAPersistenceProvider implements PersistenceProvider {
++    if (persistenceXml != null)

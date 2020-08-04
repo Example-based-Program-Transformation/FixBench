@@ -1,0 +1,1 @@
+StoreAppend: NPE if closed method called twice

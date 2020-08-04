@@ -1,0 +1,1 @@
+ACT-1322, HEMERA-2606: Implemented Interrupting Message Event Sub-Process (thanks to Daniel Meyer for the patch)

@@ -1,0 +1,6 @@
+diff --git a/API/src/main/java/org/sikuli/script/Region.java b/API/src/main/java/org/sikuli/script/Region.java
+index dee483c..814e53f 100755
+--- a/API/src/main/java/org/sikuli/script/Region.java
++++ b/API/src/main/java/org/sikuli/script/Region.java
+@@ -2017,0 +2018 @@ public class Region {
++        if(rf._image != null)

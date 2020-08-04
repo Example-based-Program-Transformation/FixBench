@@ -1,0 +1,1 @@
+fix for NPE when expanding unknown abbreviations

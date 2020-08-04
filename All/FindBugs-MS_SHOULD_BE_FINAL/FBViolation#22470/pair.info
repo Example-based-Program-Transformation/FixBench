@@ -1,0 +1,8 @@
+Id:22470
+comSha:4e67e4a0de7d3a3eb5e78b9988f9ff5eaef33fd2
+parentComSha:29bb533289786f3aee7d20abfe69f5930a3a0efb
+BuggyFilePath:src/net/sourceforge/plantuml/OptionFlags.java
+FixedFilePath:src/net/sourceforge/plantuml/OptionFlags.java
+StartLineNum:55
+EndLineNum:55
+repoName:jensnerche#plantuml

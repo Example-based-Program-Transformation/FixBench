@@ -1,0 +1,1 @@
+[issue 46] Fixed NullPointerException when propertyWordDelimiters is not specified

@@ -1,0 +1,8 @@
+Id:54606
+comSha:5015686a8fa248b575196a2456c2bd5b04f5e5ed
+parentComSha:e72b97289ddeff3989e224fc8b7580876a6722a1
+BuggyFilePath:src/main/java/org/owasp/dependencycheck/analyzer/JarAnalyzer.java
+FixedFilePath:src/main/java/org/owasp/dependencycheck/analyzer/JarAnalyzer.java
+StartLineNum:340
+EndLineNum:340
+repoName:jeremylong#DependencyCheck

@@ -1,0 +1,6 @@
+diff --git a/liquibase-core/src/main/java/liquibase/changelog/ChangeSet.java b/liquibase-core/src/main/java/liquibase/changelog/ChangeSet.java
+index 9fdd67f..0188e1c 100644
+--- a/liquibase-core/src/main/java/liquibase/changelog/ChangeSet.java
++++ b/liquibase-core/src/main/java/liquibase/changelog/ChangeSet.java
+@@ -728,0 +729 @@ public class ChangeSet implements Conditional, LiquibaseSerializable {
++        change.setChangeSet(this);

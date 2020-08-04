@@ -1,0 +1,7 @@
+diff --git a/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/KubernetesHelper.java b/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/KubernetesHelper.java
+index 5519e62..201cb7d 100644
+--- a/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/KubernetesHelper.java
++++ b/components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/KubernetesHelper.java
+@@ -1367 +1367 @@ public final class KubernetesHelper {
+-            if (servicePort.getName().equals(portName)) {
++            if (Objects.equal(servicePort.getName(), portName)) {

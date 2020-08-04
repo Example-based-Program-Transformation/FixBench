@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/org/modelmapper/internal/Errors.java b/core/src/main/java/org/modelmapper/internal/Errors.java
+index d3b0687..34adfe1 100644
+--- a/core/src/main/java/org/modelmapper/internal/Errors.java
++++ b/core/src/main/java/org/modelmapper/internal/Errors.java
+@@ -79 +79 @@ public final class Errors {
+-      return type.isAssignableFrom(subject.getClass());
++      return subject != null && type.isAssignableFrom(subject.getClass());

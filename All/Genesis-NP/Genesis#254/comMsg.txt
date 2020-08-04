@@ -1,0 +1,1 @@
+avoiding NPE when serializing lists with null values

@@ -1,0 +1,7 @@
+diff --git a/drools-planner-core/src/main/java/org/drools/planner/core/domain/solution/SolutionDescriptor.java b/drools-planner-core/src/main/java/org/drools/planner/core/domain/solution/SolutionDescriptor.java
+index 925b037ca..33d0a27b3 100644
+--- a/drools-planner-core/src/main/java/org/drools/planner/core/domain/solution/SolutionDescriptor.java
++++ b/drools-planner-core/src/main/java/org/drools/planner/core/domain/solution/SolutionDescriptor.java
+@@ -38 +38 @@ import org.drools.planner.core.solution.Solution;
+-public class SolutionDescriptor implements Serializable {
++public class SolutionDescriptor {

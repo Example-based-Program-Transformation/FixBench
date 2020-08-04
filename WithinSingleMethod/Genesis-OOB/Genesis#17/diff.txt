@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/CustomImportOrderCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/CustomImportOrderCheck.java
+index fbd857b..ca2886d 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/CustomImportOrderCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/CustomImportOrderCheck.java
+@@ -366,2 +366,2 @@ public class CustomImportOrderCheck extends Check
+-        for (; mCustomImportOrderRules.size() > nextGroupNumber; nextGroupNumber++)
+-        {
++
++        while (mCustomImportOrderRules.size() > nextGroupNumber + 1) {
+@@ -371,0 +372 @@ public class CustomImportOrderCheck extends Check
++            nextGroupNumber++;

@@ -1,0 +1,7 @@
+diff --git a/metadata/src/main/java/com/kylinolap/metadata/measure/fixedlen/FixedPointLongCodec.java b/metadata/src/main/java/com/kylinolap/metadata/measure/fixedlen/FixedPointLongCodec.java
+index 057a68a..bfffd2c 100644
+--- a/metadata/src/main/java/com/kylinolap/metadata/measure/fixedlen/FixedPointLongCodec.java
++++ b/metadata/src/main/java/com/kylinolap/metadata/measure/fixedlen/FixedPointLongCodec.java
+@@ -61 +61 @@ public class FixedPointLongCodec extends FixedLenMeasureCodec<LongWritable> {
+-        BytesUtil.writeLong(v.get(), buf, offset, SIZE);
++        BytesUtil.writeLong(v == null ? 0 : v.get(), buf, offset, SIZE);

@@ -1,0 +1,1 @@
+StoreWAL: close() causes NPE after compaction. Fix #486

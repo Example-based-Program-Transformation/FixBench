@@ -1,0 +1,1 @@
+fixed RuntimeException caused by null value of static variable 'locale', when using DatepickerNoResources-Module

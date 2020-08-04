@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/google/gson/Gson.java b/src/main/java/com/google/gson/Gson.java
+index 7c92cb44..3c2cd3e2 100644
+--- a/src/main/java/com/google/gson/Gson.java
++++ b/src/main/java/com/google/gson/Gson.java
+@@ -127 +126,0 @@ public final class Gson {
+-  private final FieldNamingStrategy fieldNamingPolicy;
+@@ -197 +195,0 @@ public final class Gson {
+-    this.fieldNamingPolicy = fieldNamingPolicy;

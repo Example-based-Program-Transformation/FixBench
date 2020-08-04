@@ -1,0 +1,8 @@
+diff --git a/object-mapper/src/main/java/me/prettyprint/hom/HectorObjectMapper.java b/object-mapper/src/main/java/me/prettyprint/hom/HectorObjectMapper.java
+index 907a413..7ac3c3c 100644
+--- a/object-mapper/src/main/java/me/prettyprint/hom/HectorObjectMapper.java
++++ b/object-mapper/src/main/java/me/prettyprint/hom/HectorObjectMapper.java
+@@ -528,0 +529,3 @@ public class HectorObjectMapper {
++      throw new HectorObjectMapperException(
++          "Trying to build new object but can't find setter for property, " 
++              + md.getPropDesc().getName());

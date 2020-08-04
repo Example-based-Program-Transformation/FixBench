@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/elasticsearch/common/lucene/all/AllEntries.java b/src/main/java/org/elasticsearch/common/lucene/all/AllEntries.java
+index f6041c6..ce2d034 100644
+--- a/src/main/java/org/elasticsearch/common/lucene/all/AllEntries.java
++++ b/src/main/java/org/elasticsearch/common/lucene/all/AllEntries.java
+@@ -147,0 +148 @@ public class AllEntries extends Reader {
++        if (!entries.isEmpty()) {
+@@ -162,0 +164,2 @@ public class AllEntries extends Reader {
++        return 1.0f;
++    }

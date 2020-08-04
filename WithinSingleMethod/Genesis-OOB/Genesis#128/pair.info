@@ -1,0 +1,7 @@
+Id:128
+SATName:Genesis
+modifiedFPath:tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java
+comSha:ceccd0b
+parentComSha:ceccd0b^1
+githubUrl:https://github.com/apache/tika
+repoName:apache#tika

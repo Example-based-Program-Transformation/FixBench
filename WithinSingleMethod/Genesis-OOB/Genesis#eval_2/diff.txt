@@ -1,0 +1,15 @@
+diff --git a/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java b/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java
+index 3f6b3bd..84bf7e2 100644
+--- a/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java
++++ b/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java
+@@ -877,0 +878 @@ public final void appendTo(final StringBuffer buffer, int value) {
++            int first = buffer.length();
+@@ -885 +886,7 @@ public final void appendTo(final StringBuffer buffer, int value) {
+-                buffer.setCharAt(--index, (char)('0' + value % 10));
++                char c= (char)('0' + value % 10);
++                if(--index<first) {
++                    buffer.insert(first, c);
++                }
++                else {
++                    buffer.setCharAt(index, c);
++                }

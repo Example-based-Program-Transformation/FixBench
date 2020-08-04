@@ -1,0 +1,7 @@
+diff --git a/Source/com/drew/metadata/photoshop/PhotoshopDescriptor.java b/Source/com/drew/metadata/photoshop/PhotoshopDescriptor.java
+index 6f5228c..928e9d6 100644
+--- a/Source/com/drew/metadata/photoshop/PhotoshopDescriptor.java
++++ b/Source/com/drew/metadata/photoshop/PhotoshopDescriptor.java
+@@ -294 +294 @@ public class PhotoshopDescriptor extends TagDescriptor<PhotoshopDirectory>
+-        if (bytes == null)
++        if (bytes == null || bytes.length == 0)

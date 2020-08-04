@@ -1,0 +1,7 @@
+Id:25
+SATName:Genesis
+modifiedFPath:src/main/java/com/zaxxer/hikari/HikariDataSource.java
+comSha:adeae97f3a97831d98ea7af1c23042192c659d68
+parentComSha:adeae97f3a97831d98ea7af1c23042192c659d68^1
+githubUrl:https://github.com/brettwooldridge/HikariCP
+repoName:brettwooldridge#HikariCP

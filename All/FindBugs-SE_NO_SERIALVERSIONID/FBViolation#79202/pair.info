@@ -1,0 +1,8 @@
+Id:79202
+comSha:c1e5bdd77a9fbfb4029582c5586467db6fa2ba16
+parentComSha:e534ef8770c7c783988189dd9a67df09568b459d
+BuggyFilePath:src/main/java/com/googlecode/objectify/util/jackson/KeyDeserializer.java
+FixedFilePath:src/main/java/com/googlecode/objectify/util/jackson/KeyDeserializer.java
+StartLineNum:14
+EndLineNum:26
+repoName:objectify#objectify

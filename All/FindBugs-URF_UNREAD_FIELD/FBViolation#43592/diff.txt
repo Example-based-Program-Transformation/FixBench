@@ -1,0 +1,9 @@
+diff --git a/capital-uat/src/main/java/com/capital/DriverManager.java b/capital-uat/src/main/java/com/capital/DriverManager.java
+index 89d5672..d6e0372 100644
+--- a/capital-uat/src/main/java/com/capital/DriverManager.java
++++ b/capital-uat/src/main/java/com/capital/DriverManager.java
+@@ -5 +4,0 @@ import org.openqa.selenium.remote.Augmenter;
+-import org.openqa.selenium.remote.RemoteWebDriver;
+@@ -10 +9 @@ public class DriverManager {
+-    private static ThreadLocal<String> jobId = new ThreadLocal<String>();
++

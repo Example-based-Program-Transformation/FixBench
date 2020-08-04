@@ -1,0 +1,8 @@
+Id:76223
+comSha:fcc8a9f6f76d554be3c5a5b792f3b6019ae78b5a
+parentComSha:691018806eb0762dfee4fb0b1a03efccdc7ce9e1
+BuggyFilePath:src/main/java/org/perfcake/reporting/reporters/MemoryUsageReporter.java
+FixedFilePath:src/main/java/org/perfcake/reporting/reporters/MemoryUsageReporter.java
+StartLineNum:133
+EndLineNum:133
+repoName:PerfCake#PerfCake

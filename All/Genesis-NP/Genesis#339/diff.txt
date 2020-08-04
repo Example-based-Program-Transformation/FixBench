@@ -1,0 +1,18 @@
+diff --git a/server/src/main/java/io/druid/server/QueryResource.java b/server/src/main/java/io/druid/server/QueryResource.java
+index 66c35d0..97bca83 100644
+--- a/server/src/main/java/io/druid/server/QueryResource.java
++++ b/server/src/main/java/io/druid/server/QueryResource.java
+@@ -95 +95 @@ public class QueryResource
+-    String queryID;
++    String queryId;
+@@ -108,3 +108,4 @@ public class QueryResource
+-      queryID = query.getId();
+-      if (queryID == null) {
+-        query = query.withId(idProvider.next(query));
++      queryId = query.getId();
++      if (queryId == null) {
++        queryId = idProvider.next(query);
++        query = query.withId(queryId);
+@@ -139 +140 @@ public class QueryResource
+-              .setUser10(queryID)
++              .setUser10(queryId)

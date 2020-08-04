@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/command/CommandPragma.java b/src/net/sourceforge/plantuml/command/CommandPragma.java
+index 13ba21cd..9f32b13b 100644
+--- a/src/net/sourceforge/plantuml/command/CommandPragma.java
++++ b/src/net/sourceforge/plantuml/command/CommandPragma.java
+@@ -37,0 +38 @@ import java.util.List;
++import net.sourceforge.plantuml.StringUtils;
+@@ -48 +49 @@ public class CommandPragma extends SingleLineCommand<UmlDiagram> {
+-		system.getPragma().define(arg.get(0).toLowerCase(), arg.get(1));
++		system.getPragma().define(StringUtils.goLowerCase(arg.get(0)), arg.get(1));

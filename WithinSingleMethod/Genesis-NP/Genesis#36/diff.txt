@@ -1,0 +1,7 @@
+diff --git a/src/org/nutz/dao/impl/DaoSupport.java b/src/org/nutz/dao/impl/DaoSupport.java
+index 91e4be6..7076162 100644
+--- a/src/org/nutz/dao/impl/DaoSupport.java
++++ b/src/org/nutz/dao/impl/DaoSupport.java
+@@ -155 +155 @@ public class DaoSupport {
+-        if (expert != null)
++        if (expert == null)

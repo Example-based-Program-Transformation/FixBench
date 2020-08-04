@@ -1,0 +1,11 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/handler/ScriptTaskParseHandler.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/handler/ScriptTaskParseHandler.java
+index 196bfc4..804f1e8 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/handler/ScriptTaskParseHandler.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/handler/ScriptTaskParseHandler.java
+@@ -32,0 +33,4 @@ public class ScriptTaskParseHandler extends AbstractActivityBpmnParseHandler<Scr
++    if (scriptTask.getScript() == null) {
++      bpmnParse.getBpmnModel().addProblem("No script provided for scriptTask. ", scriptTask);
++    }
++    
+@@ -38,0 +43 @@ public class ScriptTaskParseHandler extends AbstractActivityBpmnParseHandler<Scr
++    

@@ -1,0 +1,1 @@
+get rid of NPE when trying to save a new CountProperty without an object (in lieu of a new error which is yet to fix)

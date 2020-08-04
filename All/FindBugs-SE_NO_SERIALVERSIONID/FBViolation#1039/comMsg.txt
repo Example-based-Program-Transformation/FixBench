@@ -1,0 +1,5 @@
+Merge branch 'master' into cesymm
+
+Conflicts:
+	biojava-structure-gui/src/main/java/org/biojava/nbio/structure/symmetry/gui/SymmetryDisplay.java
+	biojava-structure/src/main/java/org/biojava/nbio/structure/StructureTools.java

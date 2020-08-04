@@ -1,0 +1,8 @@
+Id:38215
+comSha:2d430c131bac7697778a62baf2f09d5569187a00
+parentComSha:33740044c0d25aeb77c62d9888f11f5bde180f62
+BuggyFilePath:src/main/java/org/bukkit/inventory/ItemStack.java
+FixedFilePath:src/main/java/org/bukkit/inventory/ItemStack.java
+StartLineNum:16
+EndLineNum:383
+repoName:Bukkit#Bukkit

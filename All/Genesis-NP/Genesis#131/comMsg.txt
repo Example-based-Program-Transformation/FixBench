@@ -1,0 +1,1 @@
+HBASE-14291 NPE On StochasticLoadBalancer Balance Involving RS With No Regions

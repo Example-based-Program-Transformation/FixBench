@@ -1,0 +1,9 @@
+diff --git a/structr-ui/src/main/java/org/structr/websocket/StructrWebSocket.java b/structr-ui/src/main/java/org/structr/websocket/StructrWebSocket.java
+index 6201caf..d9210c0 100644
+--- a/structr-ui/src/main/java/org/structr/websocket/StructrWebSocket.java
++++ b/structr-ui/src/main/java/org/structr/websocket/StructrWebSocket.java
+@@ -255 +255,3 @@ public class StructrWebSocket implements WebSocketListener {
+-			getSecurityContext().clearCustomView();
++			if (securityContext != null) {
++                            securityContext.clearCustomView();
++                        }

@@ -1,0 +1,7 @@
+diff --git a/webmagic-extension/src/main/java/us/codecraft/webmagic/scheduler/FileCacheQueueScheduler.java b/webmagic-extension/src/main/java/us/codecraft/webmagic/scheduler/FileCacheQueueScheduler.java
+index 2ded0bd..3aa23c7 100644
+--- a/webmagic-extension/src/main/java/us/codecraft/webmagic/scheduler/FileCacheQueueScheduler.java
++++ b/webmagic-extension/src/main/java/us/codecraft/webmagic/scheduler/FileCacheQueueScheduler.java
+@@ -129 +129 @@ public class FileCacheQueueScheduler implements Scheduler {
+-            new BufferedReader(new FileReader(getFileName(fileCursor)));
++        	fileCursorReader = new BufferedReader(new FileReader(getFileName(fileCursor)));

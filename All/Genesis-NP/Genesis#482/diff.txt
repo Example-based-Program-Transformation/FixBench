@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/jcodec/codecs/h264/io/model/PictureParameterSet.java b/src/main/java/org/jcodec/codecs/h264/io/model/PictureParameterSet.java
+index 017fb01..9a067f3 100644
+--- a/src/main/java/org/jcodec/codecs/h264/io/model/PictureParameterSet.java
++++ b/src/main/java/org/jcodec/codecs/h264/io/model/PictureParameterSet.java
+@@ -133,0 +134 @@ public class PictureParameterSet {
++                        pps.extended.scalindMatrix = new ScalingMatrix();

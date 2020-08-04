@@ -1,0 +1,9 @@
+diff --git a/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java b/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+index b158adb..aeec249 100644
+--- a/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
++++ b/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+@@ -536 +536 @@ public final class JsDocInfoParser {
+-            if (typeNode.getType() == Token.STRING) {
++            if (typeNode != null && typeNode.getType() == Token.STRING) {
+@@ -544 +543,0 @@ public final class JsDocInfoParser {
+-

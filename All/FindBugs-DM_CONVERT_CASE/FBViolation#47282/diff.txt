@@ -1,0 +1,10 @@
+diff --git a/module-client/src/main/java/org/apache/http/cookie/CookieOrigin.java b/module-client/src/main/java/org/apache/http/cookie/CookieOrigin.java
+index 4ac5f36c7..68db99cea 100644
+--- a/module-client/src/main/java/org/apache/http/cookie/CookieOrigin.java
++++ b/module-client/src/main/java/org/apache/http/cookie/CookieOrigin.java
+@@ -32,0 +33,2 @@ package org.apache.http.cookie;
++import java.util.Locale;
++
+@@ -65 +67 @@ public final class CookieOrigin {
+-        this.host = host.toLowerCase();
++        this.host = host.toLowerCase(Locale.ENGLISH);

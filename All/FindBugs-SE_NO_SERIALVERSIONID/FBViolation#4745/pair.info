@@ -1,0 +1,8 @@
+Id:4745
+comSha:4a0f8356a4dbea644ef59d1e8042a632ab16ef21
+parentComSha:a15a7a3d0b4798c599a546a1017f85ec9e7c8c94
+BuggyFilePath:src/main/java/org/mapdb/BTreeKeySerializer.java
+FixedFilePath:src/main/java/org/mapdb/BTreeKeySerializer.java
+StartLineNum:66
+EndLineNum:94
+repoName:jankotek#MapDB

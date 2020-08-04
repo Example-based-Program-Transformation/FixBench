@@ -1,0 +1,10 @@
+diff --git a/liquibase-core/src/main/java/liquibase/integration/commandline/CommandLineResourceAccessor.java b/liquibase-core/src/main/java/liquibase/integration/commandline/CommandLineResourceAccessor.java
+index f50fdd5..3c01ae3 100644
+--- a/liquibase-core/src/main/java/liquibase/integration/commandline/CommandLineResourceAccessor.java
++++ b/liquibase-core/src/main/java/liquibase/integration/commandline/CommandLineResourceAccessor.java
+@@ -39 +39,4 @@ public class CommandLineResourceAccessor extends ClassLoaderResourceAccessor {
+-        contents.addAll(super.list(relativeTo, path, includeFiles, includeDirectories, recursive));
++        Set<String> superList = super.list(relativeTo, path, includeFiles, includeDirectories, recursive);
++        if (superList != null) {
++            contents.addAll(superList);
++        }

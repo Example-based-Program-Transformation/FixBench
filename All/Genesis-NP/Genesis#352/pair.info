@@ -1,0 +1,7 @@
+Id:352
+SATName:Genesis
+modifiedFPath:src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java
+comSha:2d6aed5d3d0cb0dd1290cf520dfdc52d89e63b3f
+parentComSha:2d6aed5d3d0cb0dd1290cf520dfdc52d89e63b3f^1
+githubUrl:https://github.com/mybatis/mybatis-3
+repoName:mybatis#mybatis-3

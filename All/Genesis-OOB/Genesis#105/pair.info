@@ -1,0 +1,7 @@
+Id:105
+SATName:Genesis
+modifiedFPath:core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
+comSha:acf1d0c
+parentComSha:acf1d0c^1
+githubUrl:https://github.com/apache/mina
+repoName:apache#mina

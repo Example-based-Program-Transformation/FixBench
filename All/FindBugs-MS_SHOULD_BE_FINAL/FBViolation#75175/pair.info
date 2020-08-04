@@ -1,0 +1,8 @@
+Id:75175
+comSha:9ceef3bb75d4bab0ceab460b4cca25a87e12da2e
+parentComSha:95deaf1aa224b5a9658dbf810dcc181b393d4c05
+BuggyFilePath:src/main/java/com/googlecode/mgwt/mvp/client/history/MGWTPlaceHistoryHandler.java
+FixedFilePath:src/main/java/com/googlecode/mgwt/mvp/client/history/MGWTPlaceHistoryHandler.java
+StartLineNum:64
+EndLineNum:64
+repoName:dankurka#mgwt

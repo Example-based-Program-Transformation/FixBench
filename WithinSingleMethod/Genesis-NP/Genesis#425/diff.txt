@@ -1,0 +1,13 @@
+diff --git a/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java b/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
+old mode 100644
+new mode 100755
+index e5d5d71..a84ff04
+--- a/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
++++ b/modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
+@@ -68,0 +69 @@ public class SpecFilter {
++            if (definition.getProperties() != null) {
+@@ -77,0 +79 @@ public class SpecFilter {
++            }
+@@ -79 +81 @@ public class SpecFilter {
+-            clonedModel.getProperties().clear();
++            if (clonedModel.getProperties() != null) clonedModel.getProperties().clear();

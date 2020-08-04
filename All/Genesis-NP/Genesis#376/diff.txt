@@ -1,0 +1,11 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/cpr/SessionSupport.java b/modules/cpr/src/main/java/org/atmosphere/cpr/SessionSupport.java
+index 15da0b8..232f20b 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/cpr/SessionSupport.java
++++ b/modules/cpr/src/main/java/org/atmosphere/cpr/SessionSupport.java
+@@ -42 +42,3 @@ public class SessionSupport implements HttpSessionListener {
+-            for (Broadcaster b : BroadcasterFactory.getDefault().lookupAll()) {
++            BroadcasterFactory factory = BroadcasterFactory.getDefault();
++            if (factory != null) {
++               for (Broadcaster b : factory.lookupAll()) {
+@@ -48,0 +51 @@ public class SessionSupport implements HttpSessionListener {
++            }

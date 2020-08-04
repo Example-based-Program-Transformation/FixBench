@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/redisson/RedissonLock.java b/src/main/java/org/redisson/RedissonLock.java
+index b757f65..3bc14bf 100644
+--- a/src/main/java/org/redisson/RedissonLock.java
++++ b/src/main/java/org/redisson/RedissonLock.java
+@@ -579,0 +580 @@ public class RedissonLock extends RedissonExpirable implements RLock {
++                        if (futureRef.get() != null) {
+@@ -580,0 +582 @@ public class RedissonLock extends RedissonExpirable implements RLock {
++                        }

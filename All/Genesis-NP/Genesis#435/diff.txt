@@ -1,0 +1,10 @@
+diff --git a/src/main/java/com/tagtraum/perf/gcviewer/action/Export.java b/src/main/java/com/tagtraum/perf/gcviewer/action/Export.java
+index 097189a..3009f2c 100644
+--- a/src/main/java/com/tagtraum/perf/gcviewer/action/Export.java
++++ b/src/main/java/com/tagtraum/perf/gcviewer/action/Export.java
+@@ -82 +82 @@ public class Export extends AbstractAction {
+-        	if (file != null) {
++        	try {
+@@ -85 +85 @@ public class Export extends AbstractAction {
+-        	else {
++        	catch (NullPointerException e) {

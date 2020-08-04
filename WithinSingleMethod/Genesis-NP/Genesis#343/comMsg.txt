@@ -1,0 +1,1 @@
+1) Add check whether a Hydrant has already been persisted before persisting.  Persisting happens synchronously on the same thread, but multiple persist requests can be queued up on that thread which means that subsequent ones would fail with an NPE.  Fixes #178

@@ -1,0 +1,1 @@
+Fix for ACT-1619: NullPointerException when no script is given to the script task,leading to process failure

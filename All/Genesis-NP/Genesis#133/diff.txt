@@ -1,0 +1,8 @@
+diff --git a/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java b/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java
+index bb796a5..43c2836 100644
+--- a/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java
++++ b/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java
+@@ -1184,0 +1185 @@ public class HRegionServer extends HasThread implements
++      if (region.getCoprocessorHost() != null) {
+@@ -1189,0 +1191 @@ public class HRegionServer extends HasThread implements
++      }

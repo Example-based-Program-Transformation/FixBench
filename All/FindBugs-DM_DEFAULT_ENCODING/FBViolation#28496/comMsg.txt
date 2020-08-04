@@ -1,0 +1,6 @@
+Encoding basic auth header as UTF-8
+
+This is based on
+http://tools.ietf.org/id/draft-reschke-basicauth-enc-00.html that seems
+to indicate that the majority of the servers use UTF-8. It is a no-op
+for anyone using username and password in the ASCII range.

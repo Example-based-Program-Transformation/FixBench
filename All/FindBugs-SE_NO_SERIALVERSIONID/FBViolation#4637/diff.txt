@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/mapdb/Serializer.java b/src/main/java/org/mapdb/Serializer.java
+index c67c6c62..c3c2b0bc 100644
+--- a/src/main/java/org/mapdb/Serializer.java
++++ b/src/main/java/org/mapdb/Serializer.java
+@@ -500,0 +501 @@ public interface Serializer<A> {
++        private static final long serialVersionUID = 4440826457939614346L;

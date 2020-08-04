@@ -1,0 +1,7 @@
+diff --git a/rapidoid-u/src/main/java/org/rapidoid/util/U.java b/rapidoid-u/src/main/java/org/rapidoid/util/U.java
+index c370320..1877757 100644
+--- a/rapidoid-u/src/main/java/org/rapidoid/util/U.java
++++ b/rapidoid-u/src/main/java/org/rapidoid/util/U.java
+@@ -1080 +1080 @@ public class U {
+-			String part = parts[i];
++			String part = U.safe(parts[i]);

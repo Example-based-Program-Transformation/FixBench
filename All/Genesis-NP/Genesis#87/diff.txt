@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/opencloudb/parser/druid/DruidShardingParseInfo.java b/src/main/java/org/opencloudb/parser/druid/DruidShardingParseInfo.java
+index a32e256..041d9b3 100644
+--- a/src/main/java/org/opencloudb/parser/druid/DruidShardingParseInfo.java
++++ b/src/main/java/org/opencloudb/parser/druid/DruidShardingParseInfo.java
+@@ -53,0 +54,3 @@ public class DruidShardingParseInfo {
++				if(item == null) {
++					continue;
++				}

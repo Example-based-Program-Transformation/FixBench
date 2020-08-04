@@ -1,0 +1,7 @@
+diff --git a/metrics-core/src/main/java/com/codahale/metrics/UniformSnapshot.java b/metrics-core/src/main/java/com/codahale/metrics/UniformSnapshot.java
+index 92c8fb0..a8ba2f1 100644
+--- a/metrics-core/src/main/java/com/codahale/metrics/UniformSnapshot.java
++++ b/metrics-core/src/main/java/com/codahale/metrics/UniformSnapshot.java
+@@ -52 +52 @@ public class UniformSnapshot extends Snapshot {
+-        if (quantile < 0.0 || quantile > 1.0) {
++        if (quantile < 0.0 || quantile > 1.0 || Double.isNaN( quantile )) {

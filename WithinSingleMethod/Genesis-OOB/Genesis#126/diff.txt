@@ -1,0 +1,11 @@
+diff --git a/maven-release-manager/src/main/java/org/apache/maven/shared/release/util/ReleaseUtil.java b/maven-release-manager/src/main/java/org/apache/maven/shared/release/util/ReleaseUtil.java
+index c102d03..1eb6be8 100644
+--- a/maven-release-manager/src/main/java/org/apache/maven/shared/release/util/ReleaseUtil.java
++++ b/maven-release-manager/src/main/java/org/apache/maven/shared/release/util/ReleaseUtil.java
+@@ -220 +220,2 @@ public class ReleaseUtil
+-        if ( !basedir.endsWith( separator ) )
++        int separatorPos = basedir.lastIndexOf( separator );
++        if ( !basedir.endsWith( separator ) && separatorPos >= 0 )
+@@ -222 +223 @@ public class ReleaseUtil
+-            basedir = basedir.substring( 0, basedir.lastIndexOf( separator ) );
++            basedir = basedir.substring( 0, separatorPos );

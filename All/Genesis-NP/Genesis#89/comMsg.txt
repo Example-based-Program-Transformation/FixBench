@@ -1,0 +1,1 @@
+Issue #2290: Fix NPE in isOverriddenMethod during validation of methods with implicit modifiers

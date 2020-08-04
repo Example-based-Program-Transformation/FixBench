@@ -1,0 +1,7 @@
+diff --git a/structr-ui/src/main/java/org/structr/web/entity/feed/DataFeed.java b/structr-ui/src/main/java/org/structr/web/entity/feed/DataFeed.java
+index 382361d..6818045 100644
+--- a/structr-ui/src/main/java/org/structr/web/entity/feed/DataFeed.java
++++ b/structr-ui/src/main/java/org/structr/web/entity/feed/DataFeed.java
+@@ -136 +136 @@ public class DataFeed extends AbstractNode {
+-		if (lastUpdate == null || new Date().after(new Date(lastUpdate.getTime() + interval))) {
++		if ((lastUpdate == null || interval != null) && new Date().after(new Date(lastUpdate.getTime() + interval))) {

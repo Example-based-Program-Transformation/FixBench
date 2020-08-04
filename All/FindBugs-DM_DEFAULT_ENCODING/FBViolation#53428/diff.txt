@@ -1,0 +1,12 @@
+diff --git a/src/com/googlecode/jmxtrans/model/output/OpenTSDBWriter.java b/src/com/googlecode/jmxtrans/model/output/OpenTSDBWriter.java
+index 60921cd50..80c488f4f 100644
+--- a/src/com/googlecode/jmxtrans/model/output/OpenTSDBWriter.java
++++ b/src/com/googlecode/jmxtrans/model/output/OpenTSDBWriter.java
+@@ -2,0 +3 @@ package com.googlecode.jmxtrans.model.output;
++import com.google.common.base.Charsets;
+@@ -14,0 +16,2 @@ import com.googlecode.jmxtrans.util.LifecycleException;
++import static com.google.common.base.Charsets.UTF_8;
++
+@@ -113 +116 @@ public class OpenTSDBWriter extends OpenTSDBGenericWriter {
+-		InputStreamReader socketInputStream = new InputStreamReader(socket.getInputStream());
++		InputStreamReader socketInputStream = new InputStreamReader(socket.getInputStream(), UTF_8);

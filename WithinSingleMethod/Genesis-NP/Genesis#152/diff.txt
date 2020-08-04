@@ -1,0 +1,11 @@
+diff --git a/structr-core/src/main/java/org/structr/core/entity/AbstractUser.java b/structr-core/src/main/java/org/structr/core/entity/AbstractUser.java
+index cd99aa2..f77514b 100644
+--- a/structr-core/src/main/java/org/structr/core/entity/AbstractUser.java
++++ b/structr-core/src/main/java/org/structr/core/entity/AbstractUser.java
+@@ -118,0 +119,2 @@ public abstract class AbstractUser extends AbstractNode implements Principal {
++			if (rel != null && rel.getSourceNode() != null) {
++
+@@ -121,0 +124 @@ public abstract class AbstractUser extends AbstractNode implements Principal {
++		}
+@@ -124 +126,0 @@ public abstract class AbstractUser extends AbstractNode implements Principal {
+-

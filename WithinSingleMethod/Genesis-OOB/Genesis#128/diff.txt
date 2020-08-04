@@ -1,0 +1,7 @@
+diff --git a/tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java b/tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java
+index bf9ecee..08534c3 100644
+--- a/tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java
++++ b/tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java
+@@ -1077 +1077 @@ final class TextExtractor {
+-                if (equals("list")) {
++                if (equals("list") || equals("listoverride")) {

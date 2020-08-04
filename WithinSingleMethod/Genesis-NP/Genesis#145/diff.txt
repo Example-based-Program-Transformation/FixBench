@@ -1,0 +1,16 @@
+diff --git a/structr-core/src/main/java/org/structr/core/parser/function/ChangelogFunction.java b/structr-core/src/main/java/org/structr/core/parser/function/ChangelogFunction.java
+index 37222e6..d11c141 100644
+--- a/structr-core/src/main/java/org/structr/core/parser/function/ChangelogFunction.java
++++ b/structr-core/src/main/java/org/structr/core/parser/function/ChangelogFunction.java
+@@ -63,0 +64 @@ public class ChangelogFunction extends Function<Object, Object> {
++			final String changelog = dataObject.getProperty(GraphObject.structrChangeLog);
+@@ -66 +67,3 @@ public class ChangelogFunction extends Function<Object, Object> {
+-			final String[] entries = dataObject.getProperty(GraphObject.structrChangeLog).split("\n");
++			if (changelog != null) {
++
++				final String[] entries = changelog.split("\n");
+@@ -118 +121,3 @@ public class ChangelogFunction extends Function<Object, Object> {
+-						logger.log(Level.WARNING, "Unknown verb in changelog: '{0}'", (verb == null ? "null" : verb));
++							logger.log(Level.WARNING, "Unknown verb in changelog: '{0}'", verb);
++
++						}

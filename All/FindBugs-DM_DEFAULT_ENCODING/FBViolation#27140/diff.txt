@@ -1,0 +1,14 @@
+diff --git a/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java b/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java
+index 8eab426..57d6eea 100644
+--- a/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java
++++ b/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java
+@@ -6,0 +7 @@ import org.slf4j.LoggerFactory;
++
+@@ -11 +12 @@ import us.codecraft.webmagic.utils.FilePersistentBase;
+-import java.io.FileWriter;
++import java.io.FileOutputStream;
+@@ -12,0 +14 @@ import java.io.IOException;
++import java.io.OutputStreamWriter;
+@@ -42 +44 @@ public class FilePipeline extends FilePersistentBase implements Pipeline {
+-            PrintWriter printWriter = new PrintWriter(new FileWriter(getFile(path + DigestUtils.md5Hex(resultItems.getRequest().getUrl()) + ".html")));
++            PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(new FileOutputStream(getFile(path + DigestUtils.md5Hex(resultItems.getRequest().getUrl()) + ".html")),"UTF-8"));

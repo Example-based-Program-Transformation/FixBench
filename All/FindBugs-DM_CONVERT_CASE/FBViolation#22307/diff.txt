@@ -1,0 +1,12 @@
+diff --git a/src/net/sourceforge/plantuml/graphic/USymbol.java b/src/net/sourceforge/plantuml/graphic/USymbol.java
+index a01e1232..d56b397b 100644
+--- a/src/net/sourceforge/plantuml/graphic/USymbol.java
++++ b/src/net/sourceforge/plantuml/graphic/USymbol.java
+@@ -42,0 +43 @@ import net.sourceforge.plantuml.FontParam;
++import net.sourceforge.plantuml.StringUtils;
+@@ -105 +106 @@ public abstract class USymbol {
+-		final USymbol result = all.get(s.toUpperCase());
++		final USymbol result = all.get(StringUtils.goUpperCase(s));
+@@ -116 +117 @@ public abstract class USymbol {
+-		all.put(code.toUpperCase(), symbol);
++		all.put(StringUtils.goUpperCase(code), symbol);

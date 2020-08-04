@@ -1,0 +1,8 @@
+Id:69999
+comSha:0002186ff26baa7247aecbd0f21cb707223a6630
+parentComSha:e79e4414c0b88ed0d38e6f28c0631b687947760d
+BuggyFilePath:src/main/java/com/laytonsmith/core/functions/Sandbox.java
+FixedFilePath:src/main/java/com/laytonsmith/core/functions/Sandbox.java
+StartLineNum:252
+EndLineNum:252
+repoName:EngineHub#CommandHelper

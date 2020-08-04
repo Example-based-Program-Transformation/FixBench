@@ -1,0 +1,1 @@
+fixed: Linux: build on the fly: possible NPE

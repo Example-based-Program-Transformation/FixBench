@@ -1,0 +1,1 @@
+[MNG-4785] NPE in dependency resolution code for TC plugin

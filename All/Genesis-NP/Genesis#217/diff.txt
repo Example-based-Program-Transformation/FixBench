@@ -1,0 +1,7 @@
+diff --git a/jest-common/src/main/java/io/searchbox/action/AbstractMultiIndexActionBuilder.java b/jest-common/src/main/java/io/searchbox/action/AbstractMultiIndexActionBuilder.java
+index 956a9a3..650dae0 100644
+--- a/jest-common/src/main/java/io/searchbox/action/AbstractMultiIndexActionBuilder.java
++++ b/jest-common/src/main/java/io/searchbox/action/AbstractMultiIndexActionBuilder.java
+@@ -37 +37 @@ public abstract class AbstractMultiIndexActionBuilder<T extends Action, K> exten
+-        setParameter(Parameters.IGNORE_INDICES, null);
++        setParameter(Parameters.IGNORE_INDICES, ignoreIndices);

@@ -1,0 +1,1 @@
+Fixed NPE in AppendWidgetCommand, added missing call to parse() method before trying to access parsed HTML content..

@@ -1,0 +1,12 @@
+diff --git a/distributed-commandbus/src/main/java/org/axonframework/commandhandling/distributed/jgroups/JGroupsConnector.java b/distributed-commandbus/src/main/java/org/axonframework/commandhandling/distributed/jgroups/JGroupsConnector.java
+index 4a139f4..3ab3682 100644
+--- a/distributed-commandbus/src/main/java/org/axonframework/commandhandling/distributed/jgroups/JGroupsConnector.java
++++ b/distributed-commandbus/src/main/java/org/axonframework/commandhandling/distributed/jgroups/JGroupsConnector.java
+@@ -344 +344 @@ private void processJoinMessage(Message msg, JoinMessage joinMessage) {
+-
++            if (channelName != null) {
+@@ -354,0 +355,4 @@ private void processJoinMessage(Message msg, JoinMessage joinMessage) {
++            } else {
++                logger.warn("Received join message from '{}', but a connection with the sender has been lost.",
++                            msg.getSrc().toString());
++            }

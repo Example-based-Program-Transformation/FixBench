@@ -1,0 +1,11 @@
+diff --git a/API/src/main/java/com/comze_instancelabs/minigamesapi/util/ArenaLobbyScoreboard.java b/API/src/main/java/com/comze_instancelabs/minigamesapi/util/ArenaLobbyScoreboard.java
+index b969c7e..0f0444d 100644
+--- a/API/src/main/java/com/comze_instancelabs/minigamesapi/util/ArenaLobbyScoreboard.java
++++ b/API/src/main/java/com/comze_instancelabs/minigamesapi/util/ArenaLobbyScoreboard.java
+@@ -26 +25,0 @@ public class ArenaLobbyScoreboard {
+-	HashMap<String, Integer> currentscore = new HashMap<String, Integer>();
+@@ -123,4 +121,0 @@ public class ArenaLobbyScoreboard {
+-	public void setCurrentScoreMap(HashMap<String, Integer> newcurrentscore) {
+-		this.currentscore = newcurrentscore;
+-	}
+-

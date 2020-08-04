@@ -1,0 +1,8 @@
+Id:28843
+comSha:be75f209f9445ba10e7e85a795f01c4461883b82
+parentComSha:68d3d7068115a113ab5cdc9cd8b4119f1b0fc175
+BuggyFilePath:drools-planner-core/src/main/java/org/drools/planner/core/domain/solution/SolutionDescriptor.java
+FixedFilePath:drools-planner-core/src/main/java/org/drools/planner/core/domain/solution/SolutionDescriptor.java
+StartLineNum:49
+EndLineNum:200
+repoName:droolsjbpm#optaplanner

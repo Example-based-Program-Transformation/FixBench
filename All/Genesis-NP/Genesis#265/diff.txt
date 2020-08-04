@@ -1,0 +1,7 @@
+diff --git a/src/org/zeromq/ZMQ.java b/src/org/zeromq/ZMQ.java
+index fcdadc7..be723c4 100644
+--- a/src/org/zeromq/ZMQ.java
++++ b/src/org/zeromq/ZMQ.java
+@@ -1857 +1857 @@ public class ZMQ {
+-            if (mask <= 0 || index < 0 || index >= this.next) {
++            if (mask <= 0 || index < 0 || index >= this.next || this.items[index] == null) {

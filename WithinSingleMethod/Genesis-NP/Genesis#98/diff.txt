@@ -1,0 +1,12 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java
+index 065ed76..3688729 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java
+@@ -168,0 +169 @@ public class AtclauseOrderCheck extends AbstractJavadocCheck
++        int type = 0;
+@@ -170 +171,2 @@ public class AtclauseOrderCheck extends AbstractJavadocCheck
+-        int type = parentNode.getType();
++        if (parentNode != null) {
++            type = parentNode.getType();
+@@ -173,0 +176 @@ public class AtclauseOrderCheck extends AbstractJavadocCheck
++        }

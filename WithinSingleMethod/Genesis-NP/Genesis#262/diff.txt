@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/webbitserver/netty/NettyWebServer.java b/src/main/java/org/webbitserver/netty/NettyWebServer.java
+index 178b241..39989cb 100644
+--- a/src/main/java/org/webbitserver/netty/NettyWebServer.java
++++ b/src/main/java/org/webbitserver/netty/NettyWebServer.java
+@@ -325 +325 @@ public class NettyWebServer implements WebServer {
+-            return null;
++          throw new RuntimeException("can not create URI from localhost hostname - use constructor to pass an explicit URI", e);

@@ -1,0 +1,1 @@
+Fixed possible NPE in DataFeed when interval is not set

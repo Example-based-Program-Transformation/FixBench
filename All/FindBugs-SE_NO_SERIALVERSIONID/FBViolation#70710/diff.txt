@@ -1,0 +1,7 @@
+diff --git a/src/com/google/bitcoin/core/Sha256Hash.java b/src/com/google/bitcoin/core/Sha256Hash.java
+index 1669fa4d..c9e2252a 100644
+--- a/src/com/google/bitcoin/core/Sha256Hash.java
++++ b/src/com/google/bitcoin/core/Sha256Hash.java
+@@ -29,0 +30,2 @@ public class Sha256Hash implements Serializable {
++    private static final long serialVersionUID = 3778897922647016546L;
++

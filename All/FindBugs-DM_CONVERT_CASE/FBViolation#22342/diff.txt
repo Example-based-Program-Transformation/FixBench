@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/classdiagram/command/CommandHideShow.java b/src/net/sourceforge/plantuml/classdiagram/command/CommandHideShow.java
+index 66c0828c..224eab27 100644
+--- a/src/net/sourceforge/plantuml/classdiagram/command/CommandHideShow.java
++++ b/src/net/sourceforge/plantuml/classdiagram/command/CommandHideShow.java
+@@ -38,0 +39 @@ import java.util.Set;
++import net.sourceforge.plantuml.StringUtils;
+@@ -167 +168 @@ public class CommandHideShow extends SingleLineCommand2<UmlDiagram> {
+-		final String sub = s.substring(0, 3).toLowerCase();
++		final String sub = StringUtils.goLowerCase(s.substring(0, 3));

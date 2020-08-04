@@ -1,0 +1,8 @@
+diff --git a/structr-core/src/main/java/org/structr/schema/action/ActionContext.java b/structr-core/src/main/java/org/structr/schema/action/ActionContext.java
+index 22a2ed4..7270ac1 100644
+--- a/structr-core/src/main/java/org/structr/schema/action/ActionContext.java
++++ b/structr-core/src/main/java/org/structr/schema/action/ActionContext.java
+@@ -71,0 +72 @@ public class ActionContext {
++		if (securityContext != null) {
+@@ -73,0 +75 @@ public class ActionContext {
++	}

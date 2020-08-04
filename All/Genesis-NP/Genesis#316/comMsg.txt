@@ -1,0 +1,1 @@
+FileHistory NullpointerException, fixes #171

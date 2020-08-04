@@ -1,0 +1,8 @@
+Id:22719
+comSha:29198ddb2cfea277578c61bcbf9fe7da779aa53e
+parentComSha:43da4a93cf8b155438c58d9eff2505813e26fddf
+BuggyFilePath:src/main/java/net/trackmate/model/abstractmodel/PoolObjectList.java
+FixedFilePath:src/main/java/net/trackmate/model/abstractmodel/PoolObjectList.java
+StartLineNum:191
+EndLineNum:191
+repoName:fiji#TrackMate3

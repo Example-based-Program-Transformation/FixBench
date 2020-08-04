@@ -1,0 +1,1 @@
+Some cluster nodes (i.e. logstash nodes or I imagine any with http.enabled set to false) will not have the http_address element as part of their result.  To avoid a NPE need to check that the element exists before trying to get it as a string.

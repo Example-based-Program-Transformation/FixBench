@@ -1,0 +1,18 @@
+diff --git a/marytts-common/src/main/java/marytts/modules/phonemiser/AllophoneSet.java b/marytts-common/src/main/java/marytts/modules/phonemiser/AllophoneSet.java
+index 080d7c9..70e545e 100644
+--- a/marytts-common/src/main/java/marytts/modules/phonemiser/AllophoneSet.java
++++ b/marytts-common/src/main/java/marytts/modules/phonemiser/AllophoneSet.java
+@@ -441,2 +441,3 @@ public class AllophoneSet {
+-	 *             <li>the symbol corresponds to an Allophone, or</li> <li>the symbol is a stress symbol (cf. {@link Stress}), or
+-	 *             </li> <li>the symbol is a syllable boundary (<code>-</code>)</li>
++	 *             <li>the symbol corresponds to an Allophone, or</li>
++	 *             <li>the symbol is a stress symbol (cf. {@link Stress}), or</li>
++	 *             <li>the symbol is a syllable boundary (<code>-</code>)</li>
+@@ -553,0 +555,5 @@ public class AllophoneSet {
++						if (initialSyllable == null) {
++							// haven't seen any syllable at all
++							initialSyllable = new Syllable(allophone);
++							iterator.add(initialSyllable);
++						} else {
+@@ -554,0 +561 @@ public class AllophoneSet {
++						}

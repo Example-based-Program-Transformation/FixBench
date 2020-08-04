@@ -1,0 +1,1 @@
+Fixed #1077: NPE has been fixed.

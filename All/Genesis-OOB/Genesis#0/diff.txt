@@ -1,0 +1,7 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheTree.java b/org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheTree.java
+index 30932e8..83aa8fa 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheTree.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/dircache/DirCacheTree.java
+@@ -402 +402 @@ final boolean contains(final byte[] a, int aOff, final int aLen) {
+-		if (aOff == aLen)
++		if (aOff >= aLen)

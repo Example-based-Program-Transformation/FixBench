@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/math/statistics/parameters/StatisticalParameterParser.java b/src/main/java/org/optimizationBenchmarking/utils/math/statistics/parameters/StatisticalParameterParser.java
+index 769bd502..daa89b88 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/math/statistics/parameters/StatisticalParameterParser.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/math/statistics/parameters/StatisticalParameterParser.java
+@@ -40,2 +40,2 @@ public final class StatisticalParameterParser extends
+-    lower = prepared.toLowerCase();
+-    switch (string.toLowerCase()) {
++    lower = TextUtils.toLowerCase(prepared);
++    switch (TextUtils.toLowerCase(string)) {

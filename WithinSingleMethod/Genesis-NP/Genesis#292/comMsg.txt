@@ -1,0 +1,1 @@
+getJAXBAssociationsForXPath: throw exception if binder.getXMLNode(jaxbElement) returns null

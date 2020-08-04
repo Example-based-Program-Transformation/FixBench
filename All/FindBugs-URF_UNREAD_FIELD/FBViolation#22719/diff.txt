@@ -1,0 +1,9 @@
+diff --git a/src/main/java/net/trackmate/model/abstractmodel/PoolObjectList.java b/src/main/java/net/trackmate/model/abstractmodel/PoolObjectList.java
+index ba793a55..7ab1c1b7 100644
+--- a/src/main/java/net/trackmate/model/abstractmodel/PoolObjectList.java
++++ b/src/main/java/net/trackmate/model/abstractmodel/PoolObjectList.java
+@@ -189,4 +188,0 @@ public class PoolObjectList< O extends PoolObject< T >, T extends MappedElement
+-		final MemPool< T > memPool = pool.getMemPool();
+-
+-		final TIntIterator ii = indices.iterator();
+-

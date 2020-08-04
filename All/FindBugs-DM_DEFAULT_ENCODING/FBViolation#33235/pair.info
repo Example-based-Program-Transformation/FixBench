@@ -1,0 +1,8 @@
+Id:33235
+comSha:4a4f273ebcb53fc498dd0c45bc5dd4ea66cf5480
+parentComSha:237a7830c382d17dfa2fd10951c13d1ad46075b2
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomeDescription.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomeDescription.java
+StartLineNum:323
+EndLineNum:323
+repoName:GenomicParisCentre#eoulsan

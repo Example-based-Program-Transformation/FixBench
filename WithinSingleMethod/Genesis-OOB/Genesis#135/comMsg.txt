@@ -1,0 +1,1 @@
+Fixed ArrayIndexOutOfBoundsException in Sentence.getOffset() when offsetMap was currently empty and the position requested was zero, or when index was negative where offsets for empty sentences were requested.

@@ -1,0 +1,7 @@
+Id:345
+SATName:Genesis
+modifiedFPath:indexer/src/main/java/com/metamx/druid/indexer/HadoopDruidIndexerJob.java
+comSha:b420892dd9dc038e5d695fa766228ece04bb16c3
+parentComSha:b420892dd9dc038e5d695fa766228ece04bb16c3^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

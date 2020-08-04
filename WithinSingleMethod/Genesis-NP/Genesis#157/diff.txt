@@ -1,0 +1,6 @@
+diff --git a/structr-rest/src/main/java/org/structr/rest/resource/TypeResource.java b/structr-rest/src/main/java/org/structr/rest/resource/TypeResource.java
+index 339e7bc..29c8376 100644
+--- a/structr-rest/src/main/java/org/structr/rest/resource/TypeResource.java
++++ b/structr-rest/src/main/java/org/structr/rest/resource/TypeResource.java
+@@ -231,0 +232 @@ public class TypeResource extends SortableResource {
++					result.addContent(newRelationship);

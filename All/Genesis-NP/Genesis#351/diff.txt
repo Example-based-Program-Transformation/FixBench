@@ -1,0 +1,9 @@
+diff --git a/helios-client/src/main/java/com/spotify/helios/common/descriptors/PortMapping.java b/helios-client/src/main/java/com/spotify/helios/common/descriptors/PortMapping.java
+index 1405dfe..35a53d2 100644
+--- a/helios-client/src/main/java/com/spotify/helios/common/descriptors/PortMapping.java
++++ b/helios-client/src/main/java/com/spotify/helios/common/descriptors/PortMapping.java
+@@ -20,0 +21 @@ import com.google.common.base.Objects;
++import com.google.common.base.Optional;
+@@ -55 +56 @@ public class PortMapping extends Descriptor {
+-    this.protocol = protocol;
++    this.protocol = Optional.fromNullable(protocol).or(TCP);

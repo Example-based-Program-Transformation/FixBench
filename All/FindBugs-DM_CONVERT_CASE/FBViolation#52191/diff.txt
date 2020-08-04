@@ -1,0 +1,19 @@
+diff --git a/util/src/main/java/com/psddev/dari/util/StringUtils.java b/util/src/main/java/com/psddev/dari/util/StringUtils.java
+index 884d1982..18c3b5ec 100644
+--- a/util/src/main/java/com/psddev/dari/util/StringUtils.java
++++ b/util/src/main/java/com/psddev/dari/util/StringUtils.java
+@@ -155 +155 @@ public final class StringUtils {
+-                words.add(string.substring(m, i).toLowerCase());
++                words.add(string.substring(m, i).toLowerCase(Locale.ENGLISH));
+@@ -160 +160 @@ public final class StringUtils {
+-                words.add(string.substring(m, i).toLowerCase());
++                words.add(string.substring(m, i).toLowerCase(Locale.ENGLISH));
+@@ -165 +165 @@ public final class StringUtils {
+-            words.add(string.substring(m).toLowerCase());
++            words.add(string.substring(m).toLowerCase(Locale.ENGLISH));
+@@ -235 +235 @@ public final class StringUtils {
+-        if (words.size() > 0 && "is".equals(words.get(0))) {
++        if (!words.isEmpty() && "is".equals(words.get(0))) {
+@@ -283 +283 @@ public final class StringUtils {
+-        ).toLowerCase();
++        ).toLowerCase(Locale.ENGLISH);

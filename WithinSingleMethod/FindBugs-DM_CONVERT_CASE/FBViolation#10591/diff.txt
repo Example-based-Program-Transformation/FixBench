@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/commands/PAA_Spawn.java b/src/net/slipcor/pvparena/commands/PAA_Spawn.java
+index fdac8960..ebee5f4d 100644
+--- a/src/net/slipcor/pvparena/commands/PAA_Spawn.java
++++ b/src/net/slipcor/pvparena/commands/PAA_Spawn.java
+@@ -102 +102 @@ public class PAA_Spawn extends AbstractArenaCommand {
+-		arena.spawnSet(name.toLowerCase(), loc);
++		arena.spawnSet(name, loc);

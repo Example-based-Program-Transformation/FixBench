@@ -1,0 +1,8 @@
+Id:28897
+comSha:8682ca1685e30c067d5507b3bae568948d06fa7d
+parentComSha:69a9374d15cb390f5576df67782a1ded2b009552
+BuggyFilePath:drools-planner-examples/src/main/java/org/drools/planner/examples/common/persistence/AbstractTxtSolutionImporter.java
+FixedFilePath:drools-planner-examples/src/main/java/org/drools/planner/examples/common/persistence/AbstractTxtSolutionImporter.java
+StartLineNum:44
+EndLineNum:44
+repoName:droolsjbpm#optaplanner

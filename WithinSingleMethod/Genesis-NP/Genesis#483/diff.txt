@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/mashape/unirest/http/utils/MapUtil.java b/src/main/java/com/mashape/unirest/http/utils/MapUtil.java
+index 35325c2..d916419 100644
+--- a/src/main/java/com/mashape/unirest/http/utils/MapUtil.java
++++ b/src/main/java/com/mashape/unirest/http/utils/MapUtil.java
+@@ -44,0 +45 @@ public class MapUtil {
++						if (cur != null) {
+@@ -49,0 +51 @@ public class MapUtil {
++		}

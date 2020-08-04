@@ -1,0 +1,8 @@
+Id:67135
+comSha:537e085c89a4391ea54b7cd2a530364e5a5297c3
+parentComSha:11e638dac1efe7635697e51b8ccc582bbb5f31b9
+BuggyFilePath:src/main/java/com/googlecode/mp4parser/authoring/TrackMetaData.java
+FixedFilePath:src/main/java/com/googlecode/mp4parser/authoring/TrackMetaData.java
+StartLineNum:33
+EndLineNum:33
+repoName:sannies#mp4parser

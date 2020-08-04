@@ -1,0 +1,6 @@
+diff --git a/optaplanner-core/src/main/java/org/optaplanner/core/impl/exhaustivesearch/scope/ExhaustiveSearchStepScope.java b/optaplanner-core/src/main/java/org/optaplanner/core/impl/exhaustivesearch/scope/ExhaustiveSearchStepScope.java
+index 26559ca..9d57c8f 100644
+--- a/optaplanner-core/src/main/java/org/optaplanner/core/impl/exhaustivesearch/scope/ExhaustiveSearchStepScope.java
++++ b/optaplanner-core/src/main/java/org/optaplanner/core/impl/exhaustivesearch/scope/ExhaustiveSearchStepScope.java
+@@ -48,0 +49 @@ public class ExhaustiveSearchStepScope extends AbstractStepScope {
++        this.score = expandingNode.getScore();

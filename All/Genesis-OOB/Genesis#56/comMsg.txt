@@ -1,0 +1,1 @@
+GLM front-end fix: fix the AIOOB occurring when there was an offset column with ignored columns occurring after (higher ids) cause removing the offset changed ids by -1. Fixed by removing the ignored cols prior to removing the offset column.

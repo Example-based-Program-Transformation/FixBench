@@ -1,0 +1,11 @@
+diff --git a/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java b/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
+index e419ad80..dc113ebc 100644
+--- a/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
++++ b/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
+@@ -3,0 +4 @@ import java.io.IOException;
++import java.io.OutputStreamWriter;
+@@ -80 +81,3 @@ public class LogCaptureFilter extends AbstractFilter {
+-                writer = new PrintWriter(response.getOutputStream());
++                writer = new PrintWriter(new OutputStreamWriter(
++                        response.getOutputStream(),
++                        response.getCharacterEncoding()));

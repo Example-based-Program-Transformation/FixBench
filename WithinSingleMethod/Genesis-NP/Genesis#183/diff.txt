@@ -1,0 +1,11 @@
+diff --git a/src/main/java/redis/clients/jedis/Jedis.java b/src/main/java/redis/clients/jedis/Jedis.java
+index bca74d0..f30990d 100644
+--- a/src/main/java/redis/clients/jedis/Jedis.java
++++ b/src/main/java/redis/clients/jedis/Jedis.java
+@@ -2778,2 +2778,4 @@ public class Jedis extends BinaryJedis implements JedisCommands, MultiKeyCommand
+-	    for (Object bin : list)
+-		listResult.add(SafeEncoder.encode((byte[]) bin));
++	    for (Object bin : list) {
++		listResult.add((bin == null ? null : SafeEncoder
++			.encode((byte[]) bin)));
++	    }

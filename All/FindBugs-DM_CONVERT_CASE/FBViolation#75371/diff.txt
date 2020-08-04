@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/ValueRangeGroups.java b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/ValueRangeGroups.java
+index 1272c14f..f42ad8f9 100644
+--- a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/ValueRangeGroups.java
++++ b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/ValueRangeGroups.java
+@@ -9,0 +10 @@ import org.optimizationBenchmarking.utils.text.ETextCase;
++import org.optimizationBenchmarking.utils.text.TextUtils;
+@@ -71 +72 @@ public class ValueRangeGroups extends PropertyValueGroups {
+-        this.getGroupingMode().toString().toLowerCase() + //
++        TextUtils.toLowerCase(this.getGroupingMode().toString()) + //

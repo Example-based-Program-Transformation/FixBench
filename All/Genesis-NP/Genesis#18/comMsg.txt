@@ -1,0 +1,1 @@
+Fix possible NPE in IndexDiff when not all submodules are cloned

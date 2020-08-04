@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
+index 6363776..a899a20 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/ModifiedControlVariableCheck.java
+@@ -279 +279 @@ public final class ModifiedControlVariableCheck extends Check {
+-            if (identAST.getType() == TokenTypes.IDENT
++            if (identAST != null && identAST.getType() == TokenTypes.IDENT

@@ -1,0 +1,11 @@
+diff --git a/src/main/java/jline/internal/TerminalLineSettings.java b/src/main/java/jline/internal/TerminalLineSettings.java
+index 926d49d..b70bd9a 100644
+--- a/src/main/java/jline/internal/TerminalLineSettings.java
++++ b/src/main/java/jline/internal/TerminalLineSettings.java
+@@ -90 +90 @@ public final class TerminalLineSettings
+-            // tty properties are cached so we don't have to worry too much about getting term widht/height
++            // tty properties are cached so we don't have to worry too much about getting term width/height
+@@ -95,0 +96,3 @@ public final class TerminalLineSettings
++            if (config == null) {
++                return -1;
++            }

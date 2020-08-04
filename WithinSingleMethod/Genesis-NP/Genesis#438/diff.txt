@@ -1,0 +1,15 @@
+diff --git a/rapidoid-io/src/main/java/org/rapidoid/io/IO.java b/rapidoid-io/src/main/java/org/rapidoid/io/IO.java
+index 1a8be08..7d3dfb9 100644
+--- a/rapidoid-io/src/main/java/org/rapidoid/io/IO.java
++++ b/rapidoid-io/src/main/java/org/rapidoid/io/IO.java
+@@ -59 +59,9 @@ public class IO {
+-		return Thread.currentThread().getContextClassLoader();
++		Thread thread = Thread.currentThread();
++
++		ClassLoader classLoader = thread != null ? thread.getContextClassLoader() : null;
++
++		if (classLoader == null) {
++			classLoader = IO.class.getClassLoader();
++		}
++
++		return classLoader;

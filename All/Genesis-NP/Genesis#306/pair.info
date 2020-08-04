@@ -1,0 +1,7 @@
+Id:306
+SATName:Genesis
+modifiedFPath:logback-classic/src/main/java/ch/qos/logback/classic/net/server/RemoteAppenderStreamClient.java
+comSha:edf75ee449cf93652ee6446af062e04594c1de92
+parentComSha:edf75ee449cf93652ee6446af062e04594c1de92^1
+githubUrl:https://github.com/qos-ch/logback
+repoName:qos-ch#logback

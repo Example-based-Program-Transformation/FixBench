@@ -1,0 +1,1 @@
+MAHOUT-1232: VectorHelper.topEntries() throws a NPE when number of NonZero elements in vector < maxEntries - added code comments

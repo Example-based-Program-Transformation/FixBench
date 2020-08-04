@@ -1,0 +1,1 @@
+fixed a potential NPE in RemoteAppenderStreamClient.run

@@ -1,0 +1,8 @@
+Id:52015
+comSha:7a9e20fb2b863e37ccee4dbc61cf0eaf0b3c369d
+parentComSha:2d3b35e6aac1466d93e5f7829098a195efc59449
+BuggyFilePath:util/src/main/java/com/psddev/dari/util/SourceFilter.java
+FixedFilePath:util/src/main/java/com/psddev/dari/util/SourceFilter.java
+StartLineNum:945
+EndLineNum:945
+repoName:perfectsense#dari

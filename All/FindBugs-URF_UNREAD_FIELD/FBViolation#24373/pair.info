@@ -1,0 +1,8 @@
+Id:24373
+comSha:a63ee5e4685ef5898f105ba9141878c2fe5b63be
+parentComSha:42eedfb3f9ded2f04a08b0b017e9969b34405a43
+BuggyFilePath:californium/src/main/java/ch/ethz/inf/vs/californium/endpoint/resources/RDLookUpTopResource.java
+FixedFilePath:californium/src/main/java/ch/ethz/inf/vs/californium/endpoint/resources/RDLookUpTopResource.java
+StartLineNum:6
+EndLineNum:6
+repoName:mkovatsc#Californium

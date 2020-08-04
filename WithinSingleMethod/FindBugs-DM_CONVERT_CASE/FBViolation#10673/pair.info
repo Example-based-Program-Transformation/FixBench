@@ -1,0 +1,8 @@
+Id:10673
+comSha:ccc928e22ec4cf2a99fbc35b06c328552ae2f5ab
+parentComSha:6e29812da25c938918540bfcdc9873b115330a02
+BuggyFilePath:src/net/slipcor/pvparena/managers/ArenaManager.java
+FixedFilePath:src/net/slipcor/pvparena/managers/ArenaManager.java
+StartLineNum:303
+EndLineNum:303
+repoName:slipcor#pvparena

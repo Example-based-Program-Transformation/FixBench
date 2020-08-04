@@ -1,0 +1,7 @@
+Id:100
+SATName:Genesis
+modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java
+comSha:fb1407c204a960223f78ec8429a5581773e5578b
+parentComSha:fb1407c204a960223f78ec8429a5581773e5578b^1
+githubUrl:https://github.com/checkstyle/checkstyle
+repoName:checkstyle#checkstyle

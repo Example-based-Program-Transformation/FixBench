@@ -1,0 +1,7 @@
+diff --git a/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java b/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java
+index 4dba659..e6413f0 100644
+--- a/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java
++++ b/liquibase-core/src/main/java/liquibase/integration/commandline/Main.java
+@@ -70 +70 @@ public class Main {
+-    protected String defaultsFile;
++    protected String defaultsFile = "liquibase.properties";

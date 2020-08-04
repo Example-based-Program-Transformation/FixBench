@@ -1,0 +1,9 @@
+diff --git a/flying-saucer-core/src/main/java/org/xhtmlrenderer/newtable/TableCellBox.java b/flying-saucer-core/src/main/java/org/xhtmlrenderer/newtable/TableCellBox.java
+index 03f6008..208cf19 100644
+--- a/flying-saucer-core/src/main/java/org/xhtmlrenderer/newtable/TableCellBox.java
++++ b/flying-saucer-core/src/main/java/org/xhtmlrenderer/newtable/TableCellBox.java
+@@ -239,2 +239,2 @@ public class TableCellBox extends BlockBox {
+-        return bottomEdge >= page.getBottom() - c.getExtraSpaceBottom() || 
+-                    bottomEdge + posDeltaY >= page.getBottom() - c.getExtraSpaceBottom();
++        return page != null && (bottomEdge >= page.getBottom() - c.getExtraSpaceBottom() ||
++                    bottomEdge + posDeltaY >= page.getBottom() - c.getExtraSpaceBottom());

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/nodebox/ui/ColorDialog.java b/src/main/java/nodebox/ui/ColorDialog.java
+index 7d1dce95..4e721815 100644
+--- a/src/main/java/nodebox/ui/ColorDialog.java
++++ b/src/main/java/nodebox/ui/ColorDialog.java
+@@ -87 +87 @@ public class ColorDialog extends JDialog implements ChangeListener {
+-                String s = hexField.getText().toLowerCase();
++                String s = hexField.getText().toLowerCase(Locale.US);

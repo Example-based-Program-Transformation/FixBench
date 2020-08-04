@@ -1,0 +1,7 @@
+diff --git a/maven-core/src/main/java/org/apache/maven/execution/DefaultMavenExecutionResult.java b/maven-core/src/main/java/org/apache/maven/execution/DefaultMavenExecutionResult.java
+index 5616f38..bdb4532 100644
+--- a/maven-core/src/main/java/org/apache/maven/execution/DefaultMavenExecutionResult.java
++++ b/maven-core/src/main/java/org/apache/maven/execution/DefaultMavenExecutionResult.java
+@@ -37 +37 @@
+-    private List<MavenProject> topologicallySortedProjects;
++    private List<MavenProject> topologicallySortedProjects = Collections.emptyList();

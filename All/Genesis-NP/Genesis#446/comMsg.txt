@@ -1,0 +1,1 @@
+Fixed NPE caused by the recent context management refactoring.

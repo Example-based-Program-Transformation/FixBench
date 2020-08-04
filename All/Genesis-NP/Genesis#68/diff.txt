@@ -1,0 +1,31 @@
+diff --git a/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/convert/QueryMapper.java b/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/convert/QueryMapper.java
+index 83abddb..1237573 100644
+--- a/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/convert/QueryMapper.java
++++ b/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/convert/QueryMapper.java
+@@ -253 +253 @@ public class QueryMapper {
+-	 * @param documentField
++	 * @param documentField must not be {@literal null}.
+@@ -258,3 +258,20 @@ public class QueryMapper {
+-		return documentField.isAssociation() && value != null
+-				&& (documentField.getProperty().getActualType().isAssignableFrom(value.getClass()) //
+-				|| documentField.getPropertyEntity().getIdProperty().getActualType().isAssignableFrom(value.getClass()));
++
++		Assert.notNull(documentField, "Document field must not be null!");
++
++		if (value == null) {
++			return false;
++		}
++
++		if (!documentField.isAssociation()) {
++			return false;
++		}
++
++		Class<? extends Object> type = value.getClass();
++		MongoPersistentProperty property = documentField.getProperty();
++
++		if (property.getActualType().isAssignableFrom(type)) {
++			return true;
++		}
++
++		MongoPersistentEntity<?> entity = documentField.getPropertyEntity();
++		return entity.hasIdProperty() && entity.getIdProperty().getActualType().isAssignableFrom(type);

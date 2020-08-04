@@ -1,0 +1,10 @@
+diff --git a/jstorm-core/src/main/java/com/alibaba/jstorm/daemon/nimbus/TopologyMetricsRunnable.java b/jstorm-core/src/main/java/com/alibaba/jstorm/daemon/nimbus/TopologyMetricsRunnable.java
+index bbc9dd2..c70e42b 100644
+--- a/jstorm-core/src/main/java/com/alibaba/jstorm/daemon/nimbus/TopologyMetricsRunnable.java
++++ b/jstorm-core/src/main/java/com/alibaba/jstorm/daemon/nimbus/TopologyMetricsRunnable.java
+@@ -481 +481 @@ public class TopologyMetricsRunnable extends Thread {
+-            int zkSize = (Integer) stormClusterState.get_topology_metric(topologyId);
++            Integer zkSize = (Integer)stormClusterState.get_topology_metric(topologyId);
+@@ -483 +483 @@ public class TopologyMetricsRunnable extends Thread {
+-            if (memSize != zkSize) {
++            if (zkSize != null  && memSize != zkSize.intValue()) {

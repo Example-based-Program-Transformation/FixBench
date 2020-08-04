@@ -1,0 +1,13 @@
+diff --git a/processor/src/main/java/org/mapstruct/ap/internal/processor/creation/MappingResolverImpl.java b/processor/src/main/java/org/mapstruct/ap/internal/processor/creation/MappingResolverImpl.java
+index 41db416..8566fbc 100755
+--- a/processor/src/main/java/org/mapstruct/ap/internal/processor/creation/MappingResolverImpl.java
++++ b/processor/src/main/java/org/mapstruct/ap/internal/processor/creation/MappingResolverImpl.java
+@@ -33,0 +34 @@
++import org.mapstruct.ap.internal.model.MappingBuilderContext.MappingResolver;
+@@ -36 +36,0 @@
+-import org.mapstruct.ap.internal.model.MappingBuilderContext.MappingResolver;
+@@ -393,0 +394,4 @@ private Assignment resolveViaMethodAndConversion(Type sourceType, Type targetTyp
++                if ( methodXCandidate.getMappingTargetParameter() != null ) {
++                    continue;
++                }
++

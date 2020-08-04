@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OSBTreeCollectionManagerProxy.java b/core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OSBTreeCollectionManagerProxy.java
+index e847372..e46f0db 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OSBTreeCollectionManagerProxy.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/db/record/ridbag/sbtree/OSBTreeCollectionManagerProxy.java
+@@ -90 +90 @@ public class OSBTreeCollectionManagerProxy extends OProxedResource<OSBTreeCollec
+-
++    if (delegate != null)

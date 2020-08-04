@@ -1,0 +1,9 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/interceptor/AtmosphereResourceStateRecovery.java b/modules/cpr/src/main/java/org/atmosphere/interceptor/AtmosphereResourceStateRecovery.java
+index 088c530..ecd464b 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/interceptor/AtmosphereResourceStateRecovery.java
++++ b/modules/cpr/src/main/java/org/atmosphere/interceptor/AtmosphereResourceStateRecovery.java
+@@ -200 +199,0 @@ public class AtmosphereResourceStateRecovery implements AtmosphereInterceptor {
+-
+@@ -264 +263 @@ public class AtmosphereResourceStateRecovery implements AtmosphereInterceptor {
+-            if (force || (b != null && !b.getID().equalsIgnoreCase(r.getBroadcaster().getID()))) {
++            if (b != null && (force || !b.getID().equalsIgnoreCase(r.getBroadcaster().getID()))) {

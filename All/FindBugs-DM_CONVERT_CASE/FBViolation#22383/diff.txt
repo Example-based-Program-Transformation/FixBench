@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/descdiagram/command/CommandLinkElement.java b/src/net/sourceforge/plantuml/descdiagram/command/CommandLinkElement.java
+index c6df039b..9ec8671d 100644
+--- a/src/net/sourceforge/plantuml/descdiagram/command/CommandLinkElement.java
++++ b/src/net/sourceforge/plantuml/descdiagram/command/CommandLinkElement.java
+@@ -170 +170 @@ public class CommandLinkElement extends SingleLineCommand2<DescriptionDiagram> {
+-		return s.trim().toLowerCase();
++		return StringUtils.goLowerCase(s.trim());

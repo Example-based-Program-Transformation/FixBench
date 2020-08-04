@@ -1,0 +1,1 @@
+When deleting obsolete files, ignore file name patterns we don't understand.

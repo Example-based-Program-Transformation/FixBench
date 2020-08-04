@@ -1,0 +1,8 @@
+diff --git a/repository-hpi/src/main/java/com/nirima/jenkins/webdav/impl/methods/MethodBase.java b/repository-hpi/src/main/java/com/nirima/jenkins/webdav/impl/methods/MethodBase.java
+index ba43c7c..848d5a9 100644
+--- a/repository-hpi/src/main/java/com/nirima/jenkins/webdav/impl/methods/MethodBase.java
++++ b/repository-hpi/src/main/java/com/nirima/jenkins/webdav/impl/methods/MethodBase.java
+@@ -107,2 +107 @@ public class MethodBase implements IMethod {
+-        m_path = request.getPathInfo();
+-
++        m_path = request.getContextPath() + request.getPathInfo();

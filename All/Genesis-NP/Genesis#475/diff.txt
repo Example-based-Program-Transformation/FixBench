@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/lambdaworks/redis/protocol/CommandOutput.java b/src/main/java/com/lambdaworks/redis/protocol/CommandOutput.java
+index b7c8d54..32cd9b4 100644
+--- a/src/main/java/com/lambdaworks/redis/protocol/CommandOutput.java
++++ b/src/main/java/com/lambdaworks/redis/protocol/CommandOutput.java
+@@ -109,0 +110,3 @@ public abstract class CommandOutput<K, V, T> {
++        if (bytes == null) {
++            return null;
++        }

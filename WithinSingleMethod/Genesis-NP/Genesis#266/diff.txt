@@ -1,0 +1,15 @@
+diff --git a/core/src/main/java/org/axonframework/commandhandling/disruptor/EventPublisher.java b/core/src/main/java/org/axonframework/commandhandling/disruptor/EventPublisher.java
+index 936177f..d4a1d75 100644
+--- a/core/src/main/java/org/axonframework/commandhandling/disruptor/EventPublisher.java
++++ b/core/src/main/java/org/axonframework/commandhandling/disruptor/EventPublisher.java
+@@ -196,0 +197 @@ private Throwable performCommit(DisruptorUnitOfWork unitOfWork, EventSourcedAggr
++            try {
+@@ -199,0 +201,4 @@ private Throwable performCommit(DisruptorUnitOfWork unitOfWork, EventSourcedAggr
++            } catch (Exception te) {
++                logger.info("Failed to explicitly rollback the transaction: ", te);
++            }
++            if (aggregate != null) {
+@@ -200,0 +206,3 @@ private Throwable performCommit(DisruptorUnitOfWork unitOfWork, EventSourcedAggr
++            } else {
++                exceptionResult = e;
++            }

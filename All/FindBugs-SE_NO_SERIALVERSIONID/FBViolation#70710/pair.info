@@ -1,0 +1,8 @@
+Id:70710
+comSha:24b87d8d6e3978171ae84122fe42cf89d0ba8ba0
+parentComSha:892dffd732cb19494b0bbad94ecb8a9ba26efe48
+BuggyFilePath:src/com/google/bitcoin/core/Sha256Hash.java
+FixedFilePath:src/com/google/bitcoin/core/Sha256Hash.java
+StartLineNum:29
+EndLineNum:78
+repoName:bitcoinj#bitcoinj

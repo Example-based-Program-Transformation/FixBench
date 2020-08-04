@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/phoenix/expression/AndOrExpression.java b/src/main/java/com/salesforce/phoenix/expression/AndOrExpression.java
+index 4d21e2c..c45dd84 100644
+--- a/src/main/java/com/salesforce/phoenix/expression/AndOrExpression.java
++++ b/src/main/java/com/salesforce/phoenix/expression/AndOrExpression.java
+@@ -90 +90 @@ public abstract class AndOrExpression extends BaseCompoundExpression {
+-                    if (PDataType.BOOLEAN.toObject(ptr, child.getDataType()).equals(Boolean.valueOf(stopValue))) {
++                    if (Boolean.valueOf(stopValue).equals(PDataType.BOOLEAN.toObject(ptr, child.getDataType()))) {

@@ -1,0 +1,1 @@
+Fixed NullpointerException when plugin is executed in Maven module without image configuration

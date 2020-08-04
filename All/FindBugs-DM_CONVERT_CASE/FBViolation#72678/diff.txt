@@ -1,0 +1,9 @@
+diff --git a/wikibrain-spatial/src/main/java/org/wikibrain/spatial/loader/IDAttributeHandler.java b/wikibrain-spatial/src/main/java/org/wikibrain/spatial/loader/IDAttributeHandler.java
+index efe61dde..4b95adc2 100644
+--- a/wikibrain-spatial/src/main/java/org/wikibrain/spatial/loader/IDAttributeHandler.java
++++ b/wikibrain-spatial/src/main/java/org/wikibrain/spatial/loader/IDAttributeHandler.java
+@@ -61,0 +62 @@ public abstract class IDAttributeHandler {
++
+@@ -63 +64 @@ public abstract class IDAttributeHandler {
+-            if (parts[1].toLowerCase().equals("en")) parts[1] = "simple"; // TEMPORARY HACK
++//            if (parts[1].toLowerCase().equals("en")) parts[1] = "simple"; // TEMPORARY HACK

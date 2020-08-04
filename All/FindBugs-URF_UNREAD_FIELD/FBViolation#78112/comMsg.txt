@@ -1,0 +1,1 @@
+We use Java 7, so splitting a String has no issue with performance

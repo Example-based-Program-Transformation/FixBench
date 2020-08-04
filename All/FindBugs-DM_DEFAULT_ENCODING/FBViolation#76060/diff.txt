@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/perfcake/reporting/destinations/chart/Chart.java b/src/main/java/org/perfcake/reporting/destinations/chart/Chart.java
+index b4a915e5..82ad8462 100644
+--- a/src/main/java/org/perfcake/reporting/destinations/chart/Chart.java
++++ b/src/main/java/org/perfcake/reporting/destinations/chart/Chart.java
+@@ -535 +535 @@ public class Chart {
+-            outputChannel.write(ByteBuffer.wrap(line.getBytes()));
++            outputChannel.write(ByteBuffer.wrap(line.getBytes(Charset.forName(Utils.getDefaultEncoding()))));

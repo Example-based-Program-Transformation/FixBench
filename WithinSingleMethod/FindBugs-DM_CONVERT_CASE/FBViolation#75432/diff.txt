@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/io/paths/PathUtils.java b/src/main/java/org/optimizationBenchmarking/utils/io/paths/PathUtils.java
+index 7c78778d..e138ad8b 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/io/paths/PathUtils.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/io/paths/PathUtils.java
+@@ -603 +603 @@ public final class PathUtils {
+-    return fileName.substring(last + 1).toLowerCase();
++    return TextUtils.toLowerCase(fileName.substring(last + 1));

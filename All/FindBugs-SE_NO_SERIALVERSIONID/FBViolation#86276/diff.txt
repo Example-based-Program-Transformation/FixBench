@@ -1,0 +1,8 @@
+diff --git a/api/src/main/java/org/semanticweb/owlapi/util/HornAxiomVisitorEx.java b/api/src/main/java/org/semanticweb/owlapi/util/HornAxiomVisitorEx.java
+index 2a363b0d5..a63b73cd6 100644
+--- a/api/src/main/java/org/semanticweb/owlapi/util/HornAxiomVisitorEx.java
++++ b/api/src/main/java/org/semanticweb/owlapi/util/HornAxiomVisitorEx.java
+@@ -71,0 +72 @@ public class HornAxiomVisitorEx extends OWLAxiomVisitorExAdapter<Boolean> {
++    private static final long serialVersionUID = 40000L;
+@@ -74,0 +76 @@ public class HornAxiomVisitorEx extends OWLAxiomVisitorExAdapter<Boolean> {
++    /** default constructor */

@@ -1,0 +1,1 @@
+Adds option to show score in chat when in arena

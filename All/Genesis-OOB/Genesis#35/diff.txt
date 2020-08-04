@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java b/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+index 4d010ea..0500460 100644
+--- a/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
++++ b/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+@@ -95 +95 @@ public final void translate(CharSequence input, Writer out) throws IOException {
+-                pos += Character.charCount(Character.codePointAt(input, pos));
++                pos += Character.charCount(Character.codePointAt(input, pt));

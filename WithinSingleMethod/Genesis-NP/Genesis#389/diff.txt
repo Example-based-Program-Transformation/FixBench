@@ -1,0 +1,10 @@
+diff --git a/forge/fabric8-forge-core/src/main/java/io/fabric8/forge/rest/dto/UICommands.java b/forge/fabric8-forge-core/src/main/java/io/fabric8/forge/rest/dto/UICommands.java
+index 4b4d2a8..c92de57 100644
+--- a/forge/fabric8-forge-core/src/main/java/io/fabric8/forge/rest/dto/UICommands.java
++++ b/forge/fabric8-forge-core/src/main/java/io/fabric8/forge/rest/dto/UICommands.java
+@@ -318 +318 @@ public class UICommands {
+-        } else {
++        } else if (result != null) {
+@@ -319,0 +320,2 @@ public class UICommands {
++        } else {
++            return null;

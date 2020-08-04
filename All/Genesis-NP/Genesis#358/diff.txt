@@ -1,0 +1,7 @@
+diff --git a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
+index 597c8b8..83cf31c 100644
+--- a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
++++ b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
+@@ -2249,0 +2250,2 @@ public abstract class Model extends CallbackSupport implements Externalizable {
++        if(child == null) throw new IllegalArgumentException("cannot add what is null");
++

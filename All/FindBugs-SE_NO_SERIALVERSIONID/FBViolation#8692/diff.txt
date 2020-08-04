@@ -1,0 +1,9 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/BusinessRuleTaskActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/BusinessRuleTaskActivityBehavior.java
+index 7ab4aa085..1d8873296 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/BusinessRuleTaskActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/BusinessRuleTaskActivityBehavior.java
+@@ -23 +22,0 @@ import org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity;
+-import org.activiti.engine.impl.pvm.PvmProcessDefinition;
+@@ -38,0 +38,2 @@ public class BusinessRuleTaskActivityBehavior extends TaskActivityBehavior {
++  private static final long serialVersionUID = 1L;
++

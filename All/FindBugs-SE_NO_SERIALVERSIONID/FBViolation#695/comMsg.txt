@@ -1,0 +1,1 @@
+Removing warnings, some #111 and #155

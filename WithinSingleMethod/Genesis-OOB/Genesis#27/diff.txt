@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/mapdb/StoreDirect.java b/src/main/java/org/mapdb/StoreDirect.java
+index 5495813..4b74fff 100644
+--- a/src/main/java/org/mapdb/StoreDirect.java
++++ b/src/main/java/org/mapdb/StoreDirect.java
+@@ -473,2 +473,3 @@ public class StoreDirect extends Store {
+-        int firstSize = (int) (offsets==null? 0L : offsets[0]>>>48);
+-        long firstOffset =  offsets==null? 0L : offsets[0]&MOFFSET;
++        boolean empty = offsets==null || offsets.length==0;
++        int firstSize = (int) (empty ? 0L : offsets[0]>>>48);
++        long firstOffset =  empty? 0L : offsets[0]&MOFFSET;

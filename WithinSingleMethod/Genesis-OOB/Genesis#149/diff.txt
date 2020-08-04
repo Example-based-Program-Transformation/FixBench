@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/greplin/lucene/query/PredicateQuery.java b/src/main/java/com/greplin/lucene/query/PredicateQuery.java
+index f6e8edd..614c65a 100644
+--- a/src/main/java/com/greplin/lucene/query/PredicateQuery.java
++++ b/src/main/java/com/greplin/lucene/query/PredicateQuery.java
+@@ -157 +157 @@ public class PredicateQuery extends Query {
+-            || predicate.get(scorer.docID())) {
++            || (scorer.docID() >= 0 && predicate.get(scorer.docID()))) {

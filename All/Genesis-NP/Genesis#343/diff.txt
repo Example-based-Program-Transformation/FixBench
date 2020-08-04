@@ -1,0 +1,13 @@
+diff --git a/realtime/src/main/java/com/metamx/druid/realtime/plumber/RealtimePlumberSchool.java b/realtime/src/main/java/com/metamx/druid/realtime/plumber/RealtimePlumberSchool.java
+index 5ba229e..a429fbe 100644
+--- a/realtime/src/main/java/com/metamx/druid/realtime/plumber/RealtimePlumberSchool.java
++++ b/realtime/src/main/java/com/metamx/druid/realtime/plumber/RealtimePlumberSchool.java
+@@ -664,0 +665,8 @@ public class RealtimePlumberSchool implements PlumberSchool
++    if (indexToPersist.hasSwapped()) {
++      log.info(
++          "DataSource[%s], Interval[%s], Hydrant[%s] already swapped. Ignoring request to persist.",
++          schema.getDataSource(), interval, indexToPersist
++      );
++      return 0;
++    }
++

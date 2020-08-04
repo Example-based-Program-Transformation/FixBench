@@ -1,0 +1,13 @@
+diff --git a/rapidoid-http/src/main/java/org/rapidoid/job/Jobs.java b/rapidoid-http/src/main/java/org/rapidoid/job/Jobs.java
+index 65778e2..5bdb9d3 100644
+--- a/rapidoid-http/src/main/java/org/rapidoid/job/Jobs.java
++++ b/rapidoid-http/src/main/java/org/rapidoid/job/Jobs.java
+@@ -101 +100,0 @@ public class Jobs implements Constants {
+-		}
+@@ -104 +103,2 @@ public class Jobs implements Constants {
+-		Ctx spannedCtx = ctx.span(); // currently the same ctx is returned
++			ctx = ctx.span(); // currently the same ctx is returned
++		}
+@@ -106 +106 @@ public class Jobs implements Constants {
+-		return new ContextPreservingJobWrapper(job, spannedCtx);
++		return new ContextPreservingJobWrapper(job, ctx);

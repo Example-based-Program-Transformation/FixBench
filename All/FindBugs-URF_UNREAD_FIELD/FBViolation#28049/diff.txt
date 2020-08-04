@@ -1,0 +1,13 @@
+diff --git a/src/main/java/teetime/stage/basic/merger/Merger.java b/src/main/java/teetime/stage/basic/merger/Merger.java
+index 250f35d8..1ed92585 100644
+--- a/src/main/java/teetime/stage/basic/merger/Merger.java
++++ b/src/main/java/teetime/stage/basic/merger/Merger.java
+@@ -18 +17,0 @@ package teetime.stage.basic.merger;
+-import java.util.HashMap;
+@@ -20,2 +18,0 @@ import java.util.List;
+-import java.util.Map;
+-import java.util.Set;
+@@ -44 +40,0 @@ public class Merger<T> extends AbstractStage {
+-	private final Map<Class<? extends ISignal>, Set<InputPort<?>>> signalMap;
+@@ -54 +49,0 @@ public class Merger<T> extends AbstractStage {
+-		this.signalMap = new HashMap<Class<? extends ISignal>, Set<InputPort<?>>>();

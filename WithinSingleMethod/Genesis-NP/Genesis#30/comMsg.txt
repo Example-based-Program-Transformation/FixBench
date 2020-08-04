@@ -1,0 +1,1 @@
+[bitstamp] Resolve Nullpointer for Ripple withdrawal

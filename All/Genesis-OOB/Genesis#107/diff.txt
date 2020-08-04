@@ -1,0 +1,18 @@
+diff --git a/core/src/main/java/org/apache/mina/common/AbstractIoBuffer.java b/core/src/main/java/org/apache/mina/common/AbstractIoBuffer.java
+index 8aedb16..f675d5e 100644
+--- a/core/src/main/java/org/apache/mina/common/AbstractIoBuffer.java
++++ b/core/src/main/java/org/apache/mina/common/AbstractIoBuffer.java
+@@ -695,0 +696,9 @@ public abstract class AbstractIoBuffer extends IoBuffer {
++        int endIndex = pos + length;
++
++        if (capacity() < endIndex) {
++            throw new IndexOutOfBoundsException(
++                    "index + length (" + endIndex + ") is greater " +
++                    "than capacity (" + capacity() + ").");
++        }
++
++        clear();
+@@ -697 +706,2 @@ public abstract class AbstractIoBuffer extends IoBuffer {
+-        limit(index + length);
++        limit(endIndex);
++

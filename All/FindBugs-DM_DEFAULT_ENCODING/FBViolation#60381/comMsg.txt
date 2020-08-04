@@ -1,0 +1,3 @@
+Merge pull request #748 from xuwei-k/override-hashCode
+
+override HostAndPort#hashCode

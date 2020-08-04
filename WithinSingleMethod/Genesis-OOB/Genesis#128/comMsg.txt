@@ -1,0 +1,1 @@
+TIKA-1192: RTF: fix AIOOBE in handling list override

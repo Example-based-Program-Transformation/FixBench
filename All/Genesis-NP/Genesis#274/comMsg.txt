@@ -1,0 +1,1 @@
+Made fix to prevent null pointer exception on OAuth2Authorization.toString() when token has not been built yet

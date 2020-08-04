@@ -1,0 +1,7 @@
+Id:131
+SATName:Genesis
+modifiedFPath:hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BaseLoadBalancer.java
+comSha:e95cf8fdb4c78458e3058198e13c6d3cbd85a0e2
+parentComSha:e95cf8fdb4c78458e3058198e13c6d3cbd85a0e2^1
+githubUrl:https://github.com/apache/hbase
+repoName:apache#hbase

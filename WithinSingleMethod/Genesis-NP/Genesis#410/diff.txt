@@ -1,0 +1,8 @@
+diff --git a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientElement.java b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientElement.java
+index a56612d..e826189 100644
+--- a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientElement.java
++++ b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientElement.java
+@@ -394,0 +395,3 @@ public abstract class OrientElement implements Element, OSerializableStream, Ext
++    if (rawElement == null)
++      return null;
++

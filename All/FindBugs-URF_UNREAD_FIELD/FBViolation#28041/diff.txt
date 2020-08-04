@@ -1,0 +1,13 @@
+diff --git a/src/main/java/teetime/util/list/CommittableResizableArrayQueue.java b/src/main/java/teetime/util/list/CommittableResizableArrayQueue.java
+index 6a6b2afe..d8929c3e 100644
+--- a/src/main/java/teetime/util/list/CommittableResizableArrayQueue.java
++++ b/src/main/java/teetime/util/list/CommittableResizableArrayQueue.java
+@@ -5 +5 @@ public class CommittableResizableArrayQueue<T> implements CommittableQueue<T> {
+-	private final int MIN_CAPACITY;
++	// private final int MIN_CAPACITY;
+@@ -16 +16 @@ public class CommittableResizableArrayQueue<T> implements CommittableQueue<T> {
+-		this.MIN_CAPACITY = initialCapacity + 1;
++		// this.MIN_CAPACITY = initialCapacity + 1;
+@@ -20 +20 @@ public class CommittableResizableArrayQueue<T> implements CommittableQueue<T> {
+-		this.clear();
++		this.clear(); // NOPMD

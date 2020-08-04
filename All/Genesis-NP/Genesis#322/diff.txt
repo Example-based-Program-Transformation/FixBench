@@ -1,0 +1,8 @@
+diff --git a/web/tapestry/src/main/java/org/appfuse/webapp/pages/PasswordRecoveryToken.java b/web/tapestry/src/main/java/org/appfuse/webapp/pages/PasswordRecoveryToken.java
+index 6049de1..2f4b816 100644
+--- a/web/tapestry/src/main/java/org/appfuse/webapp/pages/PasswordRecoveryToken.java
++++ b/web/tapestry/src/main/java/org/appfuse/webapp/pages/PasswordRecoveryToken.java
+@@ -70 +70,2 @@ public class PasswordRecoveryToken {
+-            logger.error(ignored.getCause().getLocalizedMessage());
++            Throwable exceptionToLog = ignored.getCause() != null ? ignored.getCause() : ignored;
++            logger.error(exceptionToLog.getLocalizedMessage());

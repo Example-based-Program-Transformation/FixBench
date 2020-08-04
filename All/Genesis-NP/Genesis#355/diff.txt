@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java b/src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java
+index 08f22ad..7e68818 100644
+--- a/src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java
++++ b/src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java
+@@ -112 +112 @@ public class MapWrapper extends BaseWrapper {
+-          return map.containsKey(name);
++          return true;

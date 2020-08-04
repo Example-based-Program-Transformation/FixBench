@@ -1,0 +1,7 @@
+diff --git a/activejdbc/src/main/java/org/javalite/activejdbc/ModelFinder.java b/activejdbc/src/main/java/org/javalite/activejdbc/ModelFinder.java
+index f28d586..f3f5d82 100644
+--- a/activejdbc/src/main/java/org/javalite/activejdbc/ModelFinder.java
++++ b/activejdbc/src/main/java/org/javalite/activejdbc/ModelFinder.java
+@@ -38 +38 @@ public class ModelFinder {
+-        if (models.size() != 0) {
++        if (models != null && models.size() != 0) {

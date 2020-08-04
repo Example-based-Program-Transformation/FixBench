@@ -1,0 +1,7 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/util/ChangeIdUtil.java b/org.eclipse.jgit/src/org/eclipse/jgit/util/ChangeIdUtil.java
+index 676ca9b..35850dc 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/util/ChangeIdUtil.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/util/ChangeIdUtil.java
+@@ -231,0 +232,2 @@ public static int indexOfChangeId(String message, String delimiter) {
++		if (lines.length == 0)
++			return -1;

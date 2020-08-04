@@ -1,0 +1,8 @@
+Id:30016
+comSha:91c99b4b32e1bd4bcb69cde3c67e097db99ab8f5
+parentComSha:b15fbeb6915517ff0eab2bf0ead25568a47b9add
+BuggyFilePath:src/main/java/com/ldbc/driver/workloads/ldbc/snb/interactive/LdbcQuery3.java
+FixedFilePath:src/main/java/com/ldbc/driver/workloads/ldbc/snb/interactive/LdbcQuery3.java
+StartLineNum:16
+EndLineNum:16
+repoName:ldbc#ldbc_driver

@@ -1,0 +1,1 @@
+Cluster Config NPE fixed. #197

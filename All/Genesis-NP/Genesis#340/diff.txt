@@ -1,0 +1,11 @@
+diff --git a/processing/src/main/java/io/druid/segment/incremental/IncrementalIndexStorageAdapter.java b/processing/src/main/java/io/druid/segment/incremental/IncrementalIndexStorageAdapter.java
+index d0243f3..8843879 100644
+--- a/processing/src/main/java/io/druid/segment/incremental/IncrementalIndexStorageAdapter.java
++++ b/processing/src/main/java/io/druid/segment/incremental/IncrementalIndexStorageAdapter.java
+@@ -128,0 +129,4 @@ public class IncrementalIndexStorageAdapter implements StorageAdapter
++    if (index.isEmpty()) {
++      return ImmutableList.of();
++    }
++
+@@ -130,0 +135 @@ public class IncrementalIndexStorageAdapter implements StorageAdapter
++

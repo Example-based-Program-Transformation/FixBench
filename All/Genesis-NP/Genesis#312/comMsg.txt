@@ -1,0 +1,1 @@
+throw a proper exception if the setter can't be found (instead of an NPE)

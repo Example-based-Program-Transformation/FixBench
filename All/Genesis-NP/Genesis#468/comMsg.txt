@@ -1,0 +1,1 @@
+ACT-306: fix for NPE when sequence flow has invalid destination

@@ -1,0 +1,12 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/handler/ReflectorServletProcessor.java b/modules/cpr/src/main/java/org/atmosphere/handler/ReflectorServletProcessor.java
+index 67a1cdf..f5e9593 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/handler/ReflectorServletProcessor.java
++++ b/modules/cpr/src/main/java/org/atmosphere/handler/ReflectorServletProcessor.java
+@@ -103 +103 @@ public class ReflectorServletProcessor extends AbstractReflectorAtmosphereHandle
+-
++        if (servlet != null) {
+@@ -104,0 +105,4 @@ public class ReflectorServletProcessor extends AbstractReflectorAtmosphereHandle
++        } else {
++            // for now, not throw an exception, just in case if someone may call setServlet at later time
++            logger.warn("No servlet installed. Neither servlet nor servletClassName is set");
++        }

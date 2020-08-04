@@ -1,0 +1,8 @@
+diff --git a/stella-core/src/main/java/br/com/caelum/stella/validation/CNPJValidator.java b/stella-core/src/main/java/br/com/caelum/stella/validation/CNPJValidator.java
+index 6f2f5ff..c5b20a3 100644
+--- a/stella-core/src/main/java/br/com/caelum/stella/validation/CNPJValidator.java
++++ b/stella-core/src/main/java/br/com/caelum/stella/validation/CNPJValidator.java
+@@ -120,0 +121,3 @@ public class CNPJValidator implements Validator<String> {
++		if (value == null) {
++			return false;
++		}

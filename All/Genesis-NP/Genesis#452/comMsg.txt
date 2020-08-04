@@ -1,0 +1,1 @@
+Resolve NPE in VariableScopeImpl when retrieving a local variable with a null value multiple times.

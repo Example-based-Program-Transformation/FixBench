@@ -1,0 +1,9 @@
+diff --git a/src/main/java/net/kuujo/vertigo/hooks/EventBusHook.java b/src/main/java/net/kuujo/vertigo/hooks/EventBusHook.java
+index 266798bf..7f94b403 100644
+--- a/src/main/java/net/kuujo/vertigo/hooks/EventBusHook.java
++++ b/src/main/java/net/kuujo/vertigo/hooks/EventBusHook.java
+@@ -21,2 +20,0 @@ import net.kuujo.vertigo.message.MessageId;
+-import net.kuujo.vertigo.serializer.Serializer;
+-import net.kuujo.vertigo.serializer.Serializers;
+@@ -44 +41,0 @@ public class EventBusHook implements ComponentHook {
+-  @JsonIgnore private Serializer serializer = Serializers.getDefault();

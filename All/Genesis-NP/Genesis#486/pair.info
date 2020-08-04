@@ -1,0 +1,7 @@
+Id:486
+SATName:Genesis
+modifiedFPath:src/main/java/org/springframework/data/elasticsearch/core/mapping/SimpleElasticsearchPersistentProperty.java
+comSha:403930d448efa488a3e27b193a7765791d310a4b
+parentComSha:403930d448efa488a3e27b193a7765791d310a4b^1
+githubUrl:https://github.com/spring-projects/spring-data-elasticsearch
+repoName:spring-projects#spring-data-elasticsearch

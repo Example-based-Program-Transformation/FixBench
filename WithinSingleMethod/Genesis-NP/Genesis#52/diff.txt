@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/googlecode/objectify/impl/ObjectifyImpl.java b/src/main/java/com/googlecode/objectify/impl/ObjectifyImpl.java
+index d0f567b..ba10810 100644
+--- a/src/main/java/com/googlecode/objectify/impl/ObjectifyImpl.java
++++ b/src/main/java/com/googlecode/objectify/impl/ObjectifyImpl.java
+@@ -169 +169 @@ public class ObjectifyImpl<O extends Objectify> implements Objectify, Cloneable
+-		return transactor.execute(null, txnType, work);
++		return transactor.execute(this, txnType, work);

@@ -1,0 +1,7 @@
+diff --git a/src/org/jruby/util/ByteList.java b/src/org/jruby/util/ByteList.java
+index b7c722e..8158f1f 100644
+--- a/src/org/jruby/util/ByteList.java
++++ b/src/org/jruby/util/ByteList.java
+@@ -340 +340 @@ public final class ByteList implements Comparable, CharSequence, Serializable {
+-            byte[] tmp = new byte[length];
++            byte[] tmp = new byte[Math.min(Integer.MAX_VALUE, length + (length >>> 1))];

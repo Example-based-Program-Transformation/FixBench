@@ -1,0 +1,13 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/bio/io/FastaReader.java b/src/main/java/fr/ens/transcriptome/eoulsan/bio/io/FastaReader.java
+index b107bf07..80135bbf 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/bio/io/FastaReader.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/bio/io/FastaReader.java
+@@ -32,0 +33 @@ import java.io.InputStreamReader;
++import java.nio.charset.Charset;
+@@ -44,0 +46,3 @@ public class FastaReader implements SequenceReader {
++  /* Default Charset. */
++  private static final Charset CHARSET = Charset.forName("ISO-8859-1");
++
+@@ -163 +167 @@ public class FastaReader implements SequenceReader {
+-    this.reader = new BufferedReader(new InputStreamReader(is));
++    this.reader = new BufferedReader(new InputStreamReader(is, CHARSET));

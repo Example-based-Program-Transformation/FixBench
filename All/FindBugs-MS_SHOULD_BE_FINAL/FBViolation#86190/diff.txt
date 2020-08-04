@@ -1,0 +1,7 @@
+diff --git a/oboformat/src/main/java/org/obolibrary/oboformat/parser/XrefExpander.java b/oboformat/src/main/java/org/obolibrary/oboformat/parser/XrefExpander.java
+index 651e8aaa2..49dde240c 100644
+--- a/oboformat/src/main/java/org/obolibrary/oboformat/parser/XrefExpander.java
++++ b/oboformat/src/main/java/org/obolibrary/oboformat/parser/XrefExpander.java
+@@ -24 +24 @@ public class XrefExpander {
+-    protected static Logger LOG = LoggerFactory.getLogger(XrefExpander.class);
++    protected static final Logger LOG = LoggerFactory.getLogger(XrefExpander.class);

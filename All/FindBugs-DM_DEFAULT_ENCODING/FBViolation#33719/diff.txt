@@ -1,0 +1,7 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java b/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java
+index 9199c54f..abcb7280 100755
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java
+@@ -772 +772 @@ public abstract class AbstractSequenceReadsMapper implements
+-                  new BufferedReader(new InputStreamReader(is));
++                  new BufferedReader(new InputStreamReader(is, "ISO-8859-1"));

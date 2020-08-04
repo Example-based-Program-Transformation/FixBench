@@ -1,0 +1,18 @@
+diff --git a/src/main/java/org/springframework/hateoas/hal/HalEmbeddedBuilder.java b/src/main/java/org/springframework/hateoas/hal/HalEmbeddedBuilder.java
+index 8fea553..f540314 100644
+--- a/src/main/java/org/springframework/hateoas/hal/HalEmbeddedBuilder.java
++++ b/src/main/java/org/springframework/hateoas/hal/HalEmbeddedBuilder.java
+@@ -24,0 +25 @@ import org.springframework.hateoas.RelProvider;
++import org.springframework.hateoas.Resource;
+@@ -31,0 +33 @@ import org.springframework.hateoas.core.ObjectUtils;
++ * @author Dietrich Schulten
+@@ -50 +52,2 @@ class HalEmbeddedBuilder {
+-	 * Adds the given value to the embeddeds.
++	 * Adds the given value to the embeddeds. Will skip doing so if the value is {@literal null} or the content of a
++	 * {@link Resource} is {@literal null}.
+@@ -56,0 +60,5 @@ class HalEmbeddedBuilder {
++
++		if (type == null) {
++			return;
++		}
++

@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/math/functions/MathematicalFunction.java b/src/main/java/org/optimizationBenchmarking/utils/math/functions/MathematicalFunction.java
+index 97cdcd74..b5249cbf 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/math/functions/MathematicalFunction.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/math/functions/MathematicalFunction.java
+@@ -7,0 +8 @@ import org.optimizationBenchmarking.utils.math.text.IParameterRenderer;
++import org.optimizationBenchmarking.utils.text.TextUtils;
+@@ -519 +520 @@ public abstract class MathematicalFunction implements Serializable,
+-    return this.getClass().getSimpleName().toLowerCase();
++    return TextUtils.toLowerCase(this.getClass().getSimpleName());

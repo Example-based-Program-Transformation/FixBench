@@ -1,0 +1,7 @@
+diff --git a/fluentlenium-core/src/main/java/fr/javafreelance/fluentlenium/core/Fluent.java b/fluentlenium-core/src/main/java/fr/javafreelance/fluentlenium/core/Fluent.java
+index 72732fb..787a9ae 100644
+--- a/fluentlenium-core/src/main/java/fr/javafreelance/fluentlenium/core/Fluent.java
++++ b/fluentlenium-core/src/main/java/fr/javafreelance/fluentlenium/core/Fluent.java
+@@ -46 +46 @@ public abstract class Fluent implements SearchActions {
+-    protected void setDriver(WebDriver driver) {
++    protected final void setDriver(WebDriver driver) {

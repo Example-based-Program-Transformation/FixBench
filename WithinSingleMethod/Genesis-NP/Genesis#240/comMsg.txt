@@ -1,0 +1,1 @@
+SerializerPojo#registerClass cannot handle interfaces: NullPointerException in getFields. Fix #653

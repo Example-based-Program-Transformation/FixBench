@@ -1,0 +1,1 @@
+CORE-2262 3.3.2 ant task dies on NPE in ChangeLogParameters - check for "currentLabelExpression == null" before using it.

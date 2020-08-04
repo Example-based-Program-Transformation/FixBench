@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/ftp/FtpLoop.java b/src/net/sourceforge/plantuml/ftp/FtpLoop.java
+index 4c5fec7e..85cb9cca 100644
+--- a/src/net/sourceforge/plantuml/ftp/FtpLoop.java
++++ b/src/net/sourceforge/plantuml/ftp/FtpLoop.java
+@@ -53,0 +54 @@ import net.sourceforge.plantuml.FileUtils;
++import net.sourceforge.plantuml.StringUtils;
+@@ -104 +105 @@ class FtpLoop implements Runnable {
+-		final String upper = cmd.toUpperCase();
++		final String upper = StringUtils.goUpperCase(cmd);

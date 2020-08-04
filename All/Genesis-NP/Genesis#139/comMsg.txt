@@ -1,0 +1,1 @@
+FLUME-1271. Incorrect configuration causes NPE.

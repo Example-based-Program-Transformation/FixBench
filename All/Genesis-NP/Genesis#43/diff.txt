@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/encog/app/analyst/wizard/AnalystWizard.java b/src/main/java/org/encog/app/analyst/wizard/AnalystWizard.java
+index e5cfed5..38742c6 100644
+--- a/src/main/java/org/encog/app/analyst/wizard/AnalystWizard.java
++++ b/src/main/java/org/encog/app/analyst/wizard/AnalystWizard.java
+@@ -308 +308 @@
+-	private TargetLanguage codeTargetLanguage;
++	private TargetLanguage codeTargetLanguage = TargetLanguage.NoGeneration;

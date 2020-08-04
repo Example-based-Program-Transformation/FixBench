@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java b/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java
+index 8e639df3..55d7e309 100644
+--- a/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java
++++ b/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java
+@@ -54 +53,0 @@ public final class ArrayTypeAdapter<E> extends TypeAdapter<Object> {
+-  private final Gson context;
+@@ -59 +57,0 @@ public final class ArrayTypeAdapter<E> extends TypeAdapter<Object> {
+-    this.context = context;

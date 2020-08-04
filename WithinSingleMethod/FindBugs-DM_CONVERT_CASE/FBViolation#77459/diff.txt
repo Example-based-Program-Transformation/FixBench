@@ -1,0 +1,7 @@
+diff --git a/web/src/main/java/com/graphhopper/http/GraphHopperServlet.java b/web/src/main/java/com/graphhopper/http/GraphHopperServlet.java
+index f67e35d58..e4dd2bc3f 100644
+--- a/web/src/main/java/com/graphhopper/http/GraphHopperServlet.java
++++ b/web/src/main/java/com/graphhopper/http/GraphHopperServlet.java
+@@ -86 +86 @@ public class GraphHopperServlet extends GHBaseServlet
+-        String vehicleStr = getParam(httpReq, "vehicle", "CAR").toUpperCase();
++        String vehicleStr = getParam(httpReq, "vehicle", "car");

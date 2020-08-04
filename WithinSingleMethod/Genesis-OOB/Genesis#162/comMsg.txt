@@ -1,0 +1,1 @@
+Merge pull request #13 from lvotypko/out-of-bound-error

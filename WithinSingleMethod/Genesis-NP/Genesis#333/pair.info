@@ -1,0 +1,7 @@
+Id:333
+SATName:Genesis
+modifiedFPath:indexing-service/src/main/java/io/druid/indexing/firehose/IngestSegmentFirehoseFactory.java
+comSha:e6d93a307019406c9e4ec26d9d865fd3717feeb7
+parentComSha:e6d93a307019406c9e4ec26d9d865fd3717feeb7^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

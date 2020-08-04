@@ -1,0 +1,8 @@
+diff --git a/job/src/main/java/com/kylinolap/job2/service/ExecutableManager.java b/job/src/main/java/com/kylinolap/job2/service/ExecutableManager.java
+index a27f829..2c9f21b 100644
+--- a/job/src/main/java/com/kylinolap/job2/service/ExecutableManager.java
++++ b/job/src/main/java/com/kylinolap/job2/service/ExecutableManager.java
+@@ -293,0 +294,3 @@ public class ExecutableManager {
++        if (jobPO == null) {
++            return null;
++        }

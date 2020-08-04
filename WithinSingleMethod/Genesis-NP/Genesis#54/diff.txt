@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/beust/jcommander/ParameterDescription.java b/src/main/java/com/beust/jcommander/ParameterDescription.java
+index 008e12a..bf2f3c7 100644
+--- a/src/main/java/com/beust/jcommander/ParameterDescription.java
++++ b/src/main/java/com/beust/jcommander/ParameterDescription.java
+@@ -172 +172 @@ public class ParameterDescription {
+-    String[] names = m_parameterAnnotation.names();
++    String[] names = m_wrappedParameter.names();

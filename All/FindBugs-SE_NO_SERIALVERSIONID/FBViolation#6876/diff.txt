@@ -1,0 +1,7 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/NoneStartEventActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/NoneStartEventActivityBehavior.java
+index 4a6d9e174..d5bc7ccd9 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/NoneStartEventActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/NoneStartEventActivityBehavior.java
+@@ -22,0 +23,2 @@ public class NoneStartEventActivityBehavior extends FlowNodeActivityBehavior {
++  private static final long serialVersionUID = 1L;
++

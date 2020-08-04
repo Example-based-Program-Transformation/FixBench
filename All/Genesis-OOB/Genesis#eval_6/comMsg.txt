@@ -1,0 +1,1 @@
+Improved exception message for out of bounds coverage.

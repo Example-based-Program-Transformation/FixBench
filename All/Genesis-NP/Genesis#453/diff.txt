@@ -1,0 +1,9 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/variable/SerializableType.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/variable/SerializableType.java
+index b76af1d..c8ea812 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/variable/SerializableType.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/variable/SerializableType.java
+@@ -51,0 +52 @@ public class SerializableType extends ByteArrayType {
++    if (bytes != null) {
+@@ -72,0 +74,2 @@ public class SerializableType extends ByteArrayType {
++    return null; // byte array is null
++  }

@@ -1,0 +1,1 @@
+Fixed: StringIndexOutOfBoundsException if passing an empty parameter (bomanz)

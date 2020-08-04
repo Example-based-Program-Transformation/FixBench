@@ -1,0 +1,20 @@
+diff --git a/src/main/java/microsoft/exchange/webservices/data/EwsXmlReader.java b/src/main/java/microsoft/exchange/webservices/data/EwsXmlReader.java
+index 08b944f..166e952 100644
+--- a/src/main/java/microsoft/exchange/webservices/data/EwsXmlReader.java
++++ b/src/main/java/microsoft/exchange/webservices/data/EwsXmlReader.java
+@@ -170 +169,0 @@ class EwsXmlReader {
+-   *
+@@ -420,0 +420 @@ class EwsXmlReader {
++
+@@ -445 +445 @@ class EwsXmlReader {
+-              if (characters.getData().length() != 0) {
++              if (characters.getData() != null && characters.getData().length() != 0) {
+@@ -468,2 +468,3 @@ class EwsXmlReader {
+-      StringBuffer data = new StringBuffer(this.presentEvent
+-          .asCharacters().getData());
++      final String charData = this.presentEvent
++          .asCharacters().getData();
++      StringBuffer data = new StringBuffer(charData == null ? "" : charData);
+@@ -476 +477 @@ class EwsXmlReader {
+-            if (characters.getData().length() != 0) {
++            if (characters.getData() != null && characters.getData().length() != 0) {

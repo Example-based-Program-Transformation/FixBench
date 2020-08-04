@@ -1,0 +1,7 @@
+diff --git a/src/main/java/br/com/dbsoft/io/DBSDAO.java b/src/main/java/br/com/dbsoft/io/DBSDAO.java
+index 6ea36fb..70c275b 100644
+--- a/src/main/java/br/com/dbsoft/io/DBSDAO.java
++++ b/src/main/java/br/com/dbsoft/io/DBSDAO.java
+@@ -1173 +1173 @@ public class DBSDAO<DataModelClass> extends DBSDAOBase<DataModelClass> {
+-				xMetaData = DBSIO.getTableColumnsMetaData(this.getConnection(), wCommandTableName.toUpperCase());
++				xMetaData = DBSIO.getTableColumnsMetaData(this.getConnection(), wCommandTableName);

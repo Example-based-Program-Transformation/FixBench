@@ -1,0 +1,1 @@
+Fix NPE on scheduleReadTimeout on fast requests, close #1068

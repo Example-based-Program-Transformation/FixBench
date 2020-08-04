@@ -1,0 +1,12 @@
+diff --git a/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java b/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
+index c1c9705b..0b95445a 100644
+--- a/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
++++ b/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
+@@ -60,3 +60 @@ public final class CollectionTypeAdapterFactory implements TypeAdapterFactory {
+-  private final class Adapter<E> extends TypeAdapter<Collection<E>> {
+-    private final Gson context;
+-    private final Type elementType;
++  private static final class Adapter<E> extends TypeAdapter<Collection<E>> {
+@@ -69,2 +66,0 @@ public final class CollectionTypeAdapterFactory implements TypeAdapterFactory {
+-      this.context = context;
+-      this.elementType = elementType;

@@ -1,0 +1,7 @@
+diff --git a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedIndexChangeGenerator.java b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedIndexChangeGenerator.java
+index 2c9c823..7705e6d 100644
+--- a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedIndexChangeGenerator.java
++++ b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedIndexChangeGenerator.java
+@@ -71 +71 @@ public class ChangedIndexChangeGenerator implements ChangedObjectChangeGenerator
+-        if (columns != null) {
++        if (columnsDifference != null) {

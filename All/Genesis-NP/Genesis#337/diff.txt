@@ -1,0 +1,13 @@
+diff --git a/server/src/main/java/io/druid/client/CachingQueryRunner.java b/server/src/main/java/io/druid/client/CachingQueryRunner.java
+index 2b198c2..d92db64 100644
+--- a/server/src/main/java/io/druid/client/CachingQueryRunner.java
++++ b/server/src/main/java/io/druid/client/CachingQueryRunner.java
+@@ -87 +87,3 @@ public class CachingQueryRunner<T> implements QueryRunner<T>
+-    final Cache.NamedKey key = CacheUtil.computeSegmentCacheKey(
++    final Cache.NamedKey key;
++    if(strategy != null && (useCache || populateCache)) {
++      key = CacheUtil.computeSegmentCacheKey(
+@@ -91,0 +94,3 @@ public class CachingQueryRunner<T> implements QueryRunner<T>
++    } else {
++      key = null;
++    }

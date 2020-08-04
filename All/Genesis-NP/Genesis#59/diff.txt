@@ -1,0 +1,12 @@
+diff --git a/maven-plugin-api/src/main/java/org/apache/maven/plugin/descriptor/MojoDescriptor.java b/maven-plugin-api/src/main/java/org/apache/maven/plugin/descriptor/MojoDescriptor.java
+index f084b13..7ebb04a 100644
+--- a/maven-plugin-api/src/main/java/org/apache/maven/plugin/descriptor/MojoDescriptor.java
++++ b/maven-plugin-api/src/main/java/org/apache/maven/plugin/descriptor/MojoDescriptor.java
+@@ -557 +557,6 @@ private boolean compareObjects( Object first, Object second )
+-        if ( ( first == null && second != null ) || ( first != null && second == null ) )
++        if ( first == second )
++        {
++            return true;
++        }
++
++        if ( first == null || second == null )

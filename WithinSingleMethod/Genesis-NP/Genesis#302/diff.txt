@@ -1,0 +1,6 @@
+diff --git a/logback-classic/src/main/java/ch/qos/logback/classic/net/SocketNode.java b/logback-classic/src/main/java/ch/qos/logback/classic/net/SocketNode.java
+index 01843fb..a33ada3 100644
+--- a/logback-classic/src/main/java/ch/qos/logback/classic/net/SocketNode.java
++++ b/logback-classic/src/main/java/ch/qos/logback/classic/net/SocketNode.java
+@@ -74,0 +75 @@ public class SocketNode implements Runnable {
++      closed = true;

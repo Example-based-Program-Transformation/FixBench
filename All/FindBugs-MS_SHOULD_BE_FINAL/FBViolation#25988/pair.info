@@ -1,0 +1,8 @@
+Id:25988
+comSha:a9e418dc211d9f0fb6145ac563d6760423de29cb
+parentComSha:f50f6b30002436e9e7f40e54f96b72fe6b390a59
+BuggyFilePath:src/main/java/com/spatial4j/core/context/jts/JtsSpatialContext.java
+FixedFilePath:src/main/java/com/spatial4j/core/context/jts/JtsSpatialContext.java
+StartLineNum:49
+EndLineNum:49
+repoName:locationtech#spatial4j

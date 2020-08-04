@@ -1,0 +1,15 @@
+diff --git a/src/main/java/br/com/dbsoft/mail/DBSEmailSend.java b/src/main/java/br/com/dbsoft/mail/DBSEmailSend.java
+index dddd1d0..4e287c2 100644
+--- a/src/main/java/br/com/dbsoft/mail/DBSEmailSend.java
++++ b/src/main/java/br/com/dbsoft/mail/DBSEmailSend.java
+@@ -142 +142 @@ public class DBSEmailSend {
+-	    Message 		xMessage = new MimeMessage(xMailSession);
++	    MimeMessage 	xMessage = new MimeMessage(xMailSession);
+@@ -194 +194 @@ public class DBSEmailSend {
+-			xMessage.setSubject(pMessage.getSubject());
++			xMessage.setSubject(pMessage.getSubject(), ENCODE.ISO_8859_1);
+@@ -196 +196 @@ public class DBSEmailSend {
+-				xMessageBodyPart.setContent(pMessage.getText(), CONTENT_TYPE.TEXT_HTML +  "; charset=" + ENCODE.UTF_8.toLowerCase());			
++				xMessageBodyPart.setContent(pMessage.getText(), CONTENT_TYPE.TEXT_HTML +  "; charset=" + ENCODE.UTF_8);			
+@@ -197,0 +198 @@ public class DBSEmailSend {
++				xMessageBodyPart.setContent(pMessage.getText(), CONTENT_TYPE.TEXT_PLAIN +  "; charset=" + ENCODE.UTF_8);

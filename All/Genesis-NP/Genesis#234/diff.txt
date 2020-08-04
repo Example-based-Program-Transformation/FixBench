@@ -1,0 +1,14 @@
+diff --git a/src/org/jgroups/stack/DiagnosticsHandler.java b/src/org/jgroups/stack/DiagnosticsHandler.java
+index 73baadf..1911dc4 100644
+--- a/src/org/jgroups/stack/DiagnosticsHandler.java
++++ b/src/org/jgroups/stack/DiagnosticsHandler.java
+@@ -215 +215,3 @@ public class DiagnosticsHandler implements Runnable {
+-                if (i.isUp() && !i.getInterfaceAddresses().isEmpty()) { // fix for VM crash - suggested by JJalenak@netopia.com
++                if (i.isUp()) {
++                    List<InterfaceAddress> inet_addrs=i.getInterfaceAddresses();
++                    if(inet_addrs != null && !inet_addrs.isEmpty()) { // fix for VM crash - suggested by JJalenak@netopia.com
+@@ -217,2 +219,2 @@ public class DiagnosticsHandler implements Runnable {
+-                    if(log.isTraceEnabled())
+-                        log.trace("joined " + group_addr + " on " + i.getName());
++                        log.trace("joined %s on %s", group_addr, i.getName());
++                    }

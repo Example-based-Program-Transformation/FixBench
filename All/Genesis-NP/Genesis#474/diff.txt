@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/redisson/RedissonBlockingQueue.java b/src/main/java/org/redisson/RedissonBlockingQueue.java
+index 24843ba..a784e7a 100644
+--- a/src/main/java/org/redisson/RedissonBlockingQueue.java
++++ b/src/main/java/org/redisson/RedissonBlockingQueue.java
+@@ -30,0 +31 @@ import org.redisson.core.RBlockingQueue;
++import com.lambdaworks.redis.KeyValue;
+@@ -74 +75,5 @@ public class RedissonBlockingQueue<V> extends RedissonQueue<V> implements RBlock
+-                return conn.blpop(unit.toSeconds(timeout), getName()).value;
++                KeyValue<Object, V> val = conn.blpop(unit.toSeconds(timeout), getName());
++                if (val != null) {
++                    return val.value;
++                }
++                return null;

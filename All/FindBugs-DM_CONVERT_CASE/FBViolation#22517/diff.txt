@@ -1,0 +1,12 @@
+diff --git a/src/net/sourceforge/plantuml/skin/SkinUtils.java b/src/net/sourceforge/plantuml/skin/SkinUtils.java
+index 5a4fca7c..14541735 100644
+--- a/src/net/sourceforge/plantuml/skin/SkinUtils.java
++++ b/src/net/sourceforge/plantuml/skin/SkinUtils.java
+@@ -31 +31 @@
+- * Revision $Revision: 12235 $
++ * Revision $Revision: 14727 $
+@@ -39,0 +40 @@ import net.sourceforge.plantuml.Log;
++import net.sourceforge.plantuml.StringUtils;
+@@ -53 +54 @@ public class SkinUtils {
+-		final String packageName = className.toLowerCase();
++		final String packageName = StringUtils.goLowerCase(className);

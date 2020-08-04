@@ -1,0 +1,8 @@
+diff --git a/logback-core/src/main/java/ch/qos/logback/core/net/SyslogAppenderBase.java b/logback-core/src/main/java/ch/qos/logback/core/net/SyslogAppenderBase.java
+index 36605d4..8a513a7 100644
+--- a/logback-core/src/main/java/ch/qos/logback/core/net/SyslogAppenderBase.java
++++ b/logback-core/src/main/java/ch/qos/logback/core/net/SyslogAppenderBase.java
+@@ -261,0 +262 @@ public abstract class SyslogAppenderBase<E> extends AppenderBase<E> {
++    if (sos != null) {
+@@ -262,0 +264 @@ public abstract class SyslogAppenderBase<E> extends AppenderBase<E> {
++    }

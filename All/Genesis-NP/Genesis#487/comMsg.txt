@@ -1,0 +1,1 @@
+RESTEASY-1273: Fixed NPE in URLConnectionEngine.

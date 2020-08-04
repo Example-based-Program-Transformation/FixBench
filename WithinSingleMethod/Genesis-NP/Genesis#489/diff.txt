@@ -1,0 +1,7 @@
+diff --git a/src/main/java/uk/co/caprica/vlcj/player/DefaultMediaPlayer.java b/src/main/java/uk/co/caprica/vlcj/player/DefaultMediaPlayer.java
+index 1525d15..88eca9b 100644
+--- a/src/main/java/uk/co/caprica/vlcj/player/DefaultMediaPlayer.java
++++ b/src/main/java/uk/co/caprica/vlcj/player/DefaultMediaPlayer.java
+@@ -1363 +1363 @@ public abstract class DefaultMediaPlayer extends AbstractMediaPlayer implements
+-        libvlc.libvlc_video_set_deinterlace(mediaPlayerInstance, deinterlaceMode.mode());
++        libvlc.libvlc_video_set_deinterlace(mediaPlayerInstance, deinterlaceMode != null ? deinterlaceMode.mode() : null);

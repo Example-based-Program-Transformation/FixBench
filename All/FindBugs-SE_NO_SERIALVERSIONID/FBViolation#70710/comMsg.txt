@@ -1,0 +1,1 @@
+Add a serialVersionUID to Sha256Hash. Resolves issue 77.

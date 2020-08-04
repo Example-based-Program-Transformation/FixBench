@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/mapdb/Store.java b/src/main/java/org/mapdb/Store.java
+index d20e1ad..a840d3f 100644
+--- a/src/main/java/org/mapdb/Store.java
++++ b/src/main/java/org/mapdb/Store.java
+@@ -1022 +1021,0 @@ public abstract class Store implements Engine {
+-                items = null;
+@@ -1023,0 +1023 @@ public abstract class Store implements Engine {
++                items = null;

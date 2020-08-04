@@ -1,0 +1,8 @@
+Id:32149
+comSha:a8aa6a4d759a91a3a112cfecab982ca64e4135fd
+parentComSha:d118dfdf1a72f3e4a0f33ced5071e4d1038c9620
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/translators/TranslatorUtils.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/translators/TranslatorUtils.java
+StartLineNum:75
+EndLineNum:75
+repoName:GenomicParisCentre#eoulsan

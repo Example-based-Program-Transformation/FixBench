@@ -1,0 +1,13 @@
+diff --git a/src/net/sourceforge/plantuml/cucadiagram/dot/GraphvizWindows.java b/src/net/sourceforge/plantuml/cucadiagram/dot/GraphvizWindows.java
+index e8b3d285..0753edeb 100644
+--- a/src/net/sourceforge/plantuml/cucadiagram/dot/GraphvizWindows.java
++++ b/src/net/sourceforge/plantuml/cucadiagram/dot/GraphvizWindows.java
+@@ -31 +31 @@
+- * Revision $Revision: 14616 $
++ * Revision $Revision: 14727 $
+@@ -41,0 +42,2 @@ import java.util.List;
++import net.sourceforge.plantuml.StringUtils;
++
+@@ -68 +70 @@ class GraphvizWindows extends AbstractGraphviz {
+-				return pathname.isDirectory() && pathname.getName().toLowerCase().startsWith("graphviz");
++				return pathname.isDirectory() && StringUtils.goLowerCase(pathname.getName()).startsWith("graphviz");

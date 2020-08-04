@@ -1,0 +1,8 @@
+Id:7712
+comSha:19fad051eb349eee9abd570bd44c86c8473c4983
+parentComSha:cac16864b12d60478e0318b0ec58994cab5112dc
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ShellActivityBehavior.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ShellActivityBehavior.java
+StartLineNum:20
+EndLineNum:150
+repoName:Activiti#Activiti

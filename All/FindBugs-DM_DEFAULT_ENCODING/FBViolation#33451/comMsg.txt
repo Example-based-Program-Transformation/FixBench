@@ -1,0 +1,13 @@
+Merge branch 'master' into new_workflow_token
+
+Conflicts:
+	pom.xml
+	src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractBowtieReadsMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/AbstractSequenceReadsMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/BWAReadsMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/GSNAPReadsMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/GmapReadsMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/bio/readsmappers/SOAPReadsMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/ReadsMapperMapper.java
+	src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/local/ReadsMapperLocalStep.java
+	src/main/java/fr/ens/transcriptome/eoulsan/util/Reporter.java

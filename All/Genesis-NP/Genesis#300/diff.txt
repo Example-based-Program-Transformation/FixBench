@@ -1,0 +1,8 @@
+diff --git a/logback-core/src/main/java/ch/qos/logback/core/subst/Parser.java b/logback-core/src/main/java/ch/qos/logback/core/subst/Parser.java
+index aacd8ce..0a2906b 100644
+--- a/logback-core/src/main/java/ch/qos/logback/core/subst/Parser.java
++++ b/logback-core/src/main/java/ch/qos/logback/core/subst/Parser.java
+@@ -73,0 +74,3 @@ public class Parser {
++    if (t == null) {
++      return null;
++    }

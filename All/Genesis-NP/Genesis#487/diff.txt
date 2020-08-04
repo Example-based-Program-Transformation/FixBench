@@ -1,0 +1,11 @@
+diff --git a/jaxrs/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines/URLConnectionEngine.java b/jaxrs/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines/URLConnectionEngine.java
+index fa35745..4c83895 100644
+--- a/jaxrs/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines/URLConnectionEngine.java
++++ b/jaxrs/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines/URLConnectionEngine.java
+@@ -87 +87,5 @@ public class URLConnectionEngine implements ClientHttpEngine
+-                getInputStream().close();
++                InputStream is = getInputStream();
++                if (is != null)
++                {
++                   is.close();
++                }

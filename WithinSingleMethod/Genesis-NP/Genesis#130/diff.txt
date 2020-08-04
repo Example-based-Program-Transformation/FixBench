@@ -1,0 +1,9 @@
+diff --git a/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/HFileOutputFormat2.java b/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/HFileOutputFormat2.java
+index 388c017..a183773 100644
+--- a/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/HFileOutputFormat2.java
++++ b/hbase-server/src/main/java/org/apache/hadoop/hbase/mapreduce/HFileOutputFormat2.java
+@@ -213 +213 @@ public class HFileOutputFormat2
+-
++            if (tableName != null) {
+@@ -222,0 +223 @@ public class HFileOutputFormat2
++            }

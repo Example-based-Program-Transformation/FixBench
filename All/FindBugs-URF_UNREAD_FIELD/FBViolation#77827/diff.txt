@@ -1,0 +1,12 @@
+diff --git a/tools/src/main/java/com/graphhopper/ui/GraphicsWrapper.java b/tools/src/main/java/com/graphhopper/ui/GraphicsWrapper.java
+index 0c853caa5..af0fbadb7 100644
+--- a/tools/src/main/java/com/graphhopper/ui/GraphicsWrapper.java
++++ b/tools/src/main/java/com/graphhopper/ui/GraphicsWrapper.java
+@@ -36 +36 @@ public class GraphicsWrapper
+-    private final Graph g;
++    private final Logger logger = LoggerFactory.getLogger(getClass());
+@@ -46 +45,0 @@ public class GraphicsWrapper
+-        this.g = g;
+@@ -132,2 +130,0 @@ public class GraphicsWrapper
+-    private Logger logger = LoggerFactory.getLogger(getClass());
+-

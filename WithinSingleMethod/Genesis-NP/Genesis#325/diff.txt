@@ -1,0 +1,7 @@
+diff --git a/processing/src/main/java/io/druid/query/topn/TopNLexicographicResultBuilder.java b/processing/src/main/java/io/druid/query/topn/TopNLexicographicResultBuilder.java
+index b516b6d..5b591bd 100644
+--- a/processing/src/main/java/io/druid/query/topn/TopNLexicographicResultBuilder.java
++++ b/processing/src/main/java/io/druid/query/topn/TopNLexicographicResultBuilder.java
+@@ -134 +134 @@ public class TopNLexicographicResultBuilder implements TopNResultBuilder
+-    String dimensionValue = dimensionValueObj.toString();
++    String dimensionValue = dimensionValueObj == null ? null : dimensionValueObj.toString();

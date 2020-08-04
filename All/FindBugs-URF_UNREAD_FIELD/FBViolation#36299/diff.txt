@@ -1,0 +1,15 @@
+diff --git a/src/main/java/lcmc/gui/resources/crm/AvailableServiceMenu.java b/src/main/java/lcmc/gui/resources/crm/AvailableServiceMenu.java
+index 10e59bcd..013e533d 100644
+--- a/src/main/java/lcmc/gui/resources/crm/AvailableServiceMenu.java
++++ b/src/main/java/lcmc/gui/resources/crm/AvailableServiceMenu.java
+@@ -28 +28,5 @@ import lcmc.gui.ClusterBrowser;
+-import lcmc.utilities.*;
++import lcmc.utilities.EnablePredicate;
++import lcmc.utilities.MenuAction;
++import lcmc.utilities.MenuFactory;
++import lcmc.utilities.Tools;
++import lcmc.utilities.UpdatableItem;
+@@ -37 +40,0 @@ public class AvailableServiceMenu {
+-    private AvailableServiceInfo availableServiceInfo;
+@@ -42 +44,0 @@ public class AvailableServiceMenu {
+-        this.availableServiceInfo = availableServiceInfo;

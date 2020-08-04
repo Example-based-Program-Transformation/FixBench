@@ -1,0 +1,1 @@
+Cryptsy: Fix fix adaptAccountInfo NullPointerException

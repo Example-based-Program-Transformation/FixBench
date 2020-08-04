@@ -1,0 +1,8 @@
+diff --git a/src/main/java/net/tridentsdk/meta/nbt/CompoundTagBuilder.java b/src/main/java/net/tridentsdk/meta/nbt/CompoundTagBuilder.java
+index c6acebc5..172dd655 100644
+--- a/src/main/java/net/tridentsdk/meta/nbt/CompoundTagBuilder.java
++++ b/src/main/java/net/tridentsdk/meta/nbt/CompoundTagBuilder.java
+@@ -26 +25,0 @@ public class CompoundTagBuilder<B> {
+-    private TagContainer parent;
+@@ -34 +32,0 @@ public class CompoundTagBuilder<B> {
+-        this.parent = parent;

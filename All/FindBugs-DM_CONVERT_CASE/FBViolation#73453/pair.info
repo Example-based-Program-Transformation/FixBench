@@ -1,0 +1,8 @@
+Id:73453
+comSha:73840d406456a8549723935f3d17312f749c5ac2
+parentComSha:94072747d56a534926a1960e7374e751d941a3a9
+BuggyFilePath:src/main/java/org/swrlapi/ui/dialog/SWRLRuleEditorDialog.java
+FixedFilePath:src/main/java/org/swrlapi/ui/dialog/SWRLRuleEditorDialog.java
+StartLineNum:188
+EndLineNum:188
+repoName:protegeproject#swrlapi

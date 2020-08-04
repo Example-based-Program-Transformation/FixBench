@@ -1,0 +1,8 @@
+diff --git a/sdk/src/main/java/com/google/cloud/dataflow/sdk/runners/DataflowPipelineJob.java b/sdk/src/main/java/com/google/cloud/dataflow/sdk/runners/DataflowPipelineJob.java
+index c1e18cd..a2fe552 100644
+--- a/sdk/src/main/java/com/google/cloud/dataflow/sdk/runners/DataflowPipelineJob.java
++++ b/sdk/src/main/java/com/google/cloud/dataflow/sdk/runners/DataflowPipelineJob.java
+@@ -156,0 +157 @@ public class DataflowPipelineJob implements PipelineResult {
++      if (job != null) {
+@@ -160,0 +162 @@ public class DataflowPipelineJob implements PipelineResult {
++      }

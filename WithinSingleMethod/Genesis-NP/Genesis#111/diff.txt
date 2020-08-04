@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/org/powermock/core/classloader/MockClassLoader.java b/core/src/main/java/org/powermock/core/classloader/MockClassLoader.java
+index b92ff1b..08d071f 100644
+--- a/core/src/main/java/org/powermock/core/classloader/MockClassLoader.java
++++ b/core/src/main/java/org/powermock/core/classloader/MockClassLoader.java
+@@ -115 +115 @@ public class MockClassLoader extends DeferSupportingClassLoader {
+-            System.arraycopy(additionalDeferPackages, 0, allPackagesToBeIgnored, defaultDeferPackagesLength,
++            System.arraycopy(additionalDeferPackages != null ? additionalDeferPackages : new String[0], 0, allPackagesToBeIgnored, defaultDeferPackagesLength,

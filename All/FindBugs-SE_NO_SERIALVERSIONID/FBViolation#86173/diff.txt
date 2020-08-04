@@ -1,0 +1,7 @@
+diff --git a/parsers/src/main/java/org/coode/owlapi/latex/LatexOntologyFormat.java b/parsers/src/main/java/org/coode/owlapi/latex/LatexOntologyFormat.java
+index fdd6eaa69..f71694191 100644
+--- a/parsers/src/main/java/org/coode/owlapi/latex/LatexOntologyFormat.java
++++ b/parsers/src/main/java/org/coode/owlapi/latex/LatexOntologyFormat.java
+@@ -48,0 +49,2 @@ public class LatexOntologyFormat extends OWLOntologyFormat {
++    private static final long serialVersionUID = 40000L;
++

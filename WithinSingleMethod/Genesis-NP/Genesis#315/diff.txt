@@ -1,0 +1,14 @@
+diff --git a/src/main/java/org/apache/commons/lang3/text/StrBuilder.java b/src/main/java/org/apache/commons/lang3/text/StrBuilder.java
+index 98ee66d..e2f78a8 100644
+--- a/src/main/java/org/apache/commons/lang3/text/StrBuilder.java
++++ b/src/main/java/org/apache/commons/lang3/text/StrBuilder.java
+@@ -1489 +1488,0 @@ public StrBuilder insert(final int index, final Object obj) {
+-    @SuppressWarnings("null") // str cannot be null
+@@ -1495 +1494,2 @@ public StrBuilder insert(final int index, String str) {
+-        final int strLen = (str == null ? 0 : str.length());
++        if (str != null) {
++            final int strLen = str.length();
+@@ -1501 +1501,2 @@ public StrBuilder insert(final int index, String str) {
+-            str.getChars(0, strLen, buffer, index); // str cannot be null here
++                str.getChars(0, strLen, buffer, index);
++            }

@@ -1,0 +1,8 @@
+diff --git a/src/main/java/me/tehbeard/BeardStat/listeners/StatBlockListener.java b/src/main/java/me/tehbeard/BeardStat/listeners/StatBlockListener.java
+index 605d55a..ec73fc8 100644
+--- a/src/main/java/me/tehbeard/BeardStat/listeners/StatBlockListener.java
++++ b/src/main/java/me/tehbeard/BeardStat/listeners/StatBlockListener.java
+@@ -30 +29,0 @@ public class StatBlockListener implements Listener{
+-            playerStatManager.getPlayerBlob(event.getPlayer().getName()).getStat("blockcreate",event.getBlock().getType().toString().toLowerCase().replace("_","")).incrementStat(1);
+@@ -45 +43,0 @@ public class StatBlockListener implements Listener{
+-            playerStatManager.getPlayerBlob(event.getPlayer().getName()).getStat("blockdestroy",event.getBlock().getType().toString().toLowerCase().replace("_","")).incrementStat(1);

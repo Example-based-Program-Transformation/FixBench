@@ -1,0 +1,1 @@
+fixed #2003 ColumnSelectorBitmapIndexSelector throws NPE for dimension not supporting bitmap

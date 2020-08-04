@@ -1,0 +1,8 @@
+Id:86276
+comSha:6210735c4f411dc6f44eaa5dbc32e4f4ee583a82
+parentComSha:101e91bcbf504f372e34f8a4c1075ea745210a9f
+BuggyFilePath:api/src/main/java/org/semanticweb/owlapi/util/HornAxiomVisitorEx.java
+FixedFilePath:api/src/main/java/org/semanticweb/owlapi/util/HornAxiomVisitorEx.java
+StartLineNum:71
+EndLineNum:186
+repoName:owlcs#owlapi

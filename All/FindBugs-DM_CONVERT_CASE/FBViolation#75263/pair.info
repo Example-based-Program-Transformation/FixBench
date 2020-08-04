@@ -1,0 +1,8 @@
+Id:75263
+comSha:e39327fb9de4ae258b64fff179a96aa8812223fc
+parentComSha:c069f6619b4d9666859109881cdb80cdcc226545
+BuggyFilePath:src/main/java/org/optimizationBenchmarking/utils/comparison/ComparisonParser.java
+FixedFilePath:src/main/java/org/optimizationBenchmarking/utils/comparison/ComparisonParser.java
+StartLineNum:22
+EndLineNum:22
+repoName:optimizationBenchmarking#optimizationBenchmarking

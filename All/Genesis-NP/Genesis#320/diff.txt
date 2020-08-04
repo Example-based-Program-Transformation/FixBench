@@ -1,0 +1,8 @@
+diff --git a/flying-saucer-core/src/main/java/org/xhtmlrenderer/swing/ImageResourceLoader.java b/flying-saucer-core/src/main/java/org/xhtmlrenderer/swing/ImageResourceLoader.java
+index fcc0082..7e109f4 100644
+--- a/flying-saucer-core/src/main/java/org/xhtmlrenderer/swing/ImageResourceLoader.java
++++ b/flying-saucer-core/src/main/java/org/xhtmlrenderer/swing/ImageResourceLoader.java
+@@ -203 +202,0 @@ public class ImageResourceLoader {
+-        XRLog.load("By request, clearing pending items from load queue: " + _loadQueue.size());
+@@ -204,0 +204 @@ public class ImageResourceLoader {
++            XRLog.load("By request, clearing pending items from load queue: " + _loadQueue.size());

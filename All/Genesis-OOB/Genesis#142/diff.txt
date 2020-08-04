@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/net/tomp2p/message/Decoder.java b/core/src/main/java/net/tomp2p/message/Decoder.java
+index 3ce5d1b..ab67991 100644
+--- a/core/src/main/java/net/tomp2p/message/Decoder.java
++++ b/core/src/main/java/net/tomp2p/message/Decoder.java
+@@ -281 +281 @@ public class Decoder {
+-					if (buf.readableBytes() < size) {
++					if (buf.readableBytes() < size + Utils.BYTE_SIZE) {

@@ -1,0 +1,13 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/OAbstractPaginatedStorage.java b/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/OAbstractPaginatedStorage.java
+index 0083328..8c98743 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/OAbstractPaginatedStorage.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/storage/impl/local/OAbstractPaginatedStorage.java
+@@ -2263 +2262,0 @@ public abstract class OAbstractPaginatedStorage extends OStorageAbstract impleme
+-          atomicUnit.add(walRecord);
+@@ -2264,0 +2264,3 @@ public abstract class OAbstractPaginatedStorage extends OStorageAbstract impleme
++          // in case of data restore from fuzzy checkpoint part of operations may be already flushed to the disk
++          if (atomicUnit != null) {
++            atomicUnit.add(walRecord);
+@@ -2265,0 +2268,2 @@ public abstract class OAbstractPaginatedStorage extends OStorageAbstract impleme
++          }
++

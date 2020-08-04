@@ -1,0 +1,23 @@
+diff --git a/s3-extensions/src/main/java/io/druid/storage/s3/S3DataSegmentMover.java b/s3-extensions/src/main/java/io/druid/storage/s3/S3DataSegmentMover.java
+index ea585a0..379dd83 100644
+--- a/s3-extensions/src/main/java/io/druid/storage/s3/S3DataSegmentMover.java
++++ b/s3-extensions/src/main/java/io/druid/storage/s3/S3DataSegmentMover.java
+@@ -26,0 +27 @@ import com.google.inject.Inject;
++import com.metamx.common.ISE;
+@@ -123,4 +124,10 @@ public class S3DataSegmentMover implements DataSegmentMover
+-                } else if (s3Client.getObjectDetails(s3Bucket, s3Path)
+-                                   .getStorageClass()
+-                                   .equals(S3Object.STORAGE_CLASS_GLACIER)) {
+-                  log.warn("Cannot move file[s3://%s/%s] of storage class glacier.");
++                } else {
++                  final S3Object[] list = s3Client.listObjects(s3Bucket, s3Path, "");
++                  if (list.length == 0) {
++                    // should never happen
++                    throw new ISE("Unable to list object [s3://%s/%s]", s3Bucket, s3Path);
++                  }
++                  final S3Object s3Object = list[0];
++                  if (s3Object.getStorageClass() != null &&
++                      s3Object.getStorageClass().equals(S3Object.STORAGE_CLASS_GLACIER)) {
++                    log.warn("Cannot move file[s3://%s/%s] of storage class glacier, skipping.");
+@@ -140,0 +148 @@ public class S3DataSegmentMover implements DataSegmentMover
++                }

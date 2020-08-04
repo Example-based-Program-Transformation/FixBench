@@ -1,0 +1,7 @@
+Id:199
+SATName:Genesis
+modifiedFPath:core/src/main/java/com/google/errorprone/bugpatterns/threadsafety/GuardedByBinder.java
+comSha:37093382fe32f5261ab665e2ccb026e7aa869f36
+parentComSha:37093382fe32f5261ab665e2ccb026e7aa869f36^1
+githubUrl:https://github.com/google/error-prone
+repoName:google#error-prone

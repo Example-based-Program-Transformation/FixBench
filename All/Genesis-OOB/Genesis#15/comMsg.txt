@@ -1,0 +1,1 @@
+fix sharejoin bug-close connection,reason:program err:java.lang.IndexOutOfBoundsException

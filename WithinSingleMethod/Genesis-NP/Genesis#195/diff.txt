@@ -1,0 +1,12 @@
+diff --git a/src/main/java/org/jolokia/docker/maven/assembly/DockerAssemblyConfigurationSource.java b/src/main/java/org/jolokia/docker/maven/assembly/DockerAssemblyConfigurationSource.java
+index def2a8f..09a51c2 100644
+--- a/src/main/java/org/jolokia/docker/maven/assembly/DockerAssemblyConfigurationSource.java
++++ b/src/main/java/org/jolokia/docker/maven/assembly/DockerAssemblyConfigurationSource.java
+@@ -33,0 +34 @@ public class DockerAssemblyConfigurationSource implements AssemblerConfiguration
++        if (assemblyConfig != null) {
+@@ -38,2 +38,0 @@ public class DockerAssemblyConfigurationSource implements AssemblerConfiguration
+-        } else {
+-            return new String[0];
+@@ -41,0 +41,2 @@ public class DockerAssemblyConfigurationSource implements AssemblerConfiguration
++        return new String[0];
++    }

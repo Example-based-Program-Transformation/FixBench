@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/beust/jcommander/JCommander.java b/src/main/java/com/beust/jcommander/JCommander.java
+index 98f112e..46b2357 100644
+--- a/src/main/java/com/beust/jcommander/JCommander.java
++++ b/src/main/java/com/beust/jcommander/JCommander.java
+@@ -1129 +1129 @@ public class JCommander {
+-        if (!p.hidden()) {
++        if (p == null || !p.hidden()) {

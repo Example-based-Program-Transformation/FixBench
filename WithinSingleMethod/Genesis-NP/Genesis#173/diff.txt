@@ -1,0 +1,12 @@
+diff --git a/structr-rest/src/main/java/org/structr/rest/resource/Resource.java b/structr-rest/src/main/java/org/structr/rest/resource/Resource.java
+index 29d6d2c..c372fb7 100644
+--- a/structr-rest/src/main/java/org/structr/rest/resource/Resource.java
++++ b/structr-rest/src/main/java/org/structr/rest/resource/Resource.java
+@@ -565 +565,6 @@ public abstract class Resource {
+-						searchAttributes.add(determineSearchType(securityContext, key, searchValue));
++						SearchAttribute attr = determineSearchType(securityContext, key, searchValue);
++						
++						if (attr != null) {
++							
++							searchAttributes.add(attr);
++						}

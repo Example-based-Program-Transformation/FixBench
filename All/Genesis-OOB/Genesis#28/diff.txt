@@ -1,0 +1,11 @@
+diff --git a/src/main/java/net/kotek/jdbm/ByteBuffer2.java b/src/main/java/net/kotek/jdbm/ByteBuffer2.java
+index 97ddf5e..40d85db 100644
+--- a/src/main/java/net/kotek/jdbm/ByteBuffer2.java
++++ b/src/main/java/net/kotek/jdbm/ByteBuffer2.java
+@@ -68 +68,2 @@ public final class ByteBuffer2 {
+-        if(buffers[buffersPos]!=null && buffers[buffersPos].capacity()>=offset%BUF_SIZE)
++        if(buffersPos<buffers.length && buffers[buffersPos]!=null &&
++                buffers[buffersPos].capacity()>=offset%BUF_SIZE)
+@@ -72 +73 @@ public final class ByteBuffer2 {
+-        if(buffers.length<buffersPos){
++        if(buffersPos>=buffers.length){

@@ -1,0 +1,10 @@
+diff --git a/src/main/java/hivemall/ensemble/MaxRowUDAF.java b/src/main/java/hivemall/ensemble/MaxRowUDAF.java
+index 25c3dd3..77bcbb0 100644
+--- a/src/main/java/hivemall/ensemble/MaxRowUDAF.java
++++ b/src/main/java/hivemall/ensemble/MaxRowUDAF.java
+@@ -153 +153 @@ public final class MaxRowUDAF extends AbstractGenericUDAFResolver {
+-            } else {
++            } else if(inputStructOI != null) {
+@@ -154,0 +155,2 @@ public final class MaxRowUDAF extends AbstractGenericUDAFResolver {
++            } else {
++                throw new HiveException("Invalid type: " + partial.getClass().getName());

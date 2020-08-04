@@ -1,0 +1,7 @@
+diff --git a/core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender2.java b/core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender2.java
+index 94133ef..a90a422 100644
+--- a/core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender2.java
++++ b/core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender2.java
+@@ -361 +361 @@ public final class TreeClusteringRecommender2 extends AbstractRecommender implem
+-        if (similarity > queue.get(queue.size() - 1).getSimilarity()) {
++        if (queue.size() > 0 && similarity > queue.get(queue.size() - 1).getSimilarity()) {

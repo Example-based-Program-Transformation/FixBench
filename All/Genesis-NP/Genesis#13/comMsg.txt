@@ -1,0 +1,1 @@
+Fix pre-push hook to not set null remoteName as first argument

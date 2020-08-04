@@ -1,0 +1,8 @@
+Id:86010
+comSha:edbdc77d7ce316275194a74367f413c19fe4f7c5
+parentComSha:e7634ef62b5aabbdfe23ab53a2e2652256644be5
+BuggyFilePath:parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntaxHTMLOntologyFormat.java
+FixedFilePath:parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntaxHTMLOntologyFormat.java
+StartLineNum:51
+EndLineNum:56
+repoName:owlcs#owlapi

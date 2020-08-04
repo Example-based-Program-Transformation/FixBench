@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/dynjs/parser/ast/AbstractStatement.java b/src/main/java/org/dynjs/parser/ast/AbstractStatement.java
+index ad3c604..4aef31a 100644
+--- a/src/main/java/org/dynjs/parser/ast/AbstractStatement.java
++++ b/src/main/java/org/dynjs/parser/ast/AbstractStatement.java
+@@ -166 +166,2 @@ public abstract class AbstractStatement implements Statement {
+-        return indent + getClass().getSimpleName() + ":" + getPosition().getLine() + " " +
++        final String line = getPosition() == null ? "?" : getPosition().getLine() + "";
++        return indent + getClass().getSimpleName() + ":" + line + " " +

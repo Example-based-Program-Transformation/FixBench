@@ -1,0 +1,12 @@
+diff --git a/src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java b/src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java
+index 9135343..58b0d05 100644
+--- a/src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java
++++ b/src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java
+@@ -121,0 +122,5 @@ public class AggregatorFactories {
++                    // The bucket ordinal may be out of range in case of eg. a terms/filter/terms where
++                    // the filter matches no document in the highest buckets of the first terms agg
++                    if (owningBucketOrdinal >= aggregators.size() || aggregators.get(owningBucketOrdinal) == null) {
++                        return first.buildEmptyAggregation();
++                    } else {
+@@ -123,0 +129 @@ public class AggregatorFactories {
++                }

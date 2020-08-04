@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/graphhopper/routing/Path.java b/src/main/java/com/graphhopper/routing/Path.java
+index e057bd301..86bcf3142 100644
+--- a/src/main/java/com/graphhopper/routing/Path.java
++++ b/src/main/java/com/graphhopper/routing/Path.java
+@@ -37 +37 @@ public class Path {
+-    protected static double INIT_VALUE = Double.MAX_VALUE;
++    protected final static double INIT_VALUE = Double.MAX_VALUE;

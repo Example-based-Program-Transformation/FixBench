@@ -1,0 +1,1 @@
+dont throw an NPE for empty changelogs

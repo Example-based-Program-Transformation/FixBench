@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/protocols/UNICAST2.java b/src/org/jgroups/protocols/UNICAST2.java
+index aed3011..f13467e 100644
+--- a/src/org/jgroups/protocols/UNICAST2.java
++++ b/src/org/jgroups/protocols/UNICAST2.java
+@@ -1335,0 +1336,2 @@ public class UNICAST2 extends Protocol implements AgeOutCache.Handler<Address> {
++                if(msg == null)
++                    continue;

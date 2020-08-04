@@ -1,0 +1,1 @@
+Fix NullPointerException when calling _cleanup when listFiles returns null.

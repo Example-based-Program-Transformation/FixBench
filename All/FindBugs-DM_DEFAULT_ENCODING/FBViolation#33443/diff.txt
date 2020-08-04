@@ -1,0 +1,10 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/AbstractComparatorWithBloomFilter.java b/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/AbstractComparatorWithBloomFilter.java
+index bd66e568..3829813e 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/AbstractComparatorWithBloomFilter.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/AbstractComparatorWithBloomFilter.java
+@@ -35,0 +36 @@ import java.io.InputStreamReader;
++import fr.ens.transcriptome.eoulsan.Globals;
+@@ -146 +147,2 @@ public abstract class AbstractComparatorWithBloomFilter extends
+-    final BufferedReader reader = new BufferedReader(new InputStreamReader(is));
++    final BufferedReader reader =
++        new BufferedReader(new InputStreamReader(is, Globals.DEFAULT_CHARSET));

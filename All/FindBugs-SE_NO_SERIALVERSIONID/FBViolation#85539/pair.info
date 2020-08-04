@@ -1,0 +1,8 @@
+Id:85539
+comSha:6210735c4f411dc6f44eaa5dbc32e4f4ee583a82
+parentComSha:101e91bcbf504f372e34f8a4c1075ea745210a9f
+BuggyFilePath:parsers/src/main/java/de/uulm/ecs/ai/owlapi/krssparser/KRSS2OntologyFormat.java
+FixedFilePath:parsers/src/main/java/de/uulm/ecs/ai/owlapi/krssparser/KRSS2OntologyFormat.java
+StartLineNum:46
+EndLineNum:60
+repoName:owlcs#owlapi

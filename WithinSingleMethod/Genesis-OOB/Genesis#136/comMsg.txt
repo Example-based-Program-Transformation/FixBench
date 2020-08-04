@@ -1,0 +1,1 @@
+Verringere StringIndexOutOfBoundsException beim Ermitteln der Satzlnge

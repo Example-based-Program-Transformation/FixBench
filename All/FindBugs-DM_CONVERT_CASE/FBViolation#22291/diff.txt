@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/ugraphic/SpriteGrayLevel.java b/src/net/sourceforge/plantuml/ugraphic/SpriteGrayLevel.java
+index 8fc32f34..e17ab9f9 100644
+--- a/src/net/sourceforge/plantuml/ugraphic/SpriteGrayLevel.java
++++ b/src/net/sourceforge/plantuml/ugraphic/SpriteGrayLevel.java
+@@ -42,0 +43 @@ import java.util.List;
++import net.sourceforge.plantuml.StringUtils;
+@@ -188 +189 @@ public enum SpriteGrayLevel {
+-					final int x = Integer.parseInt(s.toUpperCase(), 16);
++					final int x = Integer.parseInt(StringUtils.goUpperCase(s), 16);

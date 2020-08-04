@@ -1,0 +1,1 @@
+Fix NullPointerException that happens when an exception is raised while looking for the job. [] ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=85633961

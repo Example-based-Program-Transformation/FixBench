@@ -1,0 +1,8 @@
+diff --git a/xchange-cryptsy/src/main/java/com/xeiam/xchange/cryptsy/CryptsyAdapters.java b/xchange-cryptsy/src/main/java/com/xeiam/xchange/cryptsy/CryptsyAdapters.java
+index f627214..7386247 100644
+--- a/xchange-cryptsy/src/main/java/com/xeiam/xchange/cryptsy/CryptsyAdapters.java
++++ b/xchange-cryptsy/src/main/java/com/xeiam/xchange/cryptsy/CryptsyAdapters.java
+@@ -292,0 +293 @@ public final class CryptsyAdapters {
++    if (cryptsyWallet.getHoldFunds() != null) {
+@@ -302,0 +304 @@ public final class CryptsyAdapters {
++    }

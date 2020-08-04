@@ -1,0 +1,12 @@
+diff --git a/src/main/java/com/googlecode/objectify/impl/translate/ProjectionSafeTranslator.java b/src/main/java/com/googlecode/objectify/impl/translate/ProjectionSafeTranslator.java
+index f4d685c..2a5fe53 100644
+--- a/src/main/java/com/googlecode/objectify/impl/translate/ProjectionSafeTranslator.java
++++ b/src/main/java/com/googlecode/objectify/impl/translate/ProjectionSafeTranslator.java
+@@ -26 +26 @@ abstract public class ProjectionSafeTranslator<P, D> extends NullSafeTranslator<
+-		if (value instanceof RawValue)
++		if (value instanceof RawValue) {
+@@ -28,0 +29,4 @@ abstract public class ProjectionSafeTranslator<P, D> extends NullSafeTranslator<
++			if (value == null)
++				return null;
++		}
++

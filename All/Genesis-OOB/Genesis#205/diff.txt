@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java b/src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java
+index 6ee9dbb..1eab30c 100644
+--- a/src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java
++++ b/src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java
+@@ -380 +380 @@ public void setExtraFields(ZipExtraField[] fields) {
+-        zipExtraFields[zipExtraFields.length] = unparseableExtra;
++        zipExtraFields[extraFields.length] = unparseableExtra;

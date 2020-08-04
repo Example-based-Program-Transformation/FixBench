@@ -1,0 +1,8 @@
+Id:42029
+comSha:82bf0f45ca7637de9206205721da874c627e3eee
+parentComSha:83e5d726af570d8d90e3baee4760656d88bea096
+BuggyFilePath:src/main/java/fr/xephi/authme/util/Utils.java
+FixedFilePath:src/main/java/fr/xephi/authme/util/Utils.java
+StartLineNum:41
+EndLineNum:41
+repoName:Xephi#AuthMeReloaded

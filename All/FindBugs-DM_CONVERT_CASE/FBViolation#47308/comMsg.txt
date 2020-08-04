@@ -1,0 +1,3 @@
+HTTPCLIENT-765 - String.toLowerCase() / toUpperCase() should specify Locale.ENGLISH
+
+git-svn-id: https://svn.apache.org/repos/asf/httpcomponents/httpclient/trunk@652950 13f79535-47bb-0310-9956-ffa450edef68

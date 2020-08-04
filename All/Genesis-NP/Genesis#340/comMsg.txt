@@ -1,0 +1,1 @@
+Fix NPE when subquery returns empty result

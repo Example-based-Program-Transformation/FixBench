@@ -1,0 +1,7 @@
+Id:135
+SATName:Genesis
+modifiedFPath:hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java
+comSha:2365932d78180255be7145d8d247ee1f801aed1d
+parentComSha:2365932d78180255be7145d8d247ee1f801aed1d^1
+githubUrl:https://github.com/apache/hbase
+repoName:apache#hbase

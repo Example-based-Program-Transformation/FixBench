@@ -1,0 +1,8 @@
+Id:55473
+comSha:07305926468ba3bc03418efa4d1d4a14da0b8cfc
+parentComSha:c34a769b4f9ffa602abda380d8319128d7033a81
+BuggyFilePath:src/main/java/org/apache/vxquery/compiler/rewriter/rulesets/DefaultRulesetProviderImpl.java
+FixedFilePath:src/main/java/org/apache/vxquery/compiler/rewriter/rulesets/DefaultRulesetProviderImpl.java
+StartLineNum:28
+EndLineNum:28
+repoName:apache#vxquery

@@ -1,0 +1,1 @@
+always use utf-8 for getBytes() calls

@@ -1,0 +1,11 @@
+diff --git a/core/src/main/java/me/prettyprint/cassandra/connection/HConnectionManager.java b/core/src/main/java/me/prettyprint/cassandra/connection/HConnectionManager.java
+index 5a35c12..b610fa5 100644
+--- a/core/src/main/java/me/prettyprint/cassandra/connection/HConnectionManager.java
++++ b/core/src/main/java/me/prettyprint/cassandra/connection/HConnectionManager.java
+@@ -98,0 +99 @@ public class HConnectionManager {
++    if (nodeAutoDiscoverService != null) {
+@@ -99,0 +101,4 @@ public class HConnectionManager {
++    } else {
++      log.warn("unable to add nodes, nodeAutoDiscoverService was null.  " +
++              "CassandraHostConfigurator.autoDiscoverHosts is {}", cassandraHostConfigurator.getAutoDiscoverHosts());
++    }

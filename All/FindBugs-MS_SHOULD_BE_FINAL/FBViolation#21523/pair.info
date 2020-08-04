@@ -1,0 +1,8 @@
+Id:21523
+comSha:1c66db66a62b35d9c37814cd92e5f673710afff4
+parentComSha:1a087bcf160321ad5957f5a6e73fad96f4fc56f3
+BuggyFilePath:src/main/java/com/salesforce/hbase/index/write/ParallelWriterIndexCommitter.java
+FixedFilePath:src/main/java/com/salesforce/hbase/index/write/ParallelWriterIndexCommitter.java
+StartLineNum:71
+EndLineNum:71
+repoName:forcedotcom#phoenix

@@ -1,0 +1,16 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/api/CreateBranchCommand.java b/org.eclipse.jgit/src/org/eclipse/jgit/api/CreateBranchCommand.java
+index aa1484c..92e8b46 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/api/CreateBranchCommand.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/api/CreateBranchCommand.java
+@@ -249,6 +249,5 @@ else if (upstreamMode == SetupUpstreamMode.NOTRACK)
+-				String[] tokens = baseBranch.split("/", 4); //$NON-NLS-1$
+-				boolean isRemote = tokens[1].equals("remotes"); //$NON-NLS-1$
+-				if (isRemote) {
+-					// refs/remotes/<remote name>/<branch>
+-					String remoteName = tokens[2];
+-					String branchName = tokens[3];
++
++				String remoteName = repo.getRemoteName(baseBranch);
++				if (remoteName != null) {
++					String branchName = repo
++							.shortenRemoteBranchName(baseBranch);

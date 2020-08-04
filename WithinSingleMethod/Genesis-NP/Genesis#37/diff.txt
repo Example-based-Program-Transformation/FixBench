@@ -1,0 +1,7 @@
+diff --git a/src/org/nutz/mvc/impl/ServletValueProxyMaker.java b/src/org/nutz/mvc/impl/ServletValueProxyMaker.java
+index c329872..34c1eae 100644
+--- a/src/org/nutz/mvc/impl/ServletValueProxyMaker.java
++++ b/src/org/nutz/mvc/impl/ServletValueProxyMaker.java
+@@ -24,0 +25,2 @@ public class ServletValueProxyMaker implements ValueProxyMaker {
++    	if (iv.getValue() == null)
++    		return null;

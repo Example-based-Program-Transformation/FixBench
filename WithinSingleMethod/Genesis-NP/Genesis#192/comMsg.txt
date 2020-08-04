@@ -1,0 +1,1 @@
+metrics-jetty8: Avoid NPE if InstrumentedQueuedThreadPool gauges are read too early

@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteOnArrowCommand.java b/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteOnArrowCommand.java
+index 336a1475..6d5a9024 100644
+--- a/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteOnArrowCommand.java
++++ b/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteOnArrowCommand.java
+@@ -109 +109 @@ public final class FactorySequenceNoteOnArrowCommand implements SingleMultiFacto
+-			final NotePosition position = NotePosition.valueOf(line0.get("POSITION", 0).toUpperCase());
++			final NotePosition position = NotePosition.valueOf(StringUtils.goUpperCase(line0.get("POSITION", 0)));

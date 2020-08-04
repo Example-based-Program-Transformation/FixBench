@@ -1,0 +1,1 @@
+-fixed: calling remote protocol for non existent record metadata, will cause the binary protocol to become corrupted.

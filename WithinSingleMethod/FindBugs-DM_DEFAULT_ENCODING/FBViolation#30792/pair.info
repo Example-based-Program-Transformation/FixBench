@@ -1,0 +1,8 @@
+Id:30792
+comSha:4669837de85fba436e0c674325b8d22918fa48c9
+parentComSha:640626ebe4785d17a6b1859240f943863af99201
+BuggyFilePath:splitlog-core/src/main/java/com/github/triceo/splitlog/AbstractLogTailer.java
+FixedFilePath:splitlog-core/src/main/java/com/github/triceo/splitlog/AbstractLogTailer.java
+StartLineNum:85
+EndLineNum:85
+repoName:triceo#splitlog

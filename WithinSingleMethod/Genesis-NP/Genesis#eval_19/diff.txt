@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/springframework/hateoas/ResourceSupport.java b/src/main/java/org/springframework/hateoas/ResourceSupport.java
+index ca1351f..5966e56 100755
+--- a/src/main/java/org/springframework/hateoas/ResourceSupport.java
++++ b/src/main/java/org/springframework/hateoas/ResourceSupport.java
+@@ -145 +145 @@ public class ResourceSupport implements Identifiable<Link> {
+-		if (!obj.getClass().equals(this.getClass())) {
++		if (obj == null || !obj.getClass().equals(this.getClass())) {

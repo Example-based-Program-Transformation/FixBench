@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/w3c/tidy/PPrint.java b/src/main/java/org/w3c/tidy/PPrint.java
+index 66c5cea..6e1bf74 100644
+--- a/src/main/java/org/w3c/tidy/PPrint.java
++++ b/src/main/java/org/w3c/tidy/PPrint.java
+@@ -1806 +1806 @@ public class PPrint
+-            if (node.textarray[ix] == '\n')
++            if (ix >= 0 && node.textarray[ix] == '\n')

@@ -1,0 +1,17 @@
+diff --git a/src/main/java/com/github/rnewson/couchdb/lucene/LuceneServlet.java b/src/main/java/com/github/rnewson/couchdb/lucene/LuceneServlet.java
+index ae6cbe8..b4dd0f3 100644
+--- a/src/main/java/com/github/rnewson/couchdb/lucene/LuceneServlet.java
++++ b/src/main/java/com/github/rnewson/couchdb/lucene/LuceneServlet.java
+@@ -95,2 +95,8 @@ public final class LuceneServlet extends HttpServlet {
+-			for (final File dir : DatabaseIndexer.uuidDir(root, db.getUuid())
+-					.listFiles()) {
++            final File[] dirs = DatabaseIndexer.uuidDir(root, db.getUuid()).listFiles();
++            if (dirs == null) {
++                LOG.warn(DatabaseIndexer.uuidDir(root, db.getUuid())
++                         + " is not a directory or could not be read.");
++                ServletUtils.sendJSONError(req, resp, 500, "index_dir_perms");
++                return;
++            } else {
++                for (final File dir : dirs) {
+@@ -102,0 +109 @@ public final class LuceneServlet extends HttpServlet {
++		}

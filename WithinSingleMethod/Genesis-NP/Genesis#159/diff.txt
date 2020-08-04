@@ -1,0 +1,12 @@
+diff --git a/structr-ui/src/main/java/org/structr/web/Importer.java b/structr-ui/src/main/java/org/structr/web/Importer.java
+index 7a17284..3f3f267 100644
+--- a/structr-ui/src/main/java/org/structr/web/Importer.java
++++ b/structr-ui/src/main/java/org/structr/web/Importer.java
+@@ -726,0 +727,7 @@ public class Importer {
++			if (originalUrl == null || address == null) {
++
++				logger.log(Level.INFO, "Cannot download from {0} without base address", downloadAddress);
++				return null;
++
++			}
++

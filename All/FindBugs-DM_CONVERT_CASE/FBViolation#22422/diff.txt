@@ -1,0 +1,12 @@
+diff --git a/src/net/sourceforge/plantuml/sudoku/SudokuDLX.java b/src/net/sourceforge/plantuml/sudoku/SudokuDLX.java
+index b171155e..f47f4d54 100644
+--- a/src/net/sourceforge/plantuml/sudoku/SudokuDLX.java
++++ b/src/net/sourceforge/plantuml/sudoku/SudokuDLX.java
+@@ -31 +31 @@
+- * Revision $Revision: 12235 $
++ * Revision $Revision: 14726 $
+@@ -38,0 +39 @@ import net.sourceforge.plantuml.Log;
++import net.sourceforge.plantuml.StringUtils;
+@@ -79 +80 @@ public class SudokuDLX implements ISudoku {
+-		Log.println("Seed=" + Long.toString(seed, 36).toUpperCase());
++		Log.println("Seed=" + StringUtils.goUpperCase(Long.toString(seed, 36)));

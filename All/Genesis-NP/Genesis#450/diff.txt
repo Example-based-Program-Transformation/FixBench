@@ -1,0 +1,10 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/HistoricVariableInstanceEntity.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/HistoricVariableInstanceEntity.java
+index cb1d4b7..be7b0d4 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/HistoricVariableInstanceEntity.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/HistoricVariableInstanceEntity.java
+@@ -114,0 +115 @@ public class HistoricVariableInstanceEntity implements ValueFields, HistoricVari
++  	if(byteArrayRef.getId() != null){
+@@ -116 +117,2 @@ public class HistoricVariableInstanceEntity implements ValueFields, HistoricVari
+-  	
++        	persistentState.put("cachedValue", this.getValue());
++  	}

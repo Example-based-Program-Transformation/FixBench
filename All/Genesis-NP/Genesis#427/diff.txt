@@ -1,0 +1,14 @@
+diff --git a/modules/swagger-jaxrs/src/main/java/com/wordnik/swagger/jaxrs/listing/ApiListingResource.java b/modules/swagger-jaxrs/src/main/java/com/wordnik/swagger/jaxrs/listing/ApiListingResource.java
+index 54a391e..35a9e3f 100644
+--- a/modules/swagger-jaxrs/src/main/java/com/wordnik/swagger/jaxrs/listing/ApiListingResource.java
++++ b/modules/swagger-jaxrs/src/main/java/com/wordnik/swagger/jaxrs/listing/ApiListingResource.java
+@@ -18 +18,2 @@ import javax.ws.rs.core.*;
+-import java.util.Set;
++import java.util.HashMap;
++import java.util.HashSet;
+@@ -21 +22 @@ import java.util.Map;
+-import java.util.HashMap;
++import java.util.Set;
+@@ -40 +41 @@ public class ApiListingResource {
+-      Set<Class<?>> classes = null;
++      Set<Class<?>> classes = new HashSet<Class<?>>();

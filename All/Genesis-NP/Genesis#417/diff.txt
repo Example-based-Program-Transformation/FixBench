@@ -1,0 +1,21 @@
+diff --git a/server/src/main/java/com/orientechnologies/orient/server/OClientConnection.java b/server/src/main/java/com/orientechnologies/orient/server/OClientConnection.java
+index bef2dc0..6074e81 100644
+--- a/server/src/main/java/com/orientechnologies/orient/server/OClientConnection.java
++++ b/server/src/main/java/com/orientechnologies/orient/server/OClientConnection.java
+@@ -18,3 +17,0 @@ package com.orientechnologies.orient.server;
+-import java.io.IOException;
+-import java.net.InetSocketAddress;
+-
+@@ -27,0 +25,3 @@ import com.orientechnologies.orient.server.network.protocol.ONetworkProtocolData
++import java.io.IOException;
++import java.net.InetSocketAddress;
++
+@@ -53,3 +53,5 @@ public class OClientConnection {
+-    return "OClientConnection [id=" + id + ", source="
+-        + (protocol != null && protocol.getChannel() != null ? protocol.getChannel().socket.getRemoteSocketAddress() : "?")
+-        + ", since=" + since + "]";
++    return "OClientConnection [id="
++        + id
++        + ", source="
++        + (protocol != null && protocol.getChannel() != null && protocol.getChannel().socket != null ? protocol.getChannel().socket
++            .getRemoteSocketAddress() : "?") + ", since=" + since + "]";

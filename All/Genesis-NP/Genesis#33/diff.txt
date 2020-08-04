@@ -1,0 +1,11 @@
+diff --git a/xchange-core/src/main/java/com/xeiam/xchange/BaseExchange.java b/xchange-core/src/main/java/com/xeiam/xchange/BaseExchange.java
+index 2923f49..3bf380e 100644
+--- a/xchange-core/src/main/java/com/xeiam/xchange/BaseExchange.java
++++ b/xchange-core/src/main/java/com/xeiam/xchange/BaseExchange.java
+@@ -71 +71 @@ public abstract class BaseExchange implements Exchange {
+-    if (exchangeSpecification.getExchangeName() != null) {
++    if (this.exchangeSpecification.getExchangeName() != null) {
+@@ -78 +77,0 @@ public abstract class BaseExchange implements Exchange {
+-      MetaData metaData = null;
+@@ -81 +79,0 @@ public abstract class BaseExchange implements Exchange {
+-        this.metaData = metaData;

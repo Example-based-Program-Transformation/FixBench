@@ -1,0 +1,7 @@
+Id:193
+SATName:Genesis
+modifiedFPath:metrics-core/src/main/java/com/codahale/metrics/MetricRegistry.java
+comSha:c9e2f5b07e0723ae33442faa090395fb919ec9b2
+parentComSha:c9e2f5b07e0723ae33442faa090395fb919ec9b2^1
+githubUrl:https://github.com/dropwizard/metrics
+repoName:dropwizard#metrics

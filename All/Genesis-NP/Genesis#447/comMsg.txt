@@ -1,0 +1,1 @@
+Fix issue #262 - Dump no longer returns NPE when frames have been cleared

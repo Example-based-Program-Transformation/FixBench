@@ -1,0 +1,9 @@
+diff --git a/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/BaseClientDetails.java b/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/BaseClientDetails.java
+index d521f35..07cbcd4 100644
+--- a/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/BaseClientDetails.java
++++ b/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/BaseClientDetails.java
+@@ -279,2 +279,2 @@ public class BaseClientDetails implements ClientDetails {
+-		result = prime * result + accessTokenValiditySeconds;
+-		result = prime * result + refreshTokenValiditySeconds;
++		result = prime * result + ((accessTokenValiditySeconds==null) ? 0 : accessTokenValiditySeconds);
++		result = prime * result + ((refreshTokenValiditySeconds == null) ? 0 : refreshTokenValiditySeconds);

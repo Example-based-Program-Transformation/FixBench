@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/encog/neural/freeform/FreeformContextNeuron.java b/src/main/java/org/encog/neural/freeform/FreeformContextNeuron.java
+index a5dba08..d72ed83 100644
+--- a/src/main/java/org/encog/neural/freeform/FreeformContextNeuron.java
++++ b/src/main/java/org/encog/neural/freeform/FreeformContextNeuron.java
+@@ -49,0 +50 @@ public FreeformContextNeuron(final FreeformNeuron theContextSource) {
++		this.contextSource = theContextSource;

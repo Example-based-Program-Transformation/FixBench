@@ -1,0 +1,1 @@
+Fixed Nullpointer exception in KafkaWriter

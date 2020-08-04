@@ -1,0 +1,7 @@
+diff --git a/src/com/google/bitcoin/core/Sha256Hash.java b/src/com/google/bitcoin/core/Sha256Hash.java
+index 49b537cd..38ddb726 100644
+--- a/src/com/google/bitcoin/core/Sha256Hash.java
++++ b/src/com/google/bitcoin/core/Sha256Hash.java
+@@ -32 +32 @@ public class Sha256Hash implements Serializable {
+-    public static Sha256Hash ZERO_HASH = new Sha256Hash(new byte[32]);
++    public static final Sha256Hash ZERO_HASH = new Sha256Hash(new byte[32]);

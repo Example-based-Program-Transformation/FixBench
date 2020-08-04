@@ -1,0 +1,7 @@
+diff --git a/liquibase-core/src/main/java/liquibase/datatype/core/NumberType.java b/liquibase-core/src/main/java/liquibase/datatype/core/NumberType.java
+index c8355fc..0505215 100644
+--- a/liquibase-core/src/main/java/liquibase/datatype/core/NumberType.java
++++ b/liquibase-core/src/main/java/liquibase/datatype/core/NumberType.java
+@@ -37 +37 @@ public class NumberType extends LiquibaseDataType {
+-            if (getParameters().length > 0 && getParameters()[0].equals("0") && getParameters()[1].equals("-127")) {
++            if (getParameters().length > 1 && getParameters()[0].equals("0") && getParameters()[1].equals("-127")) {

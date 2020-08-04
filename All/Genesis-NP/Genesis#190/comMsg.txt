@@ -1,0 +1,1 @@
+Fix NPE when resources have the @Path annotation just on method level

@@ -1,0 +1,14 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateThrowCompensationEventActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateThrowCompensationEventActivityBehavior.java
+index b93cc862b..e781c0c09 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateThrowCompensationEventActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateThrowCompensationEventActivityBehavior.java
+@@ -17,0 +18 @@ import java.util.List;
++import org.activiti.bpmn.model.CompensateEventDefinition;
+@@ -19 +19,0 @@ import org.activiti.engine.impl.bpmn.helper.ScopeUtil;
+-import org.activiti.engine.impl.bpmn.parser.CompensateEventDefinition;
+@@ -26 +26 @@ import org.activiti.engine.impl.pvm.process.ActivityImpl;
+- * @author Daniel Meyer
++ * @author Tijs Rademakers
+@@ -29,0 +30,2 @@ public class IntermediateThrowCompensationEventActivityBehavior extends FlowNode
++  private static final long serialVersionUID = 1L;
++

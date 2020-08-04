@@ -1,0 +1,1 @@
+[MSHARED-105] fixed StringIndexOutOfBoundsException

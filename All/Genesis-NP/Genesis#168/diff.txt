@@ -1,0 +1,7 @@
+diff --git a/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java b/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
+index c69d2a1..3136cf6 100644
+--- a/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
++++ b/structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
+@@ -1483 +1483 @@ public abstract class DOMNode extends LinkedTreeNode implements Node, Renderable
+-			if ("true".equals(extractFunctions(securityContext, renderContext, _hideConditions))) {
++			if (StringUtils.isNotBlank(_hideConditions) && "true".equals(extractFunctions(securityContext, renderContext, _hideConditions))) {

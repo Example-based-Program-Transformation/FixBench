@@ -1,0 +1,7 @@
+diff --git a/modules/src/main/java/org/archive/modules/forms/HTMLForm.java b/modules/src/main/java/org/archive/modules/forms/HTMLForm.java
+index 91a0ba5..92368dc 100644
+--- a/modules/src/main/java/org/archive/modules/forms/HTMLForm.java
++++ b/modules/src/main/java/org/archive/modules/forms/HTMLForm.java
+@@ -90 +90 @@ public class HTMLForm {
+-        if (!type.toLowerCase().equals("submit"))
++        if (type != null && !type.toLowerCase().equals("submit"))

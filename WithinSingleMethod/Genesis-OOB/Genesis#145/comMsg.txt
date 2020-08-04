@@ -1,0 +1,1 @@
+Added array bounds checking when testing if a JSONObject can be converted to a JSONArray.

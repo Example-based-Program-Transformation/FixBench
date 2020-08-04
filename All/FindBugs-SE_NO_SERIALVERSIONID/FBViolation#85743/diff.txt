@@ -1,0 +1,9 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/formats/RDFXMLOntologyFormatFactory.java b/rio/src/main/java/org/semanticweb/owlapi/formats/RDFXMLOntologyFormatFactory.java
+index 4ab96d89d..8070beaeb 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/formats/RDFXMLOntologyFormatFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/formats/RDFXMLOntologyFormatFactory.java
+@@ -17,3 +17 @@ public class RDFXMLOntologyFormatFactory extends
+-    public RDFXMLOntologyFormatFactory() {
+-        super();
+-    }
++    private static final long serialVersionUID = 40000L;

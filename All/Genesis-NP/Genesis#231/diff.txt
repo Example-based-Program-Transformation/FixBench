@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/stack/DiagnosticsHandler.java b/src/org/jgroups/stack/DiagnosticsHandler.java
+index 1911dc4..4b80d38 100644
+--- a/src/org/jgroups/stack/DiagnosticsHandler.java
++++ b/src/org/jgroups/stack/DiagnosticsHandler.java
+@@ -223 +223 @@ public class DiagnosticsHandler implements Runnable {
+-            catch(IOException e) {
++            catch(Exception e) { // also catches NPE in getInterfaceAddresses() (https://issues.jboss.org/browse/JGRP-1845)

@@ -1,0 +1,15 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/diff/RenameDetector.java b/org.eclipse.jgit/src/org/eclipse/jgit/diff/RenameDetector.java
+index cf5615a..ad37a73 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/diff/RenameDetector.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/diff/RenameDetector.java
+@@ -393,3 +392,0 @@ private void findExactRenames(ProgressMonitor pm) {
+-				for (int addIdx = 0; addIdx < adds.size(); addIdx++) {
+-					String addedName = adds.get(addIdx).newName;
+-
+@@ -398,0 +396,3 @@ private void findExactRenames(ProgressMonitor pm) {
++					for (int addIdx = 0; addIdx < adds.size(); addIdx++) {
++						String addedName = adds.get(addIdx).newName;
++
+@@ -400 +400 @@ private void findExactRenames(ProgressMonitor pm) {
+-						matrix[mNext] = SimilarityRenameDetector.encode(score, addIdx, delIdx);
++						matrix[mNext] = SimilarityRenameDetector.encode(score, delIdx, addIdx);

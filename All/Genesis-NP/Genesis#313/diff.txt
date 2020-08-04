@@ -1,0 +1,8 @@
+diff --git a/src/main/java/net/sf/jsqlparser/util/TablesNamesFinder.java b/src/main/java/net/sf/jsqlparser/util/TablesNamesFinder.java
+index 4145c1b..9a232e6 100644
+--- a/src/main/java/net/sf/jsqlparser/util/TablesNamesFinder.java
++++ b/src/main/java/net/sf/jsqlparser/util/TablesNamesFinder.java
+@@ -61,0 +62 @@ public class TablesNamesFinder implements SelectVisitor, FromItemVisitor, Expres
++		if (delete.getWhere() != null) {
+@@ -62,0 +64 @@ public class TablesNamesFinder implements SelectVisitor, FromItemVisitor, Expres
++		}

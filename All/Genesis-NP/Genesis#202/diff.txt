@@ -1,0 +1,7 @@
+diff --git a/api/src/main/java/org/asynchttpclient/util/SslUtils.java b/api/src/main/java/org/asynchttpclient/util/SslUtils.java
+index 8e9ea2c..5d31125 100644
+--- a/api/src/main/java/org/asynchttpclient/util/SslUtils.java
++++ b/api/src/main/java/org/asynchttpclient/util/SslUtils.java
+@@ -72 +72 @@ public class SslUtils {
+-        if (sslContext != null) {
++        if (sslContext == null) {

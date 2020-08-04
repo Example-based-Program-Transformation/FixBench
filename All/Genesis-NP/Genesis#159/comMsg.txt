@@ -1,0 +1,1 @@
+Fixed NPE occuring when no base address is given for downloading files

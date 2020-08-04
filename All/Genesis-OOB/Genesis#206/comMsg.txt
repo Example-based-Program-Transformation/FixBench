@@ -1,0 +1,1 @@
+fixed StringIndexOutOfBoundsException caused by bad DOCTYPE node handling of multi-byte UTF-8 characters

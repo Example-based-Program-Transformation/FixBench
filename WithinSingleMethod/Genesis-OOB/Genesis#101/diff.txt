@@ -1,0 +1,7 @@
+diff --git a/src/main/java/de/slackspace/openkeepass/domain/KeePassFile.java b/src/main/java/de/slackspace/openkeepass/domain/KeePassFile.java
+index 1c10d22..8c579f6 100644
+--- a/src/main/java/de/slackspace/openkeepass/domain/KeePassFile.java
++++ b/src/main/java/de/slackspace/openkeepass/domain/KeePassFile.java
+@@ -109 +109 @@ public class KeePassFile implements KeePassFileElement {
+-		if(entries != null) {
++		if(!entries.isEmpty()) {

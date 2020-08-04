@@ -1,0 +1,7 @@
+diff --git a/src/main/java/redis/clients/jedis/Jedis.java b/src/main/java/redis/clients/jedis/Jedis.java
+index d6633c3..0899abc 100644
+--- a/src/main/java/redis/clients/jedis/Jedis.java
++++ b/src/main/java/redis/clients/jedis/Jedis.java
+@@ -30 +30 @@ public class Jedis extends BinaryJedis implements JedisCommands,
+-	super((String)null);
++	super("localhost");

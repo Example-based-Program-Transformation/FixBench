@@ -1,0 +1,7 @@
+diff --git a/src/main/java/DepthFirstSearch.java b/src/main/java/DepthFirstSearch.java
+index d3528d1..07737fe 100644
+--- a/src/main/java/DepthFirstSearch.java
++++ b/src/main/java/DepthFirstSearch.java
+@@ -56 +56 @@ public class DepthFirstSearch
+-			if (node.x < 0 || node.y < 0 || node.x > board.size() || node.y > board.get(0).size())
++			if (node.x < 0 || node.y < 0 || node.x > board.size()-1 || node.y > board.get(0).size()-1)

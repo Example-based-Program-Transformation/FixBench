@@ -1,0 +1,1 @@
+Spurious NullPointerException when closing soft/weak cache , fix #648

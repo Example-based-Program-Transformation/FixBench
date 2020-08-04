@@ -1,0 +1,1 @@
+Due to the fix in StringProperty, we can't use it here anymore because it will not silently accept a Boolean value anymore but rather throw a ClassCastException which is silently ignored, return null. The GenericProperty handles the boolean values correctly.

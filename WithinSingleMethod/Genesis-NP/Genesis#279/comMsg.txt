@@ -1,0 +1,1 @@
+CORE-2210 java.lang.NullPointerException when file is empty

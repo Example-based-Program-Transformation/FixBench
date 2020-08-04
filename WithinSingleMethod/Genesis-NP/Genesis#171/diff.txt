@@ -1,0 +1,10 @@
+diff --git a/structr-ui/src/main/java/org/structr/web/entity/Widget.java b/structr-ui/src/main/java/org/structr/web/entity/Widget.java
+index a490a29..9335c68 100644
+--- a/structr-ui/src/main/java/org/structr/web/entity/Widget.java
++++ b/structr-ui/src/main/java/org/structr/web/entity/Widget.java
+@@ -30 +30,4 @@ public class Widget extends AbstractNode {
+-		new Importer(securityContext, getProperty(source), null, null, 1, true, true).createChildNodes(parent, page);
++		Importer importer = new Importer(securityContext, getProperty(source), null, null, 1, true, true);
++
++		importer.parse();
++		importer.createChildNodes(parent, page);

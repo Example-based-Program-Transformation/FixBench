@@ -1,0 +1,7 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereFramework.java b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereFramework.java
+index 3b3def0..9042810 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereFramework.java
++++ b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereFramework.java
+@@ -1450 +1450 @@ public class AtmosphereFramework {
+-        String drop = servletConfig.getInitParameter(ApplicationConfig.AUTODETECT_BROADCASTER);
++        String drop = servletConfig != null ? servletConfig.getInitParameter(ApplicationConfig.AUTODETECT_BROADCASTER) : null;

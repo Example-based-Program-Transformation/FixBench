@@ -1,0 +1,7 @@
+diff --git a/src/main/java/de/jetwick/snacktory/ArticleTextExtractor.java b/src/main/java/de/jetwick/snacktory/ArticleTextExtractor.java
+index 7e66329..a21fcff 100644
+--- a/src/main/java/de/jetwick/snacktory/ArticleTextExtractor.java
++++ b/src/main/java/de/jetwick/snacktory/ArticleTextExtractor.java
+@@ -177 +177 @@ public class ArticleTextExtractor {
+-            if (split.length > 1 || !split[0].equals(""))
++            if (split.length > 1 || (split.length > 0 && !split[0].equals("")))

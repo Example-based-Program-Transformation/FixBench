@@ -1,0 +1,11 @@
+diff --git a/structr-rest/src/main/java/org/structr/rest/resource/LogResource.java b/structr-rest/src/main/java/org/structr/rest/resource/LogResource.java
+index 99032c2..b8f1d84 100644
+--- a/structr-rest/src/main/java/org/structr/rest/resource/LogResource.java
++++ b/structr-rest/src/main/java/org/structr/rest/resource/LogResource.java
+@@ -65,0 +66,6 @@ public class LogResource extends Resource {
++		subjectProperty.setDeclaringClass(LogResource.class);
++		objectProperty.setDeclaringClass(LogResource.class);
++		actionProperty.setDeclaringClass(LogResource.class);
++		messageProperty.setDeclaringClass(LogResource.class);
++		timestampProperty.setDeclaringClass(LogResource.class);
++		

@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/sequencediagram/graphic/SequenceDiagramTxtMaker.java b/src/net/sourceforge/plantuml/sequencediagram/graphic/SequenceDiagramTxtMaker.java
+index a61618c9..9a448022 100644
+--- a/src/net/sourceforge/plantuml/sequencediagram/graphic/SequenceDiagramTxtMaker.java
++++ b/src/net/sourceforge/plantuml/sequencediagram/graphic/SequenceDiagramTxtMaker.java
+@@ -116 +115,0 @@ public class SequenceDiagramTxtMaker implements FileMaker {
+-		final PrintStream ps = new PrintStream(os);
+@@ -117,0 +117 @@ public class SequenceDiagramTxtMaker implements FileMaker {
++			final PrintStream ps = new PrintStream(os, true, "UTF-8");
+@@ -119,0 +120 @@ public class SequenceDiagramTxtMaker implements FileMaker {
++			final PrintStream ps = new PrintStream(os);

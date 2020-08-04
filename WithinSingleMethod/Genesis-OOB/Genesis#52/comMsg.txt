@@ -1,0 +1,1 @@
+committed StringIndexOutOfBoundsException found during integration tests

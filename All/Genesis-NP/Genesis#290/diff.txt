@@ -1,0 +1,11 @@
+diff --git a/core/src/main/java/cucumber/runtime/MethodFormat.java b/core/src/main/java/cucumber/runtime/MethodFormat.java
+index f82c272..b81ed62 100644
+--- a/core/src/main/java/cucumber/runtime/MethodFormat.java
++++ b/core/src/main/java/cucumber/runtime/MethodFormat.java
+@@ -83,0 +84 @@ public class MethodFormat {
++        try {
+@@ -85 +85,0 @@ public class MethodFormat {
+-        if(protectionDomain != null) {
+@@ -87 +87 @@ public class MethodFormat {
+-        } else {
++        } catch (Exception e) {

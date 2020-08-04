@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/FileFormat.java b/src/net/sourceforge/plantuml/FileFormat.java
+index 2b3ae183..646b688d 100644
+--- a/src/net/sourceforge/plantuml/FileFormat.java
++++ b/src/net/sourceforge/plantuml/FileFormat.java
+@@ -65 +65 @@ public enum FileFormat {
+-		return "." + name().toLowerCase();
++		return "." + StringUtils.goLowerCase(name());

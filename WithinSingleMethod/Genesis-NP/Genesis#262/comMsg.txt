@@ -1,0 +1,1 @@
+throw RT exception if URI creation fails from localhost hostname - some containers mess up hostnames causing NPE in NettyWebServer#start()

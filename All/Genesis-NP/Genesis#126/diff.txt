@@ -1,0 +1,21 @@
+diff --git a/src/main/java/com/squareup/javapoet/WildcardTypeName.java b/src/main/java/com/squareup/javapoet/WildcardTypeName.java
+index eb1c429..711b278 100644
+--- a/src/main/java/com/squareup/javapoet/WildcardTypeName.java
++++ b/src/main/java/com/squareup/javapoet/WildcardTypeName.java
+@@ -23,0 +24 @@ import java.util.List;
++import javax.lang.model.type.TypeMirror;
+@@ -92,3 +93,11 @@ public final class WildcardTypeName extends TypeName {
+-    TypeName extendsBound = TypeName.get(mirror.getExtendsBound());
+-    TypeName superBound = TypeName.get(mirror.getSuperBound());
+-    return superBound != null ? supertypeOf(superBound) : subtypeOf(extendsBound);
++    TypeMirror extendsBound = mirror.getExtendsBound();
++    if (extendsBound == null) {
++      TypeMirror superBound = mirror.getSuperBound();
++      if (superBound == null) {
++        return subtypeOf(Object.class);
++      } else {
++        return supertypeOf(TypeName.get(superBound));
++      }
++    } else {
++      return subtypeOf(TypeName.get(extendsBound));
++    }

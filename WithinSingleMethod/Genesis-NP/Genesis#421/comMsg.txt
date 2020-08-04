@@ -1,0 +1,1 @@
+Fix #1717 - fix NPE with @ApiResponse at class level and no response in operation or @ApiOperation not defined for method

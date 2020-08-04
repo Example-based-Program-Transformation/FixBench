@@ -1,0 +1,12 @@
+diff --git a/core/src/main/java/org/apache/mina/util/CircularQueue.java b/core/src/main/java/org/apache/mina/util/CircularQueue.java
+index cb47fa4..562fdc5 100644
+--- a/core/src/main/java/org/apache/mina/util/CircularQueue.java
++++ b/core/src/main/java/org/apache/mina/util/CircularQueue.java
+@@ -208 +208 @@ public class CircularQueue<E> extends AbstractList<E> implements List<E>, Queue<
+-        if (size < shrinkThreshold) {
++        if (size <= shrinkThreshold) {
+@@ -229,0 +230,2 @@ public class CircularQueue<E> extends AbstractList<E> implements List<E>, Queue<
++            // Copy only when there's something to copy.
++            if (size > 0) {
+@@ -235,0 +238 @@ public class CircularQueue<E> extends AbstractList<E> implements List<E>, Queue<
++            }

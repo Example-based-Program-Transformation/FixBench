@@ -1,0 +1,8 @@
+Id:76053
+comSha:eea8160f9d629c116161357c5bd37228103936b2
+parentComSha:2b86dff4da79d1b24b11dd8a4236edba3f3409ef
+BuggyFilePath:src/main/java/org/perfcake/parser/ScenarioParser.java
+FixedFilePath:src/main/java/org/perfcake/parser/ScenarioParser.java
+StartLineNum:79
+EndLineNum:79
+repoName:PerfCake#PerfCake

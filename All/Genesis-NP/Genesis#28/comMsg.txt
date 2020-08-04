@@ -1,0 +1,1 @@
+Issue #306 - Typecast error in SAML2DefaultResponseValidator

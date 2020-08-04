@@ -1,0 +1,14 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/steps/expression/HTSeqCount.java b/src/main/java/fr/ens/transcriptome/eoulsan/steps/expression/HTSeqCount.java
+index a2ebb187..fa6424ef 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/steps/expression/HTSeqCount.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/steps/expression/HTSeqCount.java
+@@ -28 +27,0 @@ import java.io.File;
+-import java.io.FileWriter;
+@@ -52,0 +52 @@ import fr.ens.transcriptome.eoulsan.bio.io.GFFReader;
++import fr.ens.transcriptome.eoulsan.util.FileUtils;
+@@ -72 +72 @@ public class HTSeqCount {
+-    Writer writer = new FileWriter(output);
++    Writer writer = FileUtils.createBufferedWriter(output);
+@@ -291 +291 @@ public class HTSeqCount {
+-    Writer writer = new FileWriter(output);
++    Writer writer = FileUtils.createBufferedWriter(output);

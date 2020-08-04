@@ -1,0 +1,7 @@
+Id:302
+SATName:Genesis
+modifiedFPath:logback-classic/src/main/java/ch/qos/logback/classic/net/SocketNode.java
+comSha:ef839a099ba2c21748d54db049a3cf9ac710590b
+parentComSha:ef839a099ba2c21748d54db049a3cf9ac710590b^1
+githubUrl:https://github.com/qos-ch/logback
+repoName:qos-ch#logback

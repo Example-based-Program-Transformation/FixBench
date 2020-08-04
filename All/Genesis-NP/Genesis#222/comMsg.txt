@@ -1,0 +1,1 @@
+fixed: possible NPE (no options file seen)

@@ -1,0 +1,9 @@
+diff --git a/src/org/traccar/api/SecurityRequestFilter.java b/src/org/traccar/api/SecurityRequestFilter.java
+index b1e09048..63295a8b 100644
+--- a/src/org/traccar/api/SecurityRequestFilter.java
++++ b/src/org/traccar/api/SecurityRequestFilter.java
+@@ -20,0 +21 @@ import org.traccar.model.User;
++import java.nio.charset.Charset;
+@@ -38 +39 @@ public class SecurityRequestFilter implements ContainerRequestFilter {
+-            return new String(decodedBytes).split(":", 2);
++            return new String(decodedBytes, Charset.defaultCharset()).split(":", 2);

@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/commands/PAG_Arenaclass.java b/src/net/slipcor/pvparena/commands/PAG_Arenaclass.java
+index e0d9c37b..14240694 100644
+--- a/src/net/slipcor/pvparena/commands/PAG_Arenaclass.java
++++ b/src/net/slipcor/pvparena/commands/PAG_Arenaclass.java
+@@ -59 +59 @@ public class PAG_Arenaclass extends AbstractArenaCommand {
+-		sender.sendMessage(Language.parse(arena, MSG.CLASS_SELECTED, aClass.getName().toLowerCase()));
++		sender.sendMessage(Language.parse(arena, MSG.CLASS_SELECTED, aClass.getName()));

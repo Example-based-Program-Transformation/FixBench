@@ -1,0 +1,1 @@
+PDFBOX-821: avoid ArrayOutOfBounds-Exception

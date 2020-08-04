@@ -1,0 +1,13 @@
+diff --git a/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java b/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
+index 70d6cfe..6f84552 100644
+--- a/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
++++ b/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java
+@@ -281,7 +281 @@ public class TextLineDecoder implements ProtocolDecoder {
+-                if (in.position() >= matchCount) {
+-                    in.position(in.position() - matchCount);
+-                    matchCount = 0;
+-                } else {
+-                    matchCount -= in.position();
+-                    in.position(0);
+-                }
++                in.position(Math.max(0, in.position() - matchCount));

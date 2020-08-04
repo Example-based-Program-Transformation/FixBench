@@ -1,0 +1,7 @@
+Id:287
+SATName:Genesis
+modifiedFPath:liquibase-core/src/main/java/liquibase/changelog/ChangeSet.java
+comSha:a7709294f3d0e21b5c2eaa2fdcafbc4e2f390f77
+parentComSha:a7709294f3d0e21b5c2eaa2fdcafbc4e2f390f77^1
+githubUrl:https://github.com/liquibase/liquibase
+repoName:liquibase#liquibase

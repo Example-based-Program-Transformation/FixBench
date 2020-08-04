@@ -1,0 +1,8 @@
+Id:22364
+comSha:44498adfb0fcd415a995bee6ef40df5a3f01cc56
+parentComSha:91700c23bb80d0c809ba7aac27510d2a74198cc1
+BuggyFilePath:src/net/sourceforge/plantuml/sequencediagram/graphic/ParticipantBox.java
+FixedFilePath:src/net/sourceforge/plantuml/sequencediagram/graphic/ParticipantBox.java
+StartLineNum:72
+EndLineNum:72
+repoName:jensnerche#plantuml

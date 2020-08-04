@@ -1,0 +1,8 @@
+Id:80084
+comSha:3dbe70b2c67392d1a2dce5d8e4e75714b2ac8e3a
+parentComSha:c06cb5aca2ca04e2e8cefa51c8020ac59f312c8b
+BuggyFilePath:src/main/java/me/tehbeard/BeardStat/listeners/StatBlockListener.java
+FixedFilePath:src/main/java/me/tehbeard/BeardStat/listeners/StatBlockListener.java
+StartLineNum:30
+EndLineNum:30
+repoName:tehbeard#BeardStat

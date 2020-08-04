@@ -1,0 +1,8 @@
+diff --git a/src/main/java/gdv/xport/satz/Satz.java b/src/main/java/gdv/xport/satz/Satz.java
+index 99de3d1..af12567 100644
+--- a/src/main/java/gdv/xport/satz/Satz.java
++++ b/src/main/java/gdv/xport/satz/Satz.java
+@@ -512,0 +513 @@ public abstract class Satz {
++			if (s.length() > satzlength) {
+@@ -516,0 +518 @@ public abstract class Satz {
++			}

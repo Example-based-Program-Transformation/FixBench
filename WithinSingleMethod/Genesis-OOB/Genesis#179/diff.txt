@@ -1,0 +1,8 @@
+diff --git a/aws-android-sdk-lambda/src/main/java/com/amazonaws/mobileconnectors/lambdainvoker/LambdaInvocationHandler.java b/aws-android-sdk-lambda/src/main/java/com/amazonaws/mobileconnectors/lambdainvoker/LambdaInvocationHandler.java
+index 24887e6..a8a164a 100644
+--- a/aws-android-sdk-lambda/src/main/java/com/amazonaws/mobileconnectors/lambdainvoker/LambdaInvocationHandler.java
++++ b/aws-android-sdk-lambda/src/main/java/com/amazonaws/mobileconnectors/lambdainvoker/LambdaInvocationHandler.java
+@@ -57 +57,2 @@ class LambdaInvocationHandler implements InvocationHandler {
+-        InvokeRequest invokeRequest = buildInvokeRequest(method, args == null ? null : args[0]);
++        final Object buildArg = (args == null || args.length == 0) ? null : args[0];
++        InvokeRequest invokeRequest = buildInvokeRequest(method, buildArg);

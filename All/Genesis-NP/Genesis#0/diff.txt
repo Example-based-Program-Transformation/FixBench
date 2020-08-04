@@ -1,0 +1,7 @@
+diff --git a/optaplanner-core/src/main/java/org/optaplanner/core/impl/solver/scope/DefaultSolverScope.java b/optaplanner-core/src/main/java/org/optaplanner/core/impl/solver/scope/DefaultSolverScope.java
+index 42ea34b..a264e00 100644
+--- a/optaplanner-core/src/main/java/org/optaplanner/core/impl/solver/scope/DefaultSolverScope.java
++++ b/optaplanner-core/src/main/java/org/optaplanner/core/impl/solver/scope/DefaultSolverScope.java
+@@ -48 +48 @@ public class DefaultSolverScope<Solution_> {
+-    protected volatile int bestUninitializedVariableCount; // TODO remove me by folding me into bestSolution.getScore(): https://issues.jboss.org/browse/PLANNER-405
++    protected volatile int bestUninitializedVariableCount = Integer.MAX_VALUE; // TODO remove me by folding me into bestSolution.getScore(): https://issues.jboss.org/browse/PLANNER-405

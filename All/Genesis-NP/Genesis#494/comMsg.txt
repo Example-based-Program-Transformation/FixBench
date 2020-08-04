@@ -1,0 +1,1 @@
+WICKET-6091 NPE in RequestLoggerRequestCycleListener when using native-websockets

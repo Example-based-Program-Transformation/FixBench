@@ -1,0 +1,8 @@
+Id:53431
+comSha:c644d2145d5d4f59f234bffaa61d11ec7ee94c3b
+parentComSha:a2285f07035c3c68b727d16453cc5f3ee66ee672
+BuggyFilePath:src/com/googlecode/jmxtrans/model/output/GraphiteWriter.java
+FixedFilePath:src/com/googlecode/jmxtrans/model/output/GraphiteWriter.java
+StartLineNum:153
+EndLineNum:153
+repoName:jmxtrans#jmxtrans

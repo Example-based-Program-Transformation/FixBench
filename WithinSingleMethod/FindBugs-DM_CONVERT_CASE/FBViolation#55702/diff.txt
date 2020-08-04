@@ -1,0 +1,17 @@
+diff --git a/src/main/java/edu/clemson/cs/r2jt/vcgeneration/VCGenerator.java b/src/main/java/edu/clemson/cs/r2jt/vcgeneration/VCGenerator.java
+index baf3f941..0056c802 100644
+--- a/src/main/java/edu/clemson/cs/r2jt/vcgeneration/VCGenerator.java
++++ b/src/main/java/edu/clemson/cs/r2jt/vcgeneration/VCGenerator.java
+@@ -1214,2 +1214 @@ public class VCGenerator extends TreeWalkerVisitor {
+-                            + " (Condition from \""
+-                            + p.getMode().getModeName().toUpperCase()
++                            + " (Condition from \"" + p.getMode().getModeName()
+@@ -1267 +1266 @@ public class VCGenerator extends TreeWalkerVisitor {
+-                                    + p.getMode().getModeName().toUpperCase()
++                                    + p.getMode().getModeName()
+@@ -1434 +1433 @@ public class VCGenerator extends TreeWalkerVisitor {
+-                                + p.getMode().getModeName().toUpperCase()
++                                + p.getMode().getModeName()
+@@ -1481 +1480 @@ public class VCGenerator extends TreeWalkerVisitor {
+-                                    + p.getMode().getModeName().toUpperCase()
++                                    + p.getMode().getModeName()

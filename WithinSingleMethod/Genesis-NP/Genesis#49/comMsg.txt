@@ -1,0 +1,1 @@
+DATAREST-353 - Fixed potential NullPointerException when trying to delete a non-existing resource.

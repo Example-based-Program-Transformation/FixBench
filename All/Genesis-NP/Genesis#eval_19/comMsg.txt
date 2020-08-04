@@ -1,0 +1,1 @@
+#178 - Fixed potential NullPointerException in ResourceSupport.

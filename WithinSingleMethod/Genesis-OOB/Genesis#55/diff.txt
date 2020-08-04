@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/jcodec/containers/mp4/demuxer/FramesMP4DemuxerTrack.java b/src/main/java/org/jcodec/containers/mp4/demuxer/FramesMP4DemuxerTrack.java
+index 91f6f07..33d55e8 100644
+--- a/src/main/java/org/jcodec/containers/mp4/demuxer/FramesMP4DemuxerTrack.java
++++ b/src/main/java/org/jcodec/containers/mp4/demuxer/FramesMP4DemuxerTrack.java
+@@ -92 +92 @@ public class FramesMP4DemuxerTrack extends AbstractMP4DemuxerTrack {
+-        long pktPos = chunkOffsets[stcoInd] + offInChunk;
++        long pktPos = chunkOffsets[Math.min(chunkOffsets.length - 1, stcoInd)] + offInChunk;

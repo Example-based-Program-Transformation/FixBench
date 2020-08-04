@@ -1,0 +1,8 @@
+Id:970
+comSha:210e8df1fbd7dc828a1307ad402f69651477095d
+parentComSha:2c4a53663091ddf583dfd4c57e5e92ed2b9fb9c6
+BuggyFilePath:biojava3-structure/src/main/java/org/biojava/bio/structure/align/helper/AligMatEl.java
+FixedFilePath:biojava3-structure/src/main/java/org/biojava/bio/structure/align/helper/AligMatEl.java
+StartLineNum:35
+EndLineNum:57
+repoName:biojava#biojava

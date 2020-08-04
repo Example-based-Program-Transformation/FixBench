@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/util/Util.java b/src/org/jgroups/util/Util.java
+index f09c562..b186af9 100644
+--- a/src/org/jgroups/util/Util.java
++++ b/src/org/jgroups/util/Util.java
+@@ -2138 +2138 @@ public class Util {
+-        if(list == null) return null;
++        if(list == null || list.isEmpty()) return null;

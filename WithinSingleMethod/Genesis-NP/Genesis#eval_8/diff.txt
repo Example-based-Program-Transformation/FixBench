@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java
+index d9c8b97..37f29c9 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java
+@@ -285,0 +286,4 @@ public class NeedBracesCheck extends Check {
++            if (block == null) {
++                result = literalFor.getLineNo() == literalFor.getLastChild().getLineNo();
++            }
++            else {
+@@ -287,0 +292 @@ public class NeedBracesCheck extends Check {
++        }

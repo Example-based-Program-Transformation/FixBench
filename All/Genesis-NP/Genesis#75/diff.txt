@@ -1,0 +1,7 @@
+diff --git a/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java b/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java
+index 277995b..0ec0021 100755
+--- a/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java
++++ b/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java
+@@ -262,0 +263,2 @@ public class DbImpl implements DB
++            if (fileInfo == null)
++              continue;

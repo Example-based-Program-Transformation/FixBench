@@ -1,0 +1,9 @@
+diff --git a/module-client/src/main/java/org/apache/http/impl/client/DefaultClientRequestDirector.java b/module-client/src/main/java/org/apache/http/impl/client/DefaultClientRequestDirector.java
+index 7e731307c..ced6db164 100644
+--- a/module-client/src/main/java/org/apache/http/impl/client/DefaultClientRequestDirector.java
++++ b/module-client/src/main/java/org/apache/http/impl/client/DefaultClientRequestDirector.java
+@@ -37,0 +38 @@ import java.net.URISyntaxException;
++import java.util.Locale;
+@@ -945 +946 @@ public class DefaultClientRequestDirector
+-        Header challenge = challenges.get(id.toLowerCase());
++        Header challenge = challenges.get(id.toLowerCase(Locale.ENGLISH));

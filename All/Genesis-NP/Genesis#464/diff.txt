@@ -1,0 +1,8 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/deployer/ProcessDiagramCanvas.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/deployer/ProcessDiagramCanvas.java
+index 98ee13c..2a606c2 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/deployer/ProcessDiagramCanvas.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/deployer/ProcessDiagramCanvas.java
+@@ -315,0 +316 @@ public class ProcessDiagramCanvas {
++    if (name != null) {
+@@ -320,0 +322 @@ public class ProcessDiagramCanvas {
++  }

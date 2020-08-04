@@ -1,0 +1,1 @@
+Avoid NPE if result ist null

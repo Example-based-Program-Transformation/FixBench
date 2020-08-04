@@ -1,0 +1,7 @@
+diff --git a/src/main/java/jline/WindowsTerminal.java b/src/main/java/jline/WindowsTerminal.java
+index dcaa3a9..b22269b 100644
+--- a/src/main/java/jline/WindowsTerminal.java
++++ b/src/main/java/jline/WindowsTerminal.java
+@@ -198,0 +199,2 @@ public class WindowsTerminal
++            if (key == null)
++                return 0;

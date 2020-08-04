@@ -1,0 +1,9 @@
+diff --git a/src/org/nutz/aop/DefaultClassDefiner.java b/src/org/nutz/aop/DefaultClassDefiner.java
+index b341271..48d94f7 100644
+--- a/src/org/nutz/aop/DefaultClassDefiner.java
++++ b/src/org/nutz/aop/DefaultClassDefiner.java
+@@ -29,0 +30 @@ public class DefaultClassDefiner extends ClassLoader implements ClassDefiner {
++			                if (cd != null)
+@@ -30,0 +32,2 @@ public class DefaultClassDefiner extends ClassLoader implements ClassDefiner {
++			                else
++			                    one = new DefaultClassDefiner(DefaultClassDefiner.class.getClassLoader());

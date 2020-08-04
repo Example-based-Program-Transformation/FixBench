@@ -1,0 +1,1 @@
+Resolved issue: DIRMINA-536 -  TextLineDecoder throws an IndexOutOfBoundsException * My fix was wrong.  Applied Edouard's patch instead.

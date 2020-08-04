@@ -1,0 +1,12 @@
+diff --git a/jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java b/jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java
+index 8c7a1b0..be541f1 100644
+--- a/jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java
++++ b/jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java
+@@ -52,2 +52,5 @@ public class NodeChecker extends AbstractScheduledService {
+-                    String http_address = host.get("http_address").getAsString();
+-                    if (null != http_address) {
++
++                    // get as a JsonElement first as some nodes in the cluster may not have an http_address
++                    JsonElement addressElement = host.get("http_address");
++                    if (null != addressElement) {
++                        String http_address = addressElement.getAsString();

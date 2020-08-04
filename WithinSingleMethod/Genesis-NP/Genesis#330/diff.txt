@@ -1,0 +1,8 @@
+diff --git a/server/src/main/java/io/druid/segment/realtime/plumber/RealtimePlumber.java b/server/src/main/java/io/druid/segment/realtime/plumber/RealtimePlumber.java
+index 4f998f7..d68b138 100644
+--- a/server/src/main/java/io/druid/segment/realtime/plumber/RealtimePlumber.java
++++ b/server/src/main/java/io/druid/segment/realtime/plumber/RealtimePlumber.java
+@@ -290,0 +291 @@ public class RealtimePlumber implements Plumber
++                                                if (closeable != null) {
+@@ -292,0 +294 @@ public class RealtimePlumber implements Plumber
++                                              }

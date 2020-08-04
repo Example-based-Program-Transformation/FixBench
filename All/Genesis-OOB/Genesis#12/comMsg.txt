@@ -1,0 +1,1 @@
+Fix for urls being empty in the POM and causing an out of bounds exception

@@ -1,0 +1,6 @@
+diff --git a/core/src/main/java/org/fiteagle/core/aaa/AuthenticationHandler.java b/core/src/main/java/org/fiteagle/core/aaa/AuthenticationHandler.java
+index 6d6f1c24..8e135d60 100644
+--- a/core/src/main/java/org/fiteagle/core/aaa/AuthenticationHandler.java
++++ b/core/src/main/java/org/fiteagle/core/aaa/AuthenticationHandler.java
+@@ -40 +39,0 @@ public class AuthenticationHandler {
+-  FiteaglePreferences preferences = new FiteaglePreferencesXML(this.getClass());

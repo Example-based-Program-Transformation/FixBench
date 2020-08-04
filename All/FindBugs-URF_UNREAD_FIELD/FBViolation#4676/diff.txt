@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/mapdb/TxMaker.java b/src/main/java/org/mapdb/TxMaker.java
+index a49278bb..6ea105fd 100644
+--- a/src/main/java/org/mapdb/TxMaker.java
++++ b/src/main/java/org/mapdb/TxMaker.java
+@@ -30,3 +29,0 @@ public class TxMaker implements Closeable {
+-    /** marker for deleted records*/
+-    protected static final Object DELETED = new Object();
+-    private final boolean txSnapshotsEnabled;
+@@ -51 +47,0 @@ public class TxMaker implements Closeable {
+-        this.txSnapshotsEnabled = txSnapshotsEnabled;
+@@ -57,0 +54,2 @@ public class TxMaker implements Closeable {
++        if(snapshot.isReadOnly())
++            throw new AssertionError();

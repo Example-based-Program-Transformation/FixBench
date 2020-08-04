@@ -1,0 +1,1 @@
+Mark SocketNode as closed if ObjectInputStream can't be created

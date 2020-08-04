@@ -1,0 +1,9 @@
+diff --git a/src/main/java/com/beust/jcommander/JCommander.java b/src/main/java/com/beust/jcommander/JCommander.java
+index 46f3b9b..f715620 100644
+--- a/src/main/java/com/beust/jcommander/JCommander.java
++++ b/src/main/java/com/beust/jcommander/JCommander.java
+@@ -704,0 +705,4 @@ public class JCommander {
++    if (jc == null) {
++      throw new ParameterException("Asking description for unknown command: " + commandName);
++    }
++

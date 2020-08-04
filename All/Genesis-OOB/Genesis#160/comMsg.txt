@@ -1,0 +1,1 @@
+Fix NPE/AIOOBE when building a bucket which has not been collected.

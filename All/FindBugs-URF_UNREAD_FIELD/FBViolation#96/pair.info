@@ -1,0 +1,8 @@
+Id:96
+comSha:a591c7987e0b576d38dac9239dcdeadd8812338c
+parentComSha:004d5e65de1e40f4366b80d1592930f4fe5fdf15
+BuggyFilePath:biojava3-protmod/src/main/java/org/biojava3/protmod/ProteinModificationImpl.java
+FixedFilePath:biojava3-protmod/src/main/java/org/biojava3/protmod/ProteinModificationImpl.java
+StartLineNum:440
+EndLineNum:440
+repoName:biojava#biojava

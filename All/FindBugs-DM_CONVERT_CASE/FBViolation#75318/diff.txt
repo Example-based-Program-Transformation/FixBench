@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/chart/impl/abstr/ChartDriver.java b/src/main/java/org/optimizationBenchmarking/utils/chart/impl/abstr/ChartDriver.java
+index 8c9c1eae..15ea7c20 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/chart/impl/abstr/ChartDriver.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/chart/impl/abstr/ChartDriver.java
+@@ -16,0 +17 @@ import org.optimizationBenchmarking.utils.hash.HashUtils;
++import org.optimizationBenchmarking.utils.text.TextUtils;
+@@ -557 +558 @@ public abstract class ChartDriver extends Tool implements IChartDriver {
+-      this.m_fontName = font.getFontName().toLowerCase();
++      this.m_fontName = TextUtils.toLowerCase(font.getFontName());

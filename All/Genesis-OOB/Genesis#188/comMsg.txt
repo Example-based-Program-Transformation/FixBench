@@ -1,0 +1,1 @@
+Adding to an empty SparseIndexedVector caused an IndexOOB error in includeIndices. Check for reaching bound has been moved at top of loop and now prevents error.

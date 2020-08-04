@@ -1,0 +1,1 @@
+HBASE-13653 Uninitialized HRegionServer#walFactory may result in NullPointerException at region server startup

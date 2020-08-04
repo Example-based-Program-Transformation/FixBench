@@ -1,0 +1,1 @@
+BZ-1138174 NullPointerException is thrown when nodeExplorationType is set for Brute Force algorithm

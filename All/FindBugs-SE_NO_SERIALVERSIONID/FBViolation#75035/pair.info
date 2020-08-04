@@ -1,0 +1,8 @@
+Id:75035
+comSha:acbcc638f7fa20b9743acf98c47ba3e12685247e
+parentComSha:9fc967c5467029c57db064332f798c664f49a22b
+BuggyFilePath:src/main/java/org/owasp/esapi/reference/JavaLogFactory.java
+FixedFilePath:src/main/java/org/owasp/esapi/reference/JavaLogFactory.java
+StartLineNum:78
+EndLineNum:89
+repoName:marylinh#ESAPI_JAVA_ALL

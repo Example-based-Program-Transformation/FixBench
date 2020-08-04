@@ -1,0 +1,8 @@
+Id:22383
+comSha:b5f659f3a14253faefc977142cf29ed8fe14b2e6
+parentComSha:fd60132b3e3abd6b7029cff222421150b42a0dba
+BuggyFilePath:src/net/sourceforge/plantuml/descdiagram/command/CommandLinkElement.java
+FixedFilePath:src/net/sourceforge/plantuml/descdiagram/command/CommandLinkElement.java
+StartLineNum:170
+EndLineNum:170
+repoName:jensnerche#plantuml

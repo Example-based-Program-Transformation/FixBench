@@ -1,0 +1,1 @@
+CORE-2180 NPE with bad name

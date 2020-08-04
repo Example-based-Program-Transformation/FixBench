@@ -1,0 +1,22 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
+index a390eff..242d034 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
+@@ -1340,6 +1340 @@ public class BpmnParse extends Parse {
+-      if (sourceActivity == null) {
+-        addError("Invalid source '" + sourceRef + "' of sequence flow '" + id + "'", sequenceFlowElement);
+-      }
+-      if (destinationActivity == null) {
+-        addError("Invalid destination '" + destinationRef + "' of sequence flow '" + id + "'", sequenceFlowElement);
+-      }
++      if (sourceActivity != null && destinationActivity != null) {
+@@ -1352 +1346,0 @@ public class BpmnParse extends Parse {
+-      
+@@ -1357,0 +1352,7 @@ public class BpmnParse extends Parse {
++        
++      } else  if (sourceActivity == null) {
++        addError("Invalid source '" + sourceRef + "' of sequence flow '" + id + "'", sequenceFlowElement);
++      } else if (destinationActivity == null) {
++        addError("Invalid destination '" + destinationRef + "' of sequence flow '" + id + "'", sequenceFlowElement);
++      }
++

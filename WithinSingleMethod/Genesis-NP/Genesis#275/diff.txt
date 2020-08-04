@@ -1,0 +1,16 @@
+diff --git a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/MissingPrimaryKeyChangeGenerator.java b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/MissingPrimaryKeyChangeGenerator.java
+index d56772d..d1184f1 100644
+--- a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/MissingPrimaryKeyChangeGenerator.java
++++ b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/MissingPrimaryKeyChangeGenerator.java
+@@ -87 +87,10 @@ public class MissingPrimaryKeyChangeGenerator implements MissingObjectChangeGene
+-                        returnList.addAll(Arrays.asList(ChangeGeneratorFactory.getInstance().fixMissing(backingIndex, control, referenceDatabase, comparisonDatabase)));
++                        Change[] fixes = ChangeGeneratorFactory.getInstance().fixMissing(backingIndex, control, referenceDatabase, comparisonDatabase);
++
++                        if (fixes != null) {
++                            for (Change fix : fixes) {
++                                if (fix != null) {
++                                    returnList.add(fix);
++                                }
++                            }
++                        }
++

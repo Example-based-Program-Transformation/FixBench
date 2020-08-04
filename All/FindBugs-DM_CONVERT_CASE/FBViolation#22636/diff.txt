@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/project/command/CommandCloseWeekDay.java b/src/net/sourceforge/plantuml/project/command/CommandCloseWeekDay.java
+index 50504643..de6d53dc 100644
+--- a/src/net/sourceforge/plantuml/project/command/CommandCloseWeekDay.java
++++ b/src/net/sourceforge/plantuml/project/command/CommandCloseWeekDay.java
+@@ -37,0 +38 @@ import java.util.List;
++import net.sourceforge.plantuml.StringUtils;
+@@ -51 +52 @@ public class CommandCloseWeekDay extends SingleLineCommand<PSystemProject> {
+-		final WeekDay weekDay = WeekDay.valueOf(arg.get(0).substring(0, 3).toUpperCase());
++		final WeekDay weekDay = WeekDay.valueOf(StringUtils.goUpperCase(arg.get(0).substring(0, 3)));

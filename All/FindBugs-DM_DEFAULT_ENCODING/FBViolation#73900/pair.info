@@ -1,0 +1,8 @@
+Id:73900
+comSha:1f16365bede00d99cb225ec1fdb53b33d3c21382
+parentComSha:ac18e1b2e2db0d6d37c99e99b11d5f18878f6271
+BuggyFilePath:src/main/java/nl/tudelft/ti2806/pl1/geneAnnotation/ReferenceGeneStorage.java
+FixedFilePath:src/main/java/nl/tudelft/ti2806/pl1/geneAnnotation/ReferenceGeneStorage.java
+StartLineNum:100
+EndLineNum:100
+repoName:maartentbm#ContextPL1

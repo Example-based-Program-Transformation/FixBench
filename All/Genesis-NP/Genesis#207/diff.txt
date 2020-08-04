@@ -1,0 +1,7 @@
+diff --git a/processor/src/main/java/org/mapstruct/ap/util/SpecificCompilerWorkarounds.java b/processor/src/main/java/org/mapstruct/ap/util/SpecificCompilerWorkarounds.java
+index dc62c57..251a5f5 100644
+--- a/processor/src/main/java/org/mapstruct/ap/util/SpecificCompilerWorkarounds.java
++++ b/processor/src/main/java/org/mapstruct/ap/util/SpecificCompilerWorkarounds.java
+@@ -69 +69 @@ public static TypeMirror erasure(Types types, TypeMirror t) {
+-        if ( t.getKind() == TypeKind.VOID ) {
++        if ( t.getKind() == TypeKind.VOID || t.getKind() == TypeKind.NULL ) {

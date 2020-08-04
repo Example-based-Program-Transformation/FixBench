@@ -1,0 +1,1 @@
+Fixed NPE in MERGE2 (https://issues.jboss.org/browse/JGRP-1861)

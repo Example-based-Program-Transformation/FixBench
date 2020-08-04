@@ -1,0 +1,9 @@
+diff --git a/src/main/java/org/mapdb/StoreAppend.java b/src/main/java/org/mapdb/StoreAppend.java
+index 8651e0d..97b52b5 100644
+--- a/src/main/java/org/mapdb/StoreAppend.java
++++ b/src/main/java/org/mapdb/StoreAppend.java
+@@ -326 +326,3 @@ public class StoreAppend extends Store {
+-        long offset = modified[lockPos(recid)].get(recid);
++        long offset = tx?
++                modified[lockPos(recid)].get(recid):
++                0;

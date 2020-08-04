@@ -1,0 +1,10 @@
+diff --git a/common/src/main/java/io/druid/timeline/UnionTimeLineLookup.java b/common/src/main/java/io/druid/timeline/UnionTimeLineLookup.java
+index c14fafe..3233b63 100644
+--- a/common/src/main/java/io/druid/timeline/UnionTimeLineLookup.java
++++ b/common/src/main/java/io/druid/timeline/UnionTimeLineLookup.java
+@@ -20,0 +21 @@ import com.google.common.base.Function;
++import com.google.common.base.Predicates;
+@@ -32 +33,2 @@ public class UnionTimeLineLookup<VersionType, ObjectType> implements TimelineLoo
+-    this.delegates = delegates;
++    // delegate can be null in case there is no segment loaded for the dataSource on this node
++    this.delegates = Iterables.filter(delegates, Predicates.notNull());

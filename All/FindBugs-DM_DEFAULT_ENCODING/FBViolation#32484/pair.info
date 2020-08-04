@@ -1,0 +1,8 @@
+Id:32484
+comSha:a8aa6a4d759a91a3a112cfecab982ca64e4135fd
+parentComSha:d118dfdf1a72f3e4a0f33ced5071e4d1038c9620
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/TextComparator.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/TextComparator.java
+StartLineNum:53
+EndLineNum:53
+repoName:GenomicParisCentre#eoulsan

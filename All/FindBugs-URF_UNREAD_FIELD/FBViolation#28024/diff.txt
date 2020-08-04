@@ -1,0 +1,9 @@
+diff --git a/src/main/java/teetime/variant/methodcall/framework/core/AbstractStage.java b/src/main/java/teetime/variant/methodcall/framework/core/AbstractStage.java
+index 3fa3175e..1d55b0ba 100644
+--- a/src/main/java/teetime/variant/methodcall/framework/core/AbstractStage.java
++++ b/src/main/java/teetime/variant/methodcall/framework/core/AbstractStage.java
+@@ -12,2 +11,0 @@ public abstract class AbstractStage<I, O> implements Stage<I, O> {
+-	private int index;
+-
+@@ -76 +73,0 @@ public abstract class AbstractStage<I, O> implements Stage<I, O> {
+-		this.index = index;

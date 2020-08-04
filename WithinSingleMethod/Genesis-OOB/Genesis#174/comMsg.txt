@@ -1,0 +1,1 @@
+Implemented JUnit-Test for ImageUtils.java. Closes #15369. Fixed StringIndexOutOfBoundsException.

@@ -1,0 +1,19 @@
+diff --git a/src/main/java/org/encog/app/analyst/analyze/PerformAnalysis.java b/src/main/java/org/encog/app/analyst/analyze/PerformAnalysis.java
+index e424db1..8c98b78 100644
+--- a/src/main/java/org/encog/app/analyst/analyze/PerformAnalysis.java
++++ b/src/main/java/org/encog/app/analyst/analyze/PerformAnalysis.java
+@@ -142,0 +143 @@ public final void process(final EncogAnalyst target) {
++		int count = 0;
+@@ -147,4 +147,0 @@ public final void process(final EncogAnalyst target) {
+-		if( !csv.next() ) {
+-			throw new AnalystError("Can't analyze file, it is empty.");
+-		}
+-
+@@ -159,0 +157 @@ public final void process(final EncogAnalyst target) {
++			count++;
+@@ -161,0 +160,5 @@ public final void process(final EncogAnalyst target) {
++		if( count==0 ) {
++			throw new AnalystError("Can't analyze file, it is empty.");
++		}
++
++

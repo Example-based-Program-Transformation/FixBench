@@ -1,0 +1,1 @@
+set charset (UTF-8) in CsvFileWriter, rather than depending on defaults

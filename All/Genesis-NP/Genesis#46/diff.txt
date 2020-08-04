@@ -1,0 +1,6 @@
+diff --git a/src/org/encog/ml/genetic/population/BasicPopulation.java b/src/org/encog/ml/genetic/population/BasicPopulation.java
+index ab038ed..c56857f 100644
+--- a/src/org/encog/ml/genetic/population/BasicPopulation.java
++++ b/src/org/encog/ml/genetic/population/BasicPopulation.java
+@@ -453,0 +454 @@ public void persistToMap(PersistedObject obj)
++		if( this.innovations!=null )

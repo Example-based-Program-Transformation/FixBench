@@ -1,0 +1,11 @@
+diff --git a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientBaseGraph.java b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientBaseGraph.java
+index d901702..6551914 100755
+--- a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientBaseGraph.java
++++ b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientBaseGraph.java
+@@ -255,2 +255 @@ public abstract class OrientBaseGraph extends OrientConfigurableGraph implements
+-    this(configuration.getString("blueprints.orientdb.url", null), configuration.getString("blueprints.orientdb.username", null),
+-        configuration.getString("blueprints.orientdb.password", null));
++    this(configuration.getString("blueprints.orientdb.url", null), configuration.getString("blueprints.orientdb.username", null), configuration.getString("blueprints.orientdb.password", null));
+@@ -292 +291 @@ public abstract class OrientBaseGraph extends OrientConfigurableGraph implements
+-    if (iLabels != null && graph.isUseClassForEdgeLabel()) {
++    if (iLabels != null && graph != null && graph.isUseClassForEdgeLabel()) {

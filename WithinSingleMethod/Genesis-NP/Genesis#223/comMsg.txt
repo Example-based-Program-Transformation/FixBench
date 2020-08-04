@@ -1,0 +1,1 @@
+fixed bug 1336695: NPE when coming back to IDE after long time

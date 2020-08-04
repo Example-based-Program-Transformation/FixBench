@@ -1,0 +1,1 @@
+Distributed: avoided NPE in case of records with no class

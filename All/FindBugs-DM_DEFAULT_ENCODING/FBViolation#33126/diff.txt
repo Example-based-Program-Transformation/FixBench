@@ -1,0 +1,11 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/checkers/GenomeChecker.java b/src/main/java/fr/ens/transcriptome/eoulsan/checkers/GenomeChecker.java
+index e5820273..f77ad028 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/checkers/GenomeChecker.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/checkers/GenomeChecker.java
+@@ -36,0 +37 @@ import fr.ens.transcriptome.eoulsan.EoulsanException;
++import fr.ens.transcriptome.eoulsan.Globals;
+@@ -123 +124,3 @@ public class GenomeChecker implements Checker {
+-    final BufferedReader br = new BufferedReader(new InputStreamReader(is));
++    final BufferedReader br =
++        new BufferedReader(new InputStreamReader(is,
++            Globals.DEFAULT_FILE_ENCODING));

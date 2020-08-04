@@ -1,0 +1,10 @@
+diff --git a/processing/src/main/java/io/druid/query/ChainedExecutionQueryRunner.java b/processing/src/main/java/io/druid/query/ChainedExecutionQueryRunner.java
+index 8710b62..316c8d8 100644
+--- a/processing/src/main/java/io/druid/query/ChainedExecutionQueryRunner.java
++++ b/processing/src/main/java/io/druid/query/ChainedExecutionQueryRunner.java
+@@ -86,0 +87,5 @@ public class ChainedExecutionQueryRunner<T> implements QueryRunner<T>
++    if (Iterables.isEmpty(queryables)) {
++      log.warn("No queryables found.");
++      return Sequences.empty();
++    }
++

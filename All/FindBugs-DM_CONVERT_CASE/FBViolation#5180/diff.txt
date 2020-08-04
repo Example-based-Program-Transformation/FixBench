@@ -1,0 +1,12 @@
+diff --git a/src/main/java/nodebox/node/Port.java b/src/main/java/nodebox/node/Port.java
+index b23a072f..d745a66b 100644
+--- a/src/main/java/nodebox/node/Port.java
++++ b/src/main/java/nodebox/node/Port.java
+@@ -12,0 +13 @@ import java.util.List;
++import java.util.Locale;
+@@ -165 +166 @@ public final class Port {
+-        return parsedPort(name, type, "", "", DEFAULT_RANGE.toString().toLowerCase(), stringValue, "", null, null, ImmutableList.<MenuItem>of());
++        return parsedPort(name, type, "", "", DEFAULT_RANGE.toString().toLowerCase(Locale.US), stringValue, "", null, null, ImmutableList.<MenuItem>of());
+@@ -664 +665 @@ public final class Port {
+-        return Widget.valueOf(valueString.toUpperCase());
++        return Widget.valueOf(valueString.toUpperCase(Locale.US));

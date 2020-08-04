@@ -1,0 +1,8 @@
+Id:68610
+comSha:ad68eebbb680a1cfa7a4c4ebebb3cf54271b30b6
+parentComSha:183e3d4b4c4a5f66e29ff77d6808863c8371767d
+BuggyFilePath:src/main/java/br/com/dbsoft/io/DBSDAO.java
+FixedFilePath:src/main/java/br/com/dbsoft/io/DBSDAO.java
+StartLineNum:1173
+EndLineNum:1173
+repoName:dbsoftcombr#dbssdk

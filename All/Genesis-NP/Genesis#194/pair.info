@@ -1,0 +1,7 @@
+Id:194
+SATName:Genesis
+modifiedFPath:src/main/java/org/jolokia/docker/maven/AbstractDockerMojo.java
+comSha:ebc07da6fe3b300677d4b4741934cd1b3b961ca5
+parentComSha:ebc07da6fe3b300677d4b4741934cd1b3b961ca5^1
+githubUrl:https://github.com/rhuss/docker-maven-plugin
+repoName:rhuss#docker-maven-plugin

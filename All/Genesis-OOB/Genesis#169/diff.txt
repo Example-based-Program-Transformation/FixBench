@@ -1,0 +1,9 @@
+diff --git a/src/main/java/com/flaptor/indextank/apiclient/IndexTankClient.java b/src/main/java/com/flaptor/indextank/apiclient/IndexTankClient.java
+index cb6b38e..aef3c89 100644
+--- a/src/main/java/com/flaptor/indextank/apiclient/IndexTankClient.java
++++ b/src/main/java/com/flaptor/indextank/apiclient/IndexTankClient.java
+@@ -859,0 +860 @@ public class IndexTankClient implements ApiClient {
++                    errors.add(i, null);    // populate every index position to avoid IndexOutOfBoundsException below
+@@ -863 +864 @@ public class IndexTankClient implements ApiClient {
+-                        errors.add(i, (String) result.get("error"));
++                        errors.set(i, (String) result.get("error"));

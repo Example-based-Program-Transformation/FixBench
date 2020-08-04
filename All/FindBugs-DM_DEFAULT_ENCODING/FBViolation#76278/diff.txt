@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/perfcake/validation/ScriptValidator.java b/src/main/java/org/perfcake/validation/ScriptValidator.java
+index a1e0a849..3e428464 100644
+--- a/src/main/java/org/perfcake/validation/ScriptValidator.java
++++ b/src/main/java/org/perfcake/validation/ScriptValidator.java
+@@ -27,3 +27,2 @@ import javax.script.*;
+-import java.io.File;
+-import java.io.FileReader;
+-import java.io.IOException;
++import java.io.*;
++import java.nio.charset.StandardCharsets;
+@@ -56 +55 @@ public class ScriptValidator implements MessageValidator {
+-            try (FileReader fr = new FileReader(new File(scriptFile))) {
++            try (Reader fr = new BufferedReader(new InputStreamReader(new FileInputStream(new File(scriptFile)), StandardCharsets.UTF_8))) {

@@ -1,0 +1,7 @@
+diff --git a/lealone-sql/src/main/java/org/lealone/result/Row.java b/lealone-sql/src/main/java/org/lealone/result/Row.java
+index 13e64cf..22372eb 100644
+--- a/lealone-sql/src/main/java/org/lealone/result/Row.java
++++ b/lealone-sql/src/main/java/org/lealone/result/Row.java
+@@ -114 +114 @@ public class Row implements SearchRow {
+-            while (transactionId < v.version && v.next != null)
++            while (v != null && transactionId < v.version && v.next != null)

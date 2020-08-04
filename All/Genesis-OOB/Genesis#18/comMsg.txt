@@ -1,0 +1,1 @@
+Added negative id check to Material.getMaterial(int). Fixes BUKKIT-3414 Negative id values would try to access the array out of bounds and throw an java.lang.ArrayIndexOutOfBoundsException.

@@ -1,0 +1,8 @@
+Id:22314
+comSha:b5f659f3a14253faefc977142cf29ed8fe14b2e6
+parentComSha:fd60132b3e3abd6b7029cff222421150b42a0dba
+BuggyFilePath:src/net/sourceforge/plantuml/command/CommandRankDir.java
+FixedFilePath:src/net/sourceforge/plantuml/command/CommandRankDir.java
+StartLineNum:48
+EndLineNum:48
+repoName:jensnerche#plantuml

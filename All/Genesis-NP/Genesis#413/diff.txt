@@ -1,0 +1,12 @@
+diff --git a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertex.java b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertex.java
+index 35d9a5c..dd6610f 100755
+--- a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertex.java
++++ b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertex.java
+@@ -97 +97,6 @@ public class OrientVertex extends OrientElement implements Vertex {
+-    final OProperty prop = iFromVertex.getSchemaClass().getProperty(iFieldName);
++
++    final OClass linkClass = iFromVertex.getSchemaClass();
++    if (linkClass == null)
++      throw new IllegalArgumentException("Class ot found in source vertex: " + iFromVertex);
++
++    final OProperty prop = linkClass.getProperty(iFieldName);

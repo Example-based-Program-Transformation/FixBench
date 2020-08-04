@@ -1,0 +1,14 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/pvm/runtime/AtomicOperationActivityEnd.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/pvm/runtime/AtomicOperationActivityEnd.java
+index d82c467..6ab697d 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/pvm/runtime/AtomicOperationActivityEnd.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/pvm/runtime/AtomicOperationActivityEnd.java
+@@ -80,2 +80 @@ public class AtomicOperationActivityEnd extends AbstractEventAtomicOperation {
+-        if(activity.getParent() == activity.getProcessDefinition() 
+-                && activity.getOutgoingTransitions().isEmpty()) {
++        if(activity.getParent() == activity.getProcessDefinition()) {
+@@ -82,0 +82 @@ public class AtomicOperationActivityEnd extends AbstractEventAtomicOperation {
++          if(activity.getOutgoingTransitions().isEmpty()) {
+@@ -85,0 +86,3 @@ public class AtomicOperationActivityEnd extends AbstractEventAtomicOperation {
++        	  parentScopeExecution.performOperation(PROCESS_END);
++          }
++        } else {          	

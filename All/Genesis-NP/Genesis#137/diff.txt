@@ -1,0 +1,12 @@
+diff --git a/src/main/java/com/alibaba/druid/sql/visitor/SQLEvalVisitorUtils.java b/src/main/java/com/alibaba/druid/sql/visitor/SQLEvalVisitorUtils.java
+index 7564d5f..9208bc4 100644
+--- a/src/main/java/com/alibaba/druid/sql/visitor/SQLEvalVisitorUtils.java
++++ b/src/main/java/com/alibaba/druid/sql/visitor/SQLEvalVisitorUtils.java
+@@ -1728 +1728,6 @@ public class SQLEvalVisitorUtils {
+-            return castToInteger(a).equals(castToInteger(b));
++            Integer inta = castToInteger(a);
++            Integer intb = castToInteger(b);
++            if (inta == null || intb == null) {
++                return false;
++            }
++            return inta.equals(intb);

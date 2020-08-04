@@ -1,0 +1,7 @@
+diff --git a/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/Reader.java b/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/Reader.java
+index ecb93d4..38839cd 100644
+--- a/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/Reader.java
++++ b/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/Reader.java
+@@ -847 +847 @@ public class Reader {
+-            if (operation.getResponses().containsKey(key)) continue;
++            if (operation.getResponses() != null && operation.getResponses().containsKey(key)) continue;

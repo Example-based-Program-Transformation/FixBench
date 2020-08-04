@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/tagtraum/perf/gcviewer/model/GCEvent.java b/src/main/java/com/tagtraum/perf/gcviewer/model/GCEvent.java
+index b42cbd0..ffd6d1a 100644
+--- a/src/main/java/com/tagtraum/perf/gcviewer/model/GCEvent.java
++++ b/src/main/java/com/tagtraum/perf/gcviewer/model/GCEvent.java
+@@ -143 +143 @@ public class GCEvent extends AbstractGCEvent<GCEvent> {
+-        sb.append(getExtendedType().getName());
++        sb.append(getExtendedType() != null ? getExtendedType().getName() : ExtendedType.UNDEFINED);

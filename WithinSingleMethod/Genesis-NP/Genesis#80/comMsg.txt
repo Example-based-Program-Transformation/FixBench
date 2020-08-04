@@ -1,0 +1,1 @@
+ROO-3544: Solving NullPointerException on JavaBeanMetadataProvider

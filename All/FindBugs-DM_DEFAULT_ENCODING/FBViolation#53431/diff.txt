@@ -1,0 +1,14 @@
+diff --git a/src/com/googlecode/jmxtrans/model/output/GraphiteWriter.java b/src/com/googlecode/jmxtrans/model/output/GraphiteWriter.java
+index c0b4cf281..ac74a46f1 100644
+--- a/src/com/googlecode/jmxtrans/model/output/GraphiteWriter.java
++++ b/src/com/googlecode/jmxtrans/model/output/GraphiteWriter.java
+@@ -2,0 +3 @@ package com.googlecode.jmxtrans.model.output;
++import com.google.common.base.Charsets;
+@@ -9,0 +11 @@ import javax.management.ObjectName;
++import java.io.OutputStreamWriter;
+@@ -33,0 +36,2 @@ import com.googlecode.jmxtrans.util.ValidationException;
++import static com.google.common.base.Charsets.UTF_8;
++
+@@ -153 +157 @@ public class GraphiteWriter extends BaseOutputWriter {
+-			PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
++			PrintWriter writer = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), UTF_8), true);

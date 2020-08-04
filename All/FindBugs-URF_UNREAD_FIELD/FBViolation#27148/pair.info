@@ -1,0 +1,8 @@
+Id:27148
+comSha:372cc0ad06dac547eb91414c7804123b1d8d3787
+parentComSha:bd1e2dcb2c89aacb62b4ec0b670afb4e6a4f1525
+BuggyFilePath:webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java
+FixedFilePath:webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java
+StartLineNum:19
+EndLineNum:19
+repoName:code4craft#webmagic

@@ -1,0 +1,10 @@
+diff --git a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedUniqueConstraintChangeGenerator.java b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedUniqueConstraintChangeGenerator.java
+index ec4b0ed..2ce6252 100644
+--- a/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedUniqueConstraintChangeGenerator.java
++++ b/liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedUniqueConstraintChangeGenerator.java
+@@ -74 +74,4 @@ public class ChangedUniqueConstraintChangeGenerator  implements ChangedObjectCha
+-                returnList.addAll(Arrays.asList(ChangeGeneratorFactory.getInstance().fixMissing(backingIndex, control, referenceDatabase, comparisonDatabase)));
++                Change[] missingIndexChanges = ChangeGeneratorFactory.getInstance().fixMissing(backingIndex, control, referenceDatabase, comparisonDatabase);
++                if (missingIndexChanges != null) {
++                    returnList.addAll(Arrays.asList(missingIndexChanges));
++                }

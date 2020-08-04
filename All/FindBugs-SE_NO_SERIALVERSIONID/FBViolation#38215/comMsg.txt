@@ -1,0 +1,1 @@
+BREAKING: ItemStack no longer implements Serializable

@@ -1,0 +1,9 @@
+diff --git a/src/main/java/de/minetick/PlayerChunkBuffer.java b/src/main/java/de/minetick/PlayerChunkBuffer.java
+index a38c8943..955b43f9 100644
+--- a/src/main/java/de/minetick/PlayerChunkBuffer.java
++++ b/src/main/java/de/minetick/PlayerChunkBuffer.java
+@@ -28 +27,0 @@ public class PlayerChunkBuffer {
+-    private boolean playerHasMoved = false;
+@@ -108 +107 @@ public class PlayerChunkBuffer {
+-        this.playerHasMoved = false;
++        this.movement.clear();

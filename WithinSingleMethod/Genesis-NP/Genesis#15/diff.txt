@@ -1,0 +1,12 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/api/CloneCommand.java b/org.eclipse.jgit/src/org/eclipse/jgit/api/CloneCommand.java
+index 5ea8398..20d0633 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/api/CloneCommand.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/api/CloneCommand.java
+@@ -406 +406,2 @@ public CloneCommand setBare(boolean bare) throws IllegalStateException {
+-	 *            name that keeps track of the upstream repository
++	 *            name that keeps track of the upstream repository.
++	 *            {@code null} means to use DEFAULT_REMOTE_NAME.
+@@ -409,0 +411,3 @@ public CloneCommand setRemote(String remote) {
++		if (remote == null) {
++			remote = Constants.DEFAULT_REMOTE_NAME;
++		}

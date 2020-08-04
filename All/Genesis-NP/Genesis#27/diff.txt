@@ -1,0 +1,14 @@
+diff --git a/src/main/java/com/datumbox/Datumbox.java b/src/main/java/com/datumbox/Datumbox.java
+index 767146c..d5ec211 100644
+--- a/src/main/java/com/datumbox/Datumbox.java
++++ b/src/main/java/com/datumbox/Datumbox.java
+@@ -39,2 +39,2 @@ public class Datumbox {
+-        String version;
+-        String build;
++        String version = null;
++        String build = null;
+@@ -43,0 +44 @@ public class Datumbox {
++        if (url!=null) {
+@@ -52 +53 @@ public class Datumbox {
+-        
++        }

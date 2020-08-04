@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/corundumstudio/socketio/protocol/PacketDecoder.java b/src/main/java/com/corundumstudio/socketio/protocol/PacketDecoder.java
+index 1be5e58..f6a0f89 100644
+--- a/src/main/java/com/corundumstudio/socketio/protocol/PacketDecoder.java
++++ b/src/main/java/com/corundumstudio/socketio/protocol/PacketDecoder.java
+@@ -122 +122,2 @@ public class PacketDecoder {
+-            int headEndIndex = buffer.bytesBefore(10, (byte)-1);
++            int maxLength = Math.min(buffer.readableBytes(), 10);
++            int headEndIndex = buffer.bytesBefore(maxLength, (byte)-1);
+@@ -124 +125 @@ public class PacketDecoder {
+-                headEndIndex = buffer.bytesBefore(10, (byte)0x3f);
++                headEndIndex = buffer.bytesBefore(maxLength, (byte)0x3f);

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/graphhopper/routing/util/ShortestCalc.java b/src/main/java/com/graphhopper/routing/util/ShortestCalc.java
+index 1f48c7c1e..9c4e713fd 100644
+--- a/src/main/java/com/graphhopper/routing/util/ShortestCalc.java
++++ b/src/main/java/com/graphhopper/routing/util/ShortestCalc.java
+@@ -25 +25 @@ public class ShortestCalc implements WeightCalculation {
+-    public static ShortestCalc DEFAULT = new ShortestCalc();
++    public final static ShortestCalc DEFAULT = new ShortestCalc();

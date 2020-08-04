@@ -1,0 +1,1 @@
+ROO-2174: null initialized String field in entity throws indexoutofboundsexception : -1

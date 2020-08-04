@@ -1,0 +1,7 @@
+Id:43
+SATName:Genesis
+modifiedFPath:core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender2.java
+comSha:b20785fc9d11868bc1c9551ce1db71ef795f9b8e
+parentComSha:b20785fc9d11868bc1c9551ce1db71ef795f9b8e^1
+githubUrl:https://github.com/apache/mahout
+repoName:apache#mahout

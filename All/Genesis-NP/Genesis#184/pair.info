@@ -1,0 +1,7 @@
+Id:184
+SATName:Genesis
+modifiedFPath:src/main/java/redis/clients/jedis/BuilderFactory.java
+comSha:dbd7c8b53fedb4199390439fe5f211462bdaf500
+parentComSha:dbd7c8b53fedb4199390439fe5f211462bdaf500^1
+githubUrl:https://github.com/xetorthio/jedis
+repoName:xetorthio#jedis

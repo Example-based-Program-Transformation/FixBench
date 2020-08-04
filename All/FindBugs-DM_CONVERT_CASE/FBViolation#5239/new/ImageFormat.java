@@ -1,0 +1,53 @@
+package nodebox.ui;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+
+public final class ImageFormat {
+
+    public static final ImageFormat PDF = new ImageFormat("PDF", "pdf");
+    public static final ImageFormat PNG = new ImageFormat("PNG", "png");
+    public static final ImageFormat SVG = new ImageFormat("SVG", "svg");
+
+    private static final Map<String, ImageFormat> FORMAT_MAP;
+
+    static {
+        FORMAT_MAP = new HashMap<String, ImageFormat>();
+        FORMAT_MAP.put("PDF", PDF);
+        FORMAT_MAP.put("PNG", PNG);
+        FORMAT_MAP.put("SVG", SVG);
+    }
+
+    public static ImageFormat of(String name) {
+        return FORMAT_MAP.get(name.toUpperCase(Locale.US));
+    }
+
+    private final String label;
+    private final String extension;
+
+    public ImageFormat(String label, String extension) {
+        this.label = label;
+        this.extension = extension;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
+    public String getExtension() {
+        return extension;
+    }
+
+    public File ensureFileExtension(File file) {
+        return new File(ensureFileExtension(file.getPath()));
+    }
+
+    public String ensureFileExtension(String file) {
+        if (file.toLowerCase(Locale.US).endsWith("." + getExtension()))
+            return file;
+        return file + "." + getExtension();
+    }
+
+}

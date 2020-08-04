@@ -1,0 +1,8 @@
+Id:72678
+comSha:347e776f19ee516ffab14c0cbbccba4cb28beec4
+parentComSha:ebed8d0da06ab961f15ac387b4563441627e19b8
+BuggyFilePath:wikibrain-spatial/src/main/java/org/wikibrain/spatial/loader/IDAttributeHandler.java
+FixedFilePath:wikibrain-spatial/src/main/java/org/wikibrain/spatial/loader/IDAttributeHandler.java
+StartLineNum:63
+EndLineNum:63
+repoName:shilad#wikibrain

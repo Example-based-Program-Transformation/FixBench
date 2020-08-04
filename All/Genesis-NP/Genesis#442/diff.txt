@@ -1,0 +1,7 @@
+diff --git a/rapidoid-security/src/main/java/org/rapidoid/security/AppSecurity.java b/rapidoid-security/src/main/java/org/rapidoid/security/AppSecurity.java
+index fb5d3cb..838d787 100644
+--- a/rapidoid-security/src/main/java/org/rapidoid/security/AppSecurity.java
++++ b/rapidoid-security/src/main/java/org/rapidoid/security/AppSecurity.java
+@@ -117 +117 @@ public class AppSecurity implements Constants {
+-		return Conf.dev() && username.equals(role.toLowerCase() + "@debug");
++		return Conf.dev() && (role.toLowerCase() + "@debug").equals(username);

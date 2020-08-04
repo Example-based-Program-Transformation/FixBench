@@ -1,0 +1,14 @@
+diff --git a/fabric8-maven-plugin/src/main/java/io/fabric8/maven/AbstractFabric8Mojo.java b/fabric8-maven-plugin/src/main/java/io/fabric8/maven/AbstractFabric8Mojo.java
+index 19d410e..ac26f1f 100644
+--- a/fabric8-maven-plugin/src/main/java/io/fabric8/maven/AbstractFabric8Mojo.java
++++ b/fabric8-maven-plugin/src/main/java/io/fabric8/maven/AbstractFabric8Mojo.java
+@@ -446 +446,6 @@ public abstract class AbstractFabric8Mojo extends AbstractNamespacedMojo {
+-                    ObjectId id = repository.resolve(repository.getFullBranch());
++                    String fullBranch = repository.getFullBranch();
++                    if (fullBranch == null) {
++                        fullBranch = repository.getBranch();
++                    }
++                    if (fullBranch != null) {
++                        ObjectId id = repository.resolve(fullBranch);
+@@ -450,0 +456 @@ public abstract class AbstractFabric8Mojo extends AbstractNamespacedMojo {
++                }

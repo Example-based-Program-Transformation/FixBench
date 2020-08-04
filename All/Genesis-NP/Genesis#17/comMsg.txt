@@ -1,0 +1,1 @@
+Prevent NPE if ref can't be resolved when executing ReflogCommand

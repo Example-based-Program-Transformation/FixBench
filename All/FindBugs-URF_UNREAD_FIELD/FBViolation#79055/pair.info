@@ -1,0 +1,8 @@
+Id:79055
+comSha:500931405da5c1200de41c0857e3019a1b5d8272
+parentComSha:7be01ea9cad6b2ddde03b574683206be27dd4bcd
+BuggyFilePath:src/main/java/in/twizmwaz/cardinal/module/modules/buildHeight/BuildHeight.java
+FixedFilePath:src/main/java/in/twizmwaz/cardinal/module/modules/buildHeight/BuildHeight.java
+StartLineNum:27
+EndLineNum:27
+repoName:twizmwazin#CardinalPGM

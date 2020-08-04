@@ -1,0 +1,13 @@
+diff --git a/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/main/java/org/apache/maven/scm/provider/svn/svnexe/command/update/SvnUpdateConsumer.java b/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/main/java/org/apache/maven/scm/provider/svn/svnexe/command/update/SvnUpdateConsumer.java
+index 64d2b96..af29107 100644
+--- a/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/main/java/org/apache/maven/scm/provider/svn/svnexe/command/update/SvnUpdateConsumer.java
++++ b/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/main/java/org/apache/maven/scm/provider/svn/svnexe/command/update/SvnUpdateConsumer.java
+@@ -74,0 +75,6 @@ protected void parseLine( String line )
++            if ( file.length() == workingDirectory.getAbsolutePath().length() )
++            {
++                file = ".";
++            }
++            else
++            {
+@@ -76,0 +83 @@ protected void parseLine( String line )
++        }

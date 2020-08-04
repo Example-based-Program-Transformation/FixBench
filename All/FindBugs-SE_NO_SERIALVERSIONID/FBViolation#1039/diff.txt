@@ -1,0 +1,8 @@
+diff --git a/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/utils/BlastClustReader.java b/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/utils/BlastClustReader.java
+index 784ebfdbd..22f3c876a 100644
+--- a/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/utils/BlastClustReader.java
++++ b/biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/utils/BlastClustReader.java
+@@ -32,0 +33,3 @@ public class BlastClustReader implements Serializable {
++
++	private static final long serialVersionUID = 1L;
++

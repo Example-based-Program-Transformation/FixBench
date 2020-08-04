@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/googlecode/lanterna/gui/component/TextArea.java b/src/main/java/com/googlecode/lanterna/gui/component/TextArea.java
+index 830a624..44ed7cd 100644
+--- a/src/main/java/com/googlecode/lanterna/gui/component/TextArea.java
++++ b/src/main/java/com/googlecode/lanterna/gui/component/TextArea.java
+@@ -221 +221 @@ public class TextArea  extends AbstractInteractableComponent
+-                    scrollTopIndex = lines.size() - lastSize.getRows();
++                    scrollTopIndex = Math.max(0, lines.size() - lastSize.getRows());

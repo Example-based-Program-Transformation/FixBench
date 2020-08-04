@@ -1,0 +1,7 @@
+diff --git a/src/main/java/net/greghaines/jesque/utils/JedisUtils.java b/src/main/java/net/greghaines/jesque/utils/JedisUtils.java
+index 5f34da8..799a035 100644
+--- a/src/main/java/net/greghaines/jesque/utils/JedisUtils.java
++++ b/src/main/java/net/greghaines/jesque/utils/JedisUtils.java
+@@ -24 +24 @@ public final class JedisUtils
+-			jedisOK = (jedis.isConnected() && jedis.ping().equals(PONG));
++			jedisOK = (jedis.isConnected() && PONG.equals(jedis.ping()));

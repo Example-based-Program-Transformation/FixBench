@@ -1,0 +1,10 @@
+Consider Locale when doing toUpperCase and toLowerCase
+
+Today I saw an unrelated topic in the internet
+(http://stackoverflow.com/questions/228477)
+which made me aware that toLowerCase (and probably toUpperCase) may
+behave differently on different systems (systems with different default
+locale, i.e., language settings).
+
+In order to avoid such kind of bugs, I centralize all toLowerCase and
+toUpperCase in the TextUtils class and use Locale.ENGLISH by default.

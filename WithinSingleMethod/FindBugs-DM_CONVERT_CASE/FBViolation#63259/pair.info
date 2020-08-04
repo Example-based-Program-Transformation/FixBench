@@ -1,0 +1,8 @@
+Id:63259
+comSha:a33222fc88de818a4289fcc1b0c57c6e356ae5b0
+parentComSha:d1786aff15db2a9bdc6837ef5d2f36b976af7a99
+BuggyFilePath:src/main/java/org/eigenbase/rel/JoinRel.java
+FixedFilePath:src/main/java/org/eigenbase/rel/JoinRel.java
+StartLineNum:156
+EndLineNum:156
+repoName:julianhyde#optiq

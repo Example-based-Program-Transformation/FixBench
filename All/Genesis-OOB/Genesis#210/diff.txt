@@ -1,0 +1,6 @@
+diff --git a/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java b/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
+index cd1fed7..73cfc9c 100644
+--- a/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
++++ b/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDPageLabels.java
+@@ -110,0 +111 @@ public class PDPageLabels implements COSObjectable
++                if(i.getKey() >= 0)

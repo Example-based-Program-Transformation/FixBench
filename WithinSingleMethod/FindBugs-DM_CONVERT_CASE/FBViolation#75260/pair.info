@@ -1,0 +1,8 @@
+Id:75260
+comSha:e39327fb9de4ae258b64fff179a96aa8812223fc
+parentComSha:c069f6619b4d9666859109881cdb80cdcc226545
+BuggyFilePath:src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/_TransformationParser.java
+FixedFilePath:src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/_TransformationParser.java
+StartLineNum:170
+EndLineNum:170
+repoName:optimizationBenchmarking#optimizationBenchmarking

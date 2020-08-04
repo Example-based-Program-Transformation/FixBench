@@ -1,0 +1,1 @@
+Fix NullPointerException in PartialDimExtractionFn by explicity checking for dimValue == null, attempt 2

@@ -1,0 +1,10 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/SAMComparator.java b/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/SAMComparator.java
+index 8b202c45..60569aeb 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/SAMComparator.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/io/comparators/SAMComparator.java
+@@ -36,0 +37 @@ import com.google.common.collect.Sets;
++import fr.ens.transcriptome.eoulsan.Globals;
+@@ -57 +58,2 @@ public class SAMComparator extends AbstractComparatorWithBloomFilter {
+-    final BufferedReader reader = new BufferedReader(new InputStreamReader(is));
++    final BufferedReader reader =
++        new BufferedReader(new InputStreamReader(is, Globals.DEFAULT_CHARSET));

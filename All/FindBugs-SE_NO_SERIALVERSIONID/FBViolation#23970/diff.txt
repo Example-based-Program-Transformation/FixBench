@@ -1,0 +1,6 @@
+diff --git a/JavaSource/org/unitime/timetable/model/HashedQuery.java b/JavaSource/org/unitime/timetable/model/HashedQuery.java
+index 6f6b92643..f83bf8b5c 100644
+--- a/JavaSource/org/unitime/timetable/model/HashedQuery.java
++++ b/JavaSource/org/unitime/timetable/model/HashedQuery.java
+@@ -24,0 +25 @@ public class HashedQuery extends BaseHashedQuery {
++	private static final long serialVersionUID = 1L;

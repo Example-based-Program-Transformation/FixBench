@@ -1,0 +1,7 @@
+diff --git a/src/main/java/io/searchbox/client/JestClientFactory.java b/src/main/java/io/searchbox/client/JestClientFactory.java
+index acb378b..6a56c24 100644
+--- a/src/main/java/io/searchbox/client/JestClientFactory.java
++++ b/src/main/java/io/searchbox/client/JestClientFactory.java
+@@ -34 +34 @@ public class JestClientFactory implements FactoryBean<JestClient> {
+-            if (isMultiThreaded) {
++            if (isMultiThreaded != null && isMultiThreaded) {

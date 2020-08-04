@@ -1,0 +1,1 @@
+Null pointer with Query auth when calling a method with no parameters

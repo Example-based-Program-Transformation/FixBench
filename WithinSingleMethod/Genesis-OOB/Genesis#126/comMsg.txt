@@ -1,0 +1,1 @@
+[MRELEASE-661] fix IndexOutOfBoundsException

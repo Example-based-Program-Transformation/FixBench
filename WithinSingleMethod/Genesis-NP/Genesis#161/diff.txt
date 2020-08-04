@@ -1,0 +1,12 @@
+diff --git a/structr-core/src/main/java/org/structr/core/parser/Functions.java b/structr-core/src/main/java/org/structr/core/parser/Functions.java
+index 3354022..271d69a 100644
+--- a/structr-core/src/main/java/org/structr/core/parser/Functions.java
++++ b/structr-core/src/main/java/org/structr/core/parser/Functions.java
+@@ -2919,0 +2920,7 @@ public class Functions {
++		if (input == null) {
++			
++			return "";
++			
++		}
++		
++		

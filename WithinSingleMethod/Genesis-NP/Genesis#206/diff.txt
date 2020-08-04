@@ -1,0 +1,8 @@
+diff --git a/processor/src/main/java/org/mapstruct/ap/writer/IndentationCorrectingWriter.java b/processor/src/main/java/org/mapstruct/ap/writer/IndentationCorrectingWriter.java
+index 5e34468..b1a36df 100644
+--- a/processor/src/main/java/org/mapstruct/ap/writer/IndentationCorrectingWriter.java
++++ b/processor/src/main/java/org/mapstruct/ap/writer/IndentationCorrectingWriter.java
+@@ -145,0 +146 @@ private void flush(StateContext context) throws IOException {
++                if ( null != context.characters && context.currentIndex - context.lastStateChange > 0 ) {
+@@ -163,0 +165 @@ private void flush(StateContext context) throws IOException {
++            }

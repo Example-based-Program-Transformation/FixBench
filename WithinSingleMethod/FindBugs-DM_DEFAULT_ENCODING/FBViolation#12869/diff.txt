@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/docx4j/convert/out/pdf/viaXSLFO/Conversion.java b/src/main/java/org/docx4j/convert/out/pdf/viaXSLFO/Conversion.java
+index a8f98114..62b39d0a 100644
+--- a/src/main/java/org/docx4j/convert/out/pdf/viaXSLFO/Conversion.java
++++ b/src/main/java/org/docx4j/convert/out/pdf/viaXSLFO/Conversion.java
+@@ -264 +264 @@ public class Conversion extends org.docx4j.convert.out.pdf.PdfConversion {
+-						.getBytes()));
++						.getBytes("UTF-8")));

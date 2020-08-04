@@ -1,0 +1,8 @@
+Id:7691
+comSha:02890713fc06886d9c815f91e61b697cc6d4cd27
+parentComSha:bb99d5032ba51f3eab2bdc74743495850f076435
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ErrorEndEventActivityBehavior.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ErrorEndEventActivityBehavior.java
+StartLineNum:26
+EndLineNum:40
+repoName:Activiti#Activiti

@@ -1,0 +1,1 @@
+fix: NPE after a9d72864b8061c9624b992b1203b4a2a61baff7b

@@ -1,0 +1,17 @@
+diff --git a/pcap4j-core/src/main/java/org/pcap4j/packet/TcpPacket.java b/pcap4j-core/src/main/java/org/pcap4j/packet/TcpPacket.java
+index 96a0898..6ab288f 100644
+--- a/pcap4j-core/src/main/java/org/pcap4j/packet/TcpPacket.java
++++ b/pcap4j-core/src/main/java/org/pcap4j/packet/TcpPacket.java
+@@ -683,0 +684,12 @@ public final class TcpPacket extends AbstractPacket {
++      if (paddingLength < 0) {
++          StringBuilder sb = new StringBuilder(110);
++          sb.append("AN option in the header is larger than the header(")
++            .append(headerLength)
++            .append(" bytes). data: ")
++            .append(ByteArrays.toHexString(rawData, " "))
++            .append(", offset: ")
++            .append(offset)
++            .append(", length: ")
++            .append(length);
++          throw new IllegalRawDataException(sb.toString());
++      }

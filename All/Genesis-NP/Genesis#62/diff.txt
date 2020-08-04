@@ -1,0 +1,9 @@
+diff --git a/maven-model-builder/src/main/java/org/apache/maven/model/plugin/DefaultReportingConverter.java b/maven-model-builder/src/main/java/org/apache/maven/model/plugin/DefaultReportingConverter.java
+index fe3031b..a241c51 100644
+--- a/maven-model-builder/src/main/java/org/apache/maven/model/plugin/DefaultReportingConverter.java
++++ b/maven-model-builder/src/main/java/org/apache/maven/model/plugin/DefaultReportingConverter.java
+@@ -119,2 +119,2 @@ public void convertReporting( Model model, ModelBuildingRequest request, ModelPr
+-                && "org.apache.maven.plugins".equals( reportPlugin.getChild( "groupId" ).getValue() )
+-                && "maven-project-info-reports-plugin".equals( reportPlugin.getChild( "artifactId" ).getValue() ) )
++                && "org.apache.maven.plugins".equals( plugin.getGroupId() )
++                && "maven-project-info-reports-plugin".equals( plugin.getArtifactId() ) )

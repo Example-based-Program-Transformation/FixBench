@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/docx4j/convert/in/FlatOpcXmlImporter.java b/src/main/java/org/docx4j/convert/in/FlatOpcXmlImporter.java
+index 8019da4..bc135c7 100644
+--- a/src/main/java/org/docx4j/convert/in/FlatOpcXmlImporter.java
++++ b/src/main/java/org/docx4j/convert/in/FlatOpcXmlImporter.java
+@@ -118 +118,2 @@ public class FlatOpcXmlImporter  {
+-			if (e.getMessage().contains("http://schemas.microsoft.com/office/word/2003/wordml")) {
++			if (e.getMessage()!=null
++					&& e.getMessage().contains("http://schemas.microsoft.com/office/word/2003/wordml")) {

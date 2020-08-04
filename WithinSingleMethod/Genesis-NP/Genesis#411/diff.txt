@@ -1,0 +1,11 @@
+diff --git a/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java b/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+index af507e1..f3961c3 100755
+--- a/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
++++ b/server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
+@@ -1402,0 +1403 @@ public class ONetworkProtocolBinary extends OBinaryNetworkProtocolAbstract {
++      if (metadata!=null) {
+@@ -1405,0 +1407,4 @@ public class ONetworkProtocolBinary extends OBinaryNetworkProtocolAbstract {
++      }else
++      {
++        throw new ODatabaseException(String.format("Record metadata for RID: %s, Not found",rid));
++      }

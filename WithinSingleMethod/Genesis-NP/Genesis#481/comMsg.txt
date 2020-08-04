@@ -1,0 +1,1 @@
+Fix null pointer in depend resolution. This closes issue #515.

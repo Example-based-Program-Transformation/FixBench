@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/collections/maps/StringMapCI.java b/src/main/java/org/optimizationBenchmarking/utils/collections/maps/StringMapCI.java
+index fd367438..814d2284 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/collections/maps/StringMapCI.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/collections/maps/StringMapCI.java
+@@ -2,0 +3,2 @@ package org.optimizationBenchmarking.utils.collections.maps;
++import org.optimizationBenchmarking.utils.text.TextUtils;
++
+@@ -30 +32 @@ public class StringMapCI<ET> extends StringMap<ET> {
+-      return t.toLowerCase();
++      return TextUtils.toLowerCase(t);

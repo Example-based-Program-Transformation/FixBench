@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/graphhopper/util/GraphUtility.java b/src/main/java/com/graphhopper/util/GraphUtility.java
+index 70dd02c6a..abb111cb1 100644
+--- a/src/main/java/com/graphhopper/util/GraphUtility.java
++++ b/src/main/java/com/graphhopper/util/GraphUtility.java
+@@ -312 +312 @@ public class GraphUtility {
+-    public static EdgeSkipIterator EMPTY = new EdgeSkipIterator() {
++    public static final EdgeSkipIterator EMPTY = new EdgeSkipIterator() {

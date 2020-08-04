@@ -1,0 +1,7 @@
+Id:127
+SATName:Genesis
+modifiedFPath:maven-release-manager/src/main/java/org/apache/maven/shared/release/phase/RewritePomsForReleasePhase.java
+comSha:c728133
+parentComSha:c728133^1
+githubUrl:https://github.com/lcorneliussen/maven-release
+repoName:lcorneliussen#maven-release

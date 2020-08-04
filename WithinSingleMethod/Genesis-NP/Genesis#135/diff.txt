@@ -1,0 +1,8 @@
+diff --git a/hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java b/hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java
+index a13292e..387c2e4 100644
+--- a/hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java
++++ b/hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java
+@@ -203 +202,0 @@ public class ZKProcedureMemberRpcs implements ProcedureMemberRpcs {
+-      LOG.debug("start proc data length is " + data.length);
+@@ -210,0 +210 @@ public class ZKProcedureMemberRpcs implements ProcedureMemberRpcs {
++      LOG.debug("start proc data length is " + data.length);

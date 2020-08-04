@@ -1,0 +1,13 @@
+diff --git a/pac4j-saml/src/main/java/org/pac4j/saml/sso/impl/SAML2DefaultResponseValidator.java b/pac4j-saml/src/main/java/org/pac4j/saml/sso/impl/SAML2DefaultResponseValidator.java
+index e78b30b..f55ce6b 100644
+--- a/pac4j-saml/src/main/java/org/pac4j/saml/sso/impl/SAML2DefaultResponseValidator.java
++++ b/pac4j-saml/src/main/java/org/pac4j/saml/sso/impl/SAML2DefaultResponseValidator.java
+@@ -652,2 +652,4 @@ public class SAML2DefaultResponseValidator implements SAML2ResponseValidator {
+-        } else if (context.getSPSSODescriptor().getWantAssertionsSignedXSBoolean().getValue()
+-                && !peerContext.isAuthenticated()) {
++        } else {
++            SPSSODescriptor spDescriptor = (context == null) ? null : context.getSPSSODescriptor();
++            Boolean wantAssertionsSigned = (spDescriptor == null) ? Boolean.FALSE : spDescriptor.getWantAssertionsSigned();
++            if (wantAssertionsSigned && !peerContext.isAuthenticated()) {
+@@ -656,0 +659 @@ public class SAML2DefaultResponseValidator implements SAML2ResponseValidator {
++    }

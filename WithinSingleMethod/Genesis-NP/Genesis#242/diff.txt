@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/mapdb/HTreeMap.java b/src/main/java/org/mapdb/HTreeMap.java
+index ade8b79..8e6587b 100644
+--- a/src/main/java/org/mapdb/HTreeMap.java
++++ b/src/main/java/org/mapdb/HTreeMap.java
+@@ -2109,0 +2110 @@ public class HTreeMap<K,V>
++        recidLoop:
+@@ -2111,0 +2113,4 @@ public class HTreeMap<K,V>
++            if(n==null){
++                LOG.warning("Empty expiration node");
++                break recidLoop;
++            }

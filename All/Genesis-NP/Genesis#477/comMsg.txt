@@ -1,0 +1,1 @@
+Fixed NullPointerException raised in isUserDefinedField

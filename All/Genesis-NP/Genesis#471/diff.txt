@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/redisson/RedissonSortedSet.java b/src/main/java/org/redisson/RedissonSortedSet.java
+index 247d15c..95849a7 100644
+--- a/src/main/java/org/redisson/RedissonSortedSet.java
++++ b/src/main/java/org/redisson/RedissonSortedSet.java
+@@ -31,2 +30,0 @@ import java.util.SortedSet;
+-import java.util.concurrent.Callable;
+-import java.util.concurrent.TimeUnit;
+@@ -40 +37,0 @@ import org.redisson.command.CommandExecutor;
+-import org.redisson.connection.ConnectionManager;
+@@ -43 +39,0 @@ import org.redisson.core.RSortedSet;
+-import io.netty.channel.EventLoop;
+@@ -113,0 +110 @@ public class RedissonSortedSet<V> extends RedissonObject implements RSortedSet<V
++        this.commandExecutor = commandExecutor;

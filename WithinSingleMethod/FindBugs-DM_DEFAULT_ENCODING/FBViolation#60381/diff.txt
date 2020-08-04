@@ -1,0 +1,7 @@
+diff --git a/src/main/java/redis/clients/util/JedisClusterCRC16.java b/src/main/java/redis/clients/util/JedisClusterCRC16.java
+index 65ddacb1..ebae55d6 100644
+--- a/src/main/java/redis/clients/util/JedisClusterCRC16.java
++++ b/src/main/java/redis/clients/util/JedisClusterCRC16.java
+@@ -62 +62 @@ public class JedisClusterCRC16 {
+-	return getCRC16(key.getBytes());
++	return getCRC16(SafeEncoder.encode(key));

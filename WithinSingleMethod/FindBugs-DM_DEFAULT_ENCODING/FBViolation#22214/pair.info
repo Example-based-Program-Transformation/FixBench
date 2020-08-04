@@ -1,0 +1,8 @@
+Id:22214
+comSha:ce765c150cabfd2412cfb5c0766106ea2a29b89f
+parentComSha:c27d266efaff13ac277f7d0969369c46e28096ad
+BuggyFilePath:src/net/sourceforge/plantuml/sequencediagram/graphic/SequenceDiagramTxtMaker.java
+FixedFilePath:src/net/sourceforge/plantuml/sequencediagram/graphic/SequenceDiagramTxtMaker.java
+StartLineNum:116
+EndLineNum:116
+repoName:jensnerche#plantuml

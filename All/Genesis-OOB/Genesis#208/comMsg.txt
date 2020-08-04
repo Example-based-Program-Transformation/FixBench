@@ -1,0 +1,1 @@
+Updated Guice version and fixed a bounds bug in TemplateCompileException.tostring()

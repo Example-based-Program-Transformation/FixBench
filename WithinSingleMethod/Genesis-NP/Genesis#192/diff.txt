@@ -1,0 +1,7 @@
+diff --git a/metrics-jetty8/src/main/java/com/codahale/metrics/jetty8/InstrumentedQueuedThreadPool.java b/metrics-jetty8/src/main/java/com/codahale/metrics/jetty8/InstrumentedQueuedThreadPool.java
+index b0c62c6..aef0786 100644
+--- a/metrics-jetty8/src/main/java/com/codahale/metrics/jetty8/InstrumentedQueuedThreadPool.java
++++ b/metrics-jetty8/src/main/java/com/codahale/metrics/jetty8/InstrumentedQueuedThreadPool.java
+@@ -37 +37 @@ public class InstrumentedQueuedThreadPool extends QueuedThreadPool {
+-                return getQueue().size();
++                return getQueue() != null ? getQueue().size() : 0;

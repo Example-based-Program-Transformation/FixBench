@@ -1,0 +1,1 @@
+Fixed NPE in JsonRestServlet when creating multiple relationships from a JSON array.

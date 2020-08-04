@@ -1,0 +1,11 @@
+diff --git a/src/org/nutz/mvc/view/AbstractPathView.java b/src/org/nutz/mvc/view/AbstractPathView.java
+index 38ab07d..c022f71 100644
+--- a/src/org/nutz/mvc/view/AbstractPathView.java
++++ b/src/org/nutz/mvc/view/AbstractPathView.java
+@@ -5 +4,0 @@ import java.util.HashMap;
+-import java.util.List;
+@@ -17,0 +17 @@ import org.nutz.lang.util.Context;
++import org.nutz.mvc.ActionContext;
+@@ -87,0 +88,2 @@ public abstract class AbstractPathView implements View {
++        ActionContext ac = Mvcs.getActionContext();
++        if (ac != null)

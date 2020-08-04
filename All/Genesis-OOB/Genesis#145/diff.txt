@@ -1,0 +1,17 @@
+diff --git a/src/main/java/com/nosoop/json/VDF.java b/src/main/java/com/nosoop/json/VDF.java
+index a682347..f0e9d37 100644
+--- a/src/main/java/com/nosoop/json/VDF.java
++++ b/src/main/java/com/nosoop/json/VDF.java
+@@ -308 +308,5 @@ public class VDF {
+-        // Fail if we encounter a non-integer or if the value isn't a JSONObject
++        /**
++         * Fail if we encounter a non-integer, if a value isn't a JSONObject,
++         * or if the key is a number that is larger than the size of the array
++         * (meaning we're missing a value).
++         */
+@@ -315,0 +320,5 @@ public class VDF {
++                
++                if (i >= indices) {
++                    return false;
++                }
++                

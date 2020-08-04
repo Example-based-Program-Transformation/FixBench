@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/redisson/reactive/RedissonSetCacheReactive.java b/src/main/java/org/redisson/reactive/RedissonSetCacheReactive.java
+index 888a72bf..3bb42793 100644
+--- a/src/main/java/org/redisson/reactive/RedissonSetCacheReactive.java
++++ b/src/main/java/org/redisson/reactive/RedissonSetCacheReactive.java
+@@ -68 +67,0 @@ public class RedissonSetCacheReactive<V> extends RedissonExpirableReactive imple
+-    private static final RedisCommand<List<Object>> EVAL_CONTAINS_KEY = new RedisCommand<List<Object>>("EVAL", new ObjectListReplayDecoder<Object>());
+@@ -71,2 +69,0 @@ public class RedissonSetCacheReactive<V> extends RedissonExpirableReactive imple
+-    private final EvictionScheduler evictionScheduler;
+-
+@@ -75 +71,0 @@ public class RedissonSetCacheReactive<V> extends RedissonExpirableReactive imple
+-        this.evictionScheduler = evictionScheduler;
+@@ -81 +76,0 @@ public class RedissonSetCacheReactive<V> extends RedissonExpirableReactive imple
+-        this.evictionScheduler = evictionScheduler;

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/nl/tudelft/ti2806/pl1/geneAnnotation/ReferenceGeneStorage.java b/src/main/java/nl/tudelft/ti2806/pl1/geneAnnotation/ReferenceGeneStorage.java
+index cb5bb68..65bbe8c 100644
+--- a/src/main/java/nl/tudelft/ti2806/pl1/geneAnnotation/ReferenceGeneStorage.java
++++ b/src/main/java/nl/tudelft/ti2806/pl1/geneAnnotation/ReferenceGeneStorage.java
+@@ -101 +101 @@ public class ReferenceGeneStorage {
+-				.getResourceAsStream(file));
++				.getResourceAsStream(file), "UTF-8");

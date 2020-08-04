@@ -1,0 +1,7 @@
+diff --git a/processing/src/main/java/io/druid/query/groupby/GroupByQueryEngine.java b/processing/src/main/java/io/druid/query/groupby/GroupByQueryEngine.java
+index ea58501..b8f63a5 100644
+--- a/processing/src/main/java/io/druid/query/groupby/GroupByQueryEngine.java
++++ b/processing/src/main/java/io/druid/query/groupby/GroupByQueryEngine.java
+@@ -185 +185 @@ public class GroupByQueryEngine
+-        if (row.size() == 0) {
++        if (row == null || row.size() == 0) {

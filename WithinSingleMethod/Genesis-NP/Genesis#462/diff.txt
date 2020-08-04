@@ -1,0 +1,13 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
+index 3617eff..2e936e2 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
+@@ -2205 +2204,0 @@ public class BpmnParse extends Parse {
+-
+@@ -2211 +2209,0 @@ public class BpmnParse extends Parse {
+-
+@@ -2216,0 +2215,4 @@ public class BpmnParse extends Parse {
++    // neither date, cycle or duration configured!
++    if (expression==null) {
++      addError("Timer needs configuration (either timeDate, timeCycle or timeDuration is needed).", timerEventDefinition);      
++    }    

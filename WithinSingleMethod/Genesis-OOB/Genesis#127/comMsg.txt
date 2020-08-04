@@ -1,0 +1,1 @@
+[MRELEASE-236] ArrayindexoutofBoundsException rewriting the Poms for release

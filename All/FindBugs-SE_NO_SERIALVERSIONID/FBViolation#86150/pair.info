@@ -1,0 +1,8 @@
+Id:86150
+comSha:6210735c4f411dc6f44eaa5dbc32e4f4ee583a82
+parentComSha:101e91bcbf504f372e34f8a4c1075ea745210a9f
+BuggyFilePath:parsers/src/main/java/org/coode/owlapi/latex/LatexAxiomsListOntologyFormat.java
+FixedFilePath:parsers/src/main/java/org/coode/owlapi/latex/LatexAxiomsListOntologyFormat.java
+StartLineNum:49
+EndLineNum:53
+repoName:owlcs#owlapi

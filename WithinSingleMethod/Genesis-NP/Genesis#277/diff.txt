@@ -1,0 +1,13 @@
+diff --git a/liquibase-core/src/main/java/liquibase/sqlgenerator/SqlGeneratorFactory.java b/liquibase-core/src/main/java/liquibase/sqlgenerator/SqlGeneratorFactory.java
+index 8838125..5fe30a5 100644
+--- a/liquibase-core/src/main/java/liquibase/sqlgenerator/SqlGeneratorFactory.java
++++ b/liquibase-core/src/main/java/liquibase/sqlgenerator/SqlGeneratorFactory.java
+@@ -195,0 +196 @@ public class SqlGeneratorFactory {
++        SqlGeneratorFactory factory = SqlGeneratorFactory.getInstance();
+@@ -197 +198,5 @@ public class SqlGeneratorFactory {
+-            returnList.addAll(Arrays.asList(SqlGeneratorFactory.getInstance().generateSql(statement, database)));
++            Sql[] sqlArray = factory.generateSql(statement, database);
++            if (sqlArray != null && sqlArray.length > 0) {
++              List<Sql> sqlList = Arrays.asList(sqlArray);
++              returnList.addAll(sqlList);
++            }

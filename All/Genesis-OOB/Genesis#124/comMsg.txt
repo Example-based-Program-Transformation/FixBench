@@ -1,0 +1,1 @@
+ROO-2626: No converter found capable of converting from 'java.util.Set' to 'java.lang.String' - Roo issue 2409 continued  - fixed array index out of bounds

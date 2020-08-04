@@ -1,0 +1,7 @@
+Id:307
+SATName:Genesis
+modifiedFPath:logback-core/src/main/java/ch/qos/logback/core/net/SSLSocketAppenderBase.java
+comSha:3b6c804ce4d626d90d55009376bd3874d5cbd4d6
+parentComSha:3b6c804ce4d626d90d55009376bd3874d5cbd4d6^1
+githubUrl:https://github.com/qos-ch/logback
+repoName:qos-ch#logback

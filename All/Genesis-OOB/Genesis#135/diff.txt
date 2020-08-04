@@ -1,0 +1,19 @@
+diff --git a/redpen-core/src/main/java/cc/redpen/model/Sentence.java b/redpen-core/src/main/java/cc/redpen/model/Sentence.java
+index 17cd54b..afb12d4 100644
+--- a/redpen-core/src/main/java/cc/redpen/model/Sentence.java
++++ b/redpen-core/src/main/java/cc/redpen/model/Sentence.java
+@@ -221,4 +221,5 @@ public final class Sentence implements Serializable {
+-        if (this.offsetMap.size() > position) {
+-            return Optional.of(this.offsetMap.get(position));
+-        } else if (this.offsetMap.size() == position && offsetMap.size() > 0) {
+-            LineOffset prev = this.offsetMap.get(position - 1);
++        if (position >= 0) {
++            if (offsetMap.size() > position) {
++                return Optional.of(offsetMap.get(position));
++            } else if ((position > 0) && (offsetMap.size() == position)) {
++                LineOffset prev = offsetMap.get(position - 1);
+@@ -226 +227 @@ public final class Sentence implements Serializable {
+-        } else {
++            }
+@@ -228,0 +230 @@ public final class Sentence implements Serializable {
++        return Optional.empty();

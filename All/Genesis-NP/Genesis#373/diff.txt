@@ -1,0 +1,11 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/container/NettyCometSupport.java b/modules/cpr/src/main/java/org/atmosphere/container/NettyCometSupport.java
+index b1cd7ad..a8ed214 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/container/NettyCometSupport.java
++++ b/modules/cpr/src/main/java/org/atmosphere/container/NettyCometSupport.java
+@@ -91 +91,5 @@ public class NettyCometSupport extends AsynchronousProcessor {
+-            r.getResponse(false).getAsyncIOWriter().close(r.getResponse(false));
++            AtmosphereResponse response = r.getResponse(false);
++            AsyncIOWriter a = response.getAsyncIOWriter();
++            if (a != null) {
++                a.close(response);
++            }

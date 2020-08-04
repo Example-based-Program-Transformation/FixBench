@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/owasp/dependencycheck/analyzer/JarAnalyzer.java b/src/main/java/org/owasp/dependencycheck/analyzer/JarAnalyzer.java
+index 5cc278d20..f328297ae 100644
+--- a/src/main/java/org/owasp/dependencycheck/analyzer/JarAnalyzer.java
++++ b/src/main/java/org/owasp/dependencycheck/analyzer/JarAnalyzer.java
+@@ -340 +340 @@ public class JarAnalyzer extends AbstractAnalyzer implements Analyzer {
+-                final InputStreamReader reader = new InputStreamReader(stream);
++                final InputStreamReader reader = new InputStreamReader(stream, "UTF-8");

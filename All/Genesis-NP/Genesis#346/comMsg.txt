@@ -1,0 +1,1 @@
+1) Fix NPE in DeterminePartitionsJob when it fails

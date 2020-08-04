@@ -1,0 +1,1 @@
+[MNG-5613] fix NullPointerException when error occur during project dependency graph creation Submitted by: Sebastian Le Merdy <sebastian.lemerdy@gmail.com> From: https://github.com/apache/maven/pull/13

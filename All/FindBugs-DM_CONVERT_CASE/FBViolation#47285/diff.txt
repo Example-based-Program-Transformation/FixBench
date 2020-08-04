@@ -1,0 +1,9 @@
+diff --git a/module-client/src/main/java/org/apache/http/impl/auth/RFC2617Scheme.java b/module-client/src/main/java/org/apache/http/impl/auth/RFC2617Scheme.java
+index 013f5c2f8..0f3a8779b 100644
+--- a/module-client/src/main/java/org/apache/http/impl/auth/RFC2617Scheme.java
++++ b/module-client/src/main/java/org/apache/http/impl/auth/RFC2617Scheme.java
+@@ -33,0 +34 @@ import java.util.HashMap;
++import java.util.Locale;
+@@ -162 +163 @@ public abstract class RFC2617Scheme implements AuthScheme {
+-        return this.params.get(name.toLowerCase());
++        return this.params.get(name.toLowerCase(Locale.ENGLISH));

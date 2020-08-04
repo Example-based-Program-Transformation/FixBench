@@ -1,0 +1,1 @@
+Fixed blank yaml config files throwing a null pointer exception

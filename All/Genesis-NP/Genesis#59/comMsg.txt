@@ -1,0 +1,1 @@
+Prevent potential NPE and provide a faster path via identity check

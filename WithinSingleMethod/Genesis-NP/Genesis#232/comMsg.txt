@@ -1,0 +1,1 @@
+JGRP-1848 Avoid NPE when SASL password is not set (e.g. in case of GSSAPI)

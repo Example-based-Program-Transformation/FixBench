@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/redisson/RedissonLock.java b/src/main/java/org/redisson/RedissonLock.java
+index 3e7eb78..3415a7e 100644
+--- a/src/main/java/org/redisson/RedissonLock.java
++++ b/src/main/java/org/redisson/RedissonLock.java
+@@ -185 +185 @@ public class RedissonLock implements RLock {
+-            if (lock.equals(currentLock)) {
++            if (lock != null && lock.equals(currentLock)) {

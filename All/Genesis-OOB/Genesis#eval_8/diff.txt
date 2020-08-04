@@ -1,0 +1,9 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/util/RawParseUtils.java b/org.eclipse.jgit/src/org/eclipse/jgit/util/RawParseUtils.java
+index 9eb32cb..91184ba 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/util/RawParseUtils.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/util/RawParseUtils.java
+@@ -720,2 +720,2 @@ public static PersonIdent parsePersonIdent(final byte[] raw, final int nameB) {
+-		final int nameEnd = emailB - 2 >= 0 && raw[emailB - 2] == ' ' ? emailB - 2
+-				: emailB - 1;
++		final int nameEnd = emailB - 2 >= nameB && raw[emailB - 2] == ' ' ?
++				emailB - 2 : emailB - 1;

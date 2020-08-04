@@ -1,0 +1,8 @@
+diff --git a/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/utils/ReflectionUtils.java b/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/utils/ReflectionUtils.java
+index ed4deba..77c5fdc 100644
+--- a/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/utils/ReflectionUtils.java
++++ b/modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/utils/ReflectionUtils.java
+@@ -111,0 +112,3 @@ public class ReflectionUtils {
++            if (pTypes.length != pt.length || gpTypes.length != gpt.length) {
++                continue;
++            }

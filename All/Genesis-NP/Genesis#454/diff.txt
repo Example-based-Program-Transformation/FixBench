@@ -1,0 +1,7 @@
+diff --git a/modules/activiti-bpmn-converter/src/main/java/org/activiti/bpmn/converter/export/SignalAndMessageDefinitionExport.java b/modules/activiti-bpmn-converter/src/main/java/org/activiti/bpmn/converter/export/SignalAndMessageDefinitionExport.java
+index 2f4df9b..f145fe6 100644
+--- a/modules/activiti-bpmn-converter/src/main/java/org/activiti/bpmn/converter/export/SignalAndMessageDefinitionExport.java
++++ b/modules/activiti-bpmn-converter/src/main/java/org/activiti/bpmn/converter/export/SignalAndMessageDefinitionExport.java
+@@ -57 +57 @@ public class SignalAndMessageDefinitionExport implements BpmnXMLConstants {
+-      if (messageId.startsWith(model.getTargetNamespace())) {
++      if (model.getTargetNamespace() != null && messageId.startsWith(model.getTargetNamespace())) {

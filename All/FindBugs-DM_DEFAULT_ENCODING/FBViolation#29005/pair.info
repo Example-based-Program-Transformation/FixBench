@@ -1,0 +1,8 @@
+Id:29005
+comSha:7a4197d84f82fae320864e1a9f761243960eb1aa
+parentComSha:7d425ea91b5430de8e24ff17e0baa8e98eaa79f7
+BuggyFilePath:src/main/java/com/ldbc/driver/util/CsvFileWriter.java
+FixedFilePath:src/main/java/com/ldbc/driver/util/CsvFileWriter.java
+StartLineNum:17
+EndLineNum:17
+repoName:ldbc#ldbc_driver

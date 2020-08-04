@@ -1,0 +1,9 @@
+diff --git a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertexIterator.java b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertexIterator.java
+index 9efc8b8..8a4389f 100644
+--- a/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertexIterator.java
++++ b/graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertexIterator.java
+@@ -52,0 +53,4 @@ public class OrientVertexIterator extends OLazyWrapperIterator<Vertex> {
++    if (iObject == null) {
++      return null;
++    }
++

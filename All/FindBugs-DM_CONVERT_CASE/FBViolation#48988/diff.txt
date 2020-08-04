@@ -1,0 +1,9 @@
+diff --git a/src/test/java/com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheckTest.java b/src/test/java/com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheckTest.java
+index 3b283e3f6..335d581ea 100644
+--- a/src/test/java/com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheckTest.java
++++ b/src/test/java/com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheckTest.java
+@@ -22,0 +23 @@ import static com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck.MSG
++import static java.util.Locale.ENGLISH;
+@@ -191 +192 @@ public class NewlineAtEndOfFileCheckTest
+-            if (System.getProperty("os.name").toLowerCase().startsWith("windows")) {
++            if (System.getProperty("os.name").toLowerCase(ENGLISH).startsWith("windows")) {

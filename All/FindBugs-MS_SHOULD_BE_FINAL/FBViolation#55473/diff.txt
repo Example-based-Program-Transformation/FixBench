@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/apache/vxquery/compiler/rewriter/rulesets/DefaultRulesetProviderImpl.java b/src/main/java/org/apache/vxquery/compiler/rewriter/rulesets/DefaultRulesetProviderImpl.java
+index c3aab956..34e3a61a 100644
+--- a/src/main/java/org/apache/vxquery/compiler/rewriter/rulesets/DefaultRulesetProviderImpl.java
++++ b/src/main/java/org/apache/vxquery/compiler/rewriter/rulesets/DefaultRulesetProviderImpl.java
+@@ -28 +28 @@ public class DefaultRulesetProviderImpl implements RulesetProvider {
+-    public static RulesetProvider INSTANCE = new DefaultRulesetProviderImpl();
++    public static final RulesetProvider INSTANCE = new DefaultRulesetProviderImpl();

@@ -1,0 +1,8 @@
+diff --git a/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/BenchmarkResultIO.java b/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/BenchmarkResultIO.java
+index f9f1bf3..7270575 100644
+--- a/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/BenchmarkResultIO.java
++++ b/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/BenchmarkResultIO.java
+@@ -122,0 +123,3 @@ public class BenchmarkResultIO {
++            if (problemBenchmarkResult.getProblemStatisticList() == null) {
++                problemBenchmarkResult.setProblemStatisticList(new ArrayList<ProblemStatistic>(0));
++            }

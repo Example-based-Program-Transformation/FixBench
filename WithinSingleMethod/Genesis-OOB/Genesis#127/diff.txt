@@ -1,0 +1,7 @@
+diff --git a/maven-release-manager/src/main/java/org/apache/maven/shared/release/phase/RewritePomsForReleasePhase.java b/maven-release-manager/src/main/java/org/apache/maven/shared/release/phase/RewritePomsForReleasePhase.java
+index 6ca723c..e0ef0bc 100644
+--- a/maven-release-manager/src/main/java/org/apache/maven/shared/release/phase/RewritePomsForReleasePhase.java
++++ b/maven-release-manager/src/main/java/org/apache/maven/shared/release/phase/RewritePomsForReleasePhase.java
+@@ -249 +249 @@ public class RewritePomsForReleasePhase
+-        while ( tagPathChars[i] == trunkPathChars[i] )
++        while ( ( i < tagPathChars.length ) && ( i < trunkPathChars.length ) && tagPathChars[i] == trunkPathChars[i] )

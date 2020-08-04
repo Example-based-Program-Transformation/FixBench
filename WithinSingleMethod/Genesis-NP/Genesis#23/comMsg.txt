@@ -1,0 +1,1 @@
+Fix build break caused by NPE ... dereferencing member before it is initialized.

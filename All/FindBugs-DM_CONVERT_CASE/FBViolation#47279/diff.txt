@@ -1,0 +1,12 @@
+diff --git a/module-client/src/main/java/org/apache/http/impl/cookie/RFC2965Spec.java b/module-client/src/main/java/org/apache/http/impl/cookie/RFC2965Spec.java
+index afbb5cc6e..d36d8806f 100644
+--- a/module-client/src/main/java/org/apache/http/impl/cookie/RFC2965Spec.java
++++ b/module-client/src/main/java/org/apache/http/impl/cookie/RFC2965Spec.java
+@@ -35,0 +36 @@ import java.util.List;
++import java.util.Locale;
+@@ -135 +136 @@ public class RFC2965Spec extends RFC2109Spec {
+-                attribmap.put(param.getName().toLowerCase(), param);
++                attribmap.put(param.getName().toLowerCase(Locale.ENGLISH), param);
+@@ -139 +140 @@ public class RFC2965Spec extends RFC2109Spec {
+-                String s = attrib.getName().toLowerCase();
++                String s = attrib.getName().toLowerCase(Locale.ENGLISH);

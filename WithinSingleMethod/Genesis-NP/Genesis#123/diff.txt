@@ -1,0 +1,8 @@
+diff --git a/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java b/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
+index da34c2d..7fd2d09 100644
+--- a/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
++++ b/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
+@@ -50,2 +50 @@ public class HttpClientDownloader implements Downloader {
+-        Page page = download(new Request(url), null);
+-        return (Html) page.getHtml();
++        return download(url, null);

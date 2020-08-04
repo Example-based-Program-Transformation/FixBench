@@ -1,0 +1,8 @@
+Id:82722
+comSha:39dec17b63d7b5d2e29fa614152b7d8e1c72546d
+parentComSha:5c5360c18f109ce239c0cac216f930ef75a39c78
+BuggyFilePath:src/main/java/net/kuujo/vertigo/hooks/EventBusHook.java
+FixedFilePath:src/main/java/net/kuujo/vertigo/hooks/EventBusHook.java
+StartLineNum:44
+EndLineNum:44
+repoName:kuujo#vertigo

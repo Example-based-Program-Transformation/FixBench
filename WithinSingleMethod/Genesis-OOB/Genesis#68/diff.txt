@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/protocols/S3_PING.java b/src/org/jgroups/protocols/S3_PING.java
+index e2a8e12..dbd6cec 100644
+--- a/src/org/jgroups/protocols/S3_PING.java
++++ b/src/org/jgroups/protocols/S3_PING.java
+@@ -126 +126 @@ public class S3_PING extends FILE_PING {
+-                        if(buf != null) {
++                        if(buf != null && buf.length > 0) {

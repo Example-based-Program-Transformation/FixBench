@@ -1,0 +1,1 @@
+Fixed a unexpected IndexOutOfBoundsException while adjusting position and limit temporarily in getSlice(idx, len)

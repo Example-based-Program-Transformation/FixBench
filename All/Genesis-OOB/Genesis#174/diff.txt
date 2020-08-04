@@ -1,0 +1,8 @@
+diff --git a/src/main/java/de/thm/arsnova/ImageUtils.java b/src/main/java/de/thm/arsnova/ImageUtils.java
+index 19cb75c..9983b49 100644
+--- a/src/main/java/de/thm/arsnova/ImageUtils.java
++++ b/src/main/java/de/thm/arsnova/ImageUtils.java
+@@ -136,0 +137,3 @@ public class ImageUtils {
++				if (extensionEndIndex < 0) {
++					return null;
++				}

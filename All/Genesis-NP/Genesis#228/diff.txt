@@ -1,0 +1,6 @@
+diff --git a/src/org/jgroups/stack/RouterStubManager.java b/src/org/jgroups/stack/RouterStubManager.java
+index 4c8098f..ee5838b 100644
+--- a/src/org/jgroups/stack/RouterStubManager.java
++++ b/src/org/jgroups/stack/RouterStubManager.java
+@@ -130,0 +131 @@ public class RouterStubManager implements RouterStub.ConnectionListener {
++        if(f != null && stub != null)

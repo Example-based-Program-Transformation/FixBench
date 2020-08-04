@@ -1,0 +1,11 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/interceptor/JavaScriptProtocol.java b/modules/cpr/src/main/java/org/atmosphere/interceptor/JavaScriptProtocol.java
+index d58bbc2..bbff0a3 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/interceptor/JavaScriptProtocol.java
++++ b/modules/cpr/src/main/java/org/atmosphere/interceptor/JavaScriptProtocol.java
+@@ -91 +91,5 @@ public class JavaScriptProtocol extends AtmosphereInterceptorAdapter {
+-                int version = parseVersion(javascriptVersion.split("-")[0]);
++                int version = 0;
++                if (javascriptVersion != null) {
++                    version = parseVersion(javascriptVersion.split("-")[0]);
++                }
++

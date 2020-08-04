@@ -1,0 +1,10 @@
+diff --git a/rapidoid-http/src/main/java/org/rapidoid/http/HttpExchangeImpl.java b/rapidoid-http/src/main/java/org/rapidoid/http/HttpExchangeImpl.java
+index 2f15a71..bbc32ab 100644
+--- a/rapidoid-http/src/main/java/org/rapidoid/http/HttpExchangeImpl.java
++++ b/rapidoid-http/src/main/java/org/rapidoid/http/HttpExchangeImpl.java
+@@ -140,2 +139,0 @@ public class HttpExchangeImpl extends DefaultExchange<HttpExchangeImpl> implemen
+-		reset();
+-
+@@ -153,0 +152,2 @@ public class HttpExchangeImpl extends DefaultExchange<HttpExchangeImpl> implemen
++
++		reset();

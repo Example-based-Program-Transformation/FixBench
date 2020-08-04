@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/bukkit/inventory/ItemStack.java b/src/main/java/org/bukkit/inventory/ItemStack.java
+index 87cd9ca..d8256fc 100644
+--- a/src/main/java/org/bukkit/inventory/ItemStack.java
++++ b/src/main/java/org/bukkit/inventory/ItemStack.java
+@@ -125,2 +125,3 @@ public class ItemStack implements ConfigurationSerializable {
+-        if (Material.getMaterial(getTypeId()).getData() != null) {
+-            data = Material.getMaterial(getTypeId()).getNewData((byte) this.durability);
++        Material mat = Material.getMaterial(getTypeId());
++        if (mat != null && mat.getData() != null) {
++            data = mat.getNewData((byte) this.durability);

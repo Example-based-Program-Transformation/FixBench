@@ -1,0 +1,8 @@
+diff --git a/core/src/main/java/com/google/zxing/multi/GenericMultipleBarcodeReader.java b/core/src/main/java/com/google/zxing/multi/GenericMultipleBarcodeReader.java
+index 276279b..cc8725d 100644
+--- a/core/src/main/java/com/google/zxing/multi/GenericMultipleBarcodeReader.java
++++ b/core/src/main/java/com/google/zxing/multi/GenericMultipleBarcodeReader.java
+@@ -162,0 +163 @@ public final class GenericMultipleBarcodeReader implements MultipleBarcodeReader
++      if (oldPoint != null) {
+@@ -164,0 +166 @@ public final class GenericMultipleBarcodeReader implements MultipleBarcodeReader
++    }

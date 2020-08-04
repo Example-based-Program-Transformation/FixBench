@@ -1,0 +1,11 @@
+diff --git a/impl/src/main/java/org/jboss/seam/faces/viewdata/ViewDataStoreImpl.java b/impl/src/main/java/org/jboss/seam/faces/viewdata/ViewDataStoreImpl.java
+index 7bfc678..29d282b 100644
+--- a/impl/src/main/java/org/jboss/seam/faces/viewdata/ViewDataStoreImpl.java
++++ b/impl/src/main/java/org/jboss/seam/faces/viewdata/ViewDataStoreImpl.java
+@@ -89 +89 @@ public class ViewDataStoreImpl implements ViewDataStore
+-      if (data != null)
++      if ((data != null) && (data.size() > 0))
+@@ -127 +127,2 @@ public class ViewDataStoreImpl implements ViewDataStore
+-      // we need to synchonise to make sure that no threads see a half completed
++      // we need to synchronize to make sure that no threads see a half
++      // completed

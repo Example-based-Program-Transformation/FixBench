@@ -1,0 +1,17 @@
+diff --git a/src/main/java/org/dynjs/cli/Main.java b/src/main/java/org/dynjs/cli/Main.java
+index 08d68c5..82f72da 100644
+--- a/src/main/java/org/dynjs/cli/Main.java
++++ b/src/main/java/org/dynjs/cli/Main.java
+@@ -80,2 +80,3 @@ public class Main {
+-            if (!dynJsArguments.getEval().isEmpty()) {
+-                executeSource(dynJsArguments.getEval());
++            /*
++            if (!getArguments().getEval().isEmpty()) {
++                executeSource(getArguments().getEval());
+@@ -83,2 +84,2 @@ public class Main {
+-            } else if (dynJsArguments.getFilename() != null) {
+-                executeFile(new File(dynJsArguments.getFilename()));
++            } else if (getArguments().getFilename() != null) {
++                executeFile(new File(getArguments().getFilename()));
+@@ -88,0 +90 @@ public class Main {
++            */

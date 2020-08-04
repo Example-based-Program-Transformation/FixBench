@@ -1,0 +1,8 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java b/org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+index 7c2192d..17b1242 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
+@@ -197,0 +198,3 @@ public Ref call() throws GitAPIException, CheckoutConflictException {
++			if (mode == null)
++				mode = ResetType.MIXED;
++

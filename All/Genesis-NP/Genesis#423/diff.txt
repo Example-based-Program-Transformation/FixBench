@@ -1,0 +1,7 @@
+diff --git a/modules/swagger-core/src/main/java/io/swagger/util/ReflectionUtils.java b/modules/swagger-core/src/main/java/io/swagger/util/ReflectionUtils.java
+index 5c8d0c1..7822953 100644
+--- a/modules/swagger-core/src/main/java/io/swagger/util/ReflectionUtils.java
++++ b/modules/swagger-core/src/main/java/io/swagger/util/ReflectionUtils.java
+@@ -148 +148 @@ public class ReflectionUtils {
+-        if (cls.equals(Object.class)) {
++        if (cls == null || Object.class.equals(cls)) {

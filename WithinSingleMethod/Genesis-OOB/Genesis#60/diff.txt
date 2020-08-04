@@ -1,0 +1,7 @@
+diff --git a/wicket-core/src/main/java/org/apache/wicket/core/request/mapper/CryptoMapper.java b/wicket-core/src/main/java/org/apache/wicket/core/request/mapper/CryptoMapper.java
+index fcc52a7..4f038ec 100755
+--- a/wicket-core/src/main/java/org/apache/wicket/core/request/mapper/CryptoMapper.java
++++ b/wicket-core/src/main/java/org/apache/wicket/core/request/mapper/CryptoMapper.java
+@@ -503 +503 @@ public class CryptoMapper implements IRequestMapperDelegate
+-			if (segNo > originalNumberOfSegments)
++			if (segNo >= originalNumberOfSegments)

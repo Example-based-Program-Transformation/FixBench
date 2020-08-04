@@ -1,0 +1,8 @@
+Id:77732
+comSha:dcaa46cd6d036de29d2f85967f7498a60ec9807a
+parentComSha:c8b16e67ceaa802c3f8fee63ff96362881854452
+BuggyFilePath:src/main/java/com/graphhopper/util/GraphUtility.java
+FixedFilePath:src/main/java/com/graphhopper/util/GraphUtility.java
+StartLineNum:312
+EndLineNum:312
+repoName:graphhopper#graphhopper

@@ -1,0 +1,1 @@
+Fix a small bug where an NPE can occur if a closeable is not present

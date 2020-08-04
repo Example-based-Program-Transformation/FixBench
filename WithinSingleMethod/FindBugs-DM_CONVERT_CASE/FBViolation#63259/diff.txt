@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/eigenbase/rel/JoinRel.java b/src/main/java/org/eigenbase/rel/JoinRel.java
+index e6f5334b..e949af90 100644
+--- a/src/main/java/org/eigenbase/rel/JoinRel.java
++++ b/src/main/java/org/eigenbase/rel/JoinRel.java
+@@ -157 +156,0 @@ public final class JoinRel
+-            .item("joinType", joinType.name().toLowerCase())

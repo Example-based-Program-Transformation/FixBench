@@ -1,0 +1,8 @@
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/record/impl/ODocument.java b/core/src/main/java/com/orientechnologies/orient/core/record/impl/ODocument.java
+index c0df427..6bfdb5e 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/record/impl/ODocument.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/record/impl/ODocument.java
+@@ -1531,0 +1532 @@ public class ODocument extends ORecordAbstract implements Iterable<Entry<String,
++      if(value!=null) {
+@@ -1541,0 +1543 @@ public class ODocument extends ORecordAbstract implements Iterable<Entry<String,
++    }

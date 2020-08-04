@@ -1,0 +1,8 @@
+Id:55187
+comSha:c5ac0e4e304177c9151909e3380644ab0af40754
+parentComSha:32669140177d8b07ac49b279cb6d29b02d306767
+BuggyFilePath:karamel-core/src/main/java/se/kth/karamel/backend/command/CommandService.java
+FixedFilePath:karamel-core/src/main/java/se/kth/karamel/backend/command/CommandService.java
+StartLineNum:76
+EndLineNum:76
+repoName:karamelchef#karamel

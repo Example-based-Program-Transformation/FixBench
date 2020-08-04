@@ -1,0 +1,10 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResourceImpl.java b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResourceImpl.java
+index 8e558ed..eb868a4 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResourceImpl.java
++++ b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereResourceImpl.java
+@@ -121 +121 @@ public class AtmosphereResourceImpl implements AtmosphereResource {
+-            if (s == null) {
++            if (s == null && req != null) {
+@@ -123 +123 @@ public class AtmosphereResourceImpl implements AtmosphereResource {
+-                s = !tmp.equalsIgnoreCase("0") ? tmp : null;
++                s = tmp != null && !tmp.equalsIgnoreCase("0") ? tmp : null;

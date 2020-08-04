@@ -1,0 +1,7 @@
+Id:327
+SATName:Genesis
+modifiedFPath:processing/src/main/java/io/druid/query/extraction/RegexDimExtractionFn.java
+comSha:08a527d01ab7209c92918ddb2ad5dee478e13d5d
+parentComSha:08a527d01ab7209c92918ddb2ad5dee478e13d5d^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

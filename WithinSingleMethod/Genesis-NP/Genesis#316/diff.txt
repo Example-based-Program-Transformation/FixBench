@@ -1,0 +1,7 @@
+diff --git a/src/main/java/jline/console/history/FileHistory.java b/src/main/java/jline/console/history/FileHistory.java
+index e4907ce..c43b20d 100644
+--- a/src/main/java/jline/console/history/FileHistory.java
++++ b/src/main/java/jline/console/history/FileHistory.java
+@@ -43 +43 @@ public class FileHistory
+-        this.file = checkNotNull(file);
++        this.file = checkNotNull(file).getAbsoluteFile();

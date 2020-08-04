@@ -1,0 +1,1 @@
+Clean-up of warnings and Eclipse properties.

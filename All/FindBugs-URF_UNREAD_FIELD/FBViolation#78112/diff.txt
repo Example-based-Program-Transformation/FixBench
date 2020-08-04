@@ -1,0 +1,7 @@
+diff --git a/src/main/java/co/foxdev/foxbot/commands/CommandInsult.java b/src/main/java/co/foxdev/foxbot/commands/CommandInsult.java
+index edd11e8..c7b270e 100644
+--- a/src/main/java/co/foxdev/foxbot/commands/CommandInsult.java
++++ b/src/main/java/co/foxdev/foxbot/commands/CommandInsult.java
+@@ -47,2 +46,0 @@ public class CommandInsult extends Command
+-    private Pattern titlePattern = Pattern.compile(".*?<font.*?>(.*)</font>.*?", Pattern.DOTALL);
+-

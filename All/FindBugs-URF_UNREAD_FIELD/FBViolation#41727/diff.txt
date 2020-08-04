@@ -1,0 +1,9 @@
+diff --git a/src/main/java/fr/xephi/authme/converter/ForceFlatToSqlite.java b/src/main/java/fr/xephi/authme/converter/ForceFlatToSqlite.java
+index b25e7110..2c95d1cd 100644
+--- a/src/main/java/fr/xephi/authme/converter/ForceFlatToSqlite.java
++++ b/src/main/java/fr/xephi/authme/converter/ForceFlatToSqlite.java
+@@ -13,2 +12,0 @@ public class ForceFlatToSqlite implements Converter {
+-    private AuthMe plugin;
+-
+@@ -17 +14,0 @@ public class ForceFlatToSqlite implements Converter {
+-        this.plugin = plugin;

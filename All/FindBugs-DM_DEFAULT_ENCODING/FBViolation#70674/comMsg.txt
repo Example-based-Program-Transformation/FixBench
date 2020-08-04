@@ -1,0 +1,2 @@
+Huge amount of changes, mostly Query parsing rewrite
+Basic scoring implementation

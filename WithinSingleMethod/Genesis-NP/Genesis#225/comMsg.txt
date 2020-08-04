@@ -1,0 +1,1 @@
+Fixed NPE when recognizing text with Tesseract.

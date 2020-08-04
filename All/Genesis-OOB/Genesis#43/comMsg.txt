@@ -1,0 +1,1 @@
+MAHOUT-1100 fix AIOOBE, add test for TreeClusteringRecommender2

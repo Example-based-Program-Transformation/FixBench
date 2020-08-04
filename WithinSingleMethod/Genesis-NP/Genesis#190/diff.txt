@@ -1,0 +1,10 @@
+diff --git a/dropwizard-jersey/src/main/java/io/dropwizard/jersey/DropwizardResourceConfig.java b/dropwizard-jersey/src/main/java/io/dropwizard/jersey/DropwizardResourceConfig.java
+index 8b356d8..923ca68 100644
+--- a/dropwizard-jersey/src/main/java/io/dropwizard/jersey/DropwizardResourceConfig.java
++++ b/dropwizard-jersey/src/main/java/io/dropwizard/jersey/DropwizardResourceConfig.java
+@@ -48 +47,0 @@ public class DropwizardResourceConfig extends ResourceConfig {
+-    @SuppressWarnings("unchecked")
+@@ -186,0 +186,3 @@ public class DropwizardResourceConfig extends ResourceConfig {
++            if (path == null) {
++                return basePath;
++            }

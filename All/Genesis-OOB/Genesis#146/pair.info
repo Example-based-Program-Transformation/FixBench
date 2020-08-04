@@ -1,0 +1,7 @@
+Id:146
+SATName:Genesis
+modifiedFPath:plugin/src/main/java/com/h3xstream/findsecbugs/crypto/CipherWithNoIntegrityDetector.java
+comSha:0572d7d
+parentComSha:0572d7d^1
+githubUrl:https://github.com/h3xstream/find-sec-bugs
+repoName:h3xstream#find-sec-bugs

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/javaslang/Tuples.java b/src/main/java/javaslang/Tuples.java
+index 6d23e4a..4eab919 100644
+--- a/src/main/java/javaslang/Tuples.java
++++ b/src/main/java/javaslang/Tuples.java
+@@ -840 +840 @@ public final class Tuples {
+-			if (isLocked.get()) {
++			if (Boolean.TRUE.equals(isLocked.get())) {

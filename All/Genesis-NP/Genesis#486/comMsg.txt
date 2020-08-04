@@ -1,0 +1,1 @@
+DATAES-74 NPE in MappingElasticsearchEntityInformation

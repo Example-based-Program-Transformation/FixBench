@@ -1,0 +1,11 @@
+diff --git a/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java b/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java
+index 730d0a1..aa6fd74 100755
+--- a/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java
++++ b/leveldb/src/main/java/org/iq80/leveldb/impl/DbImpl.java
+@@ -588 +588,5 @@ public class DbImpl implements DB
+-                    return lookupResult.getValue().getBytes();
++                    Slice value = lookupResult.getValue();
++					if (value == null) {
++						return null;
++					}
++					return value.getBytes();

@@ -1,0 +1,7 @@
+Id:330
+SATName:Genesis
+modifiedFPath:server/src/main/java/io/druid/segment/realtime/plumber/RealtimePlumber.java
+comSha:52f65b1273bb11cd8d98f48d3da2098da7b09701
+parentComSha:52f65b1273bb11cd8d98f48d3da2098da7b09701^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

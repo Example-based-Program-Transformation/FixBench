@@ -1,0 +1,9 @@
+diff --git a/wagon-provider-api/src/main/java/org/apache/maven/wagon/PathUtils.java b/wagon-provider-api/src/main/java/org/apache/maven/wagon/PathUtils.java
+index e77e03a..4641473 100644
+--- a/wagon-provider-api/src/main/java/org/apache/maven/wagon/PathUtils.java
++++ b/wagon-provider-api/src/main/java/org/apache/maven/wagon/PathUtils.java
+@@ -135,0 +136,4 @@ public static String host( final String url )
++        if ( url == null || url.length() == 0 )
++        {
++            return "localhost";
++        }

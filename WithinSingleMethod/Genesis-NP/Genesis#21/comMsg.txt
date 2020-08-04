@@ -1,0 +1,1 @@
+workaround for NPE in syllables that violate sonority constraints

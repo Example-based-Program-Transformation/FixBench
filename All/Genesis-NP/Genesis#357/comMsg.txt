@@ -1,0 +1,1 @@
+#389 occasional NPE in Model.copyTo

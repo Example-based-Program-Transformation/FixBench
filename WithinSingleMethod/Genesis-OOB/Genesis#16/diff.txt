@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java b/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java
+index d0935d2..b8b80dc 100644
+--- a/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java
++++ b/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocStyleCheck.java
+@@ -198 +198 @@ public class JavadocStyleCheck
+-            made sense to make another csheck just to ensure that the
++            made sense to make another check just to ensure that the
+@@ -315 +315,2 @@ public class JavadocStyleCheck
+-            else if (builder.charAt(i - 1) == '*') {
++            else if (builder.charAt(i) == '/'
++                    && builder.charAt(i - 1) == '*') {

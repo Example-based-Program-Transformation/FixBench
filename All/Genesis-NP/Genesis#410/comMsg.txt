@@ -1,0 +1,1 @@
+Small fix when internal graph element is NULL (NPE)

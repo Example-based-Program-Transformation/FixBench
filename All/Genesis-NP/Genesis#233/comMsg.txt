@@ -1,0 +1,1 @@
+JGRP-1849 Avoid NPE when SASL mech is not provided

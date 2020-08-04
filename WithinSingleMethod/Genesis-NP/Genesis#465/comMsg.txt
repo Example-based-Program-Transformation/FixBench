@@ -1,0 +1,1 @@
+Using processdefinitionId field to prevent nullpointer when not in commandcontext

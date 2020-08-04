@@ -1,0 +1,1 @@
+Temp fix for NPE when projecting nulls

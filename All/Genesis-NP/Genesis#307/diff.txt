@@ -1,0 +1,12 @@
+diff --git a/logback-core/src/main/java/ch/qos/logback/core/net/SSLSocketAppenderBase.java b/logback-core/src/main/java/ch/qos/logback/core/net/SSLSocketAppenderBase.java
+index ba094e2..6ec6056 100644
+--- a/logback-core/src/main/java/ch/qos/logback/core/net/SSLSocketAppenderBase.java
++++ b/logback-core/src/main/java/ch/qos/logback/core/net/SSLSocketAppenderBase.java
+@@ -62 +62,2 @@ public abstract class SSLSocketAppenderBase<E> extends SocketAppenderBase<E> {
+-   * @return SSL configuration
++   * @return SSL configuration; if no configuration has been set, a
++   *    default configuration is returned
+@@ -64,0 +66,3 @@ public abstract class SSLSocketAppenderBase<E> extends SocketAppenderBase<E> {
++    if (ssl == null) {
++      ssl = new SSLConfiguration();
++    }

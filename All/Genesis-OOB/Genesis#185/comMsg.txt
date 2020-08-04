@@ -1,0 +1,1 @@
+Fixed ArrayOutOfBounds exception in getParameterValuesForConstructor()

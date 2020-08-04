@@ -1,0 +1,1 @@
+#312 prevent another possible ClassCastException in JDT in case we try to compute the erasure of the Null type

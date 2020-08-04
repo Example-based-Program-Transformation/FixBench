@@ -1,0 +1,11 @@
+diff --git a/src/main/java/de/minetick/packetbuilder/PacketBuilderThreadPool.java b/src/main/java/de/minetick/packetbuilder/PacketBuilderThreadPool.java
+index 3329e831..40ef29b0 100644
+--- a/src/main/java/de/minetick/packetbuilder/PacketBuilderThreadPool.java
++++ b/src/main/java/de/minetick/packetbuilder/PacketBuilderThreadPool.java
+@@ -17 +16,0 @@ public class PacketBuilderThreadPool implements Observer {
+-    private boolean adjustCacheSizes = false;
+@@ -75 +74,3 @@ public class PacketBuilderThreadPool implements Observer {
+-        pool.shutdown();
++        if(pool != null) {
++            pool.shutdown();
++        }

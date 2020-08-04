@@ -1,0 +1,7 @@
+diff --git a/project/src/main/java/org/springframework/roo/project/packaging/WarPackaging.java b/project/src/main/java/org/springframework/roo/project/packaging/WarPackaging.java
+index 55190b4..6c93d4a 100644
+--- a/project/src/main/java/org/springframework/roo/project/packaging/WarPackaging.java
++++ b/project/src/main/java/org/springframework/roo/project/packaging/WarPackaging.java
+@@ -41 +41 @@ public class WarPackaging extends AbstractCorePackagingProvider {
+-            applicationContextOperations.createMiddleTierApplicationContext(
++            getApplicationContextOperations().createMiddleTierApplicationContext(

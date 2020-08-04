@@ -1,0 +1,9 @@
+diff --git a/src/main/java/com/salesforce/phoenix/schema/PMetaDataImpl.java b/src/main/java/com/salesforce/phoenix/schema/PMetaDataImpl.java
+index 23fa8d1..ae74dfd 100644
+--- a/src/main/java/com/salesforce/phoenix/schema/PMetaDataImpl.java
++++ b/src/main/java/com/salesforce/phoenix/schema/PMetaDataImpl.java
+@@ -68,0 +69,2 @@ public class PMetaDataImpl implements PMetaData {
++            // If parentTable isn't cached, that's ok we can skip this
++            if (parentTable != null) {
+@@ -77,0 +80 @@ public class PMetaDataImpl implements PMetaData {
++        }

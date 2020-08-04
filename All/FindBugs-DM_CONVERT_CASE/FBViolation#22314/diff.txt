@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/command/CommandRankDir.java b/src/net/sourceforge/plantuml/command/CommandRankDir.java
+index f829d126..4fdcfe56 100644
+--- a/src/net/sourceforge/plantuml/command/CommandRankDir.java
++++ b/src/net/sourceforge/plantuml/command/CommandRankDir.java
+@@ -36,0 +37 @@ import net.sourceforge.plantuml.SkinParam;
++import net.sourceforge.plantuml.StringUtils;
+@@ -48 +49 @@ public class CommandRankDir extends SingleLineCommand<CucaDiagram> {
+-		final String s = arg.get(0).toUpperCase().replace(' ', '_');
++		final String s = StringUtils.goUpperCase(arg.get(0)).replace(' ', '_');

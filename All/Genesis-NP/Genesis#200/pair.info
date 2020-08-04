@@ -1,0 +1,7 @@
+Id:200
+SATName:Genesis
+modifiedFPath:client/src/main/java/org/asynchttpclient/netty/request/NettyRequestSender.java
+comSha:dfc01fa651da2fb5b1d55911d7b95c72129da926
+parentComSha:dfc01fa651da2fb5b1d55911d7b95c72129da926^1
+githubUrl:https://github.com/AsyncHttpClient/async-http-client
+repoName:AsyncHttpClient#async-http-client

@@ -1,0 +1,7 @@
+diff --git a/structr-ui/src/main/java/org/structr/websocket/SynchronizationController.java b/structr-ui/src/main/java/org/structr/websocket/SynchronizationController.java
+index ee59bb7..9a5bf3b 100644
+--- a/structr-ui/src/main/java/org/structr/websocket/SynchronizationController.java
++++ b/structr-ui/src/main/java/org/structr/websocket/SynchronizationController.java
+@@ -657 +657 @@ public class SynchronizationController implements StructrTransactionListener, Tr
+-			String uuid              = properties.get(AbstractNode.uuid).toString();
++			String uuid              = properties.get(AbstractNode.uuid);

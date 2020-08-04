@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/multibit/file/SecureFiles.java b/src/main/java/org/multibit/file/SecureFiles.java
+index 6257a84..104a9ba 100644
+--- a/src/main/java/org/multibit/file/SecureFiles.java
++++ b/src/main/java/org/multibit/file/SecureFiles.java
+@@ -128 +128 @@ public class SecureFiles {
+-    if (file.exists()) {
++    if (file != null && file.exists()) {

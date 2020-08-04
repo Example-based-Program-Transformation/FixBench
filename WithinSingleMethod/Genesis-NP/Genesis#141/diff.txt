@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/github/dockerjava/api/model/ContainerConfig.java b/src/main/java/com/github/dockerjava/api/model/ContainerConfig.java
+index efc5e02..d7f4b81 100644
+--- a/src/main/java/com/github/dockerjava/api/model/ContainerConfig.java
++++ b/src/main/java/com/github/dockerjava/api/model/ContainerConfig.java
+@@ -87 +87 @@ public class ContainerConfig {
+-        return exposedPorts.getExposedPorts();
++        return exposedPorts != null ? exposedPorts.getExposedPorts() : null;

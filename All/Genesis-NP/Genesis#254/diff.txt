@@ -1,0 +1,6 @@
+diff --git a/vraptor-core/src/main/java/br/com/caelum/vraptor/serialization/xstream/VRaptorClassMapper.java b/vraptor-core/src/main/java/br/com/caelum/vraptor/serialization/xstream/VRaptorClassMapper.java
+index 17de53c..b3d7909 100644
+--- a/vraptor-core/src/main/java/br/com/caelum/vraptor/serialization/xstream/VRaptorClassMapper.java
++++ b/vraptor-core/src/main/java/br/com/caelum/vraptor/serialization/xstream/VRaptorClassMapper.java
+@@ -77,0 +78 @@ public class VRaptorClassMapper extends MapperWrapper {
++		if (type == null) return super.serializedClass(type);

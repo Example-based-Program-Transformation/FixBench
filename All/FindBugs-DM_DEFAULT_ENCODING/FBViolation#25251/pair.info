@@ -1,0 +1,8 @@
+Id:25251
+comSha:d4208fc231566b1b325c3089c5a44af041d45861
+parentComSha:d87c702581f3e4cfcf9dc2785f3d4c5d2ee862a1
+BuggyFilePath:src/main/java/ch/ralscha/extdirectspring/bean/ExtDirectResponseBuilder.java
+FixedFilePath:src/main/java/ch/ralscha/extdirectspring/bean/ExtDirectResponseBuilder.java
+StartLineNum:224
+EndLineNum:224
+repoName:ralscha#extdirectspring

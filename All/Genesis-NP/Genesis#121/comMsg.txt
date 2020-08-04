@@ -1,0 +1,1 @@
+add NPE check for POST method

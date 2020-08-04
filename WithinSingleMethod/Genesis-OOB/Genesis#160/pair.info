@@ -1,0 +1,7 @@
+Id:160
+SATName:Genesis
+modifiedFPath:src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java
+comSha:a077ab2
+parentComSha:a077ab2^1
+githubUrl:https://github.com/aparo/elasticsearch
+repoName:aparo#elasticsearch

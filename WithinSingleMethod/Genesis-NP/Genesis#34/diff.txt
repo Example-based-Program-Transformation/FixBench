@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/gmail/nossr50/config/Config.java b/src/main/java/com/gmail/nossr50/config/Config.java
+index 2c363b6..b0f5322 100644
+--- a/src/main/java/com/gmail/nossr50/config/Config.java
++++ b/src/main/java/com/gmail/nossr50/config/Config.java
+@@ -453,0 +454,2 @@ public class Config extends AutoUpdateConfigLoader {
++        if (section == null)
++            return false;

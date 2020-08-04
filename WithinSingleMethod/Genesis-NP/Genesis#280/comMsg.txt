@@ -1,0 +1,1 @@
+CORE-2315 NPE in CommandlineResourceAccessor

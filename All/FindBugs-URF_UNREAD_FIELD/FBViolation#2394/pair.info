@@ -1,0 +1,8 @@
+Id:2394
+comSha:ceff7ddbd49681752f33311e4d80cf60a741e025
+parentComSha:1f6c44323de9b828e46520fae70748d4f358d6d0
+BuggyFilePath:src/main/java/com/google/gson/Gson.java
+FixedFilePath:src/main/java/com/google/gson/Gson.java
+StartLineNum:197
+EndLineNum:197
+repoName:TeamExodus#external_gson

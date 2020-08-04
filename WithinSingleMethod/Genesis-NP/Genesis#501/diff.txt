@@ -1,0 +1,8 @@
+diff --git a/wicket-experimental/wicket-atmosphere/src/main/java/org/apache/wicket/atmosphere/PageKey.java b/wicket-experimental/wicket-atmosphere/src/main/java/org/apache/wicket/atmosphere/PageKey.java
+index 4cedbc9..61586a9 100644
+--- a/wicket-experimental/wicket-atmosphere/src/main/java/org/apache/wicket/atmosphere/PageKey.java
++++ b/wicket-experimental/wicket-atmosphere/src/main/java/org/apache/wicket/atmosphere/PageKey.java
+@@ -66 +66,2 @@ public class PageKey
+-		return getSessionId().equals(sessionId);
++		String sid = getSessionId();
++		return sid != null && sid.equals(sessionId);

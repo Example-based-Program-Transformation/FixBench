@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/apache/commons/lang3/StringUtils.java b/src/main/java/org/apache/commons/lang3/StringUtils.java
+index 5f167b9..3f0314f 100644
+--- a/src/main/java/org/apache/commons/lang3/StringUtils.java
++++ b/src/main/java/org/apache/commons/lang3/StringUtils.java
+@@ -790,0 +791,3 @@ public static boolean equals(final CharSequence cs1, final CharSequence cs2) {
++        if (cs1.length() != cs2.length()) {
++            return false;
++        }
+@@ -794 +797 @@ public static boolean equals(final CharSequence cs1, final CharSequence cs2) {
+-        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
++        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, cs1.length());

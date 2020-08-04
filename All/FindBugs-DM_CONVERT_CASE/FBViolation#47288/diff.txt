@@ -1,0 +1,15 @@
+diff --git a/module-client/src/main/java/org/apache/http/cookie/CookieSpecRegistry.java b/module-client/src/main/java/org/apache/http/cookie/CookieSpecRegistry.java
+index bc5688223..4cdafe7e5 100644
+--- a/module-client/src/main/java/org/apache/http/cookie/CookieSpecRegistry.java
++++ b/module-client/src/main/java/org/apache/http/cookie/CookieSpecRegistry.java
+@@ -36,0 +37 @@ import java.util.List;
++import java.util.Locale;
+@@ -78 +79 @@ public final class CookieSpecRegistry {
+-        registeredSpecs.put(name.toLowerCase(), factory);
++        registeredSpecs.put(name.toLowerCase(Locale.ENGLISH), factory);
+@@ -90 +91 @@ public final class CookieSpecRegistry {
+-         registeredSpecs.remove(id.toLowerCase());
++         registeredSpecs.remove(id.toLowerCase(Locale.ENGLISH));
+@@ -110 +111 @@ public final class CookieSpecRegistry {
+-        CookieSpecFactory factory = registeredSpecs.get(name.toLowerCase());
++        CookieSpecFactory factory = registeredSpecs.get(name.toLowerCase(Locale.ENGLISH));

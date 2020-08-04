@@ -1,0 +1,1 @@
+Fix NPE in GuardedByBinder on non-existent methods ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=85002153

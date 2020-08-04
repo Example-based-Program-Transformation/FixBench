@@ -1,0 +1,8 @@
+diff --git a/server/src/main/java/io/druid/client/DirectDruidClient.java b/server/src/main/java/io/druid/client/DirectDruidClient.java
+index 5292628..8befef5 100644
+--- a/server/src/main/java/io/druid/client/DirectDruidClient.java
++++ b/server/src/main/java/io/druid/client/DirectDruidClient.java
+@@ -294,0 +295 @@ public class DirectDruidClient<T> implements QueryRunner<T>
++      if(jp != null) {
+@@ -298,0 +300 @@ public class DirectDruidClient<T> implements QueryRunner<T>
++}

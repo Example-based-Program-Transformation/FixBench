@@ -1,0 +1,17 @@
+diff --git a/core/src/main/java/org/truth0/subjects/MapSubject.java b/core/src/main/java/org/truth0/subjects/MapSubject.java
+index 3c2027f..c4548d7 100644
+--- a/core/src/main/java/org/truth0/subjects/MapSubject.java
++++ b/core/src/main/java/org/truth0/subjects/MapSubject.java
+@@ -18,0 +19 @@ package org.truth0.subjects;
++import java.util.Arrays;
+@@ -24 +24,0 @@ import com.google.common.annotations.GwtCompatible;
+-import com.google.common.collect.ImmutableList;
+@@ -64,4 +64,4 @@ public class MapSubject<S extends MapSubject<S, K, V, M>, K, V, M extends Map<K,
+-        if ((actual == null && key != null) ||
+-            !actual.equals(expected)) {
+-          fail("has key/value pair", ImmutableList.of(key, expected),
+-              "actually has key/value pair", ImmutableList.of(key, actual));
++        if ((actual == null && expected != null) ||
++            !(actual == expected || actual.equals(expected))) {
++          fail("has key/value pair", Arrays.asList(key, expected),
++              "actually has key/value pair", Arrays.asList(key, actual));

@@ -1,0 +1,1 @@
+#53 - fixing NullPointerException when no body is provided in the verify call

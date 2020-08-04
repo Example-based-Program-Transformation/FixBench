@@ -1,0 +1,8 @@
+Id:28488
+comSha:f8916a839c5a7bfe6d0de100a33cf23de33de6e4
+parentComSha:42e145bb0132735f9a635b093e88e7cd2d33878a
+BuggyFilePath:src/main/java/hudson/remoting/Engine.java
+FixedFilePath:src/main/java/hudson/remoting/Engine.java
+StartLineNum:293
+EndLineNum:293
+repoName:jenkinsci#remoting

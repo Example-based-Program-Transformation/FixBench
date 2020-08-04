@@ -1,0 +1,11 @@
+diff --git a/web/common/src/main/java/org/appfuse/webapp/jsp/EscapeXmlELResolverListener.java b/web/common/src/main/java/org/appfuse/webapp/jsp/EscapeXmlELResolverListener.java
+index 8940841..41b6af1 100644
+--- a/web/common/src/main/java/org/appfuse/webapp/jsp/EscapeXmlELResolverListener.java
++++ b/web/common/src/main/java/org/appfuse/webapp/jsp/EscapeXmlELResolverListener.java
+@@ -36,0 +37,6 @@ public class EscapeXmlELResolverListener implements ServletContextListener {
++        // APF-1379: Prevent NPE when using Tomcat Maven Plugin
++        try {
++            Class.forName("org.apache.jasper.compiler.JspRuntimeContext");
++        } catch (ClassNotFoundException cnfe) {
++            // ignore
++        }

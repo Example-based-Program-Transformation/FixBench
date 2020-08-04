@@ -1,0 +1,1 @@
+CORE-2266 DiffChangeLog: Invalid changelog when a primary key backing index is changed.

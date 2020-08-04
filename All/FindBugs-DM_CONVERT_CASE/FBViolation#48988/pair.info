@@ -1,0 +1,8 @@
+Id:48988
+comSha:ee7d6e9df391945a64c23210cd0fdc1a58fb7d95
+parentComSha:9ce956473be0ec029ee6738fb284659c17698518
+BuggyFilePath:src/test/java/com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheckTest.java
+FixedFilePath:src/test/java/com/puppycrawl/tools/checkstyle/checks/NewlineAtEndOfFileCheckTest.java
+StartLineNum:191
+EndLineNum:191
+repoName:checkstyle#checkstyle

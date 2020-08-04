@@ -1,0 +1,9 @@
+diff --git a/structr-core/src/main/java/org/structr/core/graph/CypherQueryCommand.java b/structr-core/src/main/java/org/structr/core/graph/CypherQueryCommand.java
+index 6428f5f..234e70d 100644
+--- a/structr-core/src/main/java/org/structr/core/graph/CypherQueryCommand.java
++++ b/structr-core/src/main/java/org/structr/core/graph/CypherQueryCommand.java
+@@ -94,0 +95,2 @@ public class CypherQueryCommand extends NodeServiceCommand {
++				if (obj != null) {
++					
+@@ -118,0 +121 @@ public class CypherQueryCommand extends NodeServiceCommand {
++		}

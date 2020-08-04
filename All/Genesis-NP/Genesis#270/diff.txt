@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/joda/time/DateTimeUtils.java b/src/main/java/org/joda/time/DateTimeUtils.java
+index 4059c54..391cafd 100644
+--- a/src/main/java/org/joda/time/DateTimeUtils.java
++++ b/src/main/java/org/joda/time/DateTimeUtils.java
+@@ -2 +2 @@
+- *  Copyright 2001-2012 Stephen Colebourne
++ *  Copyright 2001-2013 Stephen Colebourne
+@@ -373 +373 @@ public class DateTimeUtils {
+-                if (loopField.getRangeDurationField().getType() != lastType) {
++                if (loopField.getRangeDurationField() == null || loopField.getRangeDurationField().getType() != lastType) {

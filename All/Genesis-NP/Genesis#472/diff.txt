@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/redisson/cluster/ClusterConnectionManager.java b/src/main/java/org/redisson/cluster/ClusterConnectionManager.java
+index fcb518d..2a9eea7 100644
+--- a/src/main/java/org/redisson/cluster/ClusterConnectionManager.java
++++ b/src/main/java/org/redisson/cluster/ClusterConnectionManager.java
+@@ -96 +96 @@ public class ClusterConnectionManager extends MasterSlaveConnectionManager {
+-        if (!connection.isActive()) {
++        if (connection != null && !connection.isActive()) {

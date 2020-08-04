@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/io/FileType.java b/src/main/java/org/optimizationBenchmarking/utils/io/FileType.java
+index da8816f4..e031036e 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/io/FileType.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/io/FileType.java
+@@ -38 +38 @@ public class FileType implements IFileType, Serializable {
+-    this.m_suffix = ((s != null) ? s.toLowerCase() : s);
++    this.m_suffix = ((s != null) ? TextUtils.toLowerCase(s) : s);

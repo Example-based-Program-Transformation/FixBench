@@ -1,0 +1,10 @@
+diff --git a/src/main/java/de/knightsoftnet/validators/shared/util/PhoneNumberUtil.java b/src/main/java/de/knightsoftnet/validators/shared/util/PhoneNumberUtil.java
+index a838b6d..2833cdd 100644
+--- a/src/main/java/de/knightsoftnet/validators/shared/util/PhoneNumberUtil.java
++++ b/src/main/java/de/knightsoftnet/validators/shared/util/PhoneNumberUtil.java
+@@ -192 +192 @@ public class PhoneNumberUtil {
+-        if (phoneNumberWork.charAt(0) == '-') {
++        if (phoneNumberWork.startsWith("-")) {
+@@ -221 +221 @@ public class PhoneNumberUtil {
+-        if (StringUtils.isNotEmpty(phoneNumberWork) && phoneNumberWork.charAt(0) == '-') {
++        if (phoneNumberWork.startsWith("-")) {

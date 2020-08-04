@@ -1,0 +1,1 @@
+Avoid NPE as discussed in https://github.com/ktoso/maven-git-commit-id-plugin/issues/57

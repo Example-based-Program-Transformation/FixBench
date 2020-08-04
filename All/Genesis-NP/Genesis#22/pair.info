@@ -1,0 +1,7 @@
+Id:22
+SATName:Genesis
+modifiedFPath:src/main/java/com/zaxxer/hikari/pool/ProxyConnection.java
+comSha:ce4ff9255b67d6990e9f888bb290494a8e743c97
+parentComSha:ce4ff9255b67d6990e9f888bb290494a8e743c97^1
+githubUrl:https://github.com/brettwooldridge/HikariCP
+repoName:brettwooldridge#HikariCP

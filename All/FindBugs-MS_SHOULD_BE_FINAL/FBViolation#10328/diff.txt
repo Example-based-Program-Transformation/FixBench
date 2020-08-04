@@ -1,0 +1,16 @@
+diff --git a/src/net/slipcor/pvparena/core/StringParser.java b/src/net/slipcor/pvparena/core/StringParser.java
+index 93d4dcf3..40e52002 100644
+--- a/src/net/slipcor/pvparena/core/StringParser.java
++++ b/src/net/slipcor/pvparena/core/StringParser.java
+@@ -35 +35 @@ public final class StringParser {
+-    public static final Debug DEBUG = new Debug(17);
++    private static final Debug DEBUG = new Debug(17);
+@@ -40 +40 @@ public final class StringParser {
+-    public static Set<String> positive = new HashSet<String>(Arrays.asList(
++    public static final Set<String> positive = new HashSet<String>(Arrays.asList(
+@@ -42 +42 @@ public final class StringParser {
+-    public static Set<String> negative = new HashSet<String>(Arrays.asList(
++    public static final Set<String> negative = new HashSet<String>(Arrays.asList(
+@@ -587 +587 @@ public final class StringParser {
+-    public static String getWoolEnumFromChatColorEnum(final String color) {
++    private static String getWoolEnumFromChatColorEnum(final String color) {

@@ -1,0 +1,1 @@
+AIOOB in ChangeIdUtil.indexOfChangeId if amended message is a newline

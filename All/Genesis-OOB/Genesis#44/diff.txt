@@ -1,0 +1,7 @@
+diff --git a/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java b/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java
+index ac0df52..ead812e 100644
+--- a/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java
++++ b/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java
+@@ -206 +206 @@ public class ClientDetailsServiceBuilder<B extends ClientDetailsServiceBuilder<B
+-				String value = index > 0 ? null : pair.substring(index);
++				String value = index > 0 ? pair.substring(index) : null;

@@ -1,0 +1,13 @@
+diff --git a/geom/src/main/java/com/github/rinde/rinsim/geom/io/AbstractGraphIO.java b/geom/src/main/java/com/github/rinde/rinsim/geom/io/AbstractGraphIO.java
+index 12fb80c2..3e2a8191 100644
+--- a/geom/src/main/java/com/github/rinde/rinsim/geom/io/AbstractGraphIO.java
++++ b/geom/src/main/java/com/github/rinde/rinsim/geom/io/AbstractGraphIO.java
+@@ -45 +45 @@ public abstract class AbstractGraphIO<E extends ConnectionData> {
+-  abstract public Graph<E> read(Reader reader) throws IOException;
++  public abstract Graph<E> read(Reader reader) throws IOException;
+@@ -64 +64 @@ public abstract class AbstractGraphIO<E extends ConnectionData> {
+-    return readReader(new InputStreamReader(stream));
++    return readReader(new InputStreamReader(stream, Charsets.UTF_8));
+@@ -83 +83 @@ public abstract class AbstractGraphIO<E extends ConnectionData> {
+-  abstract public void write(Graph<E> graph, Writer writer)
++  public abstract void write(Graph<E> graph, Writer writer)

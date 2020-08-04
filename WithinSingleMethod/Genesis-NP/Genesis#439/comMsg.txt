@@ -1,0 +1,1 @@
+Fixed NPE when parsing a null JSON request body.

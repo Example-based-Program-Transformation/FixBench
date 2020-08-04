@@ -1,0 +1,7 @@
+diff --git a/src/main/java/net/greghaines/jesque/meta/dao/impl/KeysDAORedisImpl.java b/src/main/java/net/greghaines/jesque/meta/dao/impl/KeysDAORedisImpl.java
+index d070f57..1929d60 100644
+--- a/src/main/java/net/greghaines/jesque/meta/dao/impl/KeysDAORedisImpl.java
++++ b/src/main/java/net/greghaines/jesque/meta/dao/impl/KeysDAORedisImpl.java
+@@ -122 +122 @@ public class KeysDAORedisImpl implements KeysDAO {
+-                    if (keyValueStr.charAt(0) != '#') { // Ignore categories for now
++                    if (!keyValueStr.isEmpty() && keyValueStr.charAt(0) != '#') { // Ignore categories for now

@@ -1,0 +1,1 @@
+fixed: possible null pointer dereference

@@ -1,0 +1,12 @@
+diff --git a/src/main/java/ch/ralscha/extdirectspring/bean/ExtDirectResponseBuilder.java b/src/main/java/ch/ralscha/extdirectspring/bean/ExtDirectResponseBuilder.java
+index e56f8f65..d2e859d4 100644
+--- a/src/main/java/ch/ralscha/extdirectspring/bean/ExtDirectResponseBuilder.java
++++ b/src/main/java/ch/ralscha/extdirectspring/bean/ExtDirectResponseBuilder.java
+@@ -224 +224 @@ public class ExtDirectResponseBuilder {
+-				bos.write("<html><body><textarea>".getBytes());
++				bos.write("<html><body><textarea>".getBytes("UTF-8"));
+@@ -230,2 +230,2 @@ public class ExtDirectResponseBuilder {
+-				bos.write(responseJson.getBytes());
+-				bos.write("</textarea></body></html>".getBytes());
++				bos.write(responseJson.getBytes("UTF-8"));
++				bos.write("</textarea></body></html>".getBytes("UTF-8"));

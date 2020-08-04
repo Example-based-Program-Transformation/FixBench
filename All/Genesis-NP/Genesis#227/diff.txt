@@ -1,0 +1,9 @@
+diff --git a/src/org/jgroups/fork/ForkProtocolStack.java b/src/org/jgroups/fork/ForkProtocolStack.java
+index 5441507..5a34b71 100644
+--- a/src/org/jgroups/fork/ForkProtocolStack.java
++++ b/src/org/jgroups/fork/ForkProtocolStack.java
+@@ -51,0 +52,4 @@ public class ForkProtocolStack extends ProtocolStack {
++                if (fork_channel == null) {
++                    log.warn("fork-channel for id=%s not found; discarding message", hdr.getForkChannelId());
++                    return null;
++                }

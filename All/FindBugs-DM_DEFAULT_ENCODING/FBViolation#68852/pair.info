@@ -1,0 +1,8 @@
+Id:68852
+comSha:81a7fba08c37fd8032c747ada5d9a77340298647
+parentComSha:8e555ab17b231d93ab51713d6cb25510c0f92476
+BuggyFilePath:src/org/traccar/protocol/Gt06ProtocolEncoder.java
+FixedFilePath:src/org/traccar/protocol/Gt06ProtocolEncoder.java
+StartLineNum:39
+EndLineNum:39
+repoName:tananaev#traccar

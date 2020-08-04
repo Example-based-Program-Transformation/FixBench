@@ -1,0 +1,7 @@
+diff --git a/src/main/java/name/richardson/james/bukkit/banhammer/player/PlayerRecordMatcher.java b/src/main/java/name/richardson/james/bukkit/banhammer/player/PlayerRecordMatcher.java
+index 451d47c..6061197 100644
+--- a/src/main/java/name/richardson/james/bukkit/banhammer/player/PlayerRecordMatcher.java
++++ b/src/main/java/name/richardson/james/bukkit/banhammer/player/PlayerRecordMatcher.java
+@@ -31 +31 @@ public class PlayerRecordMatcher implements Suggester {
+-	public static int MINIMUM_ARGUMENT_LENGTH = 3;
++	private static final int MINIMUM_ARGUMENT_LENGTH = 3;

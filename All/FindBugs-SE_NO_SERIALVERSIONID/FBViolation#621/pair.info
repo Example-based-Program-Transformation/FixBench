@@ -1,0 +1,8 @@
+Id:621
+comSha:e5c63d9adfab435b733f151a669113289bd5538d
+parentComSha:6a9fc6ed502e8a8de44f16e8002be8d6cac9dee7
+BuggyFilePath:biojava3-structure/src/main/java/org/biojava/bio/structure/PDBCrystallographicInfo.java
+FixedFilePath:biojava3-structure/src/main/java/org/biojava/bio/structure/PDBCrystallographicInfo.java
+StartLineNum:14
+EndLineNum:126
+repoName:biojava#biojava

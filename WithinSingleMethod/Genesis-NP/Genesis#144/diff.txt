@@ -1,0 +1,7 @@
+diff --git a/structr-core/src/main/java/org/structr/schema/parser/CountPropertyParser.java b/structr-core/src/main/java/org/structr/schema/parser/CountPropertyParser.java
+index 547e6ea..0184dd1 100644
+--- a/structr-core/src/main/java/org/structr/schema/parser/CountPropertyParser.java
++++ b/structr-core/src/main/java/org/structr/schema/parser/CountPropertyParser.java
+@@ -69 +69 @@ public class CountPropertyParser extends PropertySourceGenerator {
+-		if (expression.isEmpty()) {
++		if (expression == null || expression.isEmpty()) {

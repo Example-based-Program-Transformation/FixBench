@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/zaxxer/hikari/HikariDataSource.java b/src/main/java/com/zaxxer/hikari/HikariDataSource.java
+index 3effaf1..a671769 100644
+--- a/src/main/java/com/zaxxer/hikari/HikariDataSource.java
++++ b/src/main/java/com/zaxxer/hikari/HikariDataSource.java
+@@ -249 +249 @@ public class HikariDataSource extends HikariConfig implements DataSource
+-            return password.hashCode();
++            return (password == null ? 0 : password.hashCode());

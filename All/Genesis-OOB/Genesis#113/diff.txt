@@ -1,0 +1,7 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/lib/Repository.java b/org.eclipse.jgit/src/org/eclipse/jgit/lib/Repository.java
+index b51a954..3a3e1c5 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/lib/Repository.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/lib/Repository.java
+@@ -600 +600 @@ private ObjectId resolveSimple(final String revstr) throws IOException {
+-		if (4 < revstr.length() && 0 <= dashg
++		if ((dashg + 4) < revstr.length() && 0 <= dashg

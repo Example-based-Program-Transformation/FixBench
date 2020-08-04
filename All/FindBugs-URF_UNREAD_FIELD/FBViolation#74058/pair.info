@@ -1,0 +1,8 @@
+Id:74058
+comSha:a572fbadadf69cf53d1254bcce9de1d7c3774f82
+parentComSha:e7c4bad8be3468569e2640aa58e53107061211f9
+BuggyFilePath:src/main/java/name/richardson/james/bukkit/banhammer/ban/HistoryCommand.java
+FixedFilePath:src/main/java/name/richardson/james/bukkit/banhammer/ban/HistoryCommand.java
+StartLineNum:63
+EndLineNum:63
+repoName:grandwazir#BanHammer

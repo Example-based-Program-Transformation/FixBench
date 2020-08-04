@@ -1,0 +1,11 @@
+diff --git a/vraptor-core/src/main/java/br/com/caelum/vraptor/validator/DIConstraintValidatorFactory.java b/vraptor-core/src/main/java/br/com/caelum/vraptor/validator/DIConstraintValidatorFactory.java
+index 168ea22..8ab04f8 100644
+--- a/vraptor-core/src/main/java/br/com/caelum/vraptor/validator/DIConstraintValidatorFactory.java
++++ b/vraptor-core/src/main/java/br/com/caelum/vraptor/validator/DIConstraintValidatorFactory.java
+@@ -11 +11 @@ import br.com.caelum.vraptor.ioc.Container;
+-import br.com.caelum.vraptor.proxy.InstanceCreator;
++import br.com.caelum.vraptor.proxy.ReflectionInstanceCreator;
+@@ -36 +36,2 @@ public class DIConstraintValidatorFactory
+-	return container.instanceFor(InstanceCreator.class).instanceFor(key);
++		// GH583 - we need to use reflection to instantiate constraints
++		return container.instanceFor(ReflectionInstanceCreator.class).instanceFor(key);

@@ -1,0 +1,8 @@
+diff --git a/structr-ui/src/main/java/org/structr/web/resource/RegistrationResource.java b/structr-ui/src/main/java/org/structr/web/resource/RegistrationResource.java
+index 7634fea..9077bdb 100644
+--- a/structr-ui/src/main/java/org/structr/web/resource/RegistrationResource.java
++++ b/structr-ui/src/main/java/org/structr/web/resource/RegistrationResource.java
+@@ -290 +290,2 @@ public class RegistrationResource extends Resource {
+-				return templates.get(0).getProperty(MailTemplate.text).getProperty(Content.content);
++				Content content = templates.get(0).getProperty(MailTemplate.text);
++				return content != null ? content.getProperty(Content.content) : defaultValue;

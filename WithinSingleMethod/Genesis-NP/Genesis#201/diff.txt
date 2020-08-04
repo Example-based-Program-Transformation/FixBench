@@ -1,0 +1,10 @@
+diff --git a/api/src/main/java/org/asynchttpclient/oauth/ThreadSafeHMAC.java b/api/src/main/java/org/asynchttpclient/oauth/ThreadSafeHMAC.java
+old mode 100644
+new mode 100755
+index c699dd7..6b4defc
+--- a/api/src/main/java/org/asynchttpclient/oauth/ThreadSafeHMAC.java
++++ b/api/src/main/java/org/asynchttpclient/oauth/ThreadSafeHMAC.java
+@@ -46,0 +47 @@ public class ThreadSafeHMAC {
++        if(userAuth != null && userAuth.getSecret() != null) {
+@@ -47,0 +49 @@ public class ThreadSafeHMAC {
++        }

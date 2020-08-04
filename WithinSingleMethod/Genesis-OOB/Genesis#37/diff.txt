@@ -1,0 +1,7 @@
+diff --git a/flying-saucer-core/src/main/java/org/xhtmlrenderer/layout/InlineBoxing.java b/flying-saucer-core/src/main/java/org/xhtmlrenderer/layout/InlineBoxing.java
+index 1e880d7..aee4512 100644
+--- a/flying-saucer-core/src/main/java/org/xhtmlrenderer/layout/InlineBoxing.java
++++ b/flying-saucer-core/src/main/java/org/xhtmlrenderer/layout/InlineBoxing.java
+@@ -887,0 +888,2 @@ public class InlineBoxing {
++                        && (lbContext.getStart() - 1 >= 0)
++                        && (lbContext.getMaster().length() > lbContext.getStart() - 1)

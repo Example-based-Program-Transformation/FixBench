@@ -1,0 +1,7 @@
+Id:288
+SATName:Genesis
+modifiedFPath:liquibase-core/src/main/java/liquibase/diff/core/StandardDiffGenerator.java
+comSha:2482aeed7e90e024c8f72a3254ef864401f8ba88
+parentComSha:2482aeed7e90e024c8f72a3254ef864401f8ba88^1
+githubUrl:https://github.com/liquibase/liquibase
+repoName:liquibase#liquibase

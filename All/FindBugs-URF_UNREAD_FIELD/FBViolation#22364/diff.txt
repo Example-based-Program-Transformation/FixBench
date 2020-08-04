@@ -1,0 +1,16 @@
+diff --git a/src/net/sourceforge/plantuml/sequencediagram/graphic/ParticipantBox.java b/src/net/sourceforge/plantuml/sequencediagram/graphic/ParticipantBox.java
+index a67d7649..fa44f29c 100644
+--- a/src/net/sourceforge/plantuml/sequencediagram/graphic/ParticipantBox.java
++++ b/src/net/sourceforge/plantuml/sequencediagram/graphic/ParticipantBox.java
+@@ -31 +31 @@
+- * Revision $Revision: 10079 $
++ * Revision $Revision: 11134 $
+@@ -62 +62 @@ public class ParticipantBox implements Pushable {
+-	private final boolean shadowing;
++
+@@ -65,2 +65 @@ public class ParticipantBox implements Pushable {
+-	public ParticipantBox(Component head, Component line, Component tail, Component delayLine, double startingX,
+-			boolean shadowing) {
++	public ParticipantBox(Component head, Component line, Component tail, Component delayLine, double startingX) {
+@@ -72 +70,0 @@ public class ParticipantBox implements Pushable {
+-		this.shadowing = shadowing;

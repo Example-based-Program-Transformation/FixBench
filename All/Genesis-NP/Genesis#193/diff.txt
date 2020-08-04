@@ -1,0 +1,8 @@
+diff --git a/metrics-core/src/main/java/com/codahale/metrics/MetricRegistry.java b/metrics-core/src/main/java/com/codahale/metrics/MetricRegistry.java
+index ad5b844..1892492 100644
+--- a/metrics-core/src/main/java/com/codahale/metrics/MetricRegistry.java
++++ b/metrics-core/src/main/java/com/codahale/metrics/MetricRegistry.java
+@@ -21,0 +22 @@ public class MetricRegistry implements MetricSet {
++        if (names != null) {
+@@ -24,0 +26 @@ public class MetricRegistry implements MetricSet {
++        }

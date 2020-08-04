@@ -1,0 +1,7 @@
+Id:325
+SATName:Genesis
+modifiedFPath:processing/src/main/java/io/druid/query/topn/TopNLexicographicResultBuilder.java
+comSha:a26134575bea28cf4656e3c277984e7da307c500
+parentComSha:a26134575bea28cf4656e3c277984e7da307c500^1
+githubUrl:https://github.com/druid-io/druid
+repoName:druid-io#druid

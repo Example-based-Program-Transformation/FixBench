@@ -1,0 +1,10 @@
+diff --git a/module-client/src/main/java/org/apache/http/conn/scheme/Scheme.java b/module-client/src/main/java/org/apache/http/conn/scheme/Scheme.java
+index ee854b768..f352fa4f6 100644
+--- a/module-client/src/main/java/org/apache/http/conn/scheme/Scheme.java
++++ b/module-client/src/main/java/org/apache/http/conn/scheme/Scheme.java
+@@ -32,0 +33,2 @@ package org.apache.http.conn.scheme;
++import java.util.Locale;
++
+@@ -102 +104 @@ public final class Scheme {
+-        this.name = name.toLowerCase();
++        this.name = name.toLowerCase(Locale.ENGLISH);

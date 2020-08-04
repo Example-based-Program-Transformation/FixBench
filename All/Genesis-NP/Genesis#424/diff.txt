@@ -1,0 +1,7 @@
+diff --git a/modules/swagger-models/src/main/java/io/swagger/models/properties/ArrayProperty.java b/modules/swagger-models/src/main/java/io/swagger/models/properties/ArrayProperty.java
+index 71f125f..e341bdc 100644
+--- a/modules/swagger-models/src/main/java/io/swagger/models/properties/ArrayProperty.java
++++ b/modules/swagger-models/src/main/java/io/swagger/models/properties/ArrayProperty.java
+@@ -56 +56 @@ public class ArrayProperty extends AbstractProperty implements Property {
+-        this.uniqueItems = uniqueItems ? true : null;
++        this.uniqueItems = Boolean.TRUE.equals(uniqueItems) ? true : null;

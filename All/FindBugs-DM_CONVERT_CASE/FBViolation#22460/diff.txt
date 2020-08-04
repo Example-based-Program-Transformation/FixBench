@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/command/note/FactoryNoteActivityCommand.java b/src/net/sourceforge/plantuml/command/note/FactoryNoteActivityCommand.java
+index 4cbc403b..5f593fc4 100644
+--- a/src/net/sourceforge/plantuml/command/note/FactoryNoteActivityCommand.java
++++ b/src/net/sourceforge/plantuml/command/note/FactoryNoteActivityCommand.java
+@@ -138 +138 @@ public final class FactoryNoteActivityCommand implements SingleMultiFactoryComma
+-		final Position position = Position.valueOf(arg.get("POSITION", 0).toUpperCase()).withRankdir(
++		final Position position = Position.valueOf(StringUtils.goUpperCase(arg.get("POSITION", 0))).withRankdir(

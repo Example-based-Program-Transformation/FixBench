@@ -1,0 +1,1 @@
+null-check in order to prevent exceptions upon removing oneself from a group

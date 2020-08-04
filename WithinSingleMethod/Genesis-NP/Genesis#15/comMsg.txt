@@ -1,0 +1,1 @@
+Treat CloneCommand.setRemote(null) as setRemote("origin")

@@ -1,0 +1,7 @@
+Id:386
+SATName:Genesis
+modifiedFPath:spring-security-oauth/src/main/java/org/springframework/security/oauth/config/ConsumerServiceBeanDefinitionParser.java
+comSha:cf7ae262b843c7fc371290d1a2c8815ee89125c0
+parentComSha:cf7ae262b843c7fc371290d1a2c8815ee89125c0^1
+githubUrl:https://github.com/spring-projects/spring-security-oauth
+repoName:spring-projects#spring-security-oauth

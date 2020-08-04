@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/HdrHistogram/AbstractHistogram.java b/src/main/java/org/HdrHistogram/AbstractHistogram.java
+index 26a17e0..2d85c12 100644
+--- a/src/main/java/org/HdrHistogram/AbstractHistogram.java
++++ b/src/main/java/org/HdrHistogram/AbstractHistogram.java
+@@ -1698,2 +1698,3 @@ public abstract class AbstractHistogram extends AbstractHistogramBase implements
+-        if (intermediateUncompressedByteBuffer == null) {
+-            intermediateUncompressedByteBuffer = ByteBuffer.allocate(getNeededByteBufferCapacity(countsArrayLength));
++        int neededCapacity = getNeededByteBufferCapacity(countsArrayLength);
++        if (intermediateUncompressedByteBuffer == null || intermediateUncompressedByteBuffer.capacity() < neededCapacity) {
++            intermediateUncompressedByteBuffer = ByteBuffer.allocate(neededCapacity);

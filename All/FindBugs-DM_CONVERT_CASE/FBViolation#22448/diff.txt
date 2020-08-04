@@ -1,0 +1,15 @@
+diff --git a/src/net/sourceforge/plantuml/classdiagram/command/CommandImport.java b/src/net/sourceforge/plantuml/classdiagram/command/CommandImport.java
+index 6f01acc5..2a830bb0 100644
+--- a/src/net/sourceforge/plantuml/classdiagram/command/CommandImport.java
++++ b/src/net/sourceforge/plantuml/classdiagram/command/CommandImport.java
+@@ -31 +31 @@
+- * Revision $Revision: 14056 $
++ * Revision $Revision: 14727 $
+@@ -40,0 +41 @@ import net.sourceforge.plantuml.FileSystem;
++import net.sourceforge.plantuml.StringUtils;
+@@ -82 +83 @@ public class CommandImport extends SingleLineCommand<ClassDiagram> {
+-		if (f.getName().toLowerCase().endsWith(".java")) {
++		if (StringUtils.goLowerCase(f.getName()).endsWith(".java")) {
+@@ -85 +86 @@ public class CommandImport extends SingleLineCommand<ClassDiagram> {
+-		// if (f.getName().toLowerCase().endsWith(".sql")) {
++		// if (f.getName().goLowerCase().endsWith(".sql")) {

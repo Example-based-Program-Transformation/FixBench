@@ -1,0 +1,1 @@
+Avoid NPE when underlying result point is null, for some reason

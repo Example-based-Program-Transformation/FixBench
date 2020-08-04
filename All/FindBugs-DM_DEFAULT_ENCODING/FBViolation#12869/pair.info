@@ -1,0 +1,8 @@
+Id:12869
+comSha:26306a7187d480d81642908dc07e0a31f5ba5c44
+parentComSha:c497c4564723fe8cfb5a8063d304260c60a0b0a1
+BuggyFilePath:src/main/java/org/docx4j/convert/out/pdf/viaXSLFO/Conversion.java
+FixedFilePath:src/main/java/org/docx4j/convert/out/pdf/viaXSLFO/Conversion.java
+StartLineNum:263
+EndLineNum:263
+repoName:plutext#docx4j

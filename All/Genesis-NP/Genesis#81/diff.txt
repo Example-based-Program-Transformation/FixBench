@@ -1,0 +1,10 @@
+diff --git a/addon-dbre/src/main/java/org/springframework/roo/addon/dbre/DbreMetadata.java b/addon-dbre/src/main/java/org/springframework/roo/addon/dbre/DbreMetadata.java
+index 3441004..cd929d1 100644
+--- a/addon-dbre/src/main/java/org/springframework/roo/addon/dbre/DbreMetadata.java
++++ b/addon-dbre/src/main/java/org/springframework/roo/addon/dbre/DbreMetadata.java
+@@ -459,0 +460,5 @@ public class DbreMetadata extends AbstractItdTypeDetailsProvidingMetadataItem {
++            Validate.notNull(
++                    importedKeyForeignTable,
++                    "Foreign key table for foreign key '%s' in table '%s' does not exist. One-to-one relationship not created",
++                    foreignKey.getName(), table.getFullyQualifiedTableName());
++

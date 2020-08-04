@@ -1,0 +1,7 @@
+Id:157
+SATName:Genesis
+modifiedFPath:src/main/java/com/corundumstudio/socketio/protocol/PacketDecoder.java
+comSha:8d63b89
+parentComSha:8d63b89^1
+githubUrl:https://github.com/mrniko/netty-socketio
+repoName:mrniko#netty-socketio

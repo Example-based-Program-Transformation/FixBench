@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java b/src/main/java/com/salesforce/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java
+index 45b2f15a..25f302b7 100644
+--- a/src/main/java/com/salesforce/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java
++++ b/src/main/java/com/salesforce/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java
+@@ -94 +94 @@ public class TrackingParallelWriterIndexCommitter implements IndexCommitter {
+-  public static String NUM_CONCURRENT_INDEX_WRITER_THREADS_CONF_KEY = "index.trackingwriter.threads.max";
++  public static final String NUM_CONCURRENT_INDEX_WRITER_THREADS_CONF_KEY = "index.trackingwriter.threads.max";

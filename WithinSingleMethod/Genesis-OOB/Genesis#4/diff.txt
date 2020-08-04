@@ -1,0 +1,7 @@
+diff --git a/marytts-signalproc/src/main/java/marytts/util/math/MathUtils.java b/marytts-signalproc/src/main/java/marytts/util/math/MathUtils.java
+index 5e47a35..ed83d2a 100644
+--- a/marytts-signalproc/src/main/java/marytts/util/math/MathUtils.java
++++ b/marytts-signalproc/src/main/java/marytts/util/math/MathUtils.java
+@@ -5003 +5003 @@ public class MathUtils {
+-                    for ( int j=i; j < contour.length; j++ ) {
++                    for ( int j=(i == 0 ? 1 : i); j < contour.length; j++ ) {

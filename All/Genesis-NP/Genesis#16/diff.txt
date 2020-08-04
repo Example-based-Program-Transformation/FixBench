@@ -1,0 +1,8 @@
+diff --git a/org.eclipse.jgit/src/org/eclipse/jgit/treewalk/filter/IndexDiffFilter.java b/org.eclipse.jgit/src/org/eclipse/jgit/treewalk/filter/IndexDiffFilter.java
+index 3ef3d97..42725bc 100644
+--- a/org.eclipse.jgit/src/org/eclipse/jgit/treewalk/filter/IndexDiffFilter.java
++++ b/org.eclipse.jgit/src/org/eclipse/jgit/treewalk/filter/IndexDiffFilter.java
+@@ -227 +227,2 @@ public boolean include(TreeWalk tw) throws MissingObjectException,
+-		return wi.isModified(di.getDirCacheEntry(), true, tw.getObjectReader());
++		return wi.isModified(di == null ? null : di.getDirCacheEntry(), true,
++				tw.getObjectReader());

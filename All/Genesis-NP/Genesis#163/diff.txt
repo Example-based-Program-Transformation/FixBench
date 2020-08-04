@@ -1,0 +1,9 @@
+diff --git a/structr-ui/src/main/java/org/structr/websocket/command/CreateCommand.java b/structr-ui/src/main/java/org/structr/websocket/command/CreateCommand.java
+index 4b95ad4..0681558 100644
+--- a/structr-ui/src/main/java/org/structr/websocket/command/CreateCommand.java
++++ b/structr-ui/src/main/java/org/structr/websocket/command/CreateCommand.java
+@@ -38,0 +39 @@ import org.structr.schema.SchemaHelper;
++import org.structr.web.entity.FileBase;
+@@ -74 +75 @@ public class CreateCommand extends AbstractCommand {
+-			if (newNode instanceof File) {
++			if (newNode instanceof FileBase) {

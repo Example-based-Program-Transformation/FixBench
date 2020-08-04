@@ -1,0 +1,7 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/event/AbstractEventHandler.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/event/AbstractEventHandler.java
+index b92df51..64d93fe 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/event/AbstractEventHandler.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/event/AbstractEventHandler.java
+@@ -44 +44 @@ public abstract class AbstractEventHandler implements EventHandler {
+-    if (!execution.getActivity().equals(activity)) {
++    if (!activity.equals( execution.getActivity() )) {

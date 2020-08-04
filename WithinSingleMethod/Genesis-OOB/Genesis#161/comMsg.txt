@@ -1,0 +1,1 @@
+fix IndexOutOfBoundsException on _all field without tokens and keyword analyzer

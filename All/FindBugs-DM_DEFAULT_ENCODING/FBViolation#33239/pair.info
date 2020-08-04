@@ -1,0 +1,8 @@
+Id:33239
+comSha:dfb2e9ab5908a3f7db9ace89de814122dce951d2
+parentComSha:db244ab9c9abd3d338ecd38cd89466f5476fab0c
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterReducer.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterReducer.java
+StartLineNum:163
+EndLineNum:163
+repoName:GenomicParisCentre#eoulsan

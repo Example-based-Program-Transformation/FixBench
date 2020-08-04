@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/laytonsmith/core/functions/Sandbox.java b/src/main/java/com/laytonsmith/core/functions/Sandbox.java
+index 2c198db55..3bccc56d8 100644
+--- a/src/main/java/com/laytonsmith/core/functions/Sandbox.java
++++ b/src/main/java/com/laytonsmith/core/functions/Sandbox.java
+@@ -252 +252 @@ public class Sandbox {
+-                MCEnchantment e = StaticLayer.GetEnchantmentByName(Enchantments.ConvertName(enchantArray.get(key, t).val()).toUpperCase());
++                MCEnchantment e = StaticLayer.GetEnchantmentByName(Enchantments.ConvertName(enchantArray.get(key, t).val()));

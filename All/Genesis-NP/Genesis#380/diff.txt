@@ -1,0 +1,16 @@
+diff --git a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereRequest.java b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereRequest.java
+index 5b41cde..972c239 100644
+--- a/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereRequest.java
++++ b/modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereRequest.java
+@@ -1682,0 +1683,8 @@ public class AtmosphereRequest extends HttpServletRequestWrapper {
++        HttpSession session = null;
++        if (copySession) {
++            session = request.getSession(true);
++            if (session != null) {
++                session = new FakeHttpSession(session);
++            }
++        }
++
+@@ -1696 +1704 @@ public class AtmosphereRequest extends HttpServletRequestWrapper {
+-                .session(copySession ? new FakeHttpSession(request.getSession(true)) : null)
++                .session(session)

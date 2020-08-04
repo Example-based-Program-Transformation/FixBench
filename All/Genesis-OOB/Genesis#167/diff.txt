@@ -1,0 +1,7 @@
+diff --git a/src/org/jruby/util/ByteList.java b/src/org/jruby/util/ByteList.java
+index 88f680e..1277a48 100644
+--- a/src/org/jruby/util/ByteList.java
++++ b/src/org/jruby/util/ByteList.java
+@@ -891 +891 @@ public final class ByteList implements Comparable, CharSequence, Serializable {
+-        if (realSize == 0 || this.bytes().length < other.bytes().length) return false;
++        if (realSize == 0 || this.realSize < other.realSize + toffset) return false;

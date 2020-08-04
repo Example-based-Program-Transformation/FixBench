@@ -1,0 +1,13 @@
+diff --git a/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/SequenceMouseListener.java b/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/SequenceMouseListener.java
+index 2a489eade..f4dcc6ce7 100644
+--- a/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/SequenceMouseListener.java
++++ b/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/SequenceMouseListener.java
+@@ -31 +31 @@ import java.util.List;
+-import java.util.logging.Logger;
++
+@@ -34,0 +35,2 @@ import org.biojava.bio.structure.gui.SequenceDisplay;
++//import org.slf4j.Logger;
++//import org.slf4j.LoggerFactory;
+@@ -63 +65 @@ MouseMotionListener
+-	static Logger logger = Logger.getLogger("org.biojava");
++	//private static final Logger logger = LoggerFactory.getLogger(SequenceMouseListener.class);

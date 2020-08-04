@@ -1,0 +1,12 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/utils/math/statistics/ranking/RankingStrategy.java b/src/main/java/org/optimizationBenchmarking/utils/math/statistics/ranking/RankingStrategy.java
+index 8b736c17..43e7ba41 100644
+--- a/src/main/java/org/optimizationBenchmarking/utils/math/statistics/ranking/RankingStrategy.java
++++ b/src/main/java/org/optimizationBenchmarking/utils/math/statistics/ranking/RankingStrategy.java
+@@ -8,0 +9 @@ import org.optimizationBenchmarking.utils.text.ETextCase;
++import org.optimizationBenchmarking.utils.text.TextUtils;
+@@ -214 +215 @@ public final class RankingStrategy implements ISemanticComponent {
+-      mto.append(this.m_nan.name().toLowerCase());
++      mto.append(TextUtils.toLowerCase(this.m_nan.name()));
+@@ -218 +219 @@ public final class RankingStrategy implements ISemanticComponent {
+-      mto.append(this.m_ties.name().toLowerCase());
++      mto.append(TextUtils.toLowerCase(this.m_ties.name()));

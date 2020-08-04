@@ -1,0 +1,17 @@
+diff --git a/src/org/jgroups/protocols/JDBC_PING.java b/src/org/jgroups/protocols/JDBC_PING.java
+index da28eaf..f6b879f 100644
+--- a/src/org/jgroups/protocols/JDBC_PING.java
++++ b/src/org/jgroups/protocols/JDBC_PING.java
+@@ -208 +207,0 @@ public class JDBC_PING extends Discovery {
+-                PingData data =null;
+@@ -210,2 +209,2 @@ public class JDBC_PING extends Discovery {
+-                    data=deserialize(bytes);
+-                    if(members != null && !members.contains(data.getAddress()))
++                    PingData data=deserialize(bytes);
++                    if(data == null || (members != null && !members.contains(data.getAddress())))
+@@ -213,0 +213,2 @@ public class JDBC_PING extends Discovery {
++                    if(local_addr != null && !local_addr.equals(data.getAddress()))
++                        addDiscoveryResponseToCaches(data.getAddress(), data.getLogicalName(), data.getPhysicalAddr());
+@@ -225,2 +225,0 @@ public class JDBC_PING extends Discovery {
+-                if(local_addr != null && !local_addr.equals(data.getAddress()))
+-                    addDiscoveryResponseToCaches(data.getAddress(), data.getLogicalName(), data.getPhysicalAddr());

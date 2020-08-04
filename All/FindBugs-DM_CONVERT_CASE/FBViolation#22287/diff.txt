@@ -1,0 +1,13 @@
+diff --git a/src/net/sourceforge/plantuml/cucadiagram/LeafType.java b/src/net/sourceforge/plantuml/cucadiagram/LeafType.java
+index d756c8be..b7a03f4d 100644
+--- a/src/net/sourceforge/plantuml/cucadiagram/LeafType.java
++++ b/src/net/sourceforge/plantuml/cucadiagram/LeafType.java
+@@ -31 +31 @@
+- * Revision $Revision: 14321 $
++ * Revision $Revision: 14727 $
+@@ -59 +59 @@ public enum LeafType {
+-		arg0 = arg0.toUpperCase();
++		arg0 = StringUtils.goUpperCase(arg0);
+@@ -72 +72 @@ public enum LeafType {
+-		final String html = toString().replace('_', ' ').toLowerCase();
++		final String html = StringUtils.goLowerCase(toString().replace('_', ' '));

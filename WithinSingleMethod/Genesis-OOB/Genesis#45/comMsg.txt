@@ -1,0 +1,1 @@
+fixed javascript error handling in script manager (index out of bounds in a corner case)

@@ -1,0 +1,7 @@
+diff --git a/httpcore/src/main/java/org/apache/http/impl/io/AbstractSessionInputBuffer.java b/httpcore/src/main/java/org/apache/http/impl/io/AbstractSessionInputBuffer.java
+index fe4d633..b160164 100644
+--- a/httpcore/src/main/java/org/apache/http/impl/io/AbstractSessionInputBuffer.java
++++ b/httpcore/src/main/java/org/apache/http/impl/io/AbstractSessionInputBuffer.java
+@@ -340 +340 @@ private int lineFromReadBuffer(final CharArrayBuffer charbuffer, int pos)
+-        if (pos > 0 && this.buffer[pos - 1] == HTTP.CR) {
++        if (pos > off && this.buffer[pos - 1] == HTTP.CR) {

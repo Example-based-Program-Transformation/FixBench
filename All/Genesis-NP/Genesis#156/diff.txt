@@ -1,0 +1,9 @@
+diff --git a/structr-rest/src/main/java/org/structr/rest/servlet/JsonRestServlet.java b/structr-rest/src/main/java/org/structr/rest/servlet/JsonRestServlet.java
+index 2ff9a4b..f79e73d 100644
+--- a/structr-rest/src/main/java/org/structr/rest/servlet/JsonRestServlet.java
++++ b/structr-rest/src/main/java/org/structr/rest/servlet/JsonRestServlet.java
+@@ -466,0 +467,2 @@ public class JsonRestServlet extends HttpServlet implements HttpServiceServlet {
++						if (result != null) {
++
+@@ -484,0 +487 @@ public class JsonRestServlet extends HttpServlet implements HttpServiceServlet {
++						}

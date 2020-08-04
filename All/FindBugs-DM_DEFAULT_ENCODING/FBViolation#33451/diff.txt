@@ -1,0 +1,14 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java b/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java
+index a0f0d725..a93acdde 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/steps/mapping/hadoop/SAMFilterMapper.java
+@@ -27,0 +28 @@ import static com.google.common.collect.Lists.newArrayList;
++import static fr.ens.transcriptome.eoulsan.bio.io.BioCharsets.SAM_CHARSET;
+@@ -44,0 +46 @@ import com.google.common.collect.Lists;
++import fr.ens.transcriptome.eoulsan.EoulsanLogger;
+@@ -59 +61 @@ public class SAMFilterMapper extends Mapper<LongWritable, Text, Text, Text> {
+-  private static final Logger LOGGER = Logger.getLogger(Globals.APP_NAME);
++  private static final Logger LOGGER = EoulsanLogger.getLogger();
+@@ -191 +193 @@ public class SAMFilterMapper extends Mapper<LongWritable, Text, Text, Text> {
+-                context.getConfiguration()));
++                context.getConfiguration()), SAM_CHARSET);

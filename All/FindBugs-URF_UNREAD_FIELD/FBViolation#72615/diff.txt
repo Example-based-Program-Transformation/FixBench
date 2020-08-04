@@ -1,0 +1,10 @@
+diff --git a/src/main/java/com/publicuhc/commands/routing/DefaultRouter.java b/src/main/java/com/publicuhc/commands/routing/DefaultRouter.java
+index 34f9ce3..1dad673 100644
+--- a/src/main/java/com/publicuhc/commands/routing/DefaultRouter.java
++++ b/src/main/java/com/publicuhc/commands/routing/DefaultRouter.java
+@@ -29,5 +28,0 @@ public class DefaultRouter implements Router {
+-    /**
+-     * Store the instances of the classes to use
+-     */
+-    private final MutableClassToInstanceMap m_instances = MutableClassToInstanceMap.create();
+-

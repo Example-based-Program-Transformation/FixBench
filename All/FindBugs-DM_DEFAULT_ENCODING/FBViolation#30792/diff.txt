@@ -1,0 +1,7 @@
+diff --git a/splitlog-core/src/main/java/com/github/triceo/splitlog/AbstractLogTailer.java b/splitlog-core/src/main/java/com/github/triceo/splitlog/AbstractLogTailer.java
+index f72cc409..4a583418 100644
+--- a/splitlog-core/src/main/java/com/github/triceo/splitlog/AbstractLogTailer.java
++++ b/splitlog-core/src/main/java/com/github/triceo/splitlog/AbstractLogTailer.java
+@@ -85 +85 @@ abstract class AbstractLogTailer {
+-            w = new BufferedWriter(new OutputStreamWriter(stream));
++            w = new BufferedWriter(new OutputStreamWriter(stream, "UTF-8"));

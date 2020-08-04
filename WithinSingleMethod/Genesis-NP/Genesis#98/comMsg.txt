@@ -1,0 +1,1 @@
+Fix NullPointerException in case package-info.java #326

@@ -1,0 +1,8 @@
+diff --git a/logback-classic/src/main/java/ch/qos/logback/classic/util/JNDIUtil.java b/logback-classic/src/main/java/ch/qos/logback/classic/util/JNDIUtil.java
+index fe7f4b1..75acc3c 100644
+--- a/logback-classic/src/main/java/ch/qos/logback/classic/util/JNDIUtil.java
++++ b/logback-classic/src/main/java/ch/qos/logback/classic/util/JNDIUtil.java
+@@ -38 +38,2 @@ public class JNDIUtil {
+-      return ctx.lookup(name).toString();
++      Object lookup = ctx.lookup(name);
++      return lookup == null ? null : lookup.toString();

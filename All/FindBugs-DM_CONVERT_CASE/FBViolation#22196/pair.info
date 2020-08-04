@@ -1,0 +1,8 @@
+Id:22196
+comSha:cf7a6c66b867dda475c76bd33d3d9937647f4fea
+parentComSha:a1f043c88f08b5625dee3a455ce28ab00a96f912
+BuggyFilePath:src/net/sourceforge/plantuml/cute/CuteShapeFactory.java
+FixedFilePath:src/net/sourceforge/plantuml/cute/CuteShapeFactory.java
+StartLineNum:53
+EndLineNum:53
+repoName:jensnerche#plantuml

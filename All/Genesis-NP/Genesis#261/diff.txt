@@ -1,0 +1,10 @@
+diff --git a/src/main/java/com/salesforce/phoenix/util/ServerUtil.java b/src/main/java/com/salesforce/phoenix/util/ServerUtil.java
+index 0b7d2cd..05b2bd8 100644
+--- a/src/main/java/com/salesforce/phoenix/util/ServerUtil.java
++++ b/src/main/java/com/salesforce/phoenix/util/ServerUtil.java
+@@ -109,0 +110,5 @@ public class ServerUtil {
++    	String message = t.getLocalizedMessage();
++    	if (message == null) {
++    		return new PhoenixIOException(t);
++		}
++    	

@@ -1,0 +1,8 @@
+diff --git a/modules/swagger-core/src/main/java/com/wordnik/swagger/core/filter/SpecFilter.java b/modules/swagger-core/src/main/java/com/wordnik/swagger/core/filter/SpecFilter.java
+index 037321b..0935b0d 100644
+--- a/modules/swagger-core/src/main/java/com/wordnik/swagger/core/filter/SpecFilter.java
++++ b/modules/swagger-core/src/main/java/com/wordnik/swagger/core/filter/SpecFilter.java
+@@ -55,0 +56,3 @@ public class SpecFilter {
++    if (definitions == null) {
++      return null;
++    }

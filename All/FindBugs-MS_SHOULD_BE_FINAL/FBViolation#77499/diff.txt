@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/graphhopper/routing/util/FastestCalc.java b/src/main/java/com/graphhopper/routing/util/FastestCalc.java
+index ce1e67cc6..9fe46189c 100644
+--- a/src/main/java/com/graphhopper/routing/util/FastestCalc.java
++++ b/src/main/java/com/graphhopper/routing/util/FastestCalc.java
+@@ -25 +25 @@ public class FastestCalc implements WeightCalculation {
+-    public static FastestCalc DEFAULT = new FastestCalc();
++    public final static FastestCalc DEFAULT = new FastestCalc();

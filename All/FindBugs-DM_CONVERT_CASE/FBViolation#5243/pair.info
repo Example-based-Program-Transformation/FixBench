@@ -1,0 +1,8 @@
+Id:5243
+comSha:0c35772c49974aa16da5d6c7f012c01236f009d9
+parentComSha:7fa5fc401efad5d78b011241ff420f37dbf44366
+BuggyFilePath:src/main/java/nodebox/client/NodeBoxDocument.java
+FixedFilePath:src/main/java/nodebox/client/NodeBoxDocument.java
+StartLineNum:1522
+EndLineNum:1522
+repoName:nodebox#nodebox

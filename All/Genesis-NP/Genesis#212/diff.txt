@@ -1,0 +1,7 @@
+diff --git a/metamorphosis-client/src/main/java/com/taobao/metamorphosis/client/RemotingClientWrapper.java b/metamorphosis-client/src/main/java/com/taobao/metamorphosis/client/RemotingClientWrapper.java
+index 32fc0fb..09f9a27 100644
+--- a/metamorphosis-client/src/main/java/com/taobao/metamorphosis/client/RemotingClientWrapper.java
++++ b/metamorphosis-client/src/main/java/com/taobao/metamorphosis/client/RemotingClientWrapper.java
+@@ -220 +220 @@ public class RemotingClientWrapper implements RemotingClient {
+-                this.connectWithRef(group, null);
++                this.connectWithRef(group, this);

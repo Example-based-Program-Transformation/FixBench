@@ -1,0 +1,1 @@
+Fixes NPE when content-type header is missing

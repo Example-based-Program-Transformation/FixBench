@@ -1,0 +1,8 @@
+Id:61402
+comSha:383f1ef9f8069a4a2d4b8093a04f6850ef46b0ef
+parentComSha:6889e2d07c3ebfd8f6886eb3ce877fbc72cf8bcb
+BuggyFilePath:src/main/java/redis/clients/jedis/JedisClusterCommand.java
+FixedFilePath:src/main/java/redis/clients/jedis/JedisClusterCommand.java
+StartLineNum:21
+EndLineNum:21
+repoName:xetorthio#jedis

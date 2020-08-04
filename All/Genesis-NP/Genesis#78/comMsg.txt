@@ -1,0 +1,1 @@
+ROO-3566: Solving NullPointerException with WarPackaging

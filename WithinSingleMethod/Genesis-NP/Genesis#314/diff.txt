@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/apache/commons/lang3/time/FastDateParser.java b/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
+index 26538d7..6abcd03 100644
+--- a/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
++++ b/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
+@@ -855,0 +856,3 @@ int modify(FastDateParser parser, final int iValue) {
++                    if (zoneName == null) {
++                        break;
++                    }

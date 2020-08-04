@@ -1,0 +1,12 @@
+diff --git a/src/net/sourceforge/plantuml/sequencediagram/command/CommandParticipant.java b/src/net/sourceforge/plantuml/sequencediagram/command/CommandParticipant.java
+index 2accd351..db907a74 100644
+--- a/src/net/sourceforge/plantuml/sequencediagram/command/CommandParticipant.java
++++ b/src/net/sourceforge/plantuml/sequencediagram/command/CommandParticipant.java
+@@ -37,0 +38 @@ import net.sourceforge.plantuml.ISkinParam;
++import net.sourceforge.plantuml.StringUtils;
+@@ -85 +86 @@ public abstract class CommandParticipant extends SingleLineCommand2<SequenceDiag
+-			type = ParticipantType.valueOf(typeCreate1.toUpperCase());
++			type = ParticipantType.valueOf(StringUtils.goUpperCase(typeCreate1));
+@@ -91 +92 @@ public abstract class CommandParticipant extends SingleLineCommand2<SequenceDiag
+-			type = ParticipantType.valueOf(typeString1.toUpperCase());
++			type = ParticipantType.valueOf(StringUtils.goUpperCase(typeString1));

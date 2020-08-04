@@ -1,0 +1,13 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/VariableScopeImpl.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/VariableScopeImpl.java
+index a7d9703..5583c65 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/VariableScopeImpl.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/VariableScopeImpl.java
+@@ -240 +239,0 @@ public abstract class VariableScopeImpl implements Serializable, VariableScope {
+-  		usedVariablesCache.put(variableName, variable);
+@@ -242 +241,3 @@ public abstract class VariableScopeImpl implements Serializable, VariableScope {
+-  		if (variable != null) {
++  		if(variable != null)
++  		{
++  		  usedVariablesCache.put(variableName, variable);
+@@ -244,0 +246 @@ public abstract class VariableScopeImpl implements Serializable, VariableScope {
++

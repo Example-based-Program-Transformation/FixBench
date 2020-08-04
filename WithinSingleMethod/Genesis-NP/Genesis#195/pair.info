@@ -1,0 +1,7 @@
+Id:195
+SATName:Genesis
+modifiedFPath:src/main/java/org/jolokia/docker/maven/assembly/DockerAssemblyConfigurationSource.java
+comSha:833232a1ce52acbef2c3edef6d6cbf0f51f157d5
+parentComSha:833232a1ce52acbef2c3edef6d6cbf0f51f157d5^1
+githubUrl:https://github.com/rhuss/docker-maven-plugin
+repoName:rhuss#docker-maven-plugin

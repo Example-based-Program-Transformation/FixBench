@@ -1,0 +1,1 @@
+Fixed the apparent error in the zero based JDBC metadata traversing. I suspect that this was the cause of the Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1        at org.apache.derby.impl.jdbc.EmbedResultSetMetaData.getColumnName(Unknown Source)error that PO has reported.

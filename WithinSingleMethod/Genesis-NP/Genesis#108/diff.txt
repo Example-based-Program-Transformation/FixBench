@@ -1,0 +1,11 @@
+diff --git a/src/main/java/org/jbake/app/Crawler.java b/src/main/java/org/jbake/app/Crawler.java
+index 991dc1a..4dc5c57 100644
+--- a/src/main/java/org/jbake/app/Crawler.java
++++ b/src/main/java/org/jbake/app/Crawler.java
+@@ -111,0 +112 @@ public class Crawler {
++        if (fileContents != null) {
+@@ -114 +114,0 @@ public class Crawler {
+-        if (fileContents != null) {
+@@ -135,0 +136,2 @@ public class Crawler {
++        } else {
++            LOGGER.warn("{} has an invalid header, it has been ignored!", sourceFile);

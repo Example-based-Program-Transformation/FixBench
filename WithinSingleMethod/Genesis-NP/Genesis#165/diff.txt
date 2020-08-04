@@ -1,0 +1,10 @@
+diff --git a/structr-core/src/main/java/org/structr/core/graph/ModificationQueue.java b/structr-core/src/main/java/org/structr/core/graph/ModificationQueue.java
+index 7b54ef8..049625a 100644
+--- a/structr-core/src/main/java/org/structr/core/graph/ModificationQueue.java
++++ b/structr-core/src/main/java/org/structr/core/graph/ModificationQueue.java
+@@ -246 +246,2 @@ public class ModificationQueue {
+-//		synchronizationKeys.add(relType.name());
++		// only modify if nodes are accessible
++		if (startNode != null && endNode != null) {
+@@ -271,0 +273 @@ public class ModificationQueue {
++	}

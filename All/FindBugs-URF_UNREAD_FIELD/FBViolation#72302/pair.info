@@ -1,0 +1,8 @@
+Id:72302
+comSha:74f4d5dca95a004aa0382ab89c99e16f02d8978c
+parentComSha:e6ac81f10ff7151f79fcb002257fa41722aa78ee
+BuggyFilePath:src/main/java/net/canarymod/backbone/GroupAccess.java
+FixedFilePath:src/main/java/net/canarymod/backbone/GroupAccess.java
+StartLineNum:48
+EndLineNum:48
+repoName:FallenMoonNetwork#CanaryLib

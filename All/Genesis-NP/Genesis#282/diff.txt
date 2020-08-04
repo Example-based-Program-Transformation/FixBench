@@ -1,0 +1,7 @@
+diff --git a/liquibase-core/src/main/java/liquibase/changelog/ChangeLogParameters.java b/liquibase-core/src/main/java/liquibase/changelog/ChangeLogParameters.java
+index 19c4697..bee5c64 100644
+--- a/liquibase-core/src/main/java/liquibase/changelog/ChangeLogParameters.java
++++ b/liquibase-core/src/main/java/liquibase/changelog/ChangeLogParameters.java
+@@ -193 +193 @@ public class ChangeLogParameters {
+-                isValid = labels == null || currentLabelExpression.matches(labels);
++                isValid = labels == null || currentLabelExpression == null || currentLabelExpression.matches(labels);

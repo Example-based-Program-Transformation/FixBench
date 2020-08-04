@@ -1,0 +1,1 @@
+Fix bug 130 - ArrayIndexOutOfBoundsException in entry() if 5 arguments specified

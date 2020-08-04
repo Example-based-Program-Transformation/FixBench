@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteCommand.java b/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteCommand.java
+index 5c08238c..f378c4c5 100644
+--- a/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteCommand.java
++++ b/src/net/sourceforge/plantuml/command/note/sequence/FactorySequenceNoteCommand.java
+@@ -116 +116 @@ public final class FactorySequenceNoteCommand implements SingleMultiFactoryComma
+-		final NotePosition position = NotePosition.valueOf(arg.get("POSITION", 0).toUpperCase());
++		final NotePosition position = NotePosition.valueOf(StringUtils.goUpperCase(arg.get("POSITION", 0)));

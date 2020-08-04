@@ -1,0 +1,1 @@
+Fix a NPE in the RemoveUnusedVariables refactoring. ------------- Created by MOE: https://github.com/google/moe MOE_MIGRATED_REVID=112746361

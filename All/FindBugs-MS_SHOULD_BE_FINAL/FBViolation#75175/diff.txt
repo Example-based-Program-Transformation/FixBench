@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/googlecode/mgwt/mvp/client/history/MGWTPlaceHistoryHandler.java b/src/main/java/com/googlecode/mgwt/mvp/client/history/MGWTPlaceHistoryHandler.java
+index 3c241457..b45fd313 100644
+--- a/src/main/java/com/googlecode/mgwt/mvp/client/history/MGWTPlaceHistoryHandler.java
++++ b/src/main/java/com/googlecode/mgwt/mvp/client/history/MGWTPlaceHistoryHandler.java
+@@ -64 +64 @@ public class MGWTPlaceHistoryHandler {
+-	protected static Logger log = Logger.getLogger(MGWTPlaceHistoryHandler.class.getName());
++	protected final static Logger log = Logger.getLogger(MGWTPlaceHistoryHandler.class.getName());

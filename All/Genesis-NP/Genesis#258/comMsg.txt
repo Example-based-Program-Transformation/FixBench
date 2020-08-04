@@ -1,0 +1,1 @@
+fix NPE in join-query compilation when using salted tables

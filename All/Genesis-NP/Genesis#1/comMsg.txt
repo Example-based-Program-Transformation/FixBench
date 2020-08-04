@@ -1,0 +1,1 @@
+PLANNER-553 NPE on Solver.buildScoreDirector() if the working solution hasn't been set yet and there's a VariableListener

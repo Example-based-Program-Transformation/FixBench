@@ -1,0 +1,7 @@
+diff --git a/src/main/java/teetime/framework/pipe/PipeFactoryRegistry.java b/src/main/java/teetime/framework/pipe/PipeFactoryRegistry.java
+index bd91f955..42538d19 100644
+--- a/src/main/java/teetime/framework/pipe/PipeFactoryRegistry.java
++++ b/src/main/java/teetime/framework/pipe/PipeFactoryRegistry.java
+@@ -48 +48 @@ public final class PipeFactoryRegistry {
+-	public static PipeFactoryRegistry INSTANCE = new PipeFactoryRegistry("pipe-factories.conf");
++	public static final PipeFactoryRegistry INSTANCE = new PipeFactoryRegistry("pipe-factories.conf");

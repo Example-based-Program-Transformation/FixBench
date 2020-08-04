@@ -1,0 +1,2 @@
+v1.0.9.286 - if we have to care about case, we should do it the right
+way and constistently

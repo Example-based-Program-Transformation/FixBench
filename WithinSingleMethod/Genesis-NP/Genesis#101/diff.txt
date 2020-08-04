@@ -1,0 +1,7 @@
+diff --git a/src/jvm/clojure/lang/Compiler.java b/src/jvm/clojure/lang/Compiler.java
+index 96798f1..d102c86 100644
+--- a/src/jvm/clojure/lang/Compiler.java
++++ b/src/jvm/clojure/lang/Compiler.java
+@@ -2440 +2440 @@ static String getTypeStringForArgs(IPersistentVector args){
+-		sb.append(arg.hasJavaClass() ? arg.getJavaClass().getName() : "unknown");
++		sb.append((arg.hasJavaClass() && arg.getJavaClass() != null) ? arg.getJavaClass().getName() : "unknown");

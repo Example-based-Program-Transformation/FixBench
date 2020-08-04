@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/springframework/data/elasticsearch/core/mapping/SimpleElasticsearchPersistentProperty.java b/src/main/java/org/springframework/data/elasticsearch/core/mapping/SimpleElasticsearchPersistentProperty.java
+index ca80d08..ea1765e 100644
+--- a/src/main/java/org/springframework/data/elasticsearch/core/mapping/SimpleElasticsearchPersistentProperty.java
++++ b/src/main/java/org/springframework/data/elasticsearch/core/mapping/SimpleElasticsearchPersistentProperty.java
+@@ -58 +58 @@ public class SimpleElasticsearchPersistentProperty extends
+-		return super.isIdProperty() || field != null ? SUPPORTED_ID_PROPERTY_NAMES.contains(getFieldName()) : false;
++		return super.isIdProperty() || (field != null ? SUPPORTED_ID_PROPERTY_NAMES.contains(getFieldName()) : false);

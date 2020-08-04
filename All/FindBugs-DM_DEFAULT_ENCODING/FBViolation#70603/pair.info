@@ -1,0 +1,8 @@
+Id:70603
+comSha:5e565827c5b1d314e11ca86f9defc82c1d1894e2
+parentComSha:1fae171c652180a7d6ab45b814d3c19bc61f8771
+BuggyFilePath:geom/src/main/java/com/github/rinde/rinsim/geom/io/AbstractGraphIO.java
+FixedFilePath:geom/src/main/java/com/github/rinde/rinsim/geom/io/AbstractGraphIO.java
+StartLineNum:64
+EndLineNum:64
+repoName:rinde#RinSim

@@ -1,0 +1,9 @@
+diff --git a/IDE/src/main/java/org/sikuli/ide/CloseableModernTabbedPaneUI.java b/IDE/src/main/java/org/sikuli/ide/CloseableModernTabbedPaneUI.java
+index ed6b3c9..5a8fe9a 100755
+--- a/IDE/src/main/java/org/sikuli/ide/CloseableModernTabbedPaneUI.java
++++ b/IDE/src/main/java/org/sikuli/ide/CloseableModernTabbedPaneUI.java
+@@ -281 +281 @@ public class CloseableModernTabbedPaneUI extends BasicTabbedPaneUI {
+-			if (!tabPane.isEnabled()) {
++			if (tabPane == null || !tabPane.isEnabled()) {
+@@ -284 +283,0 @@ public class CloseableModernTabbedPaneUI extends BasicTabbedPaneUI {
+-

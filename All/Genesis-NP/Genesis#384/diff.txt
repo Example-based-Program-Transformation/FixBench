@@ -1,0 +1,9 @@
+diff --git a/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java b/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java
+index 9faf6d6..f580f05 100644
+--- a/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java
++++ b/spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java
+@@ -238,0 +239,4 @@ public class DefaultTokenServices implements AuthorizationServerTokenServices, R
++		if (result == null) {
++			// in case of race condition
++			throw new InvalidTokenException("Invalid access token: " + accessTokenValue);
++		}

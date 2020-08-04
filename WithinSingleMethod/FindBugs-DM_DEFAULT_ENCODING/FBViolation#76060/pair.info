@@ -1,0 +1,8 @@
+Id:76060
+comSha:3c1a11c0e77a5bc6c2a9edac86caa90e851136c5
+parentComSha:2f01cc84752367e61ec0764ba30445d4d74bf27f
+BuggyFilePath:src/main/java/org/perfcake/reporting/destinations/chart/Chart.java
+FixedFilePath:src/main/java/org/perfcake/reporting/destinations/chart/Chart.java
+StartLineNum:535
+EndLineNum:535
+repoName:PerfCake#PerfCake

@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/mjpeg/MJPEGGenerator.java b/src/net/sourceforge/plantuml/mjpeg/MJPEGGenerator.java
+index 8cd9ca99..30651321 100644
+--- a/src/net/sourceforge/plantuml/mjpeg/MJPEGGenerator.java
++++ b/src/net/sourceforge/plantuml/mjpeg/MJPEGGenerator.java
+@@ -28,0 +29,2 @@ import javax.swing.ImageIcon;
++import net.sourceforge.plantuml.StringUtils;
++
+@@ -555 +557 @@ public class MJPEGGenerator
+-                if(name.toLowerCase().endsWith("jpg"))
++                if(StringUtils.goLowerCase(name).endsWith("jpg"))

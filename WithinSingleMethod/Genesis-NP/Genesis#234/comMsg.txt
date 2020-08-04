@@ -1,0 +1,1 @@
+- Fixed NPE in DiagnosticsHandler (https://issues.jboss.org/browse/JGRP-1845)

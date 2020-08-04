@@ -1,0 +1,7 @@
+Id:278
+SATName:Genesis
+modifiedFPath:liquibase-core/src/main/java/liquibase/diff/output/changelog/core/ChangedUniqueConstraintChangeGenerator.java
+comSha:f0880d6abe36e9999a25131f31e43b44b74d07b4
+parentComSha:f0880d6abe36e9999a25131f31e43b44b74d07b4^1
+githubUrl:https://github.com/liquibase/liquibase
+repoName:liquibase#liquibase

@@ -1,0 +1,1 @@
+fixed null pointer in case of missing session, issue #5930

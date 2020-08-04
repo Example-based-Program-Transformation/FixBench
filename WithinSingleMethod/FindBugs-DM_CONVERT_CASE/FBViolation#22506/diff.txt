@@ -1,0 +1,7 @@
+diff --git a/src/net/sourceforge/plantuml/command/note/FactoryNoteOnLinkCommand.java b/src/net/sourceforge/plantuml/command/note/FactoryNoteOnLinkCommand.java
+index e6db88ad..98c77f45 100644
+--- a/src/net/sourceforge/plantuml/command/note/FactoryNoteOnLinkCommand.java
++++ b/src/net/sourceforge/plantuml/command/note/FactoryNoteOnLinkCommand.java
+@@ -115 +115 @@ public final class FactoryNoteOnLinkCommand implements SingleMultiFactoryCommand
+-			position = Position.valueOf(arg.get("POSITION", 0).toUpperCase());
++			position = Position.valueOf(StringUtils.goUpperCase(arg.get("POSITION", 0)));

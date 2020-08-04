@@ -1,0 +1,1 @@
+CLJ-1681 avoid NPE on literal nil arg

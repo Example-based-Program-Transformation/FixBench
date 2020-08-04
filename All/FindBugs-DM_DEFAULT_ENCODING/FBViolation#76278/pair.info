@@ -1,0 +1,8 @@
+Id:76278
+comSha:f118e3a2834310c9e7c56eaf8a67f30db46a5b03
+parentComSha:fec9bdf7c582604d3f4d5688b957774250520c9b
+BuggyFilePath:src/main/java/org/perfcake/validation/ScriptValidator.java
+FixedFilePath:src/main/java/org/perfcake/validation/ScriptValidator.java
+StartLineNum:56
+EndLineNum:56
+repoName:PerfCake#PerfCake

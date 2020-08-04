@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/zeromq/ZFrame.java b/src/main/java/org/zeromq/ZFrame.java
+index 00c79f1..3d60e91 100644
+--- a/src/main/java/org/zeromq/ZFrame.java
++++ b/src/main/java/org/zeromq/ZFrame.java
+@@ -138,0 +139 @@ public class ZFrame
++        if (this.buffer != null) {
+@@ -139,0 +141 @@ public class ZFrame
++        }
