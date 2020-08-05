@@ -16,7 +16,7 @@ Bug Description
 
 - Code Change:
 
-```
+```diff
 diff --git a/util/src/main/java/com/psddev/dari/util/FormTag.java b/util/src/main/java/com/psddev/dari/util/FormTag.java
 index b473a60a..4d974c93 100644
 --- a/util/src/main/java/com/psddev/dari/util/FormTag.java
