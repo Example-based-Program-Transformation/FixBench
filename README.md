@@ -1,7 +1,22 @@
 # FixBench
 
-## Description
 A benchmark for example-based program transformation with bug-fixing code changes.
+
+* [All](https://github.com/Example-based-Program-Transformation/FixBench/tree/master/All): All code changes (i.e., complete benchmark).
+* [WithinSingleMethod](https://github.com/Example-based-Program-Transformation/FixBench/tree/master/WithinSingleMethod): All code changes within single method.
+
+## Example
+An Example Code Change for Fixing Null Pointer Dereference in **FixBench** [[Original GitHub](https://github.com/orientechnologies/orientdb/commit/529e81f4211096e6468a51d8bbd8968b60156762)]
+
+```diff
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java b/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java
+index c9ff80d..8b733ad 100755
+--- a/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/db/document/ODatabaseDocumentTx.java
+@@ -251 +251 @@ public class ODatabaseDocumentTx extends OListenerManger<ODatabaseListener> impl
+-        if (!name.equals(iUserName)) {
++        if (name== null || !name.equals(iUserName)) {
+```
 
 ## Statistic
 | Id |  Bug Type | Bug Description | \# Code Changes |
@@ -14,5 +29,6 @@ A benchmark for example-based program transformation with bug-fixing code change
 |      6      |     DM\_CONVERT\_CASE    | A String is being converted to upper or lowercase, using the platform's default charset. A charset should be specified instead, otherwise it results in improper conversions. |            141           |
 |      7      |   MS\_SHOULD\_BE\_FINAL  | A static field is set to be public but not final, and could be changed by malicious code or by accident from another package.                                                 |            62            |
 |       |                          |     Total                                                                                                                                                                          |           1,023          |
+
 
 
