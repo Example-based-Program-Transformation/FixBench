@@ -6,7 +6,7 @@ _Given a code change and a bug type, label whether the code change is a **untang
 - Criteria 1: The code change must be **untangled** which means all the modifications are only made for bug fixing.
 - Criteria 2: The code change must be **correct** which means it can be explained why the fix works.
 
-## Example: Fixes for Improper String Comparison
+## Example: Fixes for DM_CONVERT_CASE
 
 Bug Description
 
