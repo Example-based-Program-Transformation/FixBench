@@ -1,0 +1,7 @@
+Id:394
+SATName:Genesis
+modifiedFPath:components/kubernetes-generetor/src/main/java/io/fabric8/kubernetes/generator/processor/KubernetesModelProcessorProcessor.java
+comSha:4485dab61c7b676bbc0eaefb1372fd18a5a45d36
+parentComSha:4485dab61c7b676bbc0eaefb1372fd18a5a45d36^1
+githubUrl:https://github.com/fabric8io/fabric8
+repoName:fabric8io#fabric8

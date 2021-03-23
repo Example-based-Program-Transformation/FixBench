@@ -1,0 +1,8 @@
+diff --git a/src/main/java/com/github/rnewson/couchdb/lucene/DatabaseIndexer.java b/src/main/java/com/github/rnewson/couchdb/lucene/DatabaseIndexer.java
+index d86b194..80fa8dc 100644
+--- a/src/main/java/com/github/rnewson/couchdb/lucene/DatabaseIndexer.java
++++ b/src/main/java/com/github/rnewson/couchdb/lucene/DatabaseIndexer.java
+@@ -740,0 +741,3 @@ public final class DatabaseIndexer implements Runnable, ResponseHandler<Void> {
++		assert root != null;
++		assert uuid != null;
++		assert view != null;

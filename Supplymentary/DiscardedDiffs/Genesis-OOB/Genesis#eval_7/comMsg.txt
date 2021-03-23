@@ -1,0 +1,1 @@
+Throw exception when group name not found (REGEX-21)

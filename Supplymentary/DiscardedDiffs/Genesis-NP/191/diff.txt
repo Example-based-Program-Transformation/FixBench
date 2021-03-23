@@ -1,0 +1,15 @@
+diff --git a/camus-etl-kafka/src/main/java/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.java b/camus-etl-kafka/src/main/java/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.java
+index bcda208..09bee29 100644
+--- a/camus-etl-kafka/src/main/java/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.java
++++ b/camus-etl-kafka/src/main/java/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.java
+@@ -292,0 +293,4 @@ public class EtlRecordReader extends RecordReader<EtlKey, CamusWrapper> {
++
++            if (wrapper == null) {
++              throw new RuntimeException("null record");
++            }
+@@ -309,5 +312,0 @@ public class EtlRecordReader extends RecordReader<EtlKey, CamusWrapper> {
+-          if (wrapper == null) {
+-            mapperContext.write(key, new ExceptionWritable(new RuntimeException("null record")));
+-            continue;
+-          }
+-

@@ -1,0 +1,7 @@
+diff --git a/components/kubernetes-generetor/src/main/java/io/fabric8/kubernetes/generator/processor/KubernetesModelProcessorProcessor.java b/components/kubernetes-generetor/src/main/java/io/fabric8/kubernetes/generator/processor/KubernetesModelProcessorProcessor.java
+index 11f42a7..161bc36 100644
+--- a/components/kubernetes-generetor/src/main/java/io/fabric8/kubernetes/generator/processor/KubernetesModelProcessorProcessor.java
++++ b/components/kubernetes-generetor/src/main/java/io/fabric8/kubernetes/generator/processor/KubernetesModelProcessorProcessor.java
+@@ -86 +86 @@ public class KubernetesModelProcessorProcessor extends AbstractKubernetesAnnotat
+-                processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, "Unknown Kubernetes JSON type:" + json.getClass());
++                processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, "Unknown Kubernetes json type:" + json.getClass());

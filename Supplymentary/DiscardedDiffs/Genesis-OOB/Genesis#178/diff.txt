@@ -1,0 +1,7 @@
+diff --git a/hazelcast/src/main/java/com/hazelcast/partition/PartitionServiceImpl.java b/hazelcast/src/main/java/com/hazelcast/partition/PartitionServiceImpl.java
+index 14ff5bc..c5e4853 100644
+--- a/hazelcast/src/main/java/com/hazelcast/partition/PartitionServiceImpl.java
++++ b/hazelcast/src/main/java/com/hazelcast/partition/PartitionServiceImpl.java
+@@ -1379 +1379 @@ public class PartitionServiceImpl implements PartitionService, ManagedService,
+-            return (addresses.length() > replicaIndex) ? addresses.get(replicaIndex) : null;
++            return addresses.get(replicaIndex);

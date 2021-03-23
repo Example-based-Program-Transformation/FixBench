@@ -1,0 +1,8 @@
+diff --git a/src/jvm/clojure/lang/RT.java b/src/jvm/clojure/lang/RT.java
+index 00dde57..cb72373 100644
+--- a/src/jvm/clojure/lang/RT.java
++++ b/src/jvm/clojure/lang/RT.java
+@@ -443,0 +444 @@ static public Object get(Object coll, Object key){
++		if(n < count(coll))
+@@ -444,0 +446 @@ static public Object get(Object coll, Object key){
++		return null;

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/googlecode/objectify/impl/engine/ChunkingIterator.java b/src/main/java/com/googlecode/objectify/impl/engine/ChunkingIterator.java
+index c8f619c..acee3c5 100644
+--- a/src/main/java/com/googlecode/objectify/impl/engine/ChunkingIterator.java
++++ b/src/main/java/com/googlecode/objectify/impl/engine/ChunkingIterator.java
+@@ -111 +111 @@ abstract class ChunkingIterator<T, E> implements QueryResultIterator<KeyResultPa
+-			return source.getCursor();
++			return baseCursor;

@@ -1,0 +1,1 @@
+Fix scalar vector out of bounds check

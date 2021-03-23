@@ -1,0 +1,1 @@
+fixed RT.get string/array with index out of bounds to return null

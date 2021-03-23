@@ -1,0 +1,1 @@
+Adjust visibleLeftPosition on repaint to avoid any out-of-bounds errors; this part is pretty hacky, needs to be redone at some point

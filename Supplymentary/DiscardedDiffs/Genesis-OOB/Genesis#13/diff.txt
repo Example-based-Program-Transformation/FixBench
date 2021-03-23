@@ -1,0 +1,7 @@
+diff --git a/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/repository/query/AbstractMongoQuery.java b/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/repository/query/AbstractMongoQuery.java
+index ef61aae..611bd0f 100644
+--- a/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/repository/query/AbstractMongoQuery.java
++++ b/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/repository/query/AbstractMongoQuery.java
+@@ -263 +263 @@ public abstract class AbstractMongoQuery implements RepositoryQuery {
+-			boolean pageableOutOfScope = pageable.getOffset() > query.getLimit();
++			boolean pageableOutOfScope = pageable.getOffset() > count;

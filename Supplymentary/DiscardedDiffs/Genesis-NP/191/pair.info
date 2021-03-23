@@ -1,0 +1,7 @@
+Id:191
+SATName:Genesis
+modifiedFPath:camus-etl-kafka/src/main/java/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.java
+comSha:b7457fdf90fa4e03b54d13d433fcfa782576dbdb
+parentComSha:b7457fdf90fa4e03b54d13d433fcfa782576dbdb^1
+githubUrl:https://github.com/linkedin/camus
+repoName:linkedin#camus

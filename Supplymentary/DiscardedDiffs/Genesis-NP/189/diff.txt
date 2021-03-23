@@ -1,0 +1,10 @@
+diff --git a/dropwizard-servlets/src/main/java/io/dropwizard/servlets/tasks/TaskServlet.java b/dropwizard-servlets/src/main/java/io/dropwizard/servlets/tasks/TaskServlet.java
+index 3a001ea..9ffb80b 100644
+--- a/dropwizard-servlets/src/main/java/io/dropwizard/servlets/tasks/TaskServlet.java
++++ b/dropwizard-servlets/src/main/java/io/dropwizard/servlets/tasks/TaskServlet.java
+@@ -212 +212,2 @@ public class TaskServlet extends HttpServlet {
+-                if (exceptionMeter != null && exceptionClass.isAssignableFrom(e.getClass()) ||
++                if (exceptionMeter != null) {
++                    if (exceptionClass.isAssignableFrom(e.getClass()) ||
+@@ -215,0 +217 @@ public class TaskServlet extends HttpServlet {
++                }

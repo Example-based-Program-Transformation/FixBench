@@ -1,0 +1,9 @@
+diff --git a/okio/src/main/java/okio/Buffer.java b/okio/src/main/java/okio/Buffer.java
+index cf0abff..6586cc7 100644
+--- a/okio/src/main/java/okio/Buffer.java
++++ b/okio/src/main/java/okio/Buffer.java
+@@ -375,0 +376,4 @@ public final class Buffer implements BufferedSource, BufferedSink, Cloneable {
++    if (size() < byteCount) {
++      sink.write(this, size());
++      throw new EOFException();
++    }

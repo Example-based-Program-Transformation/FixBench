@@ -1,0 +1,1 @@
+setAutoResize(true) in HistogramLogProcessor

@@ -1,0 +1,7 @@
+diff --git a/dropwizard-logging/src/main/java/io/dropwizard/logging/SyslogAppenderFactory.java b/dropwizard-logging/src/main/java/io/dropwizard/logging/SyslogAppenderFactory.java
+index 1152dc2..cb8ee85 100644
+--- a/dropwizard-logging/src/main/java/io/dropwizard/logging/SyslogAppenderFactory.java
++++ b/dropwizard-logging/src/main/java/io/dropwizard/logging/SyslogAppenderFactory.java
+@@ -192 +192 @@ public class SyslogAppenderFactory extends AbstractAppenderFactory {
+-        appender.setSuffixPattern(logFormat.replaceAll(LOG_TOKEN_PID, PID).replaceAll(LOG_TOKEN_NAME, applicationName));
++        appender.setSuffixPattern(logFormat.replaceAll(LOG_TOKEN_PID, PID).replaceAll(LOG_TOKEN_NAME, Matcher.quoteReplacement(applicationName)));

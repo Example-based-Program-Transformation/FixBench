@@ -1,0 +1,16 @@
+diff --git a/wicket-core/src/main/java/org/apache/wicket/serialize/java/JavaSerializer.java b/wicket-core/src/main/java/org/apache/wicket/serialize/java/JavaSerializer.java
+index 1f6961c..7e201e2 100644
+--- a/wicket-core/src/main/java/org/apache/wicket/serialize/java/JavaSerializer.java
++++ b/wicket-core/src/main/java/org/apache/wicket/serialize/java/JavaSerializer.java
+@@ -137 +137 @@ public class JavaSerializer implements ISerializer
+-		catch (ClassNotFoundException e)
++		catch (ClassNotFoundException cnfx)
+@@ -139 +139 @@ public class JavaSerializer implements ISerializer
+-			throw new RuntimeException("Could not deserialize object using: " + ois.getClass(), e);
++			throw new RuntimeException("Could not deserialize object from byte[]", cnfx);
+@@ -141 +141 @@ public class JavaSerializer implements ISerializer
+-		catch (IOException e)
++		catch (IOException iox)
+@@ -143 +143 @@ public class JavaSerializer implements ISerializer
+-			throw new RuntimeException("Could not deserialize object using: " + ois.getClass(), e);
++			throw new RuntimeException("Could not deserialize object from byte[]", iox);

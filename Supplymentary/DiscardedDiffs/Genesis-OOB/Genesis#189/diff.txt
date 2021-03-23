@@ -1,0 +1,8 @@
+diff --git a/src/main/java/mikera/matrixx/impl/SubsetMatrix.java b/src/main/java/mikera/matrixx/impl/SubsetMatrix.java
+index 8766c41..39a9cf9 100644
+--- a/src/main/java/mikera/matrixx/impl/SubsetMatrix.java
++++ b/src/main/java/mikera/matrixx/impl/SubsetMatrix.java
+@@ -74,0 +75,3 @@ public final class SubsetMatrix extends AMatrix implements ISparse {
++		if (column<0||column>=inputDims) {
++			throw new IndexOutOfBoundsException(ErrorMessages.invalidIndex(this, row,column));
++		}

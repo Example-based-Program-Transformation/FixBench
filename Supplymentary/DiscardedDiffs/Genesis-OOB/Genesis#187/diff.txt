@@ -1,0 +1,13 @@
+diff --git a/core/src/main/java/org/jruby/truffle/nodes/core/FloatNodes.java b/core/src/main/java/org/jruby/truffle/nodes/core/FloatNodes.java
+index fc9d716..43eb656 100644
+--- a/core/src/main/java/org/jruby/truffle/nodes/core/FloatNodes.java
++++ b/core/src/main/java/org/jruby/truffle/nodes/core/FloatNodes.java
+@@ -577,0 +578,8 @@ public abstract class FloatNodes {
++            if (Double.isInfinite(n)) {
++                throw new RaiseException(getContext().getCoreLibrary().floatDomainError("Infinity", this));
++            }
++
++            if (Double.isNaN(n)) {
++                throw new RaiseException(getContext().getCoreLibrary().floatDomainError("NaN", this));
++            }
++

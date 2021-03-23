@@ -1,0 +1,18 @@
+diff --git a/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentBarChart.java b/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentBarChart.java
+index 2e80255..f653040 100644
+--- a/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentBarChart.java
++++ b/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentBarChart.java
+@@ -105 +105,5 @@ public class PlotContentBarChart extends PlotContent {
+-          int yTransform = (int) (bounds.getHeight() - (yTopMargin + y.subtract(yMin).doubleValue() / yMax.subtract(yMin).doubleValue() * yTickSpace));
++          BigDecimal yTop = new BigDecimal(y.doubleValue());
++          if (yTop.compareTo(yMax) > 0) {
++            yTop = yMax;
++          }
++          int yTransform = (int) (bounds.getHeight() - (yTopMargin + yTop.subtract(yMin).doubleValue() / yMax.subtract(yMin).doubleValue() * yTickSpace));
+@@ -108 +112,5 @@ public class PlotContentBarChart extends PlotContent {
+-          int zeroTransform = (int) (bounds.getHeight() - (yTopMargin + (yMin.subtract(yMin).doubleValue()) / (yMax.subtract(yMin).doubleValue()) * yTickSpace));
++          BigDecimal yBottom = new BigDecimal(y.doubleValue());
++          if (yBottom.compareTo(yMin) > 0) {
++            yBottom = yMin;
++          }
++          int zeroTransform = (int) (bounds.getHeight() - (yTopMargin + (yBottom.subtract(yMin).doubleValue()) / (yMax.subtract(yMin).doubleValue()) * yTickSpace));

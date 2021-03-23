@@ -1,0 +1,7 @@
+diff --git a/samoa-api/src/main/java/com/yahoo/labs/samoa/evaluation/BasicClassificationPerformanceEvaluator.java b/samoa-api/src/main/java/com/yahoo/labs/samoa/evaluation/BasicClassificationPerformanceEvaluator.java
+index e8813b9..89a89c0 100644
+--- a/samoa-api/src/main/java/com/yahoo/labs/samoa/evaluation/BasicClassificationPerformanceEvaluator.java
++++ b/samoa-api/src/main/java/com/yahoo/labs/samoa/evaluation/BasicClassificationPerformanceEvaluator.java
+@@ -36 +36 @@ public class BasicClassificationPerformanceEvaluator extends AbstractMOAObject i
+-        PerformanceEvaluator {
++        ClassificationPerformanceEvaluator {

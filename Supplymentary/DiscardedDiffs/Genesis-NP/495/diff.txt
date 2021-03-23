@@ -1,0 +1,13 @@
+diff --git a/wicket-velocity/src/main/java/org/apache/wicket/velocity/Initializer.java b/wicket-velocity/src/main/java/org/apache/wicket/velocity/Initializer.java
+index 3a54e65..34dfe54 100644
+--- a/wicket-velocity/src/main/java/org/apache/wicket/velocity/Initializer.java
++++ b/wicket-velocity/src/main/java/org/apache/wicket/velocity/Initializer.java
+@@ -59,2 +58,0 @@ public class Initializer implements IInitializer
+-			if (null != props)
+-			{
+@@ -62,5 +59,0 @@ public class Initializer implements IInitializer
+-			}
+-			else
+-			{
+-				Velocity.init();
+-			}

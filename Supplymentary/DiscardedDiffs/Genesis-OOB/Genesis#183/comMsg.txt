@@ -1,0 +1,1 @@
+fixed rendering flaw with out of bounds min and max axes values

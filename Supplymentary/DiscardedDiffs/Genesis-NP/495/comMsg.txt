@@ -1,0 +1,1 @@
+FindBugs: 'props' cannot be 'null'. It is either non-null or an exception is thrown, so there is no need to check

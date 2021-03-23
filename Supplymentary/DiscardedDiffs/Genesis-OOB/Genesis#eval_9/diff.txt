@@ -1,0 +1,7 @@
+diff --git a/jpos/src/main/java/org/jpos/iso/packager/GenericSubFieldPackager.java b/jpos/src/main/java/org/jpos/iso/packager/GenericSubFieldPackager.java
+index 6c635b4..7dac6e0 100644
+--- a/jpos/src/main/java/org/jpos/iso/packager/GenericSubFieldPackager.java
++++ b/jpos/src/main/java/org/jpos/iso/packager/GenericSubFieldPackager.java
+@@ -56,0 +57,2 @@ public class GenericSubFieldPackager extends GenericPackager
++            if (b.length == 0)
++                return 0; // nothing to do

@@ -1,0 +1,1 @@
+Do not try to print the class name of the used input stream.

@@ -1,0 +1,7 @@
+diff --git a/maven-compat/src/main/java/org/apache/maven/usability/plugin/ExpressionDocumenter.java b/maven-compat/src/main/java/org/apache/maven/usability/plugin/ExpressionDocumenter.java
+index 7d41f0a..0e98b0c 100644
+--- a/maven-compat/src/main/java/org/apache/maven/usability/plugin/ExpressionDocumenter.java
++++ b/maven-compat/src/main/java/org/apache/maven/usability/plugin/ExpressionDocumenter.java
+@@ -149,0 +150,2 @@ private static ClassLoader initializeDocLoader()
++        assert myResource != null : "The resource is this class itself loaded by its own classloader and must exist";
++

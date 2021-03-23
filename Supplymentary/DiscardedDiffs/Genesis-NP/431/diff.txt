@@ -1,0 +1,7 @@
+diff --git a/src/com/googlecode/jmxtrans/jmx/JmxResultProcessor.java b/src/com/googlecode/jmxtrans/jmx/JmxResultProcessor.java
+index 2ba2564..0ed1d46 100644
+--- a/src/com/googlecode/jmxtrans/jmx/JmxResultProcessor.java
++++ b/src/com/googlecode/jmxtrans/jmx/JmxResultProcessor.java
+@@ -97 +97 @@ public class JmxResultProcessor {
+-			values.put(entry.getKey() == null ? null: entry.getKey().toString(), entry.getValue());
++			values.put(entry.getKey().toString(), entry.getValue());

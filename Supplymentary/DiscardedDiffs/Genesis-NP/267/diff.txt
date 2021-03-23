@@ -1,0 +1,41 @@
+diff --git a/core/src/main/java/org/axonframework/commandhandling/disruptor/CommandHandlerInvoker.java b/core/src/main/java/org/axonframework/commandhandling/disruptor/CommandHandlerInvoker.java
+index a3253db..b43fb86 100644
+--- a/core/src/main/java/org/axonframework/commandhandling/disruptor/CommandHandlerInvoker.java
++++ b/core/src/main/java/org/axonframework/commandhandling/disruptor/CommandHandlerInvoker.java
+@@ -21,0 +22 @@
++import org.axonframework.common.Assert;
+@@ -60,15 +60,0 @@
+-     * Returns the Repository instance for Aggregate with given <code>typeIdentifier</code> used by the
+-     * CommandHandlerInvoker that is running on the current thread.
+-     * <p/>
+-     * Calling this method from any other thread will return <code>null</code>.
+-     *
+-     * @param typeIdentifier The type identifier of the aggregate
+-     * @param <T>            The type of aggregate
+-     * @return the repository instance for aggregate of given type
+-     */
+-    @SuppressWarnings("unchecked")
+-    public static <T extends EventSourcedAggregateRoot> DisruptorRepository<T> getRepository(String typeIdentifier) {
+-        return CURRENT_INVOKER.get().repositories.get(typeIdentifier);
+-    }
+-
+-    /**
+@@ -87,0 +74,18 @@ public CommandHandlerInvoker(EventStore eventStore, Cache cache, int segmentId)
++    /**
++     * Returns the Repository instance for Aggregate with given <code>typeIdentifier</code> used by the
++     * CommandHandlerInvoker that is running on the current thread.
++     * <p/>
++     * Calling this method from any other thread will return <code>null</code>.
++     *
++     * @param typeIdentifier The type identifier of the aggregate
++     * @param <T>            The type of aggregate
++     * @return the repository instance for aggregate of given type
++     */
++    @SuppressWarnings("unchecked")
++    public static <T extends EventSourcedAggregateRoot> DisruptorRepository<T> getRepository(String typeIdentifier) {
++        final CommandHandlerInvoker invoker = CURRENT_INVOKER.get();
++        Assert.state(invoker != null, "The repositories of a DisruptorCommandBus are only available "
++                + "in the invoker thread");
++        return invoker.repositories.get(typeIdentifier);
++    }
++

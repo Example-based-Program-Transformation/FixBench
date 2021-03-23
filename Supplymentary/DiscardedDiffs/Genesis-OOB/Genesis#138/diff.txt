@@ -1,0 +1,7 @@
+diff --git a/oxalis-sql/src/main/java/eu/peppol/persistence/sql/RawStatisticsRepositoryMsSqlImpl.java b/oxalis-sql/src/main/java/eu/peppol/persistence/sql/RawStatisticsRepositoryMsSqlImpl.java
+index 8e151f2..f2ff3d5 100644
+--- a/oxalis-sql/src/main/java/eu/peppol/persistence/sql/RawStatisticsRepositoryMsSqlImpl.java
++++ b/oxalis-sql/src/main/java/eu/peppol/persistence/sql/RawStatisticsRepositoryMsSqlImpl.java
+@@ -68 +68 @@ public class RawStatisticsRepositoryMsSqlImpl extends RawStatisticsRepositoryJdb
+-                "GROUP BY ap,direction," + granularityQuery + ",sender,doc_type,profile,channel\n" +
++                "GROUP BY ap,direction," + granularityQuery + ",receiver,doc_type,profile,channel\n" +

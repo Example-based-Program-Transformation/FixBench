@@ -1,0 +1,1 @@
+[Truffle] Extreme bounds checking for Float#round.

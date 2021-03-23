@@ -1,0 +1,7 @@
+Id:13
+SATName:Genesis
+modifiedFPath:spring-data-mongodb/src/main/java/org/springframework/data/mongodb/repository/query/AbstractMongoQuery.java
+comSha:5f3671f349f623fc40908590cb87c4f6973084c9
+parentComSha:5f3671f349f623fc40908590cb87c4f6973084c9^1
+githubUrl:https://github.com/spring-projects/spring-data-mongodb
+repoName:spring-projects#spring-data-mongodb

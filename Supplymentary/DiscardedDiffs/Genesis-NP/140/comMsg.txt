@@ -1,0 +1,1 @@
+FLUME-1160: ComponentConfigurationFactory catches NullPointerException

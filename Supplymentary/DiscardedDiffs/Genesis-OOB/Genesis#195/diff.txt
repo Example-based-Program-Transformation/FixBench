@@ -1,0 +1,10 @@
+diff --git a/src/main/java/emulib/plugins/cpu/AbstractCPU.java b/src/main/java/emulib/plugins/cpu/AbstractCPU.java
+index e2beff6..6b61c7b 100644
+--- a/src/main/java/emulib/plugins/cpu/AbstractCPU.java
++++ b/src/main/java/emulib/plugins/cpu/AbstractCPU.java
+@@ -327,0 +328,3 @@ public abstract class AbstractCPU implements CPU, Callable<CPU.RunState> {
++                        if (e.getCause() != null && e.getCause() instanceof IndexOutOfBoundsException) {
++                            runState = RunState.STATE_STOPPED_ADDR_FALLOUT;
++                        } else {
+@@ -328,0 +332 @@ public abstract class AbstractCPU implements CPU, Callable<CPU.RunState> {
++                        }

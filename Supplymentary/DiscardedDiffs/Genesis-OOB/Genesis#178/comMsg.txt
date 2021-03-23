@@ -1,0 +1,1 @@
+Removed returning null when index out of bounds on getReplicaAddress

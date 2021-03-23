@@ -1,0 +1,13 @@
+diff --git a/src/main/java/com/google/code/regexp/Matcher.java b/src/main/java/com/google/code/regexp/Matcher.java
+index e0a6466..d8833f9 100644
+--- a/src/main/java/com/google/code/regexp/Matcher.java
++++ b/src/main/java/com/google/code/regexp/Matcher.java
+@@ -256,0 +257 @@ public class Matcher implements MatchResult {
++     * @throws IndexOutOfBoundsException if group name not found
+@@ -259 +260,5 @@ public class Matcher implements MatchResult {
+-        return group(groupIndex(groupName));
++        int idx = groupIndex(groupName);
++        if (idx < 0) {
++          throw new IndexOutOfBoundsException("No group \"" + groupName + "\"");
++        }
++        return group(idx);

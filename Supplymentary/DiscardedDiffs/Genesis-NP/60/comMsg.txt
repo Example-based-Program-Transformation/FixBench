@@ -1,0 +1,1 @@
+document why this is not a NPE

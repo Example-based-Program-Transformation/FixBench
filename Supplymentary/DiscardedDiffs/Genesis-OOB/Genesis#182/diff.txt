@@ -1,0 +1,42 @@
+diff --git a/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentLineChart.java b/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentLineChart.java
+index f70c8bd..2b4270c 100644
+--- a/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentLineChart.java
++++ b/xchart/src/main/java/com/xeiam/xchart/internal/chartpart/PlotContentLineChart.java
+@@ -101,4 +100,0 @@ public class PlotContentLineChart extends PlotContent {
+-      Iterator<? extends Number> ebItr = null;
+-      if (errorBars != null) {
+-        ebItr = errorBars.iterator();
+-      }
+@@ -115 +111 @@ public class PlotContentLineChart extends PlotContent {
+-        if (getChartPainter().getAxisPair().getXAxis().getAxisType() == AxisType.Date) {
++        else if (getChartPainter().getAxisPair().getXAxis().getAxisType() == AxisType.Date) {
+@@ -119,0 +116,5 @@ public class PlotContentLineChart extends PlotContent {
++        // break out of out of over-ridden min and max values
++        if (x < getChartPainter().getStyleManager().getXAxisMin() || x > getChartPainter().getStyleManager().getXAxisMax()) {
++          continue;
++        }
++
+@@ -137,2 +137,0 @@ public class PlotContentLineChart extends PlotContent {
+-        double y = 0.0;
+-        double eb = 0.0;
+@@ -140,2 +139,3 @@ public class PlotContentLineChart extends PlotContent {
+-        if (errorBars != null) {
+-          eb = (Double) ebItr.next();
++        // break out of out of over-ridden min and max values
++        if (yOrig < getChartPainter().getStyleManager().getYAxisMin() || yOrig > getChartPainter().getStyleManager().getYAxisMax()) {
++          continue;
+@@ -142,0 +143 @@ public class PlotContentLineChart extends PlotContent {
++        double y = 0.0;
+@@ -211 +212,11 @@ public class PlotContentLineChart extends PlotContent {
+-        // paint errorbar
++        // paint errorbars
++        Iterator<? extends Number> ebItr = null;
++        if (errorBars != null) {
++          ebItr = errorBars.iterator();
++        }
++        double eb = 0.0;
++
++        if (errorBars != null) {
++          eb = (Double) ebItr.next();
++        }
++

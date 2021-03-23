@@ -1,0 +1,15 @@
+diff --git a/structr-core/src/main/java/org/structr/core/parser/ArrayExpression.java b/structr-core/src/main/java/org/structr/core/parser/ArrayExpression.java
+index 8a4e153..d2addb4 100644
+--- a/structr-core/src/main/java/org/structr/core/parser/ArrayExpression.java
++++ b/structr-core/src/main/java/org/structr/core/parser/ArrayExpression.java
+@@ -82,0 +83,4 @@ public class ArrayExpression extends Expression {
++		if (value == null) {
++			return null;
++		}
++		
+@@ -86 +90 @@ public class ArrayExpression extends Expression {
+-			if (value != null && (value instanceof Collection || value.getClass().isArray())) {
++			if (value instanceof Collection || value.getClass().isArray()) {
+@@ -92 +96 @@ public class ArrayExpression extends Expression {
+-				throw new FrameworkException(422, "Invalid expression: expected collection, found " + (value != null ? value.getClass().getSimpleName() : "null") + ".");
++				throw new FrameworkException(422, "Invalid expression: expected collection, found " + value.getClass().getSimpleName() + ".");

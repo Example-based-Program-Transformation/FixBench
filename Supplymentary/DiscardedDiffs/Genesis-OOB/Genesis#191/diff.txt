@@ -1,0 +1,7 @@
+diff --git a/src/main/java/mikera/vectorz/impl/ScalarVector.java b/src/main/java/mikera/vectorz/impl/ScalarVector.java
+index 3a626a1..72e3d7f 100644
+--- a/src/main/java/mikera/vectorz/impl/ScalarVector.java
++++ b/src/main/java/mikera/vectorz/impl/ScalarVector.java
+@@ -28 +28 @@ public class ScalarVector extends AVector {
+-		assert(i==0);
++		if (i!=0) throw new IndexOutOfBoundsException();

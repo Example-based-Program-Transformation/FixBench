@@ -1,0 +1,7 @@
+diff --git a/flume-ng-configuration/src/main/java/org/apache/flume/conf/ComponentConfigurationFactory.java b/flume-ng-configuration/src/main/java/org/apache/flume/conf/ComponentConfigurationFactory.java
+index c495cde..6c151dc 100644
+--- a/flume-ng-configuration/src/main/java/org/apache/flume/conf/ComponentConfigurationFactory.java
++++ b/flume-ng-configuration/src/main/java/org/apache/flume/conf/ComponentConfigurationFactory.java
+@@ -67,2 +66,0 @@ public class ComponentConfigurationFactory {
+-      } catch (NullPointerException e1) {
+-        return null;

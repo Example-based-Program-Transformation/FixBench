@@ -1,0 +1,7 @@
+Id:267
+SATName:Genesis
+modifiedFPath:core/src/main/java/org/axonframework/commandhandling/disruptor/CommandHandlerInvoker.java
+comSha:253728062d46a0b6d4eb714d7a138ee8ddaffcd9
+parentComSha:253728062d46a0b6d4eb714d7a138ee8ddaffcd9^1
+githubUrl:https://github.com/AxonFramework/AxonFramework
+repoName:AxonFramework#AxonFramework

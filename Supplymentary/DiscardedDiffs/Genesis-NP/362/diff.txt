@@ -1,0 +1,7 @@
+diff --git a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
+index 7ac720e..5c9e0f7 100644
+--- a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
++++ b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
+@@ -787 +787 @@ public abstract class Model extends CallbackSupport implements Externalizable {
+-            attributeStrings.add((pretty ? "\n  " + indent : "") + "\"" + name + "\":" + val + "");
++            attributeStrings.add((pretty ? "\n  " + indent : "") + "\"" + name + "\":" + val);
