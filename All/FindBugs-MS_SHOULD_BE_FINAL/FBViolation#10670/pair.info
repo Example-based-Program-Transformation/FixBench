@@ -1,8 +1,0 @@
-Id:10670
-comSha:82db803fad264e008c6fc17e9a7b95527505616e
-parentComSha:5e4277b6ca35071da3e9df92c84d081d4119a176
-BuggyFilePath:src/net/slipcor/pvparena/loadables/ArenaRegion.java
-FixedFilePath:src/net/slipcor/pvparena/loadables/ArenaRegion.java
-StartLineNum:40
-EndLineNum:40
-repoName:slipcor#pvparena
