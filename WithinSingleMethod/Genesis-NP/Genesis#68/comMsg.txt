@@ -1,1 +1,0 @@
-DATAMONGO-897 - Fixed potential NullPointerException in QueryMapper.

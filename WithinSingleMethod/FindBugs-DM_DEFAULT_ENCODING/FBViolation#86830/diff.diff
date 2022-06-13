@@ -1,8 +1,0 @@
-diff --git a/src/main/java/de/is24/deadcode4j/analyzer/JavaFileAnalyzer.java b/src/main/java/de/is24/deadcode4j/analyzer/JavaFileAnalyzer.java
-index e6311ed..6653a6c 100644
---- a/src/main/java/de/is24/deadcode4j/analyzer/JavaFileAnalyzer.java
-+++ b/src/main/java/de/is24/deadcode4j/analyzer/JavaFileAnalyzer.java
-@@ -62,0 +63 @@ public abstract class JavaFileAnalyzer extends AnalyzerAdapter {
-+                        @SuppressFBWarnings(value = "DM_DEFAULT_ENCODING", justification = "The MavenProject does not provide the proper encoding")
-@@ -140 +140,0 @@ public abstract class JavaFileAnalyzer extends AnalyzerAdapter {
--    @SuppressFBWarnings(value = "DM_DEFAULT_ENCODING", justification = "The MavenProject does not provide the proper encoding")

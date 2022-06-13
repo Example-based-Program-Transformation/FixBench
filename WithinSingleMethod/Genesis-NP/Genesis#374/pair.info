@@ -1,7 +1,0 @@
-Id:374
-SATName:Genesis
-modifiedFPath:modules/cpr/src/main/java/org/atmosphere/interceptor/SSEAtmosphereInterceptor.java
-comSha:5c7f8cb77c8fea15584b06bca1c5d93b3e2c104e
-parentComSha:5c7f8cb77c8fea15584b06bca1c5d93b3e2c104e^1
-githubUrl:https://github.com/Atmosphere/atmosphere
-repoName:Atmosphere#atmosphere

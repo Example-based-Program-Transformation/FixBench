@@ -1,1 +1,0 @@
-#17 Fixing NPE in case of attribute without setter in source type

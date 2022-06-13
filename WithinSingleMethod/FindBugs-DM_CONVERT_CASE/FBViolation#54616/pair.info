@@ -1,8 +1,0 @@
-Id:54616
-comSha:0cf6cfc2b043c1a83e131d48f6db239f6c486339
-parentComSha:6f19360da5159c26727c071046da9010d95f57e3
-BuggyFilePath:src/main/java/org/codesecure/dependencycheck/dependency/Dependency.java
-FixedFilePath:src/main/java/org/codesecure/dependencycheck/dependency/Dependency.java
-StartLineNum:379
-EndLineNum:379
-repoName:jeremylong#DependencyCheck

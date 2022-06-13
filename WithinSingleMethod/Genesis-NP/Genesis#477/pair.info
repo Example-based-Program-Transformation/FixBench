@@ -1,7 +1,0 @@
-Id:477
-SATName:Genesis
-modifiedFPath:src/main/java/org/vafer/jdeb/debian/ControlFile.java
-comSha:0ca04f8294558cbe105699230a73980db93f810a
-parentComSha:0ca04f8294558cbe105699230a73980db93f810a^1
-githubUrl:https://github.com/tcurdt/jdeb
-repoName:tcurdt#jdeb

@@ -1,8 +1,0 @@
-Id:72605
-comSha:bc6007e902ade78d5753bef8872b90aec217823e
-parentComSha:84c7ae3a9db7847f3626e24b54063dd2a5504ca4
-BuggyFilePath:src/main/java/com/atlauncher/nio/JsonFile.java
-FixedFilePath:src/main/java/com/atlauncher/nio/JsonFile.java
-StartLineNum:85
-EndLineNum:85
-repoName:ATLauncher#ATLauncher

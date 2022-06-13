@@ -1,1 +1,0 @@
-variable mode names are no longer all uppercase

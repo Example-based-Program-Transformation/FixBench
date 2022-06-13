@@ -1,1 +1,0 @@
-Read JSON files in with UTF8 to prevent language related issues

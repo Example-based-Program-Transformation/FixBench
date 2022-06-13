@@ -1,1 +1,0 @@
-Issue #52: Fixed NPE that would occur when only one line of data, with no headers, is present (should be ported to C#)

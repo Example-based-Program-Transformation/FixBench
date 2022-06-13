@@ -1,1 +1,0 @@
-fixed: NPE with find(), if region's timeout is set to 0
