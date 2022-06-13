@@ -4,11 +4,11 @@
 ## Statistic
 | # | Bug name                       | Count |
 |---|--------------------------------|-------|
-| 1 | Genesis-NP                     | 408   |
-| 2 | Genesis-OOB                    | 112   |
-| 3 | FindBugs-DM\_CONVERT\_CASE     | 51    |
-| 4 | FindBugs-DM\_DEFAULT\_ENCODING | 24    |
-|   | Total                          | 595   |
+| 1 | Genesis-NP                     | 374   |
+| 2 | Genesis-OOB                    | 104   |
+| 3 | FindBugs-DM\_CONVERT\_CASE     | 34    |
+| 4 | FindBugs-DM\_DEFAULT\_ENCODING | 16    |
+|   | Total                          | 528   |
 
 
 
