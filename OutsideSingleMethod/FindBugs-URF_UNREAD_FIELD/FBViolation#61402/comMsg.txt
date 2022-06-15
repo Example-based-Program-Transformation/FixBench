@@ -1,0 +1,10 @@
+Sets timeout correctly for JedisCluster. Fixes #602.
+
+Removes unused JedisCluster timeout parameter and now it's passed
+all the way up to the creation of the JedisPool.
+
+Conflicts:
+	src/main/java/redis/clients/jedis/JedisCluster.java
+	src/main/java/redis/clients/jedis/JedisPoolAbstract.java
+	src/test/java/redis/clients/jedis/tests/JedisSentinelPoolTest.java
+	src/test/java/redis/clients/jedis/tests/JedisTest.java

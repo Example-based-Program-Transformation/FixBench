@@ -1,0 +1,8 @@
+Id:16081
+comSha:5b3d862fcdbab64153bb1eb0ca7e7b7ffcb2e1e3
+parentComSha:74c5f042db503f5f035bd6946b2bedd8bbcf02eb
+BuggyFilePath:src/org/jgroups/protocols/UNICAST2.java
+FixedFilePath:src/org/jgroups/protocols/UNICAST2.java
+StartLineNum:1171
+EndLineNum:1171
+repoName:belaban#JGroups

@@ -1,0 +1,17 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskDelegateExpressionActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskDelegateExpressionActivityBehavior.java
+index 29743a6c8..40b8f0953 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskDelegateExpressionActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskDelegateExpressionActivityBehavior.java
+@@ -18,0 +19 @@ import org.activiti.engine.delegate.BpmnError;
++import org.activiti.engine.delegate.DelegateExecution;
+@@ -28 +28,0 @@ import org.activiti.engine.impl.delegate.ActivityBehaviorInvocation;
+-import org.activiti.engine.impl.delegate.ActivityExecution;
+@@ -41,0 +42,2 @@ public class ServiceTaskDelegateExpressionActivityBehavior extends TaskActivityB
++  private static final long serialVersionUID = 1L;
++  
+@@ -53 +55 @@ public class ServiceTaskDelegateExpressionActivityBehavior extends TaskActivityB
+-  public void trigger(ActivityExecution execution, String signalName, Object signalData) {
++  public void trigger(DelegateExecution execution, String signalName, Object signalData) {
+@@ -61 +63 @@ public class ServiceTaskDelegateExpressionActivityBehavior extends TaskActivityB
+-  public void execute(ActivityExecution execution) {
++  public void execute(DelegateExecution execution) {

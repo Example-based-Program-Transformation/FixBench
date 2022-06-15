@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/ldbc/driver/workloads/ldbc/snb/interactive/LdbcQuery3.java b/src/main/java/com/ldbc/driver/workloads/ldbc/snb/interactive/LdbcQuery3.java
+index 788aab41..64b0c351 100644
+--- a/src/main/java/com/ldbc/driver/workloads/ldbc/snb/interactive/LdbcQuery3.java
++++ b/src/main/java/com/ldbc/driver/workloads/ldbc/snb/interactive/LdbcQuery3.java
+@@ -16 +16 @@ public class LdbcQuery3 extends Operation<List<LdbcQuery3Result>> {
+-    public static int DEFAULT_LIMIT = 20;
++    public static final int DEFAULT_LIMIT = 20;

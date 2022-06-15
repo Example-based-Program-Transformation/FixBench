@@ -1,0 +1,10 @@
+diff --git a/src/main/java/name/richardson/james/bukkit/banhammer/ban/HistoryCommand.java b/src/main/java/name/richardson/james/bukkit/banhammer/ban/HistoryCommand.java
+index cfa318a..cb98aa9 100644
+--- a/src/main/java/name/richardson/james/bukkit/banhammer/ban/HistoryCommand.java
++++ b/src/main/java/name/richardson/james/bukkit/banhammer/ban/HistoryCommand.java
+@@ -49,3 +48,0 @@ public class HistoryCommand extends AbstractCommand {
+-  /** Reference to the BanHammer plugin */
+-  private final BanHammer plugin;
+-
+@@ -63 +59,0 @@ public class HistoryCommand extends AbstractCommand {
+-    this.plugin = plugin;

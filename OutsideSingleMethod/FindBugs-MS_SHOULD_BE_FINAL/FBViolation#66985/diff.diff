@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/coremedia/iso/boxes/FreeBox.java b/src/main/java/com/coremedia/iso/boxes/FreeBox.java
+index 0d32832c..d4e462cf 100644
+--- a/src/main/java/com/coremedia/iso/boxes/FreeBox.java
++++ b/src/main/java/com/coremedia/iso/boxes/FreeBox.java
+@@ -26 +26 @@ public class FreeBox extends LiteralBox {
+-  public static String TYPE = "free";
++  public static final String TYPE = "free";

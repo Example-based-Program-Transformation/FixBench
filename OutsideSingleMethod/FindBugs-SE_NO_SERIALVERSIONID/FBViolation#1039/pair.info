@@ -1,0 +1,8 @@
+Id:1039
+comSha:9b1d12336719f9cb90928068bcfa5c1798b1209a
+parentComSha:57015e97eb42604604cabb8f62546792511010f3
+BuggyFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/utils/BlastClustReader.java
+FixedFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/utils/BlastClustReader.java
+StartLineNum:33
+EndLineNum:179
+repoName:biojava#biojava

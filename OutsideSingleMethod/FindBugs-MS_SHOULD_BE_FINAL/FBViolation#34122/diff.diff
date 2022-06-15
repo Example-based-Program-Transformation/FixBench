@@ -1,0 +1,7 @@
+diff --git a/src/main/java/uk/co/caprica/vlcj/filter/PlayListFileFilter.java b/src/main/java/uk/co/caprica/vlcj/filter/PlayListFileFilter.java
+index b3e62cba2..d3f91fb10 100644
+--- a/src/main/java/uk/co/caprica/vlcj/filter/PlayListFileFilter.java
++++ b/src/main/java/uk/co/caprica/vlcj/filter/PlayListFileFilter.java
+@@ -51 +51 @@ public class PlayListFileFilter extends ExtensionFileFilter {
+-    public static PlayListFileFilter INSTANCE = new PlayListFileFilter();
++    public static final PlayListFileFilter INSTANCE = new PlayListFileFilter();

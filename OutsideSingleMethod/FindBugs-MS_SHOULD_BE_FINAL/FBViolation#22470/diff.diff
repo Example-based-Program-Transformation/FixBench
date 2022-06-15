@@ -1,0 +1,10 @@
+diff --git a/src/net/sourceforge/plantuml/OptionFlags.java b/src/net/sourceforge/plantuml/OptionFlags.java
+index 638f6af5..a48a2a7b 100644
+--- a/src/net/sourceforge/plantuml/OptionFlags.java
++++ b/src/net/sourceforge/plantuml/OptionFlags.java
+@@ -31 +31 @@
+- * Revision $Revision: 11786 $
++ * Revision $Revision: 11833 $
+@@ -55 +55 @@ public class OptionFlags {
+-	static public boolean USE_CREOLE = false;
++	static public final boolean USE_CREOLE = true;

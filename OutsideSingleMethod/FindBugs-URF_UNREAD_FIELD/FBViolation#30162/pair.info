@@ -1,0 +1,8 @@
+Id:30162
+comSha:d89766f36bb6686283e17e4ad7881e487d28a7d7
+parentComSha:1058784f423491785832371c3267cb18f647e935
+BuggyFilePath:src/main/java/org/openpnp/model/Placement.java
+FixedFilePath:src/main/java/org/openpnp/model/Placement.java
+StartLineNum:73
+EndLineNum:73
+repoName:openpnp#openpnp

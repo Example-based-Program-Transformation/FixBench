@@ -1,0 +1,1 @@
+more integration tests for alternative routes; using bidir A* to improve performance of alternative routes a lot; fixed minor glitches in SPTEntry access for bidir A*; see #640

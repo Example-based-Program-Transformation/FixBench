@@ -1,0 +1,10 @@
+diff --git a/src/net/slipcor/pvparena/goals/GoalDomination.java b/src/net/slipcor/pvparena/goals/GoalDomination.java
+index c1df054a..1f3c0a94 100644
+--- a/src/net/slipcor/pvparena/goals/GoalDomination.java
++++ b/src/net/slipcor/pvparena/goals/GoalDomination.java
+@@ -763 +763 @@ public class GoalDomination extends ArenaGoal {
+-		private final Debug debug = new Debug(39);
++		//private final Debug debug = new Debug(39);
+@@ -826 +826 @@ public class GoalDomination extends ArenaGoal {
+-		private final Debug debug = new Debug(39);
++		//private final Debug debug = new Debug(39);

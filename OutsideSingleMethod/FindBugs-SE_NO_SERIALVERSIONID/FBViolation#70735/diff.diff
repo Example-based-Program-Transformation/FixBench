@@ -1,0 +1,6 @@
+diff --git a/src/com/google/bitcoin/core/GetAddrMessage.java b/src/com/google/bitcoin/core/GetAddrMessage.java
+index 640ae707..cc9edaf1 100644
+--- a/src/com/google/bitcoin/core/GetAddrMessage.java
++++ b/src/com/google/bitcoin/core/GetAddrMessage.java
+@@ -19,0 +20 @@ public class GetAddrMessage extends EmptyMessage {
++    private static final long serialVersionUID = 6204437624599661503L;

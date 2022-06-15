@@ -1,0 +1,8 @@
+Id:68772
+comSha:5c93f13b07234a41483f010aadaa7c10d521be55
+parentComSha:a219a1c07373627484838f3559a4f60be3aac55f
+BuggyFilePath:src/org/traccar/BasePipelineFactory.java
+FixedFilePath:src/org/traccar/BasePipelineFactory.java
+StartLineNum:94
+EndLineNum:94
+repoName:tananaev#traccar

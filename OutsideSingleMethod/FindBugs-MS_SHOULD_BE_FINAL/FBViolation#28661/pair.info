@@ -1,0 +1,8 @@
+Id:28661
+comSha:d92c1f718d4d12b5a5650ddc011dd9d0e68210a8
+parentComSha:245dc32449eebb5cdbb6df2bc39819d7faa68375
+BuggyFilePath:choco-solver/src/main/java/solver/constraints/nary/automata/FA/FiniteAutomaton.java
+FixedFilePath:choco-solver/src/main/java/solver/constraints/nary/automata/FA/FiniteAutomaton.java
+StartLineNum:55
+EndLineNum:55
+repoName:chocoteam#choco3

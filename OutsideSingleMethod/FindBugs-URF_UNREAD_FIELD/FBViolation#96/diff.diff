@@ -1,0 +1,19 @@
+diff --git a/biojava3-protmod/src/main/java/org/biojava3/protmod/ProteinModificationImpl.java b/biojava3-protmod/src/main/java/org/biojava3/protmod/ProteinModificationImpl.java
+index 7194cc4bd..1456c250c 100644
+--- a/biojava3-protmod/src/main/java/org/biojava3/protmod/ProteinModificationImpl.java
++++ b/biojava3-protmod/src/main/java/org/biojava3/protmod/ProteinModificationImpl.java
+@@ -54 +54 @@ implements ProteinModification {
+-	private final String description;
++	
+@@ -243 +243 @@ implements ProteinModification {
+-		private String description = null;
++		
+@@ -281 +281 @@ implements ProteinModification {
+-			this.description = copyFrom.getDescription();
++			
+@@ -379 +379 @@ implements ProteinModification {
+-			this.description = description;
++			// description is created on the fly in getDescription
+@@ -440 +440 @@ implements ProteinModification {
+-		this.description = builder.description;
++

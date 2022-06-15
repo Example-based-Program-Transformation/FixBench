@@ -1,0 +1,7 @@
+diff --git a/owner/src/main/java/org/aeonbits/owner/loaders/PropertiesLoader.java b/owner/src/main/java/org/aeonbits/owner/loaders/PropertiesLoader.java
+index 9a69dee..b0f7d2b 100644
+--- a/owner/src/main/java/org/aeonbits/owner/loaders/PropertiesLoader.java
++++ b/owner/src/main/java/org/aeonbits/owner/loaders/PropertiesLoader.java
+@@ -23,0 +24,2 @@ public class PropertiesLoader implements Loader {
++    private static final long serialVersionUID = -1781643040589572341L;
++

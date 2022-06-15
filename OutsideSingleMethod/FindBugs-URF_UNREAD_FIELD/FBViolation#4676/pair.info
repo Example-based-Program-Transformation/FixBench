@@ -1,0 +1,8 @@
+Id:4676
+comSha:57b2d7932efe71cd4b3c57e219a9117039cc9e6d
+parentComSha:e77227d724acd61bfbcfe1013b8561cf3be29bfe
+BuggyFilePath:src/main/java/org/mapdb/TxMaker.java
+FixedFilePath:src/main/java/org/mapdb/TxMaker.java
+StartLineNum:51
+EndLineNum:51
+repoName:jankotek#MapDB

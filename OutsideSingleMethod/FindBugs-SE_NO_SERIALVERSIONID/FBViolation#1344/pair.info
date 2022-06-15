@@ -1,0 +1,8 @@
+Id:1344
+comSha:316b73da9ff3d39ccd79b1e377c68649a761170d
+parentComSha:bb13c81d38cac478bc0b09f38028652783fb3f8f
+BuggyFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/core/QuatSymmetryParameters.java
+FixedFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/symmetry/core/QuatSymmetryParameters.java
+StartLineNum:26
+EndLineNum:274
+repoName:biojava#biojava

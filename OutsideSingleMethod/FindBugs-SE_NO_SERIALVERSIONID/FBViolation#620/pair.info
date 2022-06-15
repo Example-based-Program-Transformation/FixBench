@@ -1,0 +1,8 @@
+Id:620
+comSha:f75f339d7f849024e332cc136272c326eae03d6f
+parentComSha:3fd78bd32686dfb664d810a7d6678d7e4473bba4
+BuggyFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/SeqMisMatchImpl.java
+FixedFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/SeqMisMatchImpl.java
+StartLineNum:8
+EndLineNum:98
+repoName:biojava#biojava

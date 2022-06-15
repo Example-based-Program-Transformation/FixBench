@@ -1,0 +1,7 @@
+diff --git a/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java b/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java
+index 4e5f67f..9ca776d 100644
+--- a/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java
++++ b/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java
+@@ -19,2 +18,0 @@ public class UrlUtils {
+-    private static Pattern relativePathPattern = Pattern.compile("^([\\.]+)/");
+-

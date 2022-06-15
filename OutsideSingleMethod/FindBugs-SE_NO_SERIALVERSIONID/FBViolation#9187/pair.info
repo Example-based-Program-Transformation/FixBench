@@ -1,0 +1,8 @@
+Id:9187
+comSha:ca3cbd95a04aaf10268ecbd409e2337e089781a9
+parentComSha:898e6d48b79e7192115da2564d8e357e209c6aad
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateCatchEventActivityBehavior.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateCatchEventActivityBehavior.java
+StartLineNum:17
+EndLineNum:26
+repoName:Activiti#Activiti

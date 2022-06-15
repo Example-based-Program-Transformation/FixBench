@@ -1,0 +1,8 @@
+Id:6110
+comSha:a8e456784456f93a5c808d241b156cf79b0985ce
+parentComSha:4bb2be7ebe5ffa693943902a4c172d659b35eca9
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/EventSubscriptionDeclaration.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/EventSubscriptionDeclaration.java
+StartLineNum:38
+EndLineNum:90
+repoName:Activiti#Activiti

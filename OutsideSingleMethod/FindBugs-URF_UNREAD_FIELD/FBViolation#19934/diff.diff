@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/jboss/aesh/console/AeshConsoleCallback.java b/src/main/java/org/jboss/aesh/console/AeshConsoleCallback.java
+index 8aa8fc3b..7c18ceb6 100644
+--- a/src/main/java/org/jboss/aesh/console/AeshConsoleCallback.java
++++ b/src/main/java/org/jboss/aesh/console/AeshConsoleCallback.java
+@@ -16 +15,0 @@ public abstract class AeshConsoleCallback implements ConsoleCallback {
+-    private boolean resetOperations = false;

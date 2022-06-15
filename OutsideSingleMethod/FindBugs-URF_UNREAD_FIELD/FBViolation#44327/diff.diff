@@ -1,0 +1,7 @@
+diff --git a/API/src/main/java/com/comze_instancelabs/minigamesapi/Arena.java b/API/src/main/java/com/comze_instancelabs/minigamesapi/Arena.java
+index fca9685..7bfc7df 100644
+--- a/API/src/main/java/com/comze_instancelabs/minigamesapi/Arena.java
++++ b/API/src/main/java/com/comze_instancelabs/minigamesapi/Arena.java
+@@ -85,2 +84,0 @@ public class Arena {
+-	
+-	boolean temp_resetting = false;

@@ -1,0 +1,6 @@
+diff --git a/parsers/src/main/java/de/uulm/ecs/ai/owlapi/krssparser/KRSS2OntologyFormat.java b/parsers/src/main/java/de/uulm/ecs/ai/owlapi/krssparser/KRSS2OntologyFormat.java
+index e695fc1ca..4e27a6004 100755
+--- a/parsers/src/main/java/de/uulm/ecs/ai/owlapi/krssparser/KRSS2OntologyFormat.java
++++ b/parsers/src/main/java/de/uulm/ecs/ai/owlapi/krssparser/KRSS2OntologyFormat.java
+@@ -51,0 +52 @@ public class KRSS2OntologyFormat extends OWLOntologyFormat {
++    private static final long serialVersionUID = 30405L;

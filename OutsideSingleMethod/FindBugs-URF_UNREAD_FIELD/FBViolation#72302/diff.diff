@@ -1,0 +1,10 @@
+diff --git a/src/main/java/net/canarymod/backbone/GroupAccess.java b/src/main/java/net/canarymod/backbone/GroupAccess.java
+index fe3f9d5..504d8a3 100644
+--- a/src/main/java/net/canarymod/backbone/GroupAccess.java
++++ b/src/main/java/net/canarymod/backbone/GroupAccess.java
+@@ -3 +2,0 @@ package net.canarymod.backbone;
+-import java.util.List;
+@@ -23,3 +21,0 @@ public class GroupAccess extends DataAccess {
+-
+-    @Column(columnName = "permissions", dataType = DataType.STRING, isList = true)
+-    List<String> permissionNodes;

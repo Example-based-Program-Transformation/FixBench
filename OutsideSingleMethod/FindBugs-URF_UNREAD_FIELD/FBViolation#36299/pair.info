@@ -1,0 +1,8 @@
+Id:36299
+comSha:958704ae0c46f8edb653afbc137f65c1a867c957
+parentComSha:fcfbc3b8524df2a3ff337857fb16fabe5babc464
+BuggyFilePath:src/main/java/lcmc/gui/resources/crm/AvailableServiceMenu.java
+FixedFilePath:src/main/java/lcmc/gui/resources/crm/AvailableServiceMenu.java
+StartLineNum:42
+EndLineNum:42
+repoName:rasto#lcmc

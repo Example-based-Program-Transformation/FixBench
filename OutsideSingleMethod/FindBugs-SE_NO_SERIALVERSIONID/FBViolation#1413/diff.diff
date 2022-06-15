@@ -1,0 +1,9 @@
+diff --git a/biojava3-ontology/src/main/java/org/biojava3/ontology/OntologyTerm.java b/biojava3-ontology/src/main/java/org/biojava3/ontology/OntologyTerm.java
+index 23abf7bd6..3a3e22dba 100644
+--- a/biojava3-ontology/src/main/java/org/biojava3/ontology/OntologyTerm.java
++++ b/biojava3-ontology/src/main/java/org/biojava3/ontology/OntologyTerm.java
+@@ -66 +66,3 @@ public interface OntologyTerm extends Term {
+-        private final Ontology ontology;
++        
++		private static final long serialVersionUID = 1L;
++		private final Ontology ontology;

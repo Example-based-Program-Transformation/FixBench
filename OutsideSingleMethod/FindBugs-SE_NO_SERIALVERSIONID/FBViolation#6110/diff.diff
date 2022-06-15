@@ -1,0 +1,12 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/EventSubscriptionDeclaration.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/EventSubscriptionDeclaration.java
+index bc36f664c..ed36353f6 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/EventSubscriptionDeclaration.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/EventSubscriptionDeclaration.java
+@@ -27,0 +28 @@ import org.activiti.engine.impl.pvm.process.ActivityImpl;
++ * @author Falko Menge
+@@ -30,0 +32,2 @@ public class EventSubscriptionDeclaration implements Serializable {
++  private static final long serialVersionUID = 1L;
++
+@@ -87 +90 @@ public class EventSubscriptionDeclaration implements Serializable {
+-      ActivityImpl activity = execution.getActivity().findActivity(activityId);
++      ActivityImpl activity = execution.getProcessDefinition().findActivity(activityId);

@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/jboss/aesh/console/AeshProcess.java b/src/main/java/org/jboss/aesh/console/AeshProcess.java
+index 54b700c9..663d7e01 100644
+--- a/src/main/java/org/jboss/aesh/console/AeshProcess.java
++++ b/src/main/java/org/jboss/aesh/console/AeshProcess.java
+@@ -23 +22,0 @@ public class AeshProcess implements Runnable, Process {
+-    private List<CommandOperation> commandOperations;
+@@ -32 +30,0 @@ public class AeshProcess implements Runnable, Process {
+-        this.commandOperations = new ArrayList<>(1);

@@ -1,0 +1,5 @@
+Merge branch 'master' into cluster-revised
+
+Conflicts:
+	src/main/java/redis/clients/jedis/JedisCluster.java
+	src/test/java/redis/clients/jedis/tests/ShardedJedisTest.java

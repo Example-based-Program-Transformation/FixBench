@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/owasp/esapi/reference/JavaLogFactory.java b/src/main/java/org/owasp/esapi/reference/JavaLogFactory.java
+index a88a1ec9..a41cc4eb 100644
+--- a/src/main/java/org/owasp/esapi/reference/JavaLogFactory.java
++++ b/src/main/java/org/owasp/esapi/reference/JavaLogFactory.java
+@@ -72,0 +73 @@ public class JavaLogFactory implements LogFactory {
++    	private static final long serialVersionUID = 1l;

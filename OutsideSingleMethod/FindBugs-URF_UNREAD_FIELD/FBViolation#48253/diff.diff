@@ -1,0 +1,8 @@
+diff --git a/src/main/java/de/komoot/photon/AbstractPhotonRequestHandler.java b/src/main/java/de/komoot/photon/AbstractPhotonRequestHandler.java
+index e6a8892..f1420c0 100644
+--- a/src/main/java/de/komoot/photon/AbstractPhotonRequestHandler.java
++++ b/src/main/java/de/komoot/photon/AbstractPhotonRequestHandler.java
+@@ -7 +6,0 @@ import de.komoot.photon.searcher.PhotonSearcher;
+-import de.komoot.photon.searcher.PhotonSearcherFactory;
+@@ -17 +15,0 @@ public abstract class AbstractPhotonRequestHandler<R extends PhotonRequest> impl
+-    private final PhotonSearcherFactory searcherFactory = new PhotonSearcherFactory();

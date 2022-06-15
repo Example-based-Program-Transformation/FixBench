@@ -1,0 +1,1 @@
+Addition to 54937538ef: The field playerHasMoved is not used anymore. Clear the list of movements when the PlayerChunkBuffer is cleared

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/spatial4j/core/context/jts/JtsSpatialContext.java b/src/main/java/com/spatial4j/core/context/jts/JtsSpatialContext.java
+index b1c74800..d86f85c5 100755
+--- a/src/main/java/com/spatial4j/core/context/jts/JtsSpatialContext.java
++++ b/src/main/java/com/spatial4j/core/context/jts/JtsSpatialContext.java
+@@ -49 +49 @@ public class JtsSpatialContext extends SpatialContext {
+-  public static JtsSpatialContext GEO = new JtsSpatialContext(true);
++  public static final JtsSpatialContext GEO = new JtsSpatialContext(true);

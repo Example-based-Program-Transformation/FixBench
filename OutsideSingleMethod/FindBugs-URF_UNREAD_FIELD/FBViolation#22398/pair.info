@@ -1,0 +1,8 @@
+Id:22398
+comSha:e74caec56b503800095a4971f4008e928ed64720
+parentComSha:831bad3fbb22b4e1de2a90984015214dd7fbdf6c
+BuggyFilePath:src/net/sourceforge/plantuml/activitydiagram3/ftile/vcompact/FtileFactoryDelegatorAddNote.java
+FixedFilePath:src/net/sourceforge/plantuml/activitydiagram3/ftile/vcompact/FtileFactoryDelegatorAddNote.java
+StartLineNum:46
+EndLineNum:46
+repoName:jensnerche#plantuml

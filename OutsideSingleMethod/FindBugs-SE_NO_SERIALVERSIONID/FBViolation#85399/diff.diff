@@ -1,0 +1,7 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/formats/RdfJsonOntologyFormatFactory.java b/rio/src/main/java/org/semanticweb/owlapi/formats/RdfJsonOntologyFormatFactory.java
+index 15da511a0..1ac73d1ea 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/formats/RdfJsonOntologyFormatFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/formats/RdfJsonOntologyFormatFactory.java
+@@ -16 +16 @@ public class RdfJsonOntologyFormatFactory extends
+-    public RdfJsonOntologyFormatFactory() {}
++    private static final long serialVersionUID = 40000L;

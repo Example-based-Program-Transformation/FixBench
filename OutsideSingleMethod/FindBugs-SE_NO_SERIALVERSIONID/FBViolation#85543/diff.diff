@@ -1,0 +1,7 @@
+diff --git a/impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyBuilderImpl.java b/impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyBuilderImpl.java
+index d29e8f78b..b2fe99ab9 100644
+--- a/impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyBuilderImpl.java
++++ b/impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyBuilderImpl.java
+@@ -50,0 +51,2 @@ public class OWLOntologyBuilderImpl implements OWLOntologyBuilder {
++    private static final long serialVersionUID = 40000L;
++

@@ -1,0 +1,16 @@
+diff --git a/src/main/java/redis/clients/jedis/JedisClusterCommand.java b/src/main/java/redis/clients/jedis/JedisClusterCommand.java
+index af83e66c..549cd40a 100644
+--- a/src/main/java/redis/clients/jedis/JedisClusterCommand.java
++++ b/src/main/java/redis/clients/jedis/JedisClusterCommand.java
+@@ -15 +14,0 @@ public abstract class JedisClusterCommand<T> {
+-  private int commandTimeout;
+@@ -19,2 +18 @@ public abstract class JedisClusterCommand<T> {
+-  public JedisClusterCommand(JedisClusterConnectionHandler connectionHandler, int timeout,
+-      int maxRedirections) {
++  public JedisClusterCommand(JedisClusterConnectionHandler connectionHandler, int maxRedirections) {
+@@ -22 +19,0 @@ public abstract class JedisClusterCommand<T> {
+-    this.commandTimeout = timeout;
+@@ -153 +150 @@ public abstract class JedisClusterCommand<T> {
+-}
+\ No newline at end of file
++}

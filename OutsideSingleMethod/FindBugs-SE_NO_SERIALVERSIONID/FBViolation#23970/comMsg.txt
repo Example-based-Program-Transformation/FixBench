@@ -1,0 +1,4 @@
+Code Cleanup: Compiler Warnings
+
+- fixed various (Eclipse) Java compiler warnings
+  (most of which were caused by the recent technology update, commit 592152d)

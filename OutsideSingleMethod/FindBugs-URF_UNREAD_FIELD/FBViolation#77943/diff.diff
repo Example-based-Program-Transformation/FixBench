@@ -1,0 +1,14 @@
+diff --git a/core/src/main/java/com/graphhopper/GraphHopper.java b/core/src/main/java/com/graphhopper/GraphHopper.java
+index 384134d0c..62374a133 100644
+--- a/core/src/main/java/com/graphhopper/GraphHopper.java
++++ b/core/src/main/java/com/graphhopper/GraphHopper.java
+@@ -40 +39,0 @@ import java.util.concurrent.atomic.AtomicLong;
+-
+@@ -65 +63,0 @@ public class GraphHopper implements GraphHopperAPI
+-    private boolean turnCosts = false;
+@@ -168,0 +167,5 @@ public class GraphHopper implements GraphHopperAPI
++    public TraversalMode getTraversalMode()
++    {
++        return traversalMode;
++    }
++

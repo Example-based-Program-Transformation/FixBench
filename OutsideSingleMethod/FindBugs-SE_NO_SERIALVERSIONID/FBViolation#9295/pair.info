@@ -1,0 +1,8 @@
+Id:9295
+comSha:749e0f8dc865488dcedb78a8ab9e42c2a1b4c008
+parentComSha:0ea44a0cb5f6f54460e3f2039fc2fc94aa50a780
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/TransactionActivityBehavior.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/TransactionActivityBehavior.java
+StartLineNum:21
+EndLineNum:21
+repoName:Activiti#Activiti

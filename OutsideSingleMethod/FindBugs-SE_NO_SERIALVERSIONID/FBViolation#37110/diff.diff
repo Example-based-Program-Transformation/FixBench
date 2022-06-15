@@ -1,0 +1,6 @@
+diff --git a/owner/src/main/java/org/aeonbits/owner/loaders/XMLLoader.java b/owner/src/main/java/org/aeonbits/owner/loaders/XMLLoader.java
+index ef97c18..96741d7 100644
+--- a/owner/src/main/java/org/aeonbits/owner/loaders/XMLLoader.java
++++ b/owner/src/main/java/org/aeonbits/owner/loaders/XMLLoader.java
+@@ -35,0 +36 @@ public class XMLLoader implements Loader {
++    private static final long serialVersionUID = -894351666332018767L;

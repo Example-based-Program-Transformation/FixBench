@@ -1,0 +1,4 @@
+Fixed Database so it does something useful
+
+Had a bunch of derps that happened in the process of
+putting the prototype code into CanaryLib.

@@ -1,0 +1,15 @@
+diff --git a/choco-solver/src/main/java/solver/constraints/nary/automata/FA/FiniteAutomaton.java b/choco-solver/src/main/java/solver/constraints/nary/automata/FA/FiniteAutomaton.java
+index b54a8fcd7..b6abf9f3f 100644
+--- a/choco-solver/src/main/java/solver/constraints/nary/automata/FA/FiniteAutomaton.java
++++ b/choco-solver/src/main/java/solver/constraints/nary/automata/FA/FiniteAutomaton.java
+@@ -2 +2 @@
+- *  Copyright (c) 1999-2010, Ecole des Mines de Nantes
++ *  Copyright (c) 1999-2014, Ecole des Mines de Nantes
+@@ -54,2 +54,2 @@ public class FiniteAutomaton implements IAutomaton {
+-    protected static TIntIntHashMap charFromIntMap = new TIntIntHashMap();
+-    protected static TIntIntHashMap intFromCharMap = new TIntIntHashMap();
++    protected final static TIntIntHashMap charFromIntMap = new TIntIntHashMap();
++    protected final static TIntIntHashMap intFromCharMap = new TIntIntHashMap();
+@@ -425 +425 @@ public class FiniteAutomaton implements IAutomaton {
+-        StringBuffer b = new StringBuffer();
++        StringBuilder b = new StringBuilder();

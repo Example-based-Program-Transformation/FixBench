@@ -1,0 +1,7 @@
+diff --git a/src/main/java/org/mapdb/BTreeKeySerializer.java b/src/main/java/org/mapdb/BTreeKeySerializer.java
+index 13280f92..38262542 100644
+--- a/src/main/java/org/mapdb/BTreeKeySerializer.java
++++ b/src/main/java/org/mapdb/BTreeKeySerializer.java
+@@ -63,0 +64,2 @@ public abstract class BTreeKeySerializer<K>{
++        private static final long serialVersionUID = 1654710710946309279L;
++

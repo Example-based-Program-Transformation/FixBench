@@ -1,0 +1,8 @@
+Id:37110
+comSha:4727705e3ea4f67d40ada778ece00ef1ea99d728
+parentComSha:bb8d8358a7a1bffa0f376c68d07139b3a7f0f245
+BuggyFilePath:owner/src/main/java/org/aeonbits/owner/loaders/XMLLoader.java
+FixedFilePath:owner/src/main/java/org/aeonbits/owner/loaders/XMLLoader.java
+StartLineNum:34
+EndLineNum:148
+repoName:lviggiano#owner

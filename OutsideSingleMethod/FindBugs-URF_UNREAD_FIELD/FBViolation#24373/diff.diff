@@ -1,0 +1,9 @@
+diff --git a/californium/src/main/java/ch/ethz/inf/vs/californium/endpoint/resources/RDLookUpTopResource.java b/californium/src/main/java/ch/ethz/inf/vs/californium/endpoint/resources/RDLookUpTopResource.java
+index c4e7c07c..6e45d130 100644
+--- a/californium/src/main/java/ch/ethz/inf/vs/californium/endpoint/resources/RDLookUpTopResource.java
++++ b/californium/src/main/java/ch/ethz/inf/vs/californium/endpoint/resources/RDLookUpTopResource.java
+@@ -6,2 +5,0 @@ public class RDLookUpTopResource extends LocalResource {
+-	private RDResource rdResource = null;
+-	
+@@ -14 +11,0 @@ public class RDLookUpTopResource extends LocalResource {
+-		this.rdResource = rd;

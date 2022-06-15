@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/commands/PAA_Edit.java b/src/net/slipcor/pvparena/commands/PAA_Edit.java
+index 85f6171f..8e4000f2 100644
+--- a/src/net/slipcor/pvparena/commands/PAA_Edit.java
++++ b/src/net/slipcor/pvparena/commands/PAA_Edit.java
+@@ -26 +26 @@ public class PAA_Edit extends AbstractArenaCommand {
+-    public static Map<String, Arena> activeEdits = new HashMap<String, Arena>();
++    public static final Map<String, Arena> activeEdits = new HashMap<String, Arena>();

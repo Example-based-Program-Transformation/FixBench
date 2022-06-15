@@ -1,0 +1,14 @@
+diff --git a/src/main/java/org/getspout/api/util/StringMap.java b/src/main/java/org/getspout/api/util/StringMap.java
+index 690aa7d16..0c194630f 100644
+--- a/src/main/java/org/getspout/api/util/StringMap.java
++++ b/src/main/java/org/getspout/api/util/StringMap.java
+@@ -6 +5,0 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
+-import org.getspout.api.inventory.ItemMapRunnable;
+@@ -24,2 +22,0 @@ public class StringMap {
+-	private final ItemMapRunnable updateTask;
+-
+@@ -40 +37 @@ public class StringMap {
+-	public StringMap(StringMap parent, SimpleStore<Integer> store, ItemMapRunnable updateTask, int minId, int maxId) {
++	public StringMap(StringMap parent, SimpleStore<Integer> store, int minId, int maxId) {
+@@ -43 +39,0 @@ public class StringMap {
+-		this.updateTask = updateTask;

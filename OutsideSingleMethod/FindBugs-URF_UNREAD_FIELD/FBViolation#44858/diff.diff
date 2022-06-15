@@ -1,0 +1,10 @@
+diff --git a/src/main/java/fr/ens/transcriptome/aozan/illumina/io/SampleSheetLineReaderV2.java b/src/main/java/fr/ens/transcriptome/aozan/illumina/io/SampleSheetLineReaderV2.java
+index d5fe1b63..85bf46a5 100644
+--- a/src/main/java/fr/ens/transcriptome/aozan/illumina/io/SampleSheetLineReaderV2.java
++++ b/src/main/java/fr/ens/transcriptome/aozan/illumina/io/SampleSheetLineReaderV2.java
+@@ -70,3 +69,0 @@ class SampleSheetLineReaderV2 extends SampleSheetLineReader {
+-  @SuppressWarnings("unused")
+-  private int fieldsCountExpected;
+-
+@@ -129 +125,0 @@ class SampleSheetLineReaderV2 extends SampleSheetLineReader {
+-      this.fieldsCountExpected = positionFields.size();

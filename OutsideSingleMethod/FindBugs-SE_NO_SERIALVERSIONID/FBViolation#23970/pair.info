@@ -1,0 +1,8 @@
+Id:23970
+comSha:75d25d4502402474663835f56e02870b69298e88
+parentComSha:1c31f359c8c343a920c2bec6bf73b80150b2dd9a
+BuggyFilePath:JavaSource/org/unitime/timetable/model/HashedQuery.java
+FixedFilePath:JavaSource/org/unitime/timetable/model/HashedQuery.java
+StartLineNum:27
+EndLineNum:28
+repoName:UniTime#unitime

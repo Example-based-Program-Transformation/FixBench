@@ -1,0 +1,8 @@
+Id:70735
+comSha:a4a711e2df203b97275e0f619181893d8a7d9479
+parentComSha:228f30f66374dbf24a7012d57b71b3a0df72ffcb
+BuggyFilePath:src/com/google/bitcoin/core/GetAddrMessage.java
+FixedFilePath:src/com/google/bitcoin/core/GetAddrMessage.java
+StartLineNum:22
+EndLineNum:28
+repoName:bitcoinj#bitcoinj

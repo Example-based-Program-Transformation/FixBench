@@ -1,0 +1,7 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleParserFactory.java b/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleParserFactory.java
+index 1896e596f..424a60ba2 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleParserFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/rio/RioTurtleParserFactory.java
+@@ -49,0 +50,2 @@ public class RioTurtleParserFactory extends AbstractRioParserFactory implements
++    private static final long serialVersionUID = 40000L;
++

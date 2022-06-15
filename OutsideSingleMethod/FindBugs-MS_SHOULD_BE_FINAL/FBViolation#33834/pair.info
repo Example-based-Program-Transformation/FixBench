@@ -1,0 +1,8 @@
+Id:33834
+comSha:63f69eb843a43e9b5662e778ff8b68641f7e7cae
+parentComSha:9874be4034331c1195139119984be82f6d086a06
+BuggyFilePath:src/main/java/com/samskivert/depot/DepotRepository.java
+FixedFilePath:src/main/java/com/samskivert/depot/DepotRepository.java
+StartLineNum:966
+EndLineNum:966
+repoName:threerings#depot

@@ -1,0 +1,8 @@
+Id:15192
+comSha:36212d14fbb51e9de890843dc82fc2f361150d25
+parentComSha:d39e3858c131456016f910bf6e44343f0463515f
+BuggyFilePath:core/src/main/java/org/fiteagle/core/aaa/CertificateAuthority.java
+FixedFilePath:core/src/main/java/org/fiteagle/core/aaa/CertificateAuthority.java
+StartLineNum:44
+EndLineNum:44
+repoName:tubav#fiteagle

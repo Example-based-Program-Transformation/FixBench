@@ -1,0 +1,8 @@
+Id:86271
+comSha:07de69a23334808c516fd5b169b4cab8df659023
+parentComSha:6210735c4f411dc6f44eaa5dbc32e4f4ee583a82
+BuggyFilePath:parsers/src/main/java/org/coode/owl/krssparser/KRSSOntologyFormat.java
+FixedFilePath:parsers/src/main/java/org/coode/owl/krssparser/KRSSOntologyFormat.java
+StartLineNum:48
+EndLineNum:51
+repoName:owlcs#owlapi

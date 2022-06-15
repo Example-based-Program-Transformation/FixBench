@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/getspout/api/inventory/Inventory.java b/src/main/java/org/getspout/api/inventory/Inventory.java
+index f75f48bf5..c64a89bd9 100644
+--- a/src/main/java/org/getspout/api/inventory/Inventory.java
++++ b/src/main/java/org/getspout/api/inventory/Inventory.java
+@@ -7 +7,2 @@ public class Inventory implements Serializable {
+-	ItemStack[] contents;
++	private static final long serialVersionUID = 0L;
++	private ItemStack[] contents;

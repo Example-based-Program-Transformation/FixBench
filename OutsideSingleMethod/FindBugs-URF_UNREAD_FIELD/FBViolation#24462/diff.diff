@@ -1,0 +1,10 @@
+diff --git a/californium/src/main/java/ch/ethz/inf/vs/californium/server/resources/CoapExchange.java b/californium/src/main/java/ch/ethz/inf/vs/californium/server/resources/CoapExchange.java
+index e5f0e155..100580fb 100644
+--- a/californium/src/main/java/ch/ethz/inf/vs/californium/server/resources/CoapExchange.java
++++ b/californium/src/main/java/ch/ethz/inf/vs/californium/server/resources/CoapExchange.java
+@@ -37 +36,0 @@ import ch.ethz.inf.vs.californium.coap.CoAP.ResponseCode;
+-import ch.ethz.inf.vs.californium.coap.CoAP.Type;
+@@ -62,3 +60,0 @@ public class CoapExchange {
+-	/* Notification options. */
+-	private Type notificationType = null;
+-

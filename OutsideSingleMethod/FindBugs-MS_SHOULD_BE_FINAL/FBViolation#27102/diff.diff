@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/github/davidmoten/rtree/Comparators.java b/src/main/java/com/github/davidmoten/rtree/Comparators.java
+index 02e5b6d..44c0a9a 100644
+--- a/src/main/java/com/github/davidmoten/rtree/Comparators.java
++++ b/src/main/java/com/github/davidmoten/rtree/Comparators.java
+@@ -24 +24 @@ public final class Comparators {
+-    public static Comparator<ListPair<?>> areaPairComparator = new Comparator<ListPair<?>>() {
++    public static final Comparator<ListPair<?>> areaPairComparator = new Comparator<ListPair<?>>() {

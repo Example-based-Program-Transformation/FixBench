@@ -1,0 +1,10 @@
+diff --git a/src/main/java/org/redisson/connection/PubSubConnectionEntry.java b/src/main/java/org/redisson/connection/PubSubConnectionEntry.java
+index 942ef893..1e30f125 100644
+--- a/src/main/java/org/redisson/connection/PubSubConnectionEntry.java
++++ b/src/main/java/org/redisson/connection/PubSubConnectionEntry.java
+@@ -32,2 +31,0 @@ import org.redisson.client.protocol.pubsub.PubSubType;
+-import org.slf4j.Logger;
+-import org.slf4j.LoggerFactory;
+@@ -39,2 +36,0 @@ public class PubSubConnectionEntry {
+-    private final Logger log = LoggerFactory.getLogger(getClass());
+-

@@ -1,0 +1,8 @@
+Id:66985
+comSha:f603303170f8369e8fc0cb1ff9ea39fa33811315
+parentComSha:d2b5c5a47d842558772802f01e1dec5e47f6fe1f
+BuggyFilePath:src/main/java/com/coremedia/iso/boxes/FreeBox.java
+FixedFilePath:src/main/java/com/coremedia/iso/boxes/FreeBox.java
+StartLineNum:26
+EndLineNum:26
+repoName:sannies#mp4parser

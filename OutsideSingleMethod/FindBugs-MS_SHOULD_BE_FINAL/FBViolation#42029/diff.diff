@@ -1,0 +1,7 @@
+diff --git a/src/main/java/fr/xephi/authme/util/Utils.java b/src/main/java/fr/xephi/authme/util/Utils.java
+index d0d6734c..1a83b570 100644
+--- a/src/main/java/fr/xephi/authme/util/Utils.java
++++ b/src/main/java/fr/xephi/authme/util/Utils.java
+@@ -34 +34 @@ public final class Utils {
+-    public static AuthMe plugin;
++    public static final AuthMe plugin;

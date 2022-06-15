@@ -1,0 +1,9 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/formats/TrixOntologyFormatFactory.java b/rio/src/main/java/org/semanticweb/owlapi/formats/TrixOntologyFormatFactory.java
+index f4f12a579..f682e1c55 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/formats/TrixOntologyFormatFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/formats/TrixOntologyFormatFactory.java
+@@ -17,3 +17 @@ public class TrixOntologyFormatFactory extends
+-    public TrixOntologyFormatFactory() {
+-        super();
+-    }
++    private static final long serialVersionUID = 40000L;

@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/facebook/presto/aggregations/CountAggregation.java b/src/main/java/com/facebook/presto/aggregations/CountAggregation.java
+index a0db2bd91..120e5d2f8 100644
+--- a/src/main/java/com/facebook/presto/aggregations/CountAggregation.java
++++ b/src/main/java/com/facebook/presto/aggregations/CountAggregation.java
+@@ -16 +16 @@ public class CountAggregation
+-    public static Provider<AggregationFunction> PROVIDER = new Provider<AggregationFunction>() {
++    public static final Provider<AggregationFunction> PROVIDER = new Provider<AggregationFunction>() {

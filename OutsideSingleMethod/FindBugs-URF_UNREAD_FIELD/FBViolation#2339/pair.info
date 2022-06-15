@@ -1,0 +1,8 @@
+Id:2339
+comSha:983fc6412f48ac496cbee8101c5525cb67237dd5
+parentComSha:0e8569a72610885780ffcaa9adfeeee8f9ef2362
+BuggyFilePath:src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java
+FixedFilePath:src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java
+StartLineNum:59
+EndLineNum:59
+repoName:TeamExodus#external_gson

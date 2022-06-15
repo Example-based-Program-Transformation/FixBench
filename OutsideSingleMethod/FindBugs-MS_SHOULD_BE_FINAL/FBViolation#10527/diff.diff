@@ -1,0 +1,7 @@
+diff --git a/src/net/slipcor/pvparena/commands/PAA_Setup.java b/src/net/slipcor/pvparena/commands/PAA_Setup.java
+index 447cb7a4..96b06fe5 100644
+--- a/src/net/slipcor/pvparena/commands/PAA_Setup.java
++++ b/src/net/slipcor/pvparena/commands/PAA_Setup.java
+@@ -33 +33 @@ public class PAA_Setup extends AbstractArenaCommand {
+-    public static Map<String, Arena> activeSetups = new HashMap<String, Arena>();
++    public static final Map<String, Arena> activeSetups = new HashMap<String, Arena>();

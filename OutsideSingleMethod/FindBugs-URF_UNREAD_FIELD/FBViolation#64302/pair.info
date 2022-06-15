@@ -1,0 +1,8 @@
+Id:64302
+comSha:40cb680a717e28016e2f2651a3161121b94f7eb6
+parentComSha:1397147925f32f2abafa753d0890d7dab057f067
+BuggyFilePath:src/main/java/org/redisson/connection/PubSubConnectionEntry.java
+FixedFilePath:src/main/java/org/redisson/connection/PubSubConnectionEntry.java
+StartLineNum:39
+EndLineNum:39
+repoName:mrniko#redisson

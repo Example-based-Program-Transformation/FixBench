@@ -1,0 +1,4 @@
+Merge branch 'master' of github.com:thinkaurelius/faunus
+
+Conflicts:
+	src/main/java/com/thinkaurelius/faunus/mapreduce/FaunusCompiler.java

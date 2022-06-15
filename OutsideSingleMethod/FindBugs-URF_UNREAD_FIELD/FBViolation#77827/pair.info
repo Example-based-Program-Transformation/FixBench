@@ -1,0 +1,8 @@
+Id:77827
+comSha:37df1b7e381d3e138b424a840b549b51aeae096a
+parentComSha:d95982b7141b54cb49bce43ffd16b01313e8c1d6
+BuggyFilePath:tools/src/main/java/com/graphhopper/ui/GraphicsWrapper.java
+FixedFilePath:tools/src/main/java/com/graphhopper/ui/GraphicsWrapper.java
+StartLineNum:46
+EndLineNum:46
+repoName:graphhopper#graphhopper

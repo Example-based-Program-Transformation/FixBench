@@ -1,0 +1,2 @@
+removed javadoc.skip from run-config
+solved 3 findbugs issues

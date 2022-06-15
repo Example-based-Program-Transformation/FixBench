@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/facebook/presto/aggregations/AverageAggregation.java b/src/main/java/com/facebook/presto/aggregations/AverageAggregation.java
+index 544a78a03..46f3b6244 100644
+--- a/src/main/java/com/facebook/presto/aggregations/AverageAggregation.java
++++ b/src/main/java/com/facebook/presto/aggregations/AverageAggregation.java
+@@ -16 +16 @@ public class AverageAggregation
+-    public static Provider<AggregationFunction> PROVIDER = new Provider<AggregationFunction>() {
++    public static final Provider<AggregationFunction> PROVIDER = new Provider<AggregationFunction>() {

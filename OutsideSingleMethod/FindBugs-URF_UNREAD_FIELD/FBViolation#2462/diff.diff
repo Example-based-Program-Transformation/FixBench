@@ -1,0 +1,12 @@
+diff --git a/src/main/java/com/google/gson/GsonToMiniGsonTypeAdapterFactory.java b/src/main/java/com/google/gson/GsonToMiniGsonTypeAdapterFactory.java
+index 1b700027..086619f2 100644
+--- a/src/main/java/com/google/gson/GsonToMiniGsonTypeAdapterFactory.java
++++ b/src/main/java/com/google/gson/GsonToMiniGsonTypeAdapterFactory.java
+@@ -33 +32,0 @@ final class GsonToMiniGsonTypeAdapterFactory implements TypeAdapter.Factory {
+-  private final boolean serializeNulls;
+@@ -37,2 +36 @@ final class GsonToMiniGsonTypeAdapterFactory implements TypeAdapter.Factory {
+-      ParameterizedTypeHandlerMap<JsonDeserializer<?>> deserializers,
+-      boolean serializeNulls) {
++      ParameterizedTypeHandlerMap<JsonDeserializer<?>> deserializers) {
+@@ -41 +38,0 @@ final class GsonToMiniGsonTypeAdapterFactory implements TypeAdapter.Factory {
+-    this.serializeNulls = serializeNulls;

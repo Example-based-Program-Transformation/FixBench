@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/github/davidmoten/rtree/Functions.java b/src/main/java/com/github/davidmoten/rtree/Functions.java
+index e2596b3..c655b32 100644
+--- a/src/main/java/com/github/davidmoten/rtree/Functions.java
++++ b/src/main/java/com/github/davidmoten/rtree/Functions.java
+@@ -17 +17 @@ public final class Functions {
+-    public static Func1<ListPair<? extends HasGeometry>, Double> overlapListPair = new Func1<ListPair<? extends HasGeometry>, Double>() {
++    public static final Func1<ListPair<? extends HasGeometry>, Double> overlapListPair = new Func1<ListPair<? extends HasGeometry>, Double>() {

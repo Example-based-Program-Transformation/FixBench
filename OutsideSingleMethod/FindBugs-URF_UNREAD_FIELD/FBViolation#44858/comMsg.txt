@@ -1,0 +1,2 @@
+CODE: clean code, according to result on report Findbugs.
+CODE: update javadoc.

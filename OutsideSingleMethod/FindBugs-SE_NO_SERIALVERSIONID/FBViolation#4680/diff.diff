@@ -1,0 +1,6 @@
+diff --git a/src/main/java/org/mapdb/StoreHeap.java b/src/main/java/org/mapdb/StoreHeap.java
+index 44ff06ff..9632beba 100644
+--- a/src/main/java/org/mapdb/StoreHeap.java
++++ b/src/main/java/org/mapdb/StoreHeap.java
+@@ -19,0 +20 @@ public class StoreHeap extends Store implements Serializable{
++    private static final long serialVersionUID = 150060834534309445L;

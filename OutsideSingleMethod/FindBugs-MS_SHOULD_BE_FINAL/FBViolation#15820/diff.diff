@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/blocks/PartitionedHashMap.java b/src/org/jgroups/blocks/PartitionedHashMap.java
+index 7923046c8..3d6705da5 100644
+--- a/src/org/jgroups/blocks/PartitionedHashMap.java
++++ b/src/org/jgroups/blocks/PartitionedHashMap.java
+@@ -74 +74 @@ public class PartitionedHashMap<K,V> implements MembershipListener {
+-    protected static Map<Short,Method> methods=Util.createConcurrentMap(8);
++    protected static final Map<Short,Method> methods=Util.createConcurrentMap(8);

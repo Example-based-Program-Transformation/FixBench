@@ -1,0 +1,9 @@
+diff --git a/biojava3-alignment/src/main/java/org/biojava3/alignment/SimpleProfile.java b/biojava3-alignment/src/main/java/org/biojava3/alignment/SimpleProfile.java
+index 000cc655..eb4f92a7 100644
+--- a/biojava3-alignment/src/main/java/org/biojava3/alignment/SimpleProfile.java
++++ b/biojava3-alignment/src/main/java/org/biojava3/alignment/SimpleProfile.java
+@@ -37 +36,0 @@ import org.biojava3.core.sequence.AccessionID;
+-import org.biojava3.core.sequence.Strand;
+@@ -646 +645 @@ public class SimpleProfile<S extends Sequence<C>, C extends Compound> implements
+-	protected static SubstitutionMatrix<AminoAcidCompound> matrix = SubstitutionMatrixHelper.getBlosum65();
++	protected static final SubstitutionMatrix<AminoAcidCompound> matrix = SubstitutionMatrixHelper.getBlosum65();

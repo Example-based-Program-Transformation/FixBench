@@ -1,0 +1,8 @@
+Id:34148
+comSha:0ad458c024172e79bdc1c43b96c508c7c58f6db9
+parentComSha:0f670e35ebd43e33eecd1431b740943f1f7d10e2
+BuggyFilePath:src/main/java/uk/co/caprica/vlcj/filter/SubTitleFileFilter.java
+FixedFilePath:src/main/java/uk/co/caprica/vlcj/filter/SubTitleFileFilter.java
+StartLineNum:55
+EndLineNum:55
+repoName:caprica#vlcj

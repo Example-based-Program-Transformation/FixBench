@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/hbase/index/Indexer.java b/src/main/java/com/salesforce/hbase/index/Indexer.java
+index f1e8eba7..8a8b199d 100644
+--- a/src/main/java/com/salesforce/hbase/index/Indexer.java
++++ b/src/main/java/com/salesforce/hbase/index/Indexer.java
+@@ -150 +150 @@ public class Indexer extends BaseRegionObserver {
+-  public static String RecoveryFailurePolicyKeyForTesting = INDEX_RECOVERY_FAILURE_POLICY_KEY;
++  public static final String RecoveryFailurePolicyKeyForTesting = INDEX_RECOVERY_FAILURE_POLICY_KEY;

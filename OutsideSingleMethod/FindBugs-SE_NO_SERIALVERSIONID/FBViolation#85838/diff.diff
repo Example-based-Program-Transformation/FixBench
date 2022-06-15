@@ -1,0 +1,7 @@
+diff --git a/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfOntologyStorerFactory.java b/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfOntologyStorerFactory.java
+index 960dd20a3..6fa092c4d 100644
+--- a/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfOntologyStorerFactory.java
++++ b/rio/src/main/java/org/semanticweb/owlapi/rio/RioBinaryRdfOntologyStorerFactory.java
+@@ -51,0 +52,2 @@ public class RioBinaryRdfOntologyStorerFactory implements
++    private static final long serialVersionUID = 40000L;
++

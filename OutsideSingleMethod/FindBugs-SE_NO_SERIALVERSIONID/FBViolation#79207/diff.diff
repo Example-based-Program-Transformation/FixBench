@@ -1,0 +1,12 @@
+diff --git a/src/main/java/com/googlecode/objectify/util/jackson/RefDeserializer.java b/src/main/java/com/googlecode/objectify/util/jackson/RefDeserializer.java
+index 9e3f1be8..857ca852 100644
+--- a/src/main/java/com/googlecode/objectify/util/jackson/RefDeserializer.java
++++ b/src/main/java/com/googlecode/objectify/util/jackson/RefDeserializer.java
+@@ -15 +15 @@ import com.googlecode.objectify.Ref;
+- * currently work for full objects (ie, serialized when the ref was loaded), only for string keys (ie, 
++ * currently work for full objects (ie, serialized when the ref was loaded), only for string keys (ie,
+@@ -19,0 +20 @@ public class RefDeserializer extends StdDeserializer<Ref> {
++	private static final long serialVersionUID = 1L;
+@@ -32 +33 @@ public class RefDeserializer extends StdDeserializer<Ref> {
+-		
++

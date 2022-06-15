@@ -1,0 +1,8 @@
+Id:27061
+comSha:05ee2cec81abe6b94011d6817915d75a28471fd6
+parentComSha:fe0e390ea430002231d4a4eafca9c796abd6d0d4
+BuggyFilePath:src/main/java/com/github/davidmoten/rtree/NonLeaf.java
+FixedFilePath:src/main/java/com/github/davidmoten/rtree/NonLeaf.java
+StartLineNum:18
+EndLineNum:18
+repoName:davidmoten#rtree

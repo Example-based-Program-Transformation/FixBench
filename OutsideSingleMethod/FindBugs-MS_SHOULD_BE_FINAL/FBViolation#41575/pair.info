@@ -1,0 +1,8 @@
+Id:41575
+comSha:82bf0f45ca7637de9206205721da874c627e3eee
+parentComSha:83e5d726af570d8d90e3baee4760656d88bea096
+BuggyFilePath:src/main/java/fr/xephi/authme/security/PasswordSecurity.java
+FixedFilePath:src/main/java/fr/xephi/authme/security/PasswordSecurity.java
+StartLineNum:21
+EndLineNum:21
+repoName:Xephi#AuthMeReloaded

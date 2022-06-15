@@ -1,0 +1,8 @@
+Id:20058
+comSha:770c1a1f4aa1bfbbc51ab59b3cec2cd63849c23a
+parentComSha:680fc680f58667c429b92af960d753f48904e27b
+BuggyFilePath:src/main/java/org/jboss/aesh/console/AeshProcess.java
+FixedFilePath:src/main/java/org/jboss/aesh/console/AeshProcess.java
+StartLineNum:32
+EndLineNum:32
+repoName:aeshell#aesh

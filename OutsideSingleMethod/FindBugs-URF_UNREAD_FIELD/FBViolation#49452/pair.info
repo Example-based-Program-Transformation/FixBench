@@ -1,0 +1,8 @@
+Id:49452
+comSha:97b39b1122c04768dd1634112e8d75019400eb62
+parentComSha:ebb81bd15ef633f7a1a183bb731e39c769672141
+BuggyFilePath:src/main/java/net/minecraft/server/PathfinderGoalMeleeAttack.java
+FixedFilePath:src/main/java/net/minecraft/server/PathfinderGoalMeleeAttack.java
+StartLineNum:20
+EndLineNum:20
+repoName:Poweruser#MinetickMod

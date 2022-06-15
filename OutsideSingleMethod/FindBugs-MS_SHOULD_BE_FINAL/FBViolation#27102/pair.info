@@ -1,0 +1,8 @@
+Id:27102
+comSha:6b1dfd7df228f103f8d31e75cb7837bc536c404a
+parentComSha:f7bc10395c1d8ac5f14e610a3ac1f395ef92a106
+BuggyFilePath:src/main/java/com/github/davidmoten/rtree/Comparators.java
+FixedFilePath:src/main/java/com/github/davidmoten/rtree/Comparators.java
+StartLineNum:24
+EndLineNum:24
+repoName:davidmoten#rtree

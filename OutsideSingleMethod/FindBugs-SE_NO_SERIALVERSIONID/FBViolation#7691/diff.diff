@@ -1,0 +1,7 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ErrorEndEventActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ErrorEndEventActivityBehavior.java
+index e7114f600..d306a4902 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ErrorEndEventActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ErrorEndEventActivityBehavior.java
+@@ -23,0 +24,2 @@ public class ErrorEndEventActivityBehavior extends FlowNodeActivityBehavior {
++    private static final long serialVersionUID = 1L;
++

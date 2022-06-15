@@ -1,0 +1,9 @@
+diff --git a/src/net/sourceforge/plantuml/activitydiagram3/ftile/vcompact/FtileFactoryDelegatorAddNote.java b/src/net/sourceforge/plantuml/activitydiagram3/ftile/vcompact/FtileFactoryDelegatorAddNote.java
+index 4d6326d9..510abcae 100644
+--- a/src/net/sourceforge/plantuml/activitydiagram3/ftile/vcompact/FtileFactoryDelegatorAddNote.java
++++ b/src/net/sourceforge/plantuml/activitydiagram3/ftile/vcompact/FtileFactoryDelegatorAddNote.java
+@@ -42 +41,0 @@ import net.sourceforge.plantuml.sequencediagram.NotePosition;
+-import net.sourceforge.plantuml.skin.rose.Rose;
+@@ -46 +45 @@ public class FtileFactoryDelegatorAddNote extends FtileFactoryDelegator {
+-	private final Rose rose = new Rose();
++	// private final Rose rose = new Rose();

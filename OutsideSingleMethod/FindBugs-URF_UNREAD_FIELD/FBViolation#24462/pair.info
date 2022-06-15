@@ -1,0 +1,8 @@
+Id:24462
+comSha:8099a0c70b89b023a0fc5b83620878ad2412d24a
+parentComSha:bd42568305c58ebc8b1d7ae2b953af1b9e60cc39
+BuggyFilePath:californium/src/main/java/ch/ethz/inf/vs/californium/server/resources/CoapExchange.java
+FixedFilePath:californium/src/main/java/ch/ethz/inf/vs/californium/server/resources/CoapExchange.java
+StartLineNum:63
+EndLineNum:63
+repoName:mkovatsc#Californium

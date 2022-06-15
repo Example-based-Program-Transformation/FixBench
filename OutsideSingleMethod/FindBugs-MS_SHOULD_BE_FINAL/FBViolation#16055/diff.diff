@@ -1,0 +1,7 @@
+diff --git a/src/org/jgroups/util/UUID.java b/src/org/jgroups/util/UUID.java
+index 3aed4952f..d0f63625f 100644
+--- a/src/org/jgroups/util/UUID.java
++++ b/src/org/jgroups/util/UUID.java
+@@ -26 +26 @@ public class UUID implements Address, Streamable, Comparable<Address> {
+-    protected static LazyRemovalCache<Address,String> cache;
++    protected static final LazyRemovalCache<Address,String> cache;

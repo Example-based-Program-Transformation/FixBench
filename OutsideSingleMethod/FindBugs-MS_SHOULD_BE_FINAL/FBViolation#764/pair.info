@@ -1,0 +1,8 @@
+Id:764
+comSha:43f387c637dc63f206ed0e1f64023bffc9d338fe
+parentComSha:38b164c3d6815c0b97689f35d4f470ac4109cfa8
+BuggyFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatRigid.java
+FixedFilePath:biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatRigid.java
+StartLineNum:37
+EndLineNum:37
+repoName:biojava#biojava

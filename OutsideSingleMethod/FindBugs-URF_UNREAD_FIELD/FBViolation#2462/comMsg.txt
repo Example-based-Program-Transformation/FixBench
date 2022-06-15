@@ -1,0 +1,3 @@
+Delete dead code found by coverage
+
+git-svn-id: http://google-gson.googlecode.com/svn/trunk/gson@988 2534bb62-2c4b-0410-85e8-b5006b95c4ae

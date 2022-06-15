@@ -1,0 +1,7 @@
+diff --git a/src/main/java/jscover/report/JSONDataSaver.java b/src/main/java/jscover/report/JSONDataSaver.java
+index 4ddfa369..4fbf3eb7 100644
+--- a/src/main/java/jscover/report/JSONDataSaver.java
++++ b/src/main/java/jscover/report/JSONDataSaver.java
+@@ -356 +356 @@ public class JSONDataSaver {
+-    protected static Set<File> files = new HashSet<File>();
++    protected static final Set<File> files = new HashSet<File>();

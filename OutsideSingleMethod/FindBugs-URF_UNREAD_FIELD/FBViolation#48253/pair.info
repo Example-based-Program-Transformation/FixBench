@@ -1,0 +1,8 @@
+Id:48253
+comSha:7b6e7e60e488f45c9f9a6c61ef12f35fa926ec46
+parentComSha:e627348e7d0877c52828a1f4932015698f167d68
+BuggyFilePath:src/main/java/de/komoot/photon/AbstractPhotonRequestHandler.java
+FixedFilePath:src/main/java/de/komoot/photon/AbstractPhotonRequestHandler.java
+StartLineNum:17
+EndLineNum:17
+repoName:komoot#photon

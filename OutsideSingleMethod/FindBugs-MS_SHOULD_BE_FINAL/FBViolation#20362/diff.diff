@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/hbase/index/covered/update/ColumnReference.java b/src/main/java/com/salesforce/hbase/index/covered/update/ColumnReference.java
+index 90ebccdf..dd277eec 100644
+--- a/src/main/java/com/salesforce/hbase/index/covered/update/ColumnReference.java
++++ b/src/main/java/com/salesforce/hbase/index/covered/update/ColumnReference.java
+@@ -38 +38 @@ public class ColumnReference implements Comparable<ColumnReference> {
+-  public static byte[] ALL_QUALIFIERS = new byte[0];
++  public static final byte[] ALL_QUALIFIERS = new byte[0];

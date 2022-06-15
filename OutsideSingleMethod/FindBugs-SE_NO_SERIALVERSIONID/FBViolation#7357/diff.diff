@@ -1,0 +1,13 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/EventBasedGatewayActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/EventBasedGatewayActivityBehavior.java
+index 0ea342963..fdc75107e 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/EventBasedGatewayActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/EventBasedGatewayActivityBehavior.java
+@@ -16 +16 @@ package org.activiti.engine.impl.bpmn.behavior;
+-import org.activiti.engine.impl.delegate.ActivityExecution;
++import org.activiti.engine.delegate.DelegateExecution;
+@@ -22,0 +23,2 @@ public class EventBasedGatewayActivityBehavior extends FlowNodeActivityBehavior
++  
++  private static final long serialVersionUID = 1L;
+@@ -25 +27 @@ public class EventBasedGatewayActivityBehavior extends FlowNodeActivityBehavior
+-  public void execute(ActivityExecution execution) {
++  public void execute(DelegateExecution execution) {

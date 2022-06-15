@@ -1,0 +1,14 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskExpressionActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskExpressionActivityBehavior.java
+index 54840a348..36b9f932f 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskExpressionActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/ServiceTaskExpressionActivityBehavior.java
+@@ -17,0 +18 @@ import org.activiti.engine.delegate.BpmnError;
++import org.activiti.engine.delegate.DelegateExecution;
+@@ -21 +21,0 @@ import org.activiti.engine.impl.bpmn.helper.SkipExpressionUtil;
+-import org.activiti.engine.impl.delegate.ActivityExecution;
+@@ -33,0 +34,2 @@ public class ServiceTaskExpressionActivityBehavior extends TaskActivityBehavior
++  private static final long serialVersionUID = 1L;
++  
+@@ -44 +46 @@ public class ServiceTaskExpressionActivityBehavior extends TaskActivityBehavior
+-  public void execute(ActivityExecution execution) {
++  public void execute(DelegateExecution execution) {

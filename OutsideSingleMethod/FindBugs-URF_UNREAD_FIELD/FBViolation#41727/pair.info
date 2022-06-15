@@ -1,0 +1,8 @@
+Id:41727
+comSha:8f446fa6af459411635b9299c4ee5c209244ad80
+parentComSha:53f3ad114b604e0f450c569e1d884bfc5612d461
+BuggyFilePath:src/main/java/fr/xephi/authme/converter/ForceFlatToSqlite.java
+FixedFilePath:src/main/java/fr/xephi/authme/converter/ForceFlatToSqlite.java
+StartLineNum:17
+EndLineNum:17
+repoName:Xephi#AuthMeReloaded

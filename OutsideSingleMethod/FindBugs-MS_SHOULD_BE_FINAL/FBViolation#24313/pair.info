@@ -1,0 +1,8 @@
+Id:24313
+comSha:eec8b0e822a03484d013f76f7af888952f836082
+parentComSha:03571696a5926dc5e9d09e4d09b0487eac980ddd
+BuggyFilePath:californium/src/main/java/ch/ethz/inf/vs/californium/util/Properties.java
+FixedFilePath:californium/src/main/java/ch/ethz/inf/vs/californium/util/Properties.java
+StartLineNum:68
+EndLineNum:68
+repoName:mkovatsc#Californium

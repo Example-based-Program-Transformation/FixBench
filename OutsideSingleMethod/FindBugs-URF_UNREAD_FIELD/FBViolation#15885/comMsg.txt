@@ -1,0 +1,1 @@
+removed deprecated classes and methods (https://issues.jboss.org/browse/JGRP-999)

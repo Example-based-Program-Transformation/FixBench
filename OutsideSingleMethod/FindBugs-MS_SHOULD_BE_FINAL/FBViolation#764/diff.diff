@@ -1,0 +1,7 @@
+diff --git a/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatRigid.java b/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatRigid.java
+index 87e3f4976..14c1d1f7c 100644
+--- a/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatRigid.java
++++ b/biojava-structure/src/main/java/org/biojava/nbio/structure/align/fatcat/FatCatRigid.java
+@@ -37 +37 @@ public class FatCatRigid extends FatCat implements StructureAlignment{
+-	public static String algorithmName = "jFatCat_rigid";
++	public static final String algorithmName = "jFatCat_rigid";

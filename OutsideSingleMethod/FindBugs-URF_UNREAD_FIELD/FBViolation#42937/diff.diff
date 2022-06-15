@@ -1,0 +1,8 @@
+diff --git a/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java b/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java
+index 08419710..f1298065 100644
+--- a/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java
++++ b/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java
+@@ -19 +18,0 @@ public class CacheDataSource implements DataSource {
+-    private final AuthMe plugin;
+@@ -24 +22,0 @@ public class CacheDataSource implements DataSource {
+-        this.plugin = pl;

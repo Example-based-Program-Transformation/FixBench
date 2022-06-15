@@ -1,0 +1,1 @@
+First imple of replacing Ack{Receiver,Sender}Window with Table (https://issues.jboss.org/browse/JGRP-1419)

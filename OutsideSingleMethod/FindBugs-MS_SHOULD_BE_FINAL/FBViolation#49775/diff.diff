@@ -1,0 +1,9 @@
+diff --git a/src/main/java/ch/metzenthin/svm/persistence/entities/Lektionsgebuehren.java b/src/main/java/ch/metzenthin/svm/persistence/entities/Lektionsgebuehren.java
+index f53a54a..8d52490 100644
+--- a/src/main/java/ch/metzenthin/svm/persistence/entities/Lektionsgebuehren.java
++++ b/src/main/java/ch/metzenthin/svm/persistence/entities/Lektionsgebuehren.java
+@@ -14,2 +14,2 @@ public class Lektionsgebuehren implements Comparable<Lektionsgebuehren> {
+-    public static int MAX_KINDER = 6;
+-    public static int MIN_ANZAHL_TAGE_SECHS_JAHRES_RABATT = 2125;   // 5 Jahre und 10 Monate
++    public static final int MAX_KINDER = 6;
++    public static final int MIN_ANZAHL_TAGE_SECHS_JAHRES_RABATT = 2125;   // 5 Jahre und 10 Monate

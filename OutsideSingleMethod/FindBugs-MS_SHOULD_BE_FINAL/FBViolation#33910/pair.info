@@ -1,0 +1,8 @@
+Id:33910
+comSha:b195ede3fdf9566b5b5e3b6001a1450fe3a6718e
+parentComSha:930ce64526ccf35fc1854fbcfb86df574afe309c
+BuggyFilePath:src/main/java/jscover/report/JSONDataSaver.java
+FixedFilePath:src/main/java/jscover/report/JSONDataSaver.java
+StartLineNum:356
+EndLineNum:356
+repoName:tntim96#JSCover

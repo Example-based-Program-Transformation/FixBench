@@ -1,0 +1,8 @@
+Id:4804
+comSha:167b296b78ce830988083acc859dad7f39ce7fe6
+parentComSha:75efe20e0b2b22cf769e5630e511c2ccfd2df089
+BuggyFilePath:src/main/java/org/mapdb/HTreeMap.java
+FixedFilePath:src/main/java/org/mapdb/HTreeMap.java
+StartLineNum:1263
+EndLineNum:1263
+repoName:jankotek#MapDB

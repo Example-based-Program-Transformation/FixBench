@@ -1,0 +1,7 @@
+diff --git a/src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomicInterval.java b/src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomicInterval.java
+index da704466..b0d48113 100644
+--- a/src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomicInterval.java
++++ b/src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomicInterval.java
+@@ -39,0 +40,2 @@ public class GenomicInterval implements Serializable,
++  private static final long serialVersionUID = 1974207984076778441L;
++

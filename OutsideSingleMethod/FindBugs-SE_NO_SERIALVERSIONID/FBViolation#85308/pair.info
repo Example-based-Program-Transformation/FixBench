@@ -1,0 +1,8 @@
+Id:85308
+comSha:97e3380b250f8b4bda75dfae92f01c2013e03c13
+parentComSha:c91c89f00b9d2fd2869a9b58e3fdb43f8d0ffd32
+BuggyFilePath:api/src/main/java/org/semanticweb/owlapi/reasoner/ConsoleProgressMonitor.java
+FixedFilePath:api/src/main/java/org/semanticweb/owlapi/reasoner/ConsoleProgressMonitor.java
+StartLineNum:45
+EndLineNum:76
+repoName:owlcs#owlapi

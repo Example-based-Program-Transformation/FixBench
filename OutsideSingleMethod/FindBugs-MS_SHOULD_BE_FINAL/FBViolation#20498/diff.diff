@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/hbase/index/util/IndexManagementUtil.java b/src/main/java/com/salesforce/hbase/index/util/IndexManagementUtil.java
+index 143617ca..06e595dd 100644
+--- a/src/main/java/com/salesforce/hbase/index/util/IndexManagementUtil.java
++++ b/src/main/java/com/salesforce/hbase/index/util/IndexManagementUtil.java
+@@ -62 +62 @@ public class IndexManagementUtil {
+-  public static String HLOG_READER_IMPL_KEY = "hbase.regionserver.hlog.reader.impl";
++  public static final String HLOG_READER_IMPL_KEY = "hbase.regionserver.hlog.reader.impl";

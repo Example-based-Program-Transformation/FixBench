@@ -1,0 +1,8 @@
+Id:17098
+comSha:e36819d0c30889d852747aa52500d6635d5da883
+parentComSha:c5d69a49c82dd6395b8219b180844cec1edcd962
+BuggyFilePath:src/main/java/net/tridentsdk/meta/nbt/CompoundTagBuilder.java
+FixedFilePath:src/main/java/net/tridentsdk/meta/nbt/CompoundTagBuilder.java
+StartLineNum:34
+EndLineNum:34
+repoName:TridentSDK#TridentSDK

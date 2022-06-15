@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/hbase/index/builder/IndexBuildManager.java b/src/main/java/com/salesforce/hbase/index/builder/IndexBuildManager.java
+index 2a9260e4..62f12e45 100644
+--- a/src/main/java/com/salesforce/hbase/index/builder/IndexBuildManager.java
++++ b/src/main/java/com/salesforce/hbase/index/builder/IndexBuildManager.java
+@@ -75 +75 @@ public class IndexBuildManager implements Stoppable {
+-  public static String NUM_CONCURRENT_INDEX_BUILDER_THREADS_CONF_KEY = "index.builder.threads.max";
++  public static final String NUM_CONCURRENT_INDEX_BUILDER_THREADS_CONF_KEY = "index.builder.threads.max";

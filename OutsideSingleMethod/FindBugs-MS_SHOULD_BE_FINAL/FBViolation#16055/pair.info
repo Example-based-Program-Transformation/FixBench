@@ -1,0 +1,8 @@
+Id:16055
+comSha:9ebcbe48e9fb16a5b8c09ddb15c9eae2c00bd8df
+parentComSha:e2d5dc0e6ab737a552ce3c5cee6669232585adcf
+BuggyFilePath:src/org/jgroups/util/UUID.java
+FixedFilePath:src/org/jgroups/util/UUID.java
+StartLineNum:63
+EndLineNum:63
+repoName:belaban#JGroups

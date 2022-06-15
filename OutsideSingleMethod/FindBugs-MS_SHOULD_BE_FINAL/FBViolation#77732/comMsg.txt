@@ -1,0 +1,1 @@
+moving from two time read process to only onetime via special osmidMap; fixing old test memory problem but still high memory usage is unclear

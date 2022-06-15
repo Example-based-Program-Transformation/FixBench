@@ -1,0 +1,8 @@
+Id:78112
+comSha:bd3d376d03df5eac831507ac1b99345fe9fd72b8
+parentComSha:717ca6b12c10868917cc22b6477ee551f0d39025
+BuggyFilePath:src/main/java/co/foxdev/foxbot/commands/CommandInsult.java
+FixedFilePath:src/main/java/co/foxdev/foxbot/commands/CommandInsult.java
+StartLineNum:47
+EndLineNum:47
+repoName:FoxDev#FoxBot

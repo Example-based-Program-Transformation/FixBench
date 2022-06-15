@@ -1,0 +1,4 @@
+Merge commit '0ea44a0cb5f6f54460e3f2039fc2fc94aa50a780' into activiti6
+
+* commit '0ea44a0cb5f6f54460e3f2039fc2fc94aa50a780':
+  refactor code to reuse the code for getting pattern

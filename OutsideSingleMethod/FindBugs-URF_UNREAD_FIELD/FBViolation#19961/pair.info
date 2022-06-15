@@ -1,0 +1,8 @@
+Id:19961
+comSha:95cadf56a8a37b4fb378b838412dbf6d8d871099
+parentComSha:96cf17dd1e360381c9b00490e6dae331f3f9ac29
+BuggyFilePath:src/test/java/org/jboss/aesh/console/masking/ConsoleMaskingTest.java
+FixedFilePath:src/test/java/org/jboss/aesh/console/masking/ConsoleMaskingTest.java
+StartLineNum:30
+EndLineNum:30
+repoName:aeshell#aesh

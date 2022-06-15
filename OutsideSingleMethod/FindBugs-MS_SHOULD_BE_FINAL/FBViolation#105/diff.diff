@@ -1,0 +1,19 @@
+diff --git a/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlignmentCalc.java b/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlignmentCalc.java
+index 6c812344f..55dac677b 100644
+--- a/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlignmentCalc.java
++++ b/biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlignmentCalc.java
+@@ -26,2 +25,0 @@ package org.biojava.bio.structure.gui.util;
+-import java.util.logging.Logger;
+-
+@@ -33,0 +32,2 @@ import org.biojava.bio.structure.align.pairwise.AlternativeAlignment;
++import org.slf4j.Logger;
++import org.slf4j.LoggerFactory;
+@@ -48 +48 @@ public class AlignmentCalc implements Runnable {
+-	public static Logger logger =  Logger.getLogger("org.biojava");
++	private static final Logger logger = LoggerFactory.getLogger(AlignmentCalc.class);
+@@ -85 +85 @@ public class AlignmentCalc implements Runnable {
+-		aligner.setDebug(true);
++		
+@@ -89 +89 @@ public class AlignmentCalc implements Runnable {
+-			logger.warning(e.getMessage());
++			logger.warn(e.getMessage());

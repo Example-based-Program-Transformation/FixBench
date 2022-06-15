@@ -1,0 +1,8 @@
+diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/data/impl/delegates/DelegatingRun.java b/src/main/java/org/optimizationBenchmarking/experimentation/data/impl/delegates/DelegatingRun.java
+index 007950c1..186e1fe8 100644
+--- a/src/main/java/org/optimizationBenchmarking/experimentation/data/impl/delegates/DelegatingRun.java
++++ b/src/main/java/org/optimizationBenchmarking/experimentation/data/impl/delegates/DelegatingRun.java
+@@ -25,3 +24,0 @@ public class DelegatingRun extends AbstractRun {
+-  /** the index of this run in the owning element */
+-  int m_index;
+-

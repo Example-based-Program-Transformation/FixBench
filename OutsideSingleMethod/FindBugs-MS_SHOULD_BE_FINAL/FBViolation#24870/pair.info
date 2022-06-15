@@ -1,0 +1,8 @@
+Id:24870
+comSha:b7b42060dbc2b48ccb4c9570428236d3238da2e6
+parentComSha:826c7837204897437e9020211ed6b45516905fda
+BuggyFilePath:src/main/java/com/facebook/presto/aggregations/SumAggregation.java
+FixedFilePath:src/main/java/com/facebook/presto/aggregations/SumAggregation.java
+StartLineNum:16
+EndLineNum:16
+repoName:airlift#airlift

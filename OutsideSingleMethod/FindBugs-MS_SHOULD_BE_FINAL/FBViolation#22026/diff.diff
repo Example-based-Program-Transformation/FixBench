@@ -1,0 +1,7 @@
+diff --git a/src/main/java/com/salesforce/hbase/index/covered/data/IndexMemStore.java b/src/main/java/com/salesforce/hbase/index/covered/data/IndexMemStore.java
+index ce33a872..3f78f4b6 100644
+--- a/src/main/java/com/salesforce/hbase/index/covered/data/IndexMemStore.java
++++ b/src/main/java/com/salesforce/hbase/index/covered/data/IndexMemStore.java
+@@ -96 +96 @@ public class IndexMemStore implements KeyValueStore {
+-  public static Comparator<KeyValue> COMPARATOR = new Comparator<KeyValue>() {
++  public static final Comparator<KeyValue> COMPARATOR = new Comparator<KeyValue>() {

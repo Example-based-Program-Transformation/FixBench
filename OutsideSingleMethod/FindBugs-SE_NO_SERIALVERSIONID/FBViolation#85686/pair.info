@@ -1,0 +1,8 @@
+Id:85686
+comSha:e696d48ab22e6d585184372c2cab3e25e8b3e5fc
+parentComSha:b4ba8cfd21c92974715071476ecaffdfaf5c1bec
+BuggyFilePath:impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyIRIMapperImpl.java
+FixedFilePath:impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyIRIMapperImpl.java
+StartLineNum:32
+EndLineNum:55
+repoName:owlcs#owlapi

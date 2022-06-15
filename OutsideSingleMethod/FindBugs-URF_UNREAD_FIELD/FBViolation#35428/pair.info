@@ -1,0 +1,8 @@
+Id:35428
+comSha:65655999b122e971f153c0cc6e4054c7832ef83a
+parentComSha:07b20c63a99e93cebb95cce78f70409dda0e2873
+BuggyFilePath:src/main/java/lcmc/gui/resources/VMSFilesystemInfo.java
+FixedFilePath:src/main/java/lcmc/gui/resources/VMSFilesystemInfo.java
+StartLineNum:61
+EndLineNum:61
+repoName:rasto#lcmc

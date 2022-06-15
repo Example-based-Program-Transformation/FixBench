@@ -1,0 +1,8 @@
+Id:82521
+comSha:cc51060fc7487ff288c69d999013a5c38545b020
+parentComSha:c984291cefc8aadff8e1fea0079273d4e094043f
+BuggyFilePath:src/main/java/org/getspout/api/util/StringMap.java
+FixedFilePath:src/main/java/org/getspout/api/util/StringMap.java
+StartLineNum:43
+EndLineNum:43
+repoName:SpoutDev#Spout

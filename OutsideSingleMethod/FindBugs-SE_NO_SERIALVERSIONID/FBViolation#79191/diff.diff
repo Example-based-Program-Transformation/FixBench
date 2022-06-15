@@ -1,0 +1,6 @@
+diff --git a/src/main/java/com/googlecode/objectify/util/jackson/RawKeyDeserializer.java b/src/main/java/com/googlecode/objectify/util/jackson/RawKeyDeserializer.java
+index 8c8ca7c1..9273fd86 100644
+--- a/src/main/java/com/googlecode/objectify/util/jackson/RawKeyDeserializer.java
++++ b/src/main/java/com/googlecode/objectify/util/jackson/RawKeyDeserializer.java
+@@ -15,0 +16 @@ public class RawKeyDeserializer extends StdDeserializer<Key> {
++	private static final long serialVersionUID = 1L;

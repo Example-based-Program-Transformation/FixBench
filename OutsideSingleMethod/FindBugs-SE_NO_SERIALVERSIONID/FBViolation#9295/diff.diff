@@ -1,0 +1,14 @@
+diff --git a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/TransactionActivityBehavior.java b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/TransactionActivityBehavior.java
+index c5a2379a3..744240ec4 100644
+--- a/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/TransactionActivityBehavior.java
++++ b/modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/TransactionActivityBehavior.java
+@@ -16,2 +15,0 @@ package org.activiti.engine.impl.bpmn.behavior;
+-
+-
+@@ -19 +17 @@ package org.activiti.engine.impl.bpmn.behavior;
+- * @author Daniel Meyer
++ * @author Tijs Rademakers
+@@ -22 +20,2 @@ public class TransactionActivityBehavior extends SubProcessActivityBehavior {
+-  
++
++  private static final long serialVersionUID = 1L;

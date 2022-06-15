@@ -1,0 +1,8 @@
+Id:32787
+comSha:52b496f85baf97ec3f02562c4e0d319c697c9a0d
+parentComSha:23e678d64608bed44820b02db573e9fd6a63769f
+BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomicInterval.java
+FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/bio/GenomicInterval.java
+StartLineNum:37
+EndLineNum:238
+repoName:GenomicParisCentre#eoulsan

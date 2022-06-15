@@ -1,0 +1,8 @@
+Id:75319
+comSha:dad893990b90665a72596528125eb0812d69af0a
+parentComSha:e824388d1a3fc3a7f3341624cfaf8ca4487778e2
+BuggyFilePath:src/main/java/org/optimizationBenchmarking/experimentation/data/impl/delegates/DelegatingRun.java
+FixedFilePath:src/main/java/org/optimizationBenchmarking/experimentation/data/impl/delegates/DelegatingRun.java
+StartLineNum:95
+EndLineNum:95
+repoName:optimizationBenchmarking#optimizationBenchmarking

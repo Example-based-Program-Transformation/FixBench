@@ -1,0 +1,8 @@
+Id:19934
+comSha:680fc680f58667c429b92af960d753f48904e27b
+parentComSha:7e0fe36ac2c282c0d3175ea214ee02207b706e26
+BuggyFilePath:src/main/java/org/jboss/aesh/console/AeshConsoleCallback.java
+FixedFilePath:src/main/java/org/jboss/aesh/console/AeshConsoleCallback.java
+StartLineNum:16
+EndLineNum:16
+repoName:aeshell#aesh

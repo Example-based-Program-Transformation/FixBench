@@ -1,0 +1,8 @@
+Id:6017
+comSha:31807dc263e6c84614164e9cabc8207b2a320ba5
+parentComSha:d3b514adb00619ed250c91d5b831e515be7da138
+BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateThrowCompensationEventActivityBehavior.java
+FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/IntermediateThrowCompensationEventActivityBehavior.java
+StartLineNum:32
+EndLineNum:68
+repoName:Activiti#Activiti

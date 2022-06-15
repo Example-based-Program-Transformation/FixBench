@@ -1,0 +1,8 @@
+Id:37103
+comSha:2f4caecf311a5464306a20772d6179d35fd4263c
+parentComSha:2e1390f301dcbdb997f4725ba09f0a28071b9ceb
+BuggyFilePath:src/main/java/org/aeonbits/owner/ConfigURLFactory.java
+FixedFilePath:src/main/java/org/aeonbits/owner/ConfigURLFactory.java
+StartLineNum:23
+EndLineNum:47
+repoName:lviggiano#owner

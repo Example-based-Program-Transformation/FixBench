@@ -1,0 +1,9 @@
+diff --git a/src/net/slipcor/pvparena/commands/PAG_Join.java b/src/net/slipcor/pvparena/commands/PAG_Join.java
+index b6e8884d..6c520305 100644
+--- a/src/net/slipcor/pvparena/commands/PAG_Join.java
++++ b/src/net/slipcor/pvparena/commands/PAG_Join.java
+@@ -7 +6,0 @@ import net.slipcor.pvparena.classes.PACheck;
+-import net.slipcor.pvparena.core.Debug;
+@@ -29 +28 @@ public class PAG_Join extends AbstractArenaCommand {
+-	private final Debug debug = new Debug(200);
++	//private final Debug debug = new Debug(200);

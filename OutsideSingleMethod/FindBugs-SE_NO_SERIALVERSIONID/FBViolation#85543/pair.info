@@ -1,0 +1,8 @@
+Id:85543
+comSha:93df9f218bc788a267c6228041de7c060c96b593
+parentComSha:570cfa9b48104ec548f90499b0f4674577cea401
+BuggyFilePath:impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyBuilderImpl.java
+FixedFilePath:impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLOntologyBuilderImpl.java
+StartLineNum:50
+EndLineNum:54
+repoName:owlcs#owlapi

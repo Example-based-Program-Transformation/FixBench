@@ -1,0 +1,8 @@
+Id:38543
+comSha:f833bb22853ed2910831bf44220bf0406a4302ea
+parentComSha:696880e64f4b770d9fc00d1877ae4c4e771e46f9
+BuggyFilePath:src/main/java/org/bukkit/event/block/BlockIgniteEvent.java
+FixedFilePath:src/main/java/org/bukkit/event/block/BlockIgniteEvent.java
+StartLineNum:26
+EndLineNum:26
+repoName:Bukkit#Bukkit
