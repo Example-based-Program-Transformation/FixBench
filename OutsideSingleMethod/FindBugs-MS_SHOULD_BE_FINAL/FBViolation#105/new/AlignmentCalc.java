@@ -141,5 +141,3 @@ public class AlignmentCalc implements Runnable {
 }
 
 
-
-
