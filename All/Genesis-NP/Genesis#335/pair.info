@@ -1,7 +1,0 @@
-Id:335
-SATName:Genesis
-modifiedFPath:s3-extensions/src/main/java/io/druid/storage/s3/S3DataSegmentMover.java
-comSha:f56d60b4511d15c3caaeda1dee56b8deb3f14c4b
-parentComSha:f56d60b4511d15c3caaeda1dee56b8deb3f14c4b^1
-githubUrl:https://github.com/druid-io/druid
-repoName:druid-io#druid

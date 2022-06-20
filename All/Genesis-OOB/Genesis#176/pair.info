@@ -1,7 +1,0 @@
-Id:176
-SATName:Genesis
-modifiedFPath:httpcore/src/main/java/org/apache/http/impl/io/AbstractSessionInputBuffer.java
-comSha:dd00a9e
-parentComSha:dd00a9e^1
-githubUrl:https://github.com/apache/httpcore
-repoName:apache#httpcore

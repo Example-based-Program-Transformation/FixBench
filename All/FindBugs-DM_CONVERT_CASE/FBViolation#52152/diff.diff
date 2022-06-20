@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java b/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
-index 0435d1ae..e419ad80 100644
---- a/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
-+++ b/util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
-@@ -6,0 +7 @@ import java.util.List;
-+import java.util.Locale;
-@@ -83 +84 @@ public class LogCaptureFilter extends AbstractFilter {
--                contentType = contentType.toLowerCase();
-+                contentType = contentType.toLowerCase(Locale.ENGLISH);

@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/SettingsDebugServlet.java b/util/src/main/java/com/psddev/dari/util/SettingsDebugServlet.java
-index a57de671..cf2cc11f 100644
---- a/util/src/main/java/com/psddev/dari/util/SettingsDebugServlet.java
-+++ b/util/src/main/java/com/psddev/dari/util/SettingsDebugServlet.java
-@@ -7,0 +8 @@ import java.lang.reflect.Method;
-+import java.util.Locale;
-@@ -42 +43 @@ public class SettingsDebugServlet extends HttpServlet {
--                        String keyLowered = key.toLowerCase();
-+                        String keyLowered = key.toLowerCase(Locale.ENGLISH);

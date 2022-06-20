@@ -1,8 +1,0 @@
-Id:51338
-comSha:a2c1974da04a01bcebd1251b487b72e3c2ac90af
-parentComSha:d019326625ce2c1c2469ada51de6696b9e3fca45
-BuggyFilePath:util/src/main/java/com/psddev/dari/util/DimsImageEditor.java
-FixedFilePath:util/src/main/java/com/psddev/dari/util/DimsImageEditor.java
-StartLineNum:506
-EndLineNum:506
-repoName:perfectsense#dari

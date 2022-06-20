@@ -1,8 +1,0 @@
-Id:75805
-comSha:19c12371d5f97aaededc9c92c63cf9753f9f9476
-parentComSha:a20ccf1645f33302ead053396e0362bd7c692b1c
-BuggyFilePath:src/main/java/com/github/sommeri/less4j/core/compiler/stages/SimpleImportsSolver.java
-FixedFilePath:src/main/java/com/github/sommeri/less4j/core/compiler/stages/SimpleImportsSolver.java
-StartLineNum:148
-EndLineNum:148
-repoName:SomMeri#less4j

@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/FormTag.java b/util/src/main/java/com/psddev/dari/util/FormTag.java
-index 34a3dd33..ffa31658 100644
---- a/util/src/main/java/com/psddev/dari/util/FormTag.java
-+++ b/util/src/main/java/com/psddev/dari/util/FormTag.java
-@@ -5,0 +6 @@ import java.util.LinkedHashMap;
-+import java.util.Locale;
-@@ -174 +175 @@ public class FormTag extends TagSupport implements DynamicAttributes {
--                    "method", method.toLowerCase(),
-+                    "method", method.toLowerCase(Locale.ENGLISH),

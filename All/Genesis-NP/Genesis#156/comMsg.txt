@@ -1,1 +1,0 @@
-Fixed NPE in StaticRelationshipResource when invoking custom methods using REST POST.

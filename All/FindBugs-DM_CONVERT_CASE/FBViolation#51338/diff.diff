@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/DimsImageEditor.java b/util/src/main/java/com/psddev/dari/util/DimsImageEditor.java
-index 3d736f26..a7736137 100644
---- a/util/src/main/java/com/psddev/dari/util/DimsImageEditor.java
-+++ b/util/src/main/java/com/psddev/dari/util/DimsImageEditor.java
-@@ -12,0 +13 @@ import java.util.ListIterator;
-+import java.util.Locale;
-@@ -506 +507 @@ public class DimsImageEditor extends AbstractImageEditor {
--            if (imagePath.toLowerCase().endsWith(".gif")) {
-+            if (imagePath.toLowerCase(Locale.ENGLISH).endsWith(".gif")) {

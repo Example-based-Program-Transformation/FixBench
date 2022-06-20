@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/HttpServletRequestMap.java b/util/src/main/java/com/psddev/dari/util/HttpServletRequestMap.java
-index 22e8d712..777346c6 100644
---- a/util/src/main/java/com/psddev/dari/util/HttpServletRequestMap.java
-+++ b/util/src/main/java/com/psddev/dari/util/HttpServletRequestMap.java
-@@ -6,0 +7 @@ import java.util.Iterator;
-+import java.util.Locale;
-@@ -75 +76 @@ public class HttpServletRequestMap implements Map<String, String> {
--            String key = headerName.toUpperCase().replace('-', '_');
-+            String key = headerName.toUpperCase(Locale.ENGLISH).replace('-', '_');

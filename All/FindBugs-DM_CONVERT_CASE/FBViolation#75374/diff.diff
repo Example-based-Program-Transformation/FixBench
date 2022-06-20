@@ -1,9 +1,0 @@
-diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/EGroupingMode.java b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/EGroupingMode.java
-index 48bf5c39..264ab806 100644
---- a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/EGroupingMode.java
-+++ b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/clusters/propertyValueGroups/EGroupingMode.java
-@@ -9,0 +10 @@ import org.optimizationBenchmarking.utils.math.functions.power.Pow;
-+import org.optimizationBenchmarking.utils.text.TextUtils;
-@@ -830 +831 @@ public enum EGroupingMode {
--    this.m_name = super.toString().toLowerCase();
-+    this.m_name = TextUtils.toLowerCase(super.toString());

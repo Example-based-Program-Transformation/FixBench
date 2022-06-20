@@ -1,7 +1,0 @@
-Id:449
-SATName:Genesis
-modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/ProcessInstanceHistoryLogQueryImpl.java
-comSha:0d83e98dadccfb9874cf19c3b2883987231c3f4e
-parentComSha:0d83e98dadccfb9874cf19c3b2883987231c3f4e^1
-githubUrl:https://github.com/Activiti/Activiti
-repoName:Activiti#Activiti

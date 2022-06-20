@@ -1,8 +1,0 @@
-diff --git a/src/main/java/org/joda/time/Partial.java b/src/main/java/org/joda/time/Partial.java
-index 6ff2771..6e29af9 100644
---- a/src/main/java/org/joda/time/Partial.java
-+++ b/src/main/java/org/joda/time/Partial.java
-@@ -460,0 +461,3 @@ public final class Partial
-+                            if (loopType.getRangeDurationType() == null) {
-+                                continue;
-+                            }

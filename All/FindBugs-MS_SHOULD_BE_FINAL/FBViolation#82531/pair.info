@@ -1,8 +1,0 @@
-Id:82531
-comSha:b2caaabbd868204d7dce286bbc7a177e642cbfc8
-parentComSha:9b44afd555452a77094100f19920cad4e8d757e7
-BuggyFilePath:src/main/java/org/getspout/api/geo/cuboid/Chunk.java
-FixedFilePath:src/main/java/org/getspout/api/geo/cuboid/Chunk.java
-StartLineNum:15
-EndLineNum:15
-repoName:SpoutDev#Spout

@@ -1,1 +1,0 @@
-Fix NPE in Standard Changelog History Service in certain cases

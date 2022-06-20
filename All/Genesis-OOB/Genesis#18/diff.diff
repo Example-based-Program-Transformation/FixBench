@@ -1,7 +1,0 @@
-diff --git a/src/main/java/org/bukkit/Material.java b/src/main/java/org/bukkit/Material.java
-index 1a72610..7d26f61 100644
---- a/src/main/java/org/bukkit/Material.java
-+++ b/src/main/java/org/bukkit/Material.java
-@@ -531 +531 @@ public enum Material {
--        if (byId.length > id) {
-+        if (byId.length > id && id >= 0) {

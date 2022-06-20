@@ -1,1 +1,0 @@
-fixed an issue (ArrayOutOfBoundException) with long log lines

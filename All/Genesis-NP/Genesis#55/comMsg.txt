@@ -1,1 +1,0 @@
-Fixed: NPE with calling getCommandDescription() of an unknown command

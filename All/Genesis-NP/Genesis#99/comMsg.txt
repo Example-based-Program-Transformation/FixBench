@@ -1,1 +1,0 @@
-Fixed NPE when NewHandler is used with java 8 method reference

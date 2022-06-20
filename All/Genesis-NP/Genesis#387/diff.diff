@@ -1,7 +1,0 @@
-diff --git a/jsonschema2pojo-maven-plugin/src/main/java/com/googlecode/jsonschema2pojo/maven/Jsonschema2PojoMojo.java b/jsonschema2pojo-maven-plugin/src/main/java/com/googlecode/jsonschema2pojo/maven/Jsonschema2PojoMojo.java
-index 28a9706..7f4af3a 100644
---- a/jsonschema2pojo-maven-plugin/src/main/java/com/googlecode/jsonschema2pojo/maven/Jsonschema2PojoMojo.java
-+++ b/jsonschema2pojo-maven-plugin/src/main/java/com/googlecode/jsonschema2pojo/maven/Jsonschema2PojoMojo.java
-@@ -129 +129 @@ public class Jsonschema2PojoMojo extends AbstractMojo implements
--	private String propertyWordDelimiters;
-+	private String propertyWordDelimiters = "";

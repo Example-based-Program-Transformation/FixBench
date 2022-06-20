@@ -1,8 +1,0 @@
-Id:22242
-comSha:aebe4904d250a778adc1060cef17bce05f2b16cd
-parentComSha:d0f0909d2e0b79b18361203c14f8766365a53056
-BuggyFilePath:src/net/sourceforge/plantuml/project2/command/CommandCloseWeekDay.java
-FixedFilePath:src/net/sourceforge/plantuml/project2/command/CommandCloseWeekDay.java
-StartLineNum:51
-EndLineNum:51
-repoName:jensnerche#plantuml

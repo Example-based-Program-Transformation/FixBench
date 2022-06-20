@@ -1,1 +1,0 @@
-add exception handle when project is null

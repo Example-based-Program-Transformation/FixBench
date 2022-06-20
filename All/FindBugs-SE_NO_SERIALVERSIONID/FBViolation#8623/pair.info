@@ -1,8 +1,0 @@
-Id:8623
-comSha:ba5734051dbfcc266ea7770172361fc6a2d5a8bd
-parentComSha:4538c2757100bd3e355d31c6441bc9188d6554b3
-BuggyFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/NoneEndEventActivityBehavior.java
-FixedFilePath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/behavior/NoneEndEventActivityBehavior.java
-StartLineNum:21
-EndLineNum:25
-repoName:Activiti#Activiti

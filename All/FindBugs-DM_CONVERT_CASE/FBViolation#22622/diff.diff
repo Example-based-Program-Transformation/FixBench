@@ -1,9 +1,0 @@
-diff --git a/src/net/sourceforge/plantuml/openiconic/PSystemListOpenIconicFactory.java b/src/net/sourceforge/plantuml/openiconic/PSystemListOpenIconicFactory.java
-index 121f887a..14f22088 100644
---- a/src/net/sourceforge/plantuml/openiconic/PSystemListOpenIconicFactory.java
-+++ b/src/net/sourceforge/plantuml/openiconic/PSystemListOpenIconicFactory.java
-@@ -36,0 +37 @@ import net.sourceforge.plantuml.AbstractPSystem;
-+import net.sourceforge.plantuml.StringUtils;
-@@ -43 +44 @@ public class PSystemListOpenIconicFactory extends PSystemSingleLineFactory {
--		final String lineLower = line.toLowerCase();
-+		final String lineLower = StringUtils.goLowerCase(line);

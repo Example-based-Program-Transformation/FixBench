@@ -1,8 +1,0 @@
-Id:73968
-comSha:2f62a7b19eba236ac4525bf88e729cc3c0dc9d0b
-parentComSha:20a7e9d95201587b24c625ff648cbff32c81d7cf
-BuggyFilePath:src/main/java/nl/tudelft/ti2806/pl1/gui/contentpane/PhyloPanel.java
-FixedFilePath:src/main/java/nl/tudelft/ti2806/pl1/gui/contentpane/PhyloPanel.java
-StartLineNum:238
-EndLineNum:238
-repoName:maartentbm#ContextPL1

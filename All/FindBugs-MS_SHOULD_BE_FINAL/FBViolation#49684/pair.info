@@ -1,8 +1,0 @@
-Id:49684
-comSha:ca075210d54e8879d5a5f1cad23b29e2a05141f0
-parentComSha:b33d8870ce4b6ce01197bf0f344a05c62ef7477a
-BuggyFilePath:src/main/java/ch/metzenthin/svm/domain/commands/CheckDrittpersonIdentischMitElternteilCommand.java
-FixedFilePath:src/main/java/ch/metzenthin/svm/domain/commands/CheckDrittpersonIdentischMitElternteilCommand.java
-StartLineNum:16
-EndLineNum:16
-repoName:marschraner#svm

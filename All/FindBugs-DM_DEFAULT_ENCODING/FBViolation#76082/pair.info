@@ -1,8 +1,0 @@
-Id:76082
-comSha:fcc8a9f6f76d554be3c5a5b792f3b6019ae78b5a
-parentComSha:691018806eb0762dfee4fb0b1a03efccdc7ce9e1
-BuggyFilePath:src/main/java/org/perfcake/message/sender/AbstractSocketSender.java
-FixedFilePath:src/main/java/org/perfcake/message/sender/AbstractSocketSender.java
-StartLineNum:107
-EndLineNum:107
-repoName:PerfCake#PerfCake

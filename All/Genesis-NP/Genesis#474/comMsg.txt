@@ -1,1 +1,0 @@
-poll npe fixed. #181

@@ -1,1 +1,0 @@
-Using fixed reflection instantiation to avoid NPE when using Objenesis. Closes #583

@@ -1,7 +1,0 @@
-Id:6
-SATName:Genesis
-modifiedFPath:src/main/java/org/eluder/coveralls/maven/plugin/domain/Source.java
-comSha:20490f6
-parentComSha:20490f6^1
-githubUrl:https://github.com/trautonen/coveralls-maven-plugin
-repoName:trautonen#coveralls-maven-plugin

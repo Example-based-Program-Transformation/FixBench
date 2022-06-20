@@ -1,1 +1,0 @@
-fix for #951, NPE

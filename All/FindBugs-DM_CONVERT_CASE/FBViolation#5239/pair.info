@@ -1,8 +1,0 @@
-Id:5239
-comSha:2fc22b4e8894fc318ee21a5355df8815786190d3
-parentComSha:274890519fd60ac0097fe47e00ec510b285260d5
-BuggyFilePath:src/main/java/nodebox/ui/ImageFormat.java
-FixedFilePath:src/main/java/nodebox/ui/ImageFormat.java
-StartLineNum:47
-EndLineNum:47
-repoName:nodebox#nodebox

@@ -1,8 +1,0 @@
-Id:55464
-comSha:1324ead1f346c116123ab7666e0337e1b52185fd
-parentComSha:4640d33882fd8110b987589441afc13f2bbaa54f
-BuggyFilePath:src/main/java/org/apache/vxquery/datamodel/atomic/IntegerValue.java
-FixedFilePath:src/main/java/org/apache/vxquery/datamodel/atomic/IntegerValue.java
-StartLineNum:27
-EndLineNum:27
-repoName:apache#vxquery

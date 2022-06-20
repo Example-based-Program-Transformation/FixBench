@@ -1,7 +1,0 @@
-diff --git a/structr-core/src/main/java/org/structr/core/parser/Functions.java b/structr-core/src/main/java/org/structr/core/parser/Functions.java
-index b5f4e9d..c6b824e 100644
---- a/structr-core/src/main/java/org/structr/core/parser/Functions.java
-+++ b/structr-core/src/main/java/org/structr/core/parser/Functions.java
-@@ -2943 +2943 @@ public class Functions {
--								Object value = sources[c+1].toString();
-+								Object value = sources[c+1];

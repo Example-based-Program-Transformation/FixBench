@@ -1,9 +1,0 @@
-diff --git a/sdk/src/main/java/com/google/cloud/dataflow/sdk/transforms/join/CoGbkResult.java b/sdk/src/main/java/com/google/cloud/dataflow/sdk/transforms/join/CoGbkResult.java
-index cbacb5f..56fc3fc 100644
---- a/sdk/src/main/java/com/google/cloud/dataflow/sdk/transforms/join/CoGbkResult.java
-+++ b/sdk/src/main/java/com/google/cloud/dataflow/sdk/transforms/join/CoGbkResult.java
-@@ -227,0 +228 @@ public class CoGbkResult {
-+    @Override
-@@ -320 +321 @@ public class CoGbkResult {
--    if (unions.isEmpty()) {
-+    if (unions == null || unions.isEmpty()) {

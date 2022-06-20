@@ -1,7 +1,0 @@
-Id:297
-SATName:Genesis
-modifiedFPath:logback-classic/src/main/java/ch/qos/logback/classic/jmx/JMXConfigurator.java
-comSha:a3efa52283f0548f0decea54f49f3beba2318f2a
-parentComSha:a3efa52283f0548f0decea54f49f3beba2318f2a^1
-githubUrl:https://github.com/qos-ch/logback
-repoName:qos-ch#logback

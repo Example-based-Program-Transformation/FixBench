@@ -1,1 +1,0 @@
-Fix NPE occuring when trying to access start and end nodes of relationships without proper access rights.

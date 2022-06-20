@@ -1,4 +1,0 @@
-Merge branch 'feature/pmd'
-
-Conflicts:
-	db/src/main/java/com/psddev/dari/db/SqlDatabase.java

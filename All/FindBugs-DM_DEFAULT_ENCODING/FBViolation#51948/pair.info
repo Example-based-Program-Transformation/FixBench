@@ -1,8 +1,0 @@
-Id:51948
-comSha:7a9e20fb2b863e37ccee4dbc61cf0eaf0b3c369d
-parentComSha:2d3b35e6aac1466d93e5f7829098a195efc59449
-BuggyFilePath:util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
-FixedFilePath:util/src/main/java/com/psddev/dari/util/LogCaptureFilter.java
-StartLineNum:80
-EndLineNum:80
-repoName:perfectsense#dari

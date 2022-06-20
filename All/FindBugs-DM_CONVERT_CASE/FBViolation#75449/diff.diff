@@ -1,9 +1,0 @@
-diff --git a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/FunctionAttribute.java b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/FunctionAttribute.java
-index 71b91690..f266988d 100644
---- a/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/FunctionAttribute.java
-+++ b/src/main/java/org/optimizationBenchmarking/experimentation/attributes/functions/FunctionAttribute.java
-@@ -19,0 +20 @@ import org.optimizationBenchmarking.utils.text.ETextCase;
-+import org.optimizationBenchmarking.utils.text.TextUtils;
-@@ -190 +191 @@ public abstract class FunctionAttribute<DT extends IElementSet> extends
--    return this.getClass().getSimpleName().toLowerCase();
-+    return TextUtils.toLowerCase(this.getClass().getSimpleName());

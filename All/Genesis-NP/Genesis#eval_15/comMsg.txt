@@ -1,1 +1,0 @@
-Fix an NPE in mapsubject with tests that catch the error, plus a few extra tests.

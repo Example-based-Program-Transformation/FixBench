@@ -1,7 +1,0 @@
-Id:405
-SATName:Genesis
-modifiedFPath:server/src/main/java/com/orientechnologies/orient/server/OClientConnectionManager.java
-comSha:51706fe132412faf15218a7f82ab080ac966363b
-parentComSha:51706fe132412faf15218a7f82ab080ac966363b^1
-githubUrl:https://github.com/orientechnologies/orientdb
-repoName:orientechnologies#orientdb

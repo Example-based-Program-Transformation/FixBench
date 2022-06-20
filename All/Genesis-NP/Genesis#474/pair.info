@@ -1,7 +1,0 @@
-Id:474
-SATName:Genesis
-modifiedFPath:src/main/java/org/redisson/RedissonBlockingQueue.java
-comSha:88206c2ab541760715a9f948c81102630184da46
-parentComSha:88206c2ab541760715a9f948c81102630184da46^1
-githubUrl:https://github.com/mrniko/redisson
-repoName:mrniko#redisson

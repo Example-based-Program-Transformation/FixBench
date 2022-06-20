@@ -1,8 +1,0 @@
-Id:22622
-comSha:b5f659f3a14253faefc977142cf29ed8fe14b2e6
-parentComSha:fd60132b3e3abd6b7029cff222421150b42a0dba
-BuggyFilePath:src/net/sourceforge/plantuml/openiconic/PSystemListOpenIconicFactory.java
-FixedFilePath:src/net/sourceforge/plantuml/openiconic/PSystemListOpenIconicFactory.java
-StartLineNum:43
-EndLineNum:43
-repoName:jensnerche#plantuml

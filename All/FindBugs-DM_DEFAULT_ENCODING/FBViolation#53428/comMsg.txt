@@ -1,3 +1,0 @@
-Merge pull request #170 from jmxtrans/fix-findbugs-errors
-
-Fixed all Findbugs warnings

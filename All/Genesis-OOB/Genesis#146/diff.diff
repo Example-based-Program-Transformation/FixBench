@@ -1,8 +1,0 @@
-diff --git a/plugin/src/main/java/com/h3xstream/findsecbugs/crypto/CipherWithNoIntegrityDetector.java b/plugin/src/main/java/com/h3xstream/findsecbugs/crypto/CipherWithNoIntegrityDetector.java
-index cec7aca..fb9a7e0 100644
---- a/plugin/src/main/java/com/h3xstream/findsecbugs/crypto/CipherWithNoIntegrityDetector.java
-+++ b/plugin/src/main/java/com/h3xstream/findsecbugs/crypto/CipherWithNoIntegrityDetector.java
-@@ -93,0 +94 @@ public class CipherWithNoIntegrityDetector extends OpcodeStackDetector {
-+                if(cipherDefinition.length > 1) { //Some cipher will not have mode specified (ie: "RSA" .. issue GitHub #24)
-@@ -103,0 +105 @@ public class CipherWithNoIntegrityDetector extends OpcodeStackDetector {
-+}

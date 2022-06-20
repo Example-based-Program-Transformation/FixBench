@@ -1,9 +1,0 @@
-diff --git a/src/net/sourceforge/plantuml/font/PSystemListFontsFactory.java b/src/net/sourceforge/plantuml/font/PSystemListFontsFactory.java
-index 21b220e2..c6aa3360 100644
---- a/src/net/sourceforge/plantuml/font/PSystemListFontsFactory.java
-+++ b/src/net/sourceforge/plantuml/font/PSystemListFontsFactory.java
-@@ -36,0 +37 @@ import net.sourceforge.plantuml.AbstractPSystem;
-+import net.sourceforge.plantuml.StringUtils;
-@@ -43 +44 @@ public class PSystemListFontsFactory extends PSystemSingleLineFactory {
--		final String lineLower = line.toLowerCase();
-+		final String lineLower = StringUtils.goLowerCase(line);

@@ -1,8 +1,0 @@
-Id:70674
-comSha:bab5090b7580ede74ed9f977937374474ddce970
-parentComSha:2f8a490a8784886fe0acdd119f5b3146f20217a6
-BuggyFilePath:src/main/java/de/unihildesheim/iw/tools/StopwordsFileReader.java
-FixedFilePath:src/main/java/de/unihildesheim/iw/tools/StopwordsFileReader.java
-StartLineNum:49
-EndLineNum:49
-repoName:JensBee#QueryClarity

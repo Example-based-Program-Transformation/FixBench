@@ -1,9 +1,0 @@
-diff --git a/src/main/java/org/optimizationBenchmarking/utils/comparison/ComparisonParser.java b/src/main/java/org/optimizationBenchmarking/utils/comparison/ComparisonParser.java
-index e04bd08b..b285160d 100644
---- a/src/main/java/org/optimizationBenchmarking/utils/comparison/ComparisonParser.java
-+++ b/src/main/java/org/optimizationBenchmarking/utils/comparison/ComparisonParser.java
-@@ -4,0 +5 @@ import org.optimizationBenchmarking.utils.reflection.ReflectionUtils;
-+import org.optimizationBenchmarking.utils.text.TextUtils;
-@@ -22 +23 @@ public class ComparisonParser extends InstanceParser<EComparison> {
--    switch (string.toLowerCase()) {
-+    switch (TextUtils.toLowerCase(string)) {

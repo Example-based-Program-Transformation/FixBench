@@ -1,9 +1,0 @@
-diff --git a/module-client/src/main/java/org/apache/http/impl/cookie/NetscapeDomainHandler.java b/module-client/src/main/java/org/apache/http/impl/cookie/NetscapeDomainHandler.java
-index 78a4489af..64729ec18 100644
---- a/module-client/src/main/java/org/apache/http/impl/cookie/NetscapeDomainHandler.java
-+++ b/module-client/src/main/java/org/apache/http/impl/cookie/NetscapeDomainHandler.java
-@@ -32,0 +33 @@ package org.apache.http.impl.cookie;
-+import java.util.Locale;
-@@ -79 +80 @@ public class NetscapeDomainHandler extends BasicDomainHandler {
--       final String ucDomain = domain.toUpperCase();
-+       final String ucDomain = domain.toUpperCase(Locale.ENGLISH);

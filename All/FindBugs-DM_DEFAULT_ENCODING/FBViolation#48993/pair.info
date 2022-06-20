@@ -1,8 +1,0 @@
-Id:48993
-comSha:9cc86b38df9a086713d1fcdf01b451b41c0d6f65
-parentComSha:a827b7cbbf1f29e24e3f814149809941e754c93c
-BuggyFilePath:src/it/java/com/google/checkstyle/test/base/ConfigurationBuilder.java
-FixedFilePath:src/it/java/com/google/checkstyle/test/base/ConfigurationBuilder.java
-StartLineNum:107
-EndLineNum:107
-repoName:checkstyle#checkstyle

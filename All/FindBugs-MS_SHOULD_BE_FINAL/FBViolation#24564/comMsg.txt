@@ -1,1 +1,0 @@
-Fixed improper names and changed API to more current naming schemes. Bumped version for API change.

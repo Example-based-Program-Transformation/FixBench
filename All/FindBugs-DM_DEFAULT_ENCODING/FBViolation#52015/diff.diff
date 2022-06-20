@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/SourceFilter.java b/util/src/main/java/com/psddev/dari/util/SourceFilter.java
-index cf6456f2..fe2535f2 100644
---- a/util/src/main/java/com/psddev/dari/util/SourceFilter.java
-+++ b/util/src/main/java/com/psddev/dari/util/SourceFilter.java
-@@ -7,0 +8 @@ import java.io.OutputStream;
-+import java.io.OutputStreamWriter;
-@@ -945 +946 @@ public class SourceFilter extends AbstractFilter {
--        private final PrintWriter writer = new PrintWriter(output);
-+        private final PrintWriter writer = new PrintWriter(new OutputStreamWriter(output, StringUtils.UTF_8));

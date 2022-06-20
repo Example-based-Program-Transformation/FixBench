@@ -1,1 +1,0 @@
-Fixed NPE during the server loop shutdown.

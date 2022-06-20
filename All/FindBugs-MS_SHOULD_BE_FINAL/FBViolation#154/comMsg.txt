@@ -1,1 +1,0 @@
-Converting java.logging to slf4j in structure gui, #155

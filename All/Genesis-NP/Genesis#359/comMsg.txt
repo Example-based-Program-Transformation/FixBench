@@ -1,1 +1,0 @@
-activejdbc #293 NPE in Http in case no error stream

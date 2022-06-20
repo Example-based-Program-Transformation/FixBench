@@ -1,1 +1,0 @@
-Fix WildcardTypeName.get(WildcardType), which would always fail with NullPointerException since either the extends bound or the super bound or both will be null.

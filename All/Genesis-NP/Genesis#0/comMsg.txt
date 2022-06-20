@@ -1,1 +1,0 @@
-PLANNER-560 don't let bestUninitializedVariableCount default to 0, because a race condition can grab it before it's initialized upon solver start. (it should have really been an Integer type, so it defaulted to null and we had NPE's, but anyway we're cleaning this up in 405 anyway)

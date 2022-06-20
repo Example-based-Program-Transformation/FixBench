@@ -1,3 +1,0 @@
-[maven-release-plugin]  copy for tag 4.0-alpha4
-
-git-svn-id: https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.0-alpha4@653242 13f79535-47bb-0310-9956-ffa450edef68

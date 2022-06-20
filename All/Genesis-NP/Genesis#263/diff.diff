@@ -1,7 +1,0 @@
-diff --git a/src/main/java/org/webbitserver/helpers/QueryParameters.java b/src/main/java/org/webbitserver/helpers/QueryParameters.java
-index 1cefeff..177d0e3 100644
---- a/src/main/java/org/webbitserver/helpers/QueryParameters.java
-+++ b/src/main/java/org/webbitserver/helpers/QueryParameters.java
-@@ -24 +24 @@ public class QueryParameters {
--                String value = URLDecoder.decode(pair[1], "UTF-8");
-+                String value = pair.length == 1 ? null : URLDecoder.decode(pair[1], "UTF-8");

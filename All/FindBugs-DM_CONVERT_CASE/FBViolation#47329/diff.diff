@@ -1,9 +1,0 @@
-diff --git a/module-client/src/main/java/org/apache/http/impl/cookie/BasicClientCookie.java b/module-client/src/main/java/org/apache/http/impl/cookie/BasicClientCookie.java
-index 6980a91de..8088d2b61 100644
---- a/module-client/src/main/java/org/apache/http/impl/cookie/BasicClientCookie.java
-+++ b/module-client/src/main/java/org/apache/http/impl/cookie/BasicClientCookie.java
-@@ -35,0 +36 @@ import java.util.HashMap;
-+import java.util.Locale;
-@@ -200 +201 @@ public class BasicClientCookie implements SetCookie, ClientCookie {
--            cookieDomain = domain.toLowerCase();
-+            cookieDomain = domain.toLowerCase(Locale.ENGLISH);

@@ -1,8 +1,0 @@
-Id:76376
-comSha:d4d092233d1b7fc61b9e2425dd8d0ede99982bf5
-parentComSha:8529336cef2f748d808b396f0edd6d70bc662f5b
-BuggyFilePath:src/main/java/org/perfcake/validation/ValidatorUtil.java
-FixedFilePath:src/main/java/org/perfcake/validation/ValidatorUtil.java
-StartLineNum:220
-EndLineNum:220
-repoName:PerfCake#PerfCake

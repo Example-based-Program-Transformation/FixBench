@@ -1,7 +1,0 @@
-Id:17
-SATName:Genesis
-modifiedFPath:org.eclipse.jgit/src/org/eclipse/jgit/api/ReflogCommand.java
-comSha:a24a99a13dc7bc256c9edc9703bc4a9d28b33ce7
-parentComSha:a24a99a13dc7bc256c9edc9703bc4a9d28b33ce7^1
-githubUrl:https://github.com/eclipse/jgit
-repoName:eclipse#jgit

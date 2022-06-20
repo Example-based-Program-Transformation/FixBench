@@ -1,8 +1,0 @@
-Id:68702
-comSha:53f70085891cdb0feae56df8990c1245091352a1
-parentComSha:4ed22fb839fab2f19a6220bb8540317521209c4a
-BuggyFilePath:src/org/traccar/api/SecurityRequestFilter.java
-FixedFilePath:src/org/traccar/api/SecurityRequestFilter.java
-StartLineNum:38
-EndLineNum:38
-repoName:tananaev#traccar

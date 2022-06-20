@@ -1,1 +1,0 @@
-PDFBOX-1611: avoid IndexOutOfBoundsExcpetion if font matrix values are on separated on single lines

@@ -1,7 +1,0 @@
-Id:305
-SATName:Genesis
-modifiedFPath:logback-classic/src/main/java/ch/qos/logback/classic/spi/PackagingDataCalculator.java
-comSha:f47aba79547bde8d72d2a9245f17077c0fb9198a
-parentComSha:f47aba79547bde8d72d2a9245f17077c0fb9198a^1
-githubUrl:https://github.com/qos-ch/logback
-repoName:qos-ch#logback

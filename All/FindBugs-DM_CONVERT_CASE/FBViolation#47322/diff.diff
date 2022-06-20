@@ -1,9 +1,0 @@
-diff --git a/module-client/src/main/java/org/apache/http/impl/cookie/BrowserCompatSpec.java b/module-client/src/main/java/org/apache/http/impl/cookie/BrowserCompatSpec.java
-index 86e30e46f..d4b472a47 100644
---- a/module-client/src/main/java/org/apache/http/impl/cookie/BrowserCompatSpec.java
-+++ b/module-client/src/main/java/org/apache/http/impl/cookie/BrowserCompatSpec.java
-@@ -35,0 +36 @@ import java.util.List;
-+import java.util.Locale;
-@@ -112 +113 @@ public class BrowserCompatSpec extends CookieSpecBase {
--        int i1 = headervalue.toLowerCase().indexOf("expires=");
-+        int i1 = headervalue.toLowerCase(Locale.ENGLISH).indexOf("expires=");

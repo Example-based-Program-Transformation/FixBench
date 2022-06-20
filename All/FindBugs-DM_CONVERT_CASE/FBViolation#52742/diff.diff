@@ -1,9 +1,0 @@
-diff --git a/util/src/main/java/com/psddev/dari/util/StringUtils.java b/util/src/main/java/com/psddev/dari/util/StringUtils.java
-index 24b96d83..0c658fee 100644
---- a/util/src/main/java/com/psddev/dari/util/StringUtils.java
-+++ b/util/src/main/java/com/psddev/dari/util/StringUtils.java
-@@ -17,0 +18 @@ import java.util.List;
-+import java.util.Locale;
-@@ -249 +250 @@ public final class StringUtils {
--                nb.append(word.toUpperCase());
-+                nb.append(word.toUpperCase(Locale.ENGLISH));

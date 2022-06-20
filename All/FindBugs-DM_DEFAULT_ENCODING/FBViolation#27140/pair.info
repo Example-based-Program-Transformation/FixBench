@@ -1,8 +1,0 @@
-Id:27140
-comSha:8c33be48a60f1646b39e69f373164ead36e5ba8b
-parentComSha:b21e20fe425ebcffc655a065eaa12d0052db46ef
-BuggyFilePath:webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java
-FixedFilePath:webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java
-StartLineNum:42
-EndLineNum:42
-repoName:code4craft#webmagic

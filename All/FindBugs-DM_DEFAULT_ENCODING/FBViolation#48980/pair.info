@@ -1,8 +1,0 @@
-Id:48980
-comSha:9cc86b38df9a086713d1fcdf01b451b41c0d6f65
-parentComSha:a827b7cbbf1f29e24e3f814149809941e754c93c
-BuggyFilePath:src/it/java/com/google/checkstyle/test/base/IndentationConfigurationBuilder.java
-FixedFilePath:src/it/java/com/google/checkstyle/test/base/IndentationConfigurationBuilder.java
-StartLineNum:51
-EndLineNum:51
-repoName:checkstyle#checkstyle

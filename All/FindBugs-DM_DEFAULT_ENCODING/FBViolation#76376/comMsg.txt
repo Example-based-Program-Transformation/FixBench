@@ -1,1 +1,0 @@
-Partial Findbugs Warnings cleanup [#49]

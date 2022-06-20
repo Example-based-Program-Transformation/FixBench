@@ -1,9 +1,0 @@
-diff --git a/src/net/sourceforge/plantuml/directdot/PSystemDot.java b/src/net/sourceforge/plantuml/directdot/PSystemDot.java
-index 6da4d97d..519f3928 100644
---- a/src/net/sourceforge/plantuml/directdot/PSystemDot.java
-+++ b/src/net/sourceforge/plantuml/directdot/PSystemDot.java
-@@ -38,0 +39 @@ import net.sourceforge.plantuml.FileFormatOption;
-+import net.sourceforge.plantuml.StringUtils;
-@@ -60 +61 @@ public class PSystemDot extends AbstractPSystem {
--		final Graphviz graphviz = GraphvizUtils.create(data, fileFormat.getFileFormat().name().toLowerCase());
-+		final Graphviz graphviz = GraphvizUtils.create(data, StringUtils.goLowerCase(fileFormat.getFileFormat().name()));

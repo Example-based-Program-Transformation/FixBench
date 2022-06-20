@@ -1,1 +1,0 @@
-CORE-2088 outputDefaultSchema and outputDefaultCatalog command line parameters not respected

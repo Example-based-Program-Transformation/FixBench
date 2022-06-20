@@ -1,9 +1,0 @@
-diff --git a/src/main/java/org/optimizationBenchmarking/utils/tools/impl/latex/_LaTeXUsedAsToolBase.java b/src/main/java/org/optimizationBenchmarking/utils/tools/impl/latex/_LaTeXUsedAsToolBase.java
-index 7557e5a6..1e9a0507 100644
---- a/src/main/java/org/optimizationBenchmarking/utils/tools/impl/latex/_LaTeXUsedAsToolBase.java
-+++ b/src/main/java/org/optimizationBenchmarking/utils/tools/impl/latex/_LaTeXUsedAsToolBase.java
-@@ -8,0 +9 @@ import org.optimizationBenchmarking.utils.config.Configuration;
-+import org.optimizationBenchmarking.utils.text.TextUtils;
-@@ -127 +128 @@ abstract class _LaTeXUsedAsToolBase extends _LaTeXToolChainComponent {
--    this._produces().getDefaultSuffix().toLowerCase())
-+    TextUtils.toLowerCase(this._produces().getDefaultSuffix()))

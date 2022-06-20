@@ -1,9 +1,0 @@
-diff --git a/module-client/src/main/java/org/apache/http/impl/cookie/CookieSpecBase.java b/module-client/src/main/java/org/apache/http/impl/cookie/CookieSpecBase.java
-index 91f64665c..35e53a0c8 100644
---- a/module-client/src/main/java/org/apache/http/impl/cookie/CookieSpecBase.java
-+++ b/module-client/src/main/java/org/apache/http/impl/cookie/CookieSpecBase.java
-@@ -35,0 +36 @@ import java.util.List;
-+import java.util.Locale;
-@@ -90 +91 @@ public abstract class CookieSpecBase extends AbstractCookieSpec {
--                String s = attrib.getName().toLowerCase();
-+                String s = attrib.getName().toLowerCase(Locale.ENGLISH);

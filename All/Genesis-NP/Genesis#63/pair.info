@@ -1,7 +1,0 @@
-Id:63
-SATName:Genesis
-modifiedFPath:maven-core/src/main/java/org/apache/maven/execution/DefaultMavenExecutionResult.java
-comSha:ab0d04456686a700bd0720688c6003dc3eaf6493
-parentComSha:ab0d04456686a700bd0720688c6003dc3eaf6493^1
-githubUrl:https://github.com/apache/maven
-repoName:apache#maven

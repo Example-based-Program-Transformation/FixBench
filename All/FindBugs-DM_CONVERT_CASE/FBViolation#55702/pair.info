@@ -1,8 +1,0 @@
-Id:55702
-comSha:c7bb6ca7f2cb2e3049306ed02fad3daa9f9ce85b
-parentComSha:4a059c613586188aa7787c5eaaf5d850290ddf30
-BuggyFilePath:src/main/java/edu/clemson/cs/r2jt/vcgeneration/VCGenerator.java
-FixedFilePath:src/main/java/edu/clemson/cs/r2jt/vcgeneration/VCGenerator.java
-StartLineNum:1213
-EndLineNum:1213
-repoName:ClemsonRSRG#RESOLVE

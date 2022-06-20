@@ -1,1 +1,0 @@
-Fix NullPointerException thrown by getOnly when a value is not present for a given tag.

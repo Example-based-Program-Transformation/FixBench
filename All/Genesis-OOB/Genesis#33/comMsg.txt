@@ -1,1 +1,0 @@
-LANG-1162 StringUtils#equals fails with Index OOBE on non-Strings with identical leading prefix

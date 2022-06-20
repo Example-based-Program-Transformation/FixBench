@@ -1,1 +1,0 @@
-Fix NPE on JMX reloadDefaultConfiguration when no configuration file is used

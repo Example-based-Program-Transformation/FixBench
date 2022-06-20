@@ -1,8 +1,0 @@
-Id:32871
-comSha:8ae4eb8cfcb27185be49de726d96703b5911be67
-parentComSha:30cbbe29c7dfa484099ae2b1a2ac1e301b208fe5
-BuggyFilePath:src/main/java/fr/ens/transcriptome/eoulsan/steps/expression/HTSeqCount.java
-FixedFilePath:src/main/java/fr/ens/transcriptome/eoulsan/steps/expression/HTSeqCount.java
-StartLineNum:72
-EndLineNum:72
-repoName:GenomicParisCentre#eoulsan

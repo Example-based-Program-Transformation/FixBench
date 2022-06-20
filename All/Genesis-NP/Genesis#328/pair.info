@@ -1,7 +1,0 @@
-Id:328
-SATName:Genesis
-modifiedFPath:common/src/main/java/io/druid/timeline/UnionTimeLineLookup.java
-comSha:e5fa8e0cb4f4d79e09d615a47b22e44460485e0a
-parentComSha:e5fa8e0cb4f4d79e09d615a47b22e44460485e0a^1
-githubUrl:https://github.com/druid-io/druid
-repoName:druid-io#druid

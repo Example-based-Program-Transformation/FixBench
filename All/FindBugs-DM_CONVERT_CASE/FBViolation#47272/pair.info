@@ -1,8 +1,0 @@
-Id:47272
-comSha:b7b8c7731d36aaa2291f03480716a30b82837f21
-parentComSha:7fd801fcfd89666d2404899a5a9388a3bbb1b18b
-BuggyFilePath:module-client/src/main/java/org/apache/http/impl/cookie/BrowserCompatSpec.java
-FixedFilePath:module-client/src/main/java/org/apache/http/impl/cookie/BrowserCompatSpec.java
-StartLineNum:112
-EndLineNum:112
-repoName:apache#httpclient

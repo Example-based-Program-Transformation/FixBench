@@ -1,7 +1,0 @@
-Id:387
-SATName:Genesis
-modifiedFPath:jsonschema2pojo-maven-plugin/src/main/java/com/googlecode/jsonschema2pojo/maven/Jsonschema2PojoMojo.java
-comSha:6961e11ba289988dc21f80db7314f1ee5e2ce7b8
-parentComSha:6961e11ba289988dc21f80db7314f1ee5e2ce7b8^1
-githubUrl:https://github.com/joelittlejohn/jsonschema2pojo
-repoName:joelittlejohn#jsonschema2pojo

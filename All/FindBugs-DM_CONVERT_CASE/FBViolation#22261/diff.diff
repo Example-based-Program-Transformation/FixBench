@@ -1,9 +1,0 @@
-diff --git a/src/net/sourceforge/plantuml/cucadiagram/Member.java b/src/net/sourceforge/plantuml/cucadiagram/Member.java
-index f7e7e84d..f57a5541 100644
---- a/src/net/sourceforge/plantuml/cucadiagram/Member.java
-+++ b/src/net/sourceforge/plantuml/cucadiagram/Member.java
-@@ -38,0 +39 @@ import java.util.regex.Pattern;
-+import net.sourceforge.plantuml.StringUtils;
-@@ -85 +86 @@ public class Member {
--		final String lower = display.toLowerCase();
-+		final String lower = StringUtils.goLowerCase(display);

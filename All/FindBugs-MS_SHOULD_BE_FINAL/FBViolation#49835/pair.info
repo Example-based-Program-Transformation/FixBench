@@ -1,8 +1,0 @@
-Id:49835
-comSha:18358c8ffb57fcaa923bbb0339f50ae4aae36e44
-parentComSha:ab95dcff5dcaca38352994434821089dad7469dd
-BuggyFilePath:src/main/java/ch/metzenthin/svm/dataTypes/Schuljahre.java
-FixedFilePath:src/main/java/ch/metzenthin/svm/dataTypes/Schuljahre.java
-StartLineNum:8
-EndLineNum:8
-repoName:marschraner#svm

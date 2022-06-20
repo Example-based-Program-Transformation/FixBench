@@ -1,7 +1,0 @@
-Id:407
-SATName:Genesis
-modifiedFPath:server/src/main/java/com/orientechnologies/orient/server/distributed/task/OCreateRecordTask.java
-comSha:9fd093e09540df41a31997297417a0653db75a15
-parentComSha:9fd093e09540df41a31997297417a0653db75a15^1
-githubUrl:https://github.com/orientechnologies/orientdb
-repoName:orientechnologies#orientdb

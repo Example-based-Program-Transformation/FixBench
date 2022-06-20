@@ -1,1 +1,0 @@
-removed ConfigURLFactory from the fields, so it doesn't need to be serialized

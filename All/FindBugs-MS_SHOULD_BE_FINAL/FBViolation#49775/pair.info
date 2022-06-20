@@ -1,8 +1,0 @@
-Id:49775
-comSha:cc2d290957ef455bcd6eba3753bf48f2ce6c1fe1
-parentComSha:c702f681925afb2181cd9b518ea90700aa3e3ce8
-BuggyFilePath:src/main/java/ch/metzenthin/svm/persistence/entities/Lektionsgebuehren.java
-FixedFilePath:src/main/java/ch/metzenthin/svm/persistence/entities/Lektionsgebuehren.java
-StartLineNum:14
-EndLineNum:14
-repoName:marschraner#svm

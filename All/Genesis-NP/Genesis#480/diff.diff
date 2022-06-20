@@ -1,7 +1,0 @@
-diff --git a/src/main/java/org/imgscalr/Scalr.java b/src/main/java/org/imgscalr/Scalr.java
-index 0e3b9af..f31f6c3 100644
---- a/src/main/java/org/imgscalr/Scalr.java
-+++ b/src/main/java/org/imgscalr/Scalr.java
-@@ -348 +348 @@ public class Scalr {
--		log(0, null, "Debug output ENABLED");
-+		log(0, "Debug output ENABLED");

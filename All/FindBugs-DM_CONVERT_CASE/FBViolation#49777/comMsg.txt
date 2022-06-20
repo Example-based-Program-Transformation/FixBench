@@ -1,5 +1,0 @@
-Listen: kleinere Schrift, falls Einträge zu lang verbessert
-
-Elternmithilfe: Nur erfassbar, falls noch nicht bei Geschwister erfasst
-
-Elternmithilfe-Liste: Korrekte Sortierung, auch wenn Vater anderen Nachnamen als Schüler hat

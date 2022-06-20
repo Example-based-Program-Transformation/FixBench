@@ -1,1 +1,0 @@
-Fixed NPE in JDBC_PING (https://issues.jboss.org/browse/JGRP-1882)

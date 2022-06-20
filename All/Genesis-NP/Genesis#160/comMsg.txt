@@ -1,1 +1,0 @@
-Set declaring class to avoid NPE in case of validation errors.

@@ -1,8 +1,0 @@
-Id:49777
-comSha:ee15109108f67f0463520a7872941d99d206a868
-parentComSha:148b80b092f21edff2c233a9a82be37eb5eb2014
-BuggyFilePath:src/main/java/ch/metzenthin/svm/domain/model/ListenExportModelImpl.java
-FixedFilePath:src/main/java/ch/metzenthin/svm/domain/model/ListenExportModelImpl.java
-StartLineNum:166
-EndLineNum:166
-repoName:marschraner#svm

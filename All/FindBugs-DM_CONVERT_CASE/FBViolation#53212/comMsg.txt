@@ -1,4 +1,0 @@
-Merge branch 'release/2.1'
-
-Conflicts:
-	db/src/main/java/com/psddev/dari/db/SqlDatabase.java

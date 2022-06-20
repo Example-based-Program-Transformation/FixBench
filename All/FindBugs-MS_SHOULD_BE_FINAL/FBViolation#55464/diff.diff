@@ -1,9 +1,0 @@
-diff --git a/src/main/java/org/apache/vxquery/datamodel/atomic/IntegerValue.java b/src/main/java/org/apache/vxquery/datamodel/atomic/IntegerValue.java
-index 20187ade..0c7f77ec 100644
---- a/src/main/java/org/apache/vxquery/datamodel/atomic/IntegerValue.java
-+++ b/src/main/java/org/apache/vxquery/datamodel/atomic/IntegerValue.java
-@@ -27,2 +27,2 @@ public class IntegerValue extends NumericValue {
--    public static IntegerValue ZERO = new IntegerValue(BigInteger.ZERO);
--    public static IntegerValue ONE = new IntegerValue(BigInteger.ONE);
-+    public static final IntegerValue ZERO = new IntegerValue(BigInteger.ZERO);
-+    public static final IntegerValue ONE = new IntegerValue(BigInteger.ONE);

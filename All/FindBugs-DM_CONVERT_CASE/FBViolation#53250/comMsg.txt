@@ -1,1 +1,0 @@
-Fixes all violations of DM_CONVERT_CASE from FindBugs.

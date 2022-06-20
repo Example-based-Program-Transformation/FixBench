@@ -1,1 +1,0 @@
-Fixes all violations of DM_DEFAULT_ENCODING from FindBugs.

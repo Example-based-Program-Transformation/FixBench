@@ -1,4 +1,0 @@
-Made ContentStoreDir independent of default encoding.
-
-The TOC file would be read and written using the default encoding, which
-is platform dependent.

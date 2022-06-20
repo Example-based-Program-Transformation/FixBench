@@ -1,8 +1,0 @@
-Id:75308
-comSha:e39327fb9de4ae258b64fff179a96aa8812223fc
-parentComSha:c069f6619b4d9666859109881cdb80cdcc226545
-BuggyFilePath:src/main/java/org/optimizationBenchmarking/utils/math/functions/MathematicalFunction.java
-FixedFilePath:src/main/java/org/optimizationBenchmarking/utils/math/functions/MathematicalFunction.java
-StartLineNum:519
-EndLineNum:519
-repoName:optimizationBenchmarking#optimizationBenchmarking

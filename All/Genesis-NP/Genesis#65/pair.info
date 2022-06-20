@@ -1,7 +1,0 @@
-Id:65
-SATName:Genesis
-modifiedFPath:maven-core/src/main/java/org/apache/maven/plugin/internal/DefaultLegacySupport.java
-comSha:90ac0847b697b07ed643dab5fcafc15f12f31ec4
-parentComSha:90ac0847b697b07ed643dab5fcafc15f12f31ec4^1
-githubUrl:https://github.com/apache/maven
-repoName:apache#maven

@@ -1,1 +1,0 @@
-Avoid another NPE in Partial.with

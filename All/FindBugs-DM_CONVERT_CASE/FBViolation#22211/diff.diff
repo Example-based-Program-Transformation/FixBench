@@ -1,9 +1,0 @@
-diff --git a/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNote3.java b/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNote3.java
-index 62a680b1..9784e7f5 100644
---- a/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNote3.java
-+++ b/src/net/sourceforge/plantuml/activitydiagram3/command/CommandNote3.java
-@@ -35,0 +36 @@ package net.sourceforge.plantuml.activitydiagram3.command;
-+import net.sourceforge.plantuml.StringUtils;
-@@ -71 +72 @@ public class CommandNote3 extends SingleLineCommand2<ActivityDiagram3> {
--		return NotePosition.valueOf(s.toUpperCase());
-+		return NotePosition.valueOf(StringUtils.goUpperCase(s));

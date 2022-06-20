@@ -1,7 +1,0 @@
-Id:215
-SATName:Genesis
-modifiedFPath:jest-common/src/main/java/io/searchbox/core/search/aggregation/TermsAggregation.java
-comSha:88387d13a4566e01c60f795b982e0a8b20b04ec0
-parentComSha:88387d13a4566e01c60f795b982e0a8b20b04ec0^1
-githubUrl:https://github.com/searchbox-io/Jest
-repoName:searchbox-io#Jest

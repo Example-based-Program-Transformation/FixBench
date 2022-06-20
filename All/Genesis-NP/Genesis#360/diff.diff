@@ -1,8 +1,0 @@
-diff --git a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
-index 8ee1b29..05e935c 100644
---- a/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
-+++ b/activejdbc/src/main/java/org/javalite/activejdbc/Model.java
-@@ -1327,2 +1327 @@ public abstract class Model extends CallbackSupport implements Externalizable {
--        return set(attribute, value.toString());
--
-+        return set(attribute, Convert.toString(value));

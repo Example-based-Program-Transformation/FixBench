@@ -1,8 +1,0 @@
-Id:75991
-comSha:14a53ed4fd80e5d7a044b39cd1fd167f53650e99
-parentComSha:fa24bb5b38d6b928f40a8684394155c1bdffec3e
-BuggyFilePath:src/main/java/org/perfcake/reporting/destinations/CSVDestination.java
-FixedFilePath:src/main/java/org/perfcake/reporting/destinations/CSVDestination.java
-StartLineNum:151
-EndLineNum:151
-repoName:PerfCake#PerfCake

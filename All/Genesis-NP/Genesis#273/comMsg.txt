@@ -1,1 +1,0 @@
-TIKA-1956 -- prevent NPE when trying to get embedded image offset in WordParser

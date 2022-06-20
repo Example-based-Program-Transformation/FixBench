@@ -1,1 +1,0 @@
-Method visitEndTag: Length check must be first as otherwise the 'tag' </> will cause a StringIndexOutOfBoundsException to be thrown.

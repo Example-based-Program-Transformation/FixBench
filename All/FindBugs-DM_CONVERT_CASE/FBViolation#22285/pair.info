@@ -1,8 +1,0 @@
-Id:22285
-comSha:b5f659f3a14253faefc977142cf29ed8fe14b2e6
-parentComSha:fd60132b3e3abd6b7029cff222421150b42a0dba
-BuggyFilePath:src/net/sourceforge/plantuml/sudoku/PSystemSudokuFactory.java
-FixedFilePath:src/net/sourceforge/plantuml/sudoku/PSystemSudokuFactory.java
-StartLineNum:57
-EndLineNum:57
-repoName:jensnerche#plantuml

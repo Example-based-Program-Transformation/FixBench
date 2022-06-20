@@ -1,1 +1,0 @@
-FIX: Fix issues found with findbugs for java.io stream usages where no encoding is defined.

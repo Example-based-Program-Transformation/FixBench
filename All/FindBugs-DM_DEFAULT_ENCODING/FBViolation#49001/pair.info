@@ -1,8 +1,0 @@
-Id:49001
-comSha:9cc86b38df9a086713d1fcdf01b451b41c0d6f65
-parentComSha:a827b7cbbf1f29e24e3f814149809941e754c93c
-BuggyFilePath:src/test/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheckTest.java
-FixedFilePath:src/test/java/com/puppycrawl/tools/checkstyle/checks/indentation/IndentationCheckTest.java
-StartLineNum:73
-EndLineNum:73
-repoName:checkstyle#checkstyle

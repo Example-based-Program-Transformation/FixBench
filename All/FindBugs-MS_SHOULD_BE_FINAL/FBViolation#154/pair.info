@@ -1,8 +1,0 @@
-Id:154
-comSha:2fbb1721a2c703b17615d3754459382533958236
-parentComSha:ae6868b5bccb59e943f0b16b2d1379d842614134
-BuggyFilePath:biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlternativeAlignmentFrame.java
-FixedFilePath:biojava3-structure-gui/src/main/java/org/biojava/bio/structure/gui/util/AlternativeAlignmentFrame.java
-StartLineNum:68
-EndLineNum:68
-repoName:biojava#biojava

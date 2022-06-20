@@ -1,1 +1,0 @@
-LANG-805 RandomStringUtils.random(count, 0, 0, false, false, universe, random) always throws java.lang.ArrayIndexOutOfBoundsException

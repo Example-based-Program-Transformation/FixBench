@@ -1,7 +1,0 @@
-Id:418
-SATName:Genesis
-modifiedFPath:server/src/main/java/com/orientechnologies/orient/server/network/protocol/binary/ONetworkProtocolBinary.java
-comSha:177d0228fccc159dbfe30d44ffe9ae16961ba67c
-parentComSha:177d0228fccc159dbfe30d44ffe9ae16961ba67c^1
-githubUrl:https://github.com/orientechnologies/orientdb
-repoName:orientechnologies#orientdb

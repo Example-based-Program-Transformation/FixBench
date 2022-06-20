@@ -1,7 +1,0 @@
-Id:432
-SATName:Genesis
-modifiedFPath:src/main/java/net/spy/memcached/util/StringUtils.java
-comSha:386a843c57e9b61629e2d07887a0bf0eab37ad43
-parentComSha:386a843c57e9b61629e2d07887a0bf0eab37ad43^1
-githubUrl:https://github.com/dustin/java-memcached-client
-repoName:dustin#java-memcached-client

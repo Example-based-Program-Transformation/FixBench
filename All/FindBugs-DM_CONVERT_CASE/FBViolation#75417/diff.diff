@@ -1,9 +1,0 @@
-diff --git a/src/main/java/org/optimizationBenchmarking/utils/io/paths/predicates/FileNamePredicate.java b/src/main/java/org/optimizationBenchmarking/utils/io/paths/predicates/FileNamePredicate.java
-index e418c625..a618a19f 100644
---- a/src/main/java/org/optimizationBenchmarking/utils/io/paths/predicates/FileNamePredicate.java
-+++ b/src/main/java/org/optimizationBenchmarking/utils/io/paths/predicates/FileNamePredicate.java
-@@ -6,0 +7 @@ import org.optimizationBenchmarking.utils.io.paths.PathUtils;
-+import org.optimizationBenchmarking.utils.text.TextUtils;
-@@ -60 +61 @@ public final class FileNamePredicate extends StringInListIgnoreCase<Path> {
--    return ((s != null) ? s.toLowerCase() : null);
-+    return ((s != null) ? TextUtils.toLowerCase(s) : null);

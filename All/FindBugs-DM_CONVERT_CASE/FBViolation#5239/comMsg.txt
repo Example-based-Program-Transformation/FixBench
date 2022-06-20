@@ -1,3 +1,0 @@
-Use US locale everywhere when converting case.
-
-This fixes #400.

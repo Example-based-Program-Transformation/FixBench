@@ -1,3 +1,0 @@
-cleanup, removing desription internal variable, since not used
-
-git-svn-id: http://code.open-bio.org/repos/biojava/biojava-live/trunk@8741 7c6358e6-4a41-0410-a743-a5b2a554c398

@@ -1,1 +1,0 @@
-Fixed logging could not be enabled due to NPE.

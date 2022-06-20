@@ -1,7 +1,0 @@
-diff --git a/src/main/java/org/bytedeco/javacpp/tools/BuildMojo.java b/src/main/java/org/bytedeco/javacpp/tools/BuildMojo.java
-index 4706015..e261d55 100644
---- a/src/main/java/org/bytedeco/javacpp/tools/BuildMojo.java
-+++ b/src/main/java/org/bytedeco/javacpp/tools/BuildMojo.java
-@@ -189 +189 @@ public class BuildMojo extends AbstractMojo {
--        return ss;
-+        return ss != null ? ss : new String[0];

@@ -1,1 +1,0 @@
-SPY-168: isJSONObject should handle null or empty input values.

@@ -1,1 +1,0 @@
-Fixing NPE in the ChangeLogSyncVisitor when no listener is given at the time of construction. Unit tests created to test problem and verify solution.
