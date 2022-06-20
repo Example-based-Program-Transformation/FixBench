@@ -1,1 +1,0 @@
-Update of the player chunk management to the current state of the v1.7.x branches

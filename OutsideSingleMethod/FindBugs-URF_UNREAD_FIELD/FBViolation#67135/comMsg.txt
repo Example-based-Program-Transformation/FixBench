@@ -1,3 +1,0 @@
-added some defaults
-
-git-svn-id: https://mp4parser.googlecode.com/svn/trunk/isoparser@745 7decde4b-c250-0410-a0da-51896bc88be6

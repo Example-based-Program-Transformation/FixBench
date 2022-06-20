@@ -1,8 +1,0 @@
-Id:2462
-comSha:e8c4c83e27d714f8e89d3916a439a254b3ce3ccf
-parentComSha:979696a0c332f77b54697f923050b1789df8d317
-BuggyFilePath:src/main/java/com/google/gson/GsonToMiniGsonTypeAdapterFactory.java
-FixedFilePath:src/main/java/com/google/gson/GsonToMiniGsonTypeAdapterFactory.java
-StartLineNum:41
-EndLineNum:41
-repoName:TeamExodus#external_gson

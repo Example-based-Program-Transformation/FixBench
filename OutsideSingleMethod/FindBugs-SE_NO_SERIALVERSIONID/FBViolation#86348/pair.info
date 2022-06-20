@@ -1,8 +1,0 @@
-Id:86348
-comSha:8c0ef92ae5eee1e1f6f3329b9eb81acd4b855769
-parentComSha:206a4c1dbe5906d21bf530afa26a5d1b8327c139
-BuggyFilePath:rio/src/main/java/org/semanticweb/owlapi/formats/NQuadsOntologyFormatFactory.java
-FixedFilePath:rio/src/main/java/org/semanticweb/owlapi/formats/NQuadsOntologyFormatFactory.java
-StartLineNum:12
-EndLineNum:23
-repoName:owlcs#owlapi

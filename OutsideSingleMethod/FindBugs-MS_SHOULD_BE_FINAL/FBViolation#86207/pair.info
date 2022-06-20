@@ -1,8 +1,0 @@
-Id:86207
-comSha:b20fe9c5856d4e22410b4cdbb3d475ed753b0ded
-parentComSha:0b2270deea5b872274f9a2277e6a554287f7a443
-BuggyFilePath:oboformat/src/main/java/org/obolibrary/obo2owl/OWLAPIOwl2Obo.java
-FixedFilePath:oboformat/src/main/java/org/obolibrary/obo2owl/OWLAPIOwl2Obo.java
-StartLineNum:135
-EndLineNum:135
-repoName:owlcs#owlapi

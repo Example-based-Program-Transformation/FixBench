@@ -1,8 +1,0 @@
-Id:23472
-comSha:e91970915a55169c443adb5ee05e25f428370fe7
-parentComSha:5e0c811dc56984abb6c1b4134a975797a00dc0ca
-BuggyFilePath:biojava3-structure/src/main/java/org/biojava/bio/structure/align/helper/AligMatEl.java
-FixedFilePath:biojava3-structure/src/main/java/org/biojava/bio/structure/align/helper/AligMatEl.java
-StartLineNum:35
-EndLineNum:57
-repoName:JolantaWojcik#biojavaOwn

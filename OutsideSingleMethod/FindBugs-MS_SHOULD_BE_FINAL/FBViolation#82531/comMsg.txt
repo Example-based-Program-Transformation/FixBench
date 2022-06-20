@@ -1,3 +1,0 @@
-Entity updates - added preSnapshot() method and some chunk update stuff
-
-Signed-off-by: Raphfrk <raphfrk@gmail.com>

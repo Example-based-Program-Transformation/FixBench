@@ -1,8 +1,0 @@
-Id:34106
-comSha:730e9f00111d680ab9dacbf21f6539ddda889800
-parentComSha:b696b7cdce310270a372820fcef6014c0dafdb7b
-BuggyFilePath:src/main/java/com/thinkaurelius/faunus/hdfs/OnlyGraphFilter.java
-FixedFilePath:src/main/java/com/thinkaurelius/faunus/hdfs/NoSideEffectFilter.java
-StartLineNum:15
-EndLineNum:25
-repoName:thinkaurelius#titan

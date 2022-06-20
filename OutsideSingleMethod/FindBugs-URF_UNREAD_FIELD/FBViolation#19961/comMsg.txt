@@ -1,1 +1,0 @@
-cleanup tests and make the work better on multiple plattforms
