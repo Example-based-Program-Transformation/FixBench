@@ -2,6 +2,6 @@ Id:76
 SATName:Genesis
 modifiedFPath:src/main/java/org/yinwang/pysonar/ast/NameBinder.java
 comSha:9a2e4a5ae561fb786f104a3f26563e06ba218c0e
-parentComSha:9a2e4a5ae561fb786f104a3f26563e06ba218c0e^1
+parentComSha:0a924a4538cea86580e5fa5bfcce40e7da6d2681
 githubUrl:https://github.com/yinwang0/pysonar2
 repoName:yinwang0#pysonar2

@@ -2,6 +2,6 @@ Id:165
 SATName:Genesis
 modifiedFPath:src/org/jgroups/protocols/pbcast/NAKACK2.java
 comSha:b99c263
-parentComSha:b99c263^1
+parentComSha:72c2921c86add32cdd1a2a5d64c76bd0d48e7523
 githubUrl:https://github.com/danberindei/JGroups
 repoName:danberindei#JGroups

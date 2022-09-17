@@ -2,6 +2,6 @@ Id:216
 SATName:Genesis
 modifiedFPath:jest-common/src/main/java/io/searchbox/client/config/discovery/NodeChecker.java
 comSha:c89e1fb5d9a48670c151312e937240a861aa25ec
-parentComSha:c89e1fb5d9a48670c151312e937240a861aa25ec^1
+parentComSha:e4298a5c5fd19fa79e11e1fffc15bf86ccd2afa0
 githubUrl:https://github.com/searchbox-io/Jest
 repoName:searchbox-io#Jest

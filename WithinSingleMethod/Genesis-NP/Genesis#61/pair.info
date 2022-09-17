@@ -2,6 +2,6 @@ Id:61
 SATName:Genesis
 modifiedFPath:maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
 comSha:445421051c5d364839d3bcdf2fa35e3ecd06e9bc
-parentComSha:445421051c5d364839d3bcdf2fa35e3ecd06e9bc^1
+parentComSha:9bec8d7386156bd7b56b8261ecd51e903d55673e
 githubUrl:https://github.com/apache/maven
 repoName:apache#maven

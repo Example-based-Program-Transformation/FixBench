@@ -2,6 +2,6 @@ Id:452
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/VariableScopeImpl.java
 comSha:05d6538d6013396cf6f432c92be327e9bed531ce
-parentComSha:05d6538d6013396cf6f432c92be327e9bed531ce^1
+parentComSha:482a41f7fde84b9b74aa22a8739899a34a273141
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

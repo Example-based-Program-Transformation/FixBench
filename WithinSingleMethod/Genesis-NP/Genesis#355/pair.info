@@ -2,6 +2,6 @@ Id:355
 SATName:Genesis
 modifiedFPath:src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java
 comSha:3b9e7f4b6ce9f5b0cd52477761fcf442244d2a7c
-parentComSha:3b9e7f4b6ce9f5b0cd52477761fcf442244d2a7c^1
+parentComSha:02f9b9cd3f89e49edac742eab2ca9d861a462aba
 githubUrl:https://github.com/mybatis/mybatis-3
 repoName:mybatis#mybatis-3

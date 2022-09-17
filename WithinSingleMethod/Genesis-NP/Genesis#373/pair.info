@@ -2,6 +2,6 @@ Id:373
 SATName:Genesis
 modifiedFPath:modules/cpr/src/main/java/org/atmosphere/container/NettyCometSupport.java
 comSha:668e19659bff93d15430a9a8c1dd340290e53fb9
-parentComSha:668e19659bff93d15430a9a8c1dd340290e53fb9^1
+parentComSha:cc44a298bafaad101034ac75a0676018d4f85dbe
 githubUrl:https://github.com/Atmosphere/atmosphere
 repoName:Atmosphere#atmosphere

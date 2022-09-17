@@ -2,6 +2,6 @@ Id:19
 SATName:Genesis
 modifiedFPath:org.eclipse.jgit/src/org/eclipse/jgit/api/ResetCommand.java
 comSha:13ffda0666cec94183529307eecbbda3bcf12fb1
-parentComSha:13ffda0666cec94183529307eecbbda3bcf12fb1^1
+parentComSha:74c337eadb76880e5c9a72c019272c32c4885221
 githubUrl:https://github.com/eclipse/jgit
 repoName:eclipse#jgit

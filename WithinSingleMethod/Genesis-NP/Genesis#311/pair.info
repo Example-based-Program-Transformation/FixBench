@@ -2,6 +2,6 @@ Id:311
 SATName:Genesis
 modifiedFPath:core/src/main/java/me/prettyprint/cassandra/connection/HConnectionManager.java
 comSha:c936aa9e16df64d77a5485750757a8239197d767
-parentComSha:c936aa9e16df64d77a5485750757a8239197d767^1
+parentComSha:b8831332c5f0ca8540038e60ca6ce578a183335c
 githubUrl:https://github.com/hector-client/hector
 repoName:hector-client#hector

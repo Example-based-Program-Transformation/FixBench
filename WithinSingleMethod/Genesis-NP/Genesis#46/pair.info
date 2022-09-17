@@ -2,6 +2,6 @@ Id:46
 SATName:Genesis
 modifiedFPath:src/org/encog/ml/genetic/population/BasicPopulation.java
 comSha:6fac50d5220731bc66198b1c1d110b80ca20def2
-parentComSha:6fac50d5220731bc66198b1c1d110b80ca20def2^1
+parentComSha:8e2be379549e49b20155bce51243d41d821e4bcb
 githubUrl:https://github.com/encog/encog-java-core
 repoName:encog#encog-java-core

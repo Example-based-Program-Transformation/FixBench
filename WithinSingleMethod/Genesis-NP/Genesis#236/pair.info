@@ -2,6 +2,6 @@ Id:236
 SATName:Genesis
 modifiedFPath:src/org/jgroups/protocols/UNICAST2.java
 comSha:48f355cc81507bd932c5fabc949d95df4269126b
-parentComSha:48f355cc81507bd932c5fabc949d95df4269126b^1
+parentComSha:b41f41f1c7b90065c496de220c305dc4db0614d2
 githubUrl:https://github.com/belaban/JGroups
 repoName:belaban#JGroups

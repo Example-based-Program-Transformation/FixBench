@@ -2,6 +2,6 @@ Id:338
 SATName:Genesis
 modifiedFPath:processing/src/main/java/io/druid/query/groupby/GroupByQueryEngine.java
 comSha:e0e43deaec26384766a61874db4aaa6bda4ae415
-parentComSha:e0e43deaec26384766a61874db4aaa6bda4ae415^1
+parentComSha:8138d96f9d84d2d16dfc59f2187f3b57d52f5aed
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

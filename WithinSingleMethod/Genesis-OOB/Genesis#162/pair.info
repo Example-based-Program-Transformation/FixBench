@@ -2,6 +2,6 @@ Id:162
 SATName:Genesis
 modifiedFPath:repository-hpi/src/main/java/com/nirima/jenkins/webdav/impl/methods/MethodBase.java
 comSha:8d38fff
-parentComSha:8d38fff^1
+parentComSha:ffb61777d9ee1a8f7971c3a59c1a033623df690d 116e8910f381821aabe71fb7a730a320428a53e6
 githubUrl:https://github.com/hrabur/Jenkins-Repository
 repoName:hrabur#Jenkins-Repository

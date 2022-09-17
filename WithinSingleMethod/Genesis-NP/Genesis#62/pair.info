@@ -2,6 +2,6 @@ Id:62
 SATName:Genesis
 modifiedFPath:maven-model-builder/src/main/java/org/apache/maven/model/plugin/DefaultReportingConverter.java
 comSha:f8ca95ef391982f91701a7c152cb2359424fdccb
-parentComSha:f8ca95ef391982f91701a7c152cb2359424fdccb^1
+parentComSha:84f7f7bbb1417256a528b5ab71e2f0b43f0c700a
 githubUrl:https://github.com/apache/maven
 repoName:apache#maven

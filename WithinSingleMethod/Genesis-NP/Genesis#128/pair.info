@@ -2,6 +2,6 @@ Id:128
 SATName:Genesis
 modifiedFPath:hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServer.java
 comSha:2d2fdd5a9fd122a76fc71db549b4e10985395dd2
-parentComSha:2d2fdd5a9fd122a76fc71db549b4e10985395dd2^1
+parentComSha:76bce7732633a0881ff7cb0dfd2f56f13a98303a
 githubUrl:https://github.com/apache/hbase
 repoName:apache#hbase

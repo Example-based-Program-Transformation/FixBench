@@ -2,6 +2,6 @@ Id:35
 SATName:Genesis
 modifiedFPath:src/org/nutz/aop/DefaultClassDefiner.java
 comSha:80e85d04b1e9258c6091c91f2ac8c01844ada375
-parentComSha:80e85d04b1e9258c6091c91f2ac8c01844ada375^1
+parentComSha:9f6beda71f4f0f2023894d22a26844dd993f40a5
 githubUrl:https://github.com/nutzam/nutz
 repoName:nutzam#nutz

@@ -2,6 +2,6 @@ Id:101
 SATName:Genesis
 modifiedFPath:src/main/java/de/slackspace/openkeepass/domain/KeePassFile.java
 comSha:6391ec0
-parentComSha:6391ec0^1
+parentComSha:cef5f5ff86aca231cc71f508c3f31e22dc1819e2 a92c321549e81b896e105ff8c9da1c1d8fb6ffc0
 githubUrl:https://github.com/cternes/openkeepass
 repoName:cternes#openkeepass

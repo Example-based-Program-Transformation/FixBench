@@ -2,6 +2,6 @@ Id:444
 SATName:Genesis
 modifiedFPath:rapidoid-http/src/main/java/org/rapidoid/http/HttpExchangeImpl.java
 comSha:e47515a3a0c2b797933f34e45c264ce30d736c8c
-parentComSha:e47515a3a0c2b797933f34e45c264ce30d736c8c^1
+parentComSha:99d40c72edef5e1a8c3f23347997fc3ea9715c36
 githubUrl:https://github.com/rapidoid/rapidoid
 repoName:rapidoid#rapidoid

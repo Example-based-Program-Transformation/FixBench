@@ -2,6 +2,6 @@ Id:233
 SATName:Genesis
 modifiedFPath:src/org/jgroups/auth/sasl/SaslUtils.java
 comSha:8ebb11ca18d8c51d84ff6950af67ac45811c5deb
-parentComSha:8ebb11ca18d8c51d84ff6950af67ac45811c5deb^1
+parentComSha:64d6882f4a3c8ab2bdee9172dffa8d71b1f9b073
 githubUrl:https://github.com/belaban/JGroups
 repoName:belaban#JGroups

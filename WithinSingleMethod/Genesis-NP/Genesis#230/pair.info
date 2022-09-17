@@ -2,6 +2,6 @@ Id:230
 SATName:Genesis
 modifiedFPath:src/org/jgroups/protocols/MERGE2.java
 comSha:51c6540568ca842e3b554b05a9367ccc661256c6
-parentComSha:51c6540568ca842e3b554b05a9367ccc661256c6^1
+parentComSha:60d20fd5876b1c0a803d29ae6d679cc7c30fdd01
 githubUrl:https://github.com/belaban/JGroups
 repoName:belaban#JGroups

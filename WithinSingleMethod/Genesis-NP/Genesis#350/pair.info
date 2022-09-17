@@ -2,6 +2,6 @@ Id:350
 SATName:Genesis
 modifiedFPath:src/main/java/com/github/nkzawa/socketio/client/Socket.java
 comSha:e9bf27a4ae08726024b26befd3cf8f7d28edabed
-parentComSha:e9bf27a4ae08726024b26befd3cf8f7d28edabed^1
+parentComSha:8df9cffbacb10620581d287204efbaf686535c11
 githubUrl:https://github.com/socketio/socket.io-client-java
 repoName:socketio#socket.io-client-java

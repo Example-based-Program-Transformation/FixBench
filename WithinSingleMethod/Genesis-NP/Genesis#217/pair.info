@@ -2,6 +2,6 @@ Id:217
 SATName:Genesis
 modifiedFPath:jest-common/src/main/java/io/searchbox/action/AbstractMultiIndexActionBuilder.java
 comSha:6851b97ebfe65830584d9d5a055a823697e9ec71
-parentComSha:6851b97ebfe65830584d9d5a055a823697e9ec71^1
+parentComSha:d80c6ba13de9c9f0429072b2934c5be101185506
 githubUrl:https://github.com/searchbox-io/Jest
 repoName:searchbox-io#Jest

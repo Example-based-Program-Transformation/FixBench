@@ -2,6 +2,6 @@ Id:227
 SATName:Genesis
 modifiedFPath:src/org/jgroups/fork/ForkProtocolStack.java
 comSha:60497bd7a4053fe884637d7f23526b6062a37d00
-parentComSha:60497bd7a4053fe884637d7f23526b6062a37d00^1
+parentComSha:8750a720d17988fdc3615aec5f500325e16c96b6
 githubUrl:https://github.com/belaban/JGroups
 repoName:belaban#JGroups

@@ -2,6 +2,6 @@ Id:103
 SATName:Genesis
 modifiedFPath:core/src/main/java/com/google/zxing/multi/GenericMultipleBarcodeReader.java
 comSha:281721f2d942aacf867a87ab49b8b037b78d0c52
-parentComSha:281721f2d942aacf867a87ab49b8b037b78d0c52^1
+parentComSha:70b02ea882154d7e068765399a3cce8c75af90c2
 githubUrl:https://github.com/zxing/zxing
 repoName:zxing#zxing

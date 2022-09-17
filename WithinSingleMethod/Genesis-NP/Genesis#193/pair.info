@@ -2,6 +2,6 @@ Id:193
 SATName:Genesis
 modifiedFPath:metrics-core/src/main/java/com/codahale/metrics/MetricRegistry.java
 comSha:c9e2f5b07e0723ae33442faa090395fb919ec9b2
-parentComSha:c9e2f5b07e0723ae33442faa090395fb919ec9b2^1
+parentComSha:0ff4b8347b2a7f02ad02ab136334fc1053955c1a
 githubUrl:https://github.com/dropwizard/metrics
 repoName:dropwizard#metrics

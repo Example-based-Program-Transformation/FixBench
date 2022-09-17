@@ -2,6 +2,6 @@ Id:172
 SATName:Genesis
 modifiedFPath:structr-ui/src/main/java/org/structr/websocket/command/SearchCommand.java
 comSha:11be383a010a6c20c7f453f660ab20a0726de5f0
-parentComSha:11be383a010a6c20c7f453f660ab20a0726de5f0^1
+parentComSha:d4987d2798c47401f53219b27ecadcf0069bba12
 githubUrl:https://github.com/structr/structr
 repoName:structr#structr

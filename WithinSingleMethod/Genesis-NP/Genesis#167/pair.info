@@ -2,6 +2,6 @@ Id:167
 SATName:Genesis
 modifiedFPath:structr-ui/src/main/java/org/structr/web/entity/dom/DOMNode.java
 comSha:a0fa2b85471651b8e00ed829b39d8610f4c78999
-parentComSha:a0fa2b85471651b8e00ed829b39d8610f4c78999^1
+parentComSha:98765e013061b50fe353305bbf27a0708ab8a4ae
 githubUrl:https://github.com/structr/structr
 repoName:structr#structr

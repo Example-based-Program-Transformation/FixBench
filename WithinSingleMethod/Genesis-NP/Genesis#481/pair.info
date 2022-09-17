@@ -2,6 +2,6 @@ Id:481
 SATName:Genesis
 modifiedFPath:api/src/main/java/net/md_5/bungee/api/plugin/PluginManager.java
 comSha:cb4f70ecc70451a707efc0a20927a9900625ce25
-parentComSha:cb4f70ecc70451a707efc0a20927a9900625ce25^1
+parentComSha:2100da2a9fc61239911f7246c594675ad5b2746e
 githubUrl:https://github.com/SpigotMC/BungeeCord
 repoName:SpigotMC#BungeeCord

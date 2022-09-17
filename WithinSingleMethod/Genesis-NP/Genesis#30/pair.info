@@ -2,6 +2,6 @@ Id:30
 SATName:Genesis
 modifiedFPath:xchange-bitstamp/src/main/java/com/xeiam/xchange/bitstamp/service/polling/BitstampAccountService.java
 comSha:e72aa9429aaa0a4011cd000d0a068e4e1cbc47e6
-parentComSha:e72aa9429aaa0a4011cd000d0a068e4e1cbc47e6^1
+parentComSha:661f2b803b5da821fb0556f9017e117ccf7cfd96
 githubUrl:https://github.com/timmolter/XChange
 repoName:timmolter#XChange

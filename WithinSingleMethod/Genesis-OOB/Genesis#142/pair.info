@@ -2,6 +2,6 @@ Id:142
 SATName:Genesis
 modifiedFPath:core/src/main/java/net/tomp2p/message/Decoder.java
 comSha:18daa5d
-parentComSha:18daa5d^1
+parentComSha:cf958d04890134101b8ba1f5d70b07ee7f375316
 githubUrl:https://github.com/tomp2p/TomP2P
 repoName:tomp2p#TomP2P

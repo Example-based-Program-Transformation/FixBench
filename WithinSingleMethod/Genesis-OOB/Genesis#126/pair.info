@@ -2,6 +2,6 @@ Id:126
 SATName:Genesis
 modifiedFPath:maven-release-manager/src/main/java/org/apache/maven/shared/release/util/ReleaseUtil.java
 comSha:55fa80c
-parentComSha:55fa80c^1
+parentComSha:b27153d79ea8720d5028d05a5da326ebfb434b3e
 githubUrl:https://github.com/jdchourio/maven-release
 repoName:jdchourio#maven-release

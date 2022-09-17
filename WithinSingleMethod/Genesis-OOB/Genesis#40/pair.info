@@ -2,6 +2,6 @@ Id:40
 SATName:Genesis
 modifiedFPath:server/src/main/java/com/metamx/druid/index/v1/IncrementalIndexStorageAdapter.java
 comSha:16e4cd4291c51fa1a2a9e3a189c8c57cd09d6901
-parentComSha:16e4cd4291c51fa1a2a9e3a189c8c57cd09d6901^1
+parentComSha:c0397aa67c40dc8a7facca3f60ed2de769354a26
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

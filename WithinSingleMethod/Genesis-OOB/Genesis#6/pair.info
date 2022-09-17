@@ -2,6 +2,6 @@ Id:6
 SATName:Genesis
 modifiedFPath:src/main/java/de/jetwick/snacktory/ArticleTextExtractor.java
 comSha:9faf4e4d273673392ffd772f11b55608f9a1bfed
-parentComSha:9faf4e4d273673392ffd772f11b55608f9a1bfed^1
+parentComSha:cdbf9f1d4a94f351344094fc42cf17b6f19f8d70
 githubUrl:https://github.com/karussell/snacktory
 repoName:karussell#snacktory

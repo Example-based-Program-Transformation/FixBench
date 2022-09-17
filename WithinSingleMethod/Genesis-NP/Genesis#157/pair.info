@@ -2,6 +2,6 @@ Id:157
 SATName:Genesis
 modifiedFPath:structr-rest/src/main/java/org/structr/rest/resource/TypeResource.java
 comSha:52a67871e1df6a3cc2b8ad8ea8a93814be1c54cc
-parentComSha:52a67871e1df6a3cc2b8ad8ea8a93814be1c54cc^1
+parentComSha:0474739eb2c99302fc7619c0a90cc256ace31bd0
 githubUrl:https://github.com/structr/structr
 repoName:structr#structr

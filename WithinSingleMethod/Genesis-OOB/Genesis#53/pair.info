@@ -2,6 +2,6 @@ Id:53
 SATName:Genesis
 modifiedFPath:src/main/java/org/springframework/hateoas/core/AnnotationMappingDiscoverer.java
 comSha:29b433445c77de725487a8a95899cfce78c9767b
-parentComSha:29b433445c77de725487a8a95899cfce78c9767b^1
+parentComSha:1bd90991bde2b7b84067d781b9051cf2127556d3
 githubUrl:https://github.com/spring-projects/spring-hateoas
 repoName:spring-projects#spring-hateoas

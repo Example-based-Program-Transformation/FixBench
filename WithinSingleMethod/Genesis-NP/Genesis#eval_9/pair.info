@@ -2,6 +2,6 @@ Id:9
 SATName:Genesis
 modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/SuppressWarningsHolder.java
 comSha:aa829d408fe23bf21a948971a4cad61b36caea94
-parentComSha:aa829d408fe23bf21a948971a4cad61b36caea94^1
+parentComSha:91e10c298d313957c4e9263484b836d33c2d4cbe
 githubUrl:https://github.com/checkstyle/checkstyle
 repoName:checkstyle#checkstyle

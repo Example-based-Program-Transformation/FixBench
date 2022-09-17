@@ -2,6 +2,6 @@ Id:175
 SATName:Genesis
 modifiedFPath:src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 comSha:9828574df40d4285290d2bdeec10d59ada91cd1b
-parentComSha:9828574df40d4285290d2bdeec10d59ada91cd1b^1
+parentComSha:b7264b918b7681ebff52dcf6997aaee24ee59d39
 githubUrl:https://github.com/google/closure-compiler
 repoName:google#closure-compiler

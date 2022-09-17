@@ -2,6 +2,6 @@ Id:69
 SATName:Genesis
 modifiedFPath:galen-core/src/main/java/com/galenframework/speclang2/reader/pagespec/MacroProcessor.java
 comSha:bc55bffe24bf0e94ca830ba4c70a151e634adb75
-parentComSha:bc55bffe24bf0e94ca830ba4c70a151e634adb75^1
+parentComSha:33cf21b8e2a0868865dff6fc084fb86af4f7e0d4
 githubUrl:https://github.com/galenframework/galen
 repoName:galenframework#galen

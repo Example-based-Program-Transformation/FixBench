@@ -2,6 +2,6 @@ Id:476
 SATName:Genesis
 modifiedFPath:src/main/java/org/redisson/RedissonLock.java
 comSha:d430f15e08666032b12f8f5545997d9ec632b8d6
-parentComSha:d430f15e08666032b12f8f5545997d9ec632b8d6^1
+parentComSha:950196f10ed0216972bd1f912a9806e9d4b2ffb9
 githubUrl:https://github.com/mrniko/redisson
 repoName:mrniko#redisson

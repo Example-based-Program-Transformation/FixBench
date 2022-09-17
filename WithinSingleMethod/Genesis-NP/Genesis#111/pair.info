@@ -2,6 +2,6 @@ Id:111
 SATName:Genesis
 modifiedFPath:core/src/main/java/org/powermock/core/classloader/MockClassLoader.java
 comSha:f174dd8a4ea5d154b25b736d611a7e8b5de0df06
-parentComSha:f174dd8a4ea5d154b25b736d611a7e8b5de0df06^1
+parentComSha:39103625e3f5f176f38d8fbb3b262d9ced2c3d00
 githubUrl:https://github.com/jayway/powermock
 repoName:jayway#powermock

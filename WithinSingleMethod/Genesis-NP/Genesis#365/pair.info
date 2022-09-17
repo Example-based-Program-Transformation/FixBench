@@ -2,6 +2,6 @@ Id:365
 SATName:Genesis
 modifiedFPath:mockserver-core/src/main/java/org/mockserver/model/HttpResponse.java
 comSha:a43287c4b924b0a526db74bb534a2b8e7ac81d7c
-parentComSha:a43287c4b924b0a526db74bb534a2b8e7ac81d7c^1
+parentComSha:6307c46b2e4baaca632189d4f7d44deb893d9ebf
 githubUrl:https://github.com/jamesdbloom/mockserver
 repoName:jamesdbloom#mockserver

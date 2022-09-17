@@ -2,6 +2,6 @@ Id:324
 SATName:Genesis
 modifiedFPath:core/src/main/java/org/modelmapper/internal/Errors.java
 comSha:d85131a7a39f90c765c6003bed92473d1b1756fa
-parentComSha:d85131a7a39f90c765c6003bed92473d1b1756fa^1
+parentComSha:f7b99bcab0581f0fbff674668cfb8321a3466bfc
 githubUrl:https://github.com/jhalterman/modelmapper
 repoName:jhalterman#modelmapper

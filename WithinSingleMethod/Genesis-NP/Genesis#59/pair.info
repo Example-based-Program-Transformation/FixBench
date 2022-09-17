@@ -2,6 +2,6 @@ Id:59
 SATName:Genesis
 modifiedFPath:maven-plugin-api/src/main/java/org/apache/maven/plugin/descriptor/MojoDescriptor.java
 comSha:d728b0218f5eb9516282284e4ad53d5ac82ca21a
-parentComSha:d728b0218f5eb9516282284e4ad53d5ac82ca21a^1
+parentComSha:7267996db8bcd00bb71432c6392bf071bba49246
 githubUrl:https://github.com/apache/maven
 repoName:apache#maven

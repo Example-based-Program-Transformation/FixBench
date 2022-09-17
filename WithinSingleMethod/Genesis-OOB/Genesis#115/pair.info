@@ -2,6 +2,6 @@ Id:115
 SATName:Genesis
 modifiedFPath:org.eclipse.jgit/src/org/eclipse/jgit/diff/RenameDetector.java
 comSha:e2f5716
-parentComSha:e2f5716^1
+parentComSha:e64cb0306507ce8a33d5f638cb4aa0ec9c1327ff
 githubUrl:https://github.com/chalstrick/jgit
 repoName:chalstrick#jgit

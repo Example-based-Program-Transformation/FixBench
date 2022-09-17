@@ -2,6 +2,6 @@ Id:183
 SATName:Genesis
 modifiedFPath:src/main/java/redis/clients/jedis/Jedis.java
 comSha:9d538a06fd9145dcf6e44008c2a1648fadf4f5c0
-parentComSha:9d538a06fd9145dcf6e44008c2a1648fadf4f5c0^1
+parentComSha:23e50a363e621ef9b5996233c53445e9f8ed3e13
 githubUrl:https://github.com/xetorthio/jedis
 repoName:xetorthio#jedis

@@ -2,6 +2,6 @@ Id:196
 SATName:Genesis
 modifiedFPath:src/main/java/org/jolokia/docker/maven/assembly/DockerFileBuilder.java
 comSha:79b5393c2dcf5de3fa6ff9992d999a628fd1c4f7
-parentComSha:79b5393c2dcf5de3fa6ff9992d999a628fd1c4f7^1
+parentComSha:b4b63d35ba38898946767f0752d9906bf56b5d17
 githubUrl:https://github.com/rhuss/docker-maven-plugin
 repoName:rhuss#docker-maven-plugin

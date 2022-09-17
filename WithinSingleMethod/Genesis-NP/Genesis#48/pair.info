@@ -2,6 +2,6 @@ Id:48
 SATName:Genesis
 modifiedFPath:spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/RepositoryRestExceptionHandler.java
 comSha:1c2201faa1773cbc843d0a1383ea29d8b0f687d6
-parentComSha:1c2201faa1773cbc843d0a1383ea29d8b0f687d6^1
+parentComSha:e14bdad574661962c30af9579a979b3d1f4b9fb3
 githubUrl:https://github.com/spring-projects/spring-data-rest
 repoName:spring-projects#spring-data-rest

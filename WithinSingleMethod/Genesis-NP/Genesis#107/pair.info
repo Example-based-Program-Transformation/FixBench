@@ -2,6 +2,6 @@ Id:107
 SATName:Genesis
 modifiedFPath:src/main/java/org/bukkit/util/config/Configuration.java
 comSha:33db4912d58f56b23fa543ec1f0333bc6b33bffe
-parentComSha:33db4912d58f56b23fa543ec1f0333bc6b33bffe^1
+parentComSha:8a0500b596c00d47468df7a59da80fe90b80b8e0
 githubUrl:https://github.com/Bukkit/Bukkit
 repoName:Bukkit#Bukkit

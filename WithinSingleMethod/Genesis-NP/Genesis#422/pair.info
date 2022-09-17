@@ -2,6 +2,6 @@ Id:422
 SATName:Genesis
 modifiedFPath:modules/swagger-core/src/main/java/io/swagger/core/filter/SpecFilter.java
 comSha:fc9fb46816b7d3d5b2d2bdff1f769ef5f9db80df
-parentComSha:fc9fb46816b7d3d5b2d2bdff1f769ef5f9db80df^1
+parentComSha:aa2acce643ca585788068c1f169a5b1c3c31ddec
 githubUrl:https://github.com/swagger-api/swagger-core
 repoName:swagger-api#swagger-core

@@ -2,6 +2,6 @@ Id:343
 SATName:Genesis
 modifiedFPath:realtime/src/main/java/com/metamx/druid/realtime/plumber/RealtimePlumberSchool.java
 comSha:07129418257496c2ceb4b716c40c68717d28036b
-parentComSha:07129418257496c2ceb4b716c40c68717d28036b^1
+parentComSha:fd1d73e83abdff8dcea9d3c8bcc9c3278ce92dea
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

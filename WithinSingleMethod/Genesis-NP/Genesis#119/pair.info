@@ -2,6 +2,6 @@ Id:119
 SATName:Genesis
 modifiedFPath:src/main/java/org/dynjs/parser/ast/AbstractStatement.java
 comSha:68df61b99d9d2d3d75dee8187802e3ce9bf7585d
-parentComSha:68df61b99d9d2d3d75dee8187802e3ce9bf7585d^1
+parentComSha:0ee5011648176ffb17a06aed3c35458aff35439f
 githubUrl:https://github.com/dynjs/dynjs
 repoName:dynjs#dynjs

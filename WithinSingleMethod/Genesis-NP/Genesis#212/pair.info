@@ -2,6 +2,6 @@ Id:212
 SATName:Genesis
 modifiedFPath:metamorphosis-client/src/main/java/com/taobao/metamorphosis/client/RemotingClientWrapper.java
 comSha:4cc3afb8ece8fefab2eca9e735ddf1bc0f3d9491
-parentComSha:4cc3afb8ece8fefab2eca9e735ddf1bc0f3d9491^1
+parentComSha:83dd9f96792039bf8f4d87b6c3045e0b6b0efd86
 githubUrl:https://github.com/killme2008/Metamorphosis
 repoName:killme2008#Metamorphosis

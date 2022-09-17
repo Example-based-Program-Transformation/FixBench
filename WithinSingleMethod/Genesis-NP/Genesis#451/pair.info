@@ -2,6 +2,6 @@ Id:451
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/db/DbSqlSessionFactory.java
 comSha:3e70031de5c5d25011ce8363d161e75595a84133
-parentComSha:3e70031de5c5d25011ce8363d161e75595a84133^1
+parentComSha:b6fee3ac606547a9a3630676c3775881036b6cd4
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

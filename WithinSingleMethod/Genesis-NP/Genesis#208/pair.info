@@ -2,6 +2,6 @@ Id:208
 SATName:Genesis
 modifiedFPath:processor/src/main/java/org/mapstruct/ap/MappingProcessor.java
 comSha:6d7a4da067f3bf3175a3ddc72f8f3d205faeffae
-parentComSha:6d7a4da067f3bf3175a3ddc72f8f3d205faeffae^1
+parentComSha:2ca4ce5fd52504cdaa707d575a8ecb1e6a21e8fc
 githubUrl:https://github.com/mapstruct/mapstruct
 repoName:mapstruct#mapstruct

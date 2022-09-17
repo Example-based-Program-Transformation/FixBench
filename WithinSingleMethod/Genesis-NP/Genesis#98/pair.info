@@ -2,6 +2,6 @@ Id:98
 SATName:Genesis
 modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java
 comSha:371c73fe60f63ef58abf814db76e8b2d7289800b
-parentComSha:371c73fe60f63ef58abf814db76e8b2d7289800b^1
+parentComSha:5650fc1fcd02749f8b1f907e6d0a5b68d7fb7964
 githubUrl:https://github.com/checkstyle/checkstyle
 repoName:checkstyle#checkstyle

@@ -2,6 +2,6 @@ Id:489
 SATName:Genesis
 modifiedFPath:src/main/java/uk/co/caprica/vlcj/player/DefaultMediaPlayer.java
 comSha:e212cdef6d1bd65096ee30c7b9f4741d425429fc
-parentComSha:e212cdef6d1bd65096ee30c7b9f4741d425429fc^1
+parentComSha:8d468ca5777a681799d664a00d96be13abf68edd
 githubUrl:https://github.com/caprica/vlcj
 repoName:caprica#vlcj

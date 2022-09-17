@@ -2,6 +2,6 @@ Id:106
 SATName:Genesis
 modifiedFPath:core/src/main/java/org/apache/mina/util/CircularQueue.java
 comSha:6ac1e8b
-parentComSha:6ac1e8b^1
+parentComSha:3baee0650bad1b4c1851c8dcc7459f7b719c399f
 githubUrl:https://github.com/apache/mina
 repoName:apache#mina

@@ -2,6 +2,6 @@ Id:45
 SATName:Genesis
 modifiedFPath:core/src/main/java/com/orientechnologies/orient/core/command/script/OScriptManager.java
 comSha:7189ad1147000d9cc208bf267543c2923107aa62
-parentComSha:7189ad1147000d9cc208bf267543c2923107aa62^1
+parentComSha:43703ff14f8c316472377e7ac5d9683f6da470a7
 githubUrl:https://github.com/orientechnologies/orientdb
 repoName:orientechnologies#orientdb

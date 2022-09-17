@@ -2,6 +2,6 @@ Id:463
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/cfg/ProcessEngineConfigurationImpl.java
 comSha:faca141e260d249d46b60574a66b02243598c551
-parentComSha:faca141e260d249d46b60574a66b02243598c551^1
+parentComSha:98b803f8edeb44604bc8c1434bda7bc78db3b116
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

@@ -2,6 +2,6 @@ Id:61
 SATName:Genesis
 modifiedFPath:src/main/java/com/yetanotherx/reddit/api/modules/RedditCore.java
 comSha:76b30e5
-parentComSha:76b30e5^1
+parentComSha:a08f7f64febdf97699597cb49fa42bce14971121 9c71bbeab9953ca5872ae0f119a9c861bf5718ad
 githubUrl:https://github.com/yetanotherx/RedditBot
 repoName:yetanotherx#RedditBot

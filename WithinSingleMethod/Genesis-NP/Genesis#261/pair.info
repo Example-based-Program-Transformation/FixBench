@@ -2,6 +2,6 @@ Id:261
 SATName:Genesis
 modifiedFPath:src/main/java/com/salesforce/phoenix/util/ServerUtil.java
 comSha:91e4972fb19b7e4be608edeea659904ab6f41093
-parentComSha:91e4972fb19b7e4be608edeea659904ab6f41093^1
+parentComSha:2014e40814d3ef291075b99c1ee5defe1c58b75f
 githubUrl:https://github.com/forcedotcom/phoenix
 repoName:forcedotcom#phoenix

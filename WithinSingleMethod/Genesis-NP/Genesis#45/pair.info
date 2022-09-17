@@ -2,6 +2,6 @@ Id:45
 SATName:Genesis
 modifiedFPath:src/main/java/org/encog/app/analyst/analyze/PerformAnalysis.java
 comSha:a28b305e79e17cf252d14a6b0a1d17422f7b48ff
-parentComSha:a28b305e79e17cf252d14a6b0a1d17422f7b48ff^1
+parentComSha:09a8b01eb19c518c824e31162ea9af6d42d65f12
 githubUrl:https://github.com/encog/encog-java-core
 repoName:encog#encog-java-core

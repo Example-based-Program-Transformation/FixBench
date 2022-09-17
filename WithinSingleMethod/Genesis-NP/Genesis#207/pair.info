@@ -2,6 +2,6 @@ Id:207
 SATName:Genesis
 modifiedFPath:processor/src/main/java/org/mapstruct/ap/util/SpecificCompilerWorkarounds.java
 comSha:3948a2d58b4b76b6da0f6b2a13e7751fdf9990f7
-parentComSha:3948a2d58b4b76b6da0f6b2a13e7751fdf9990f7^1
+parentComSha:760be8f4f82c1ee6ab76222f5ee98c6bddf05e13
 githubUrl:https://github.com/mapstruct/mapstruct
 repoName:mapstruct#mapstruct

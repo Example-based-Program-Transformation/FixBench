@@ -2,6 +2,6 @@ Id:181
 SATName:Genesis
 modifiedFPath:src/com/mebigfatguy/fbcontrib/detect/PossibleConstantAllocationInLoop.java
 comSha:9ee009b
-parentComSha:9ee009b^1
+parentComSha:923aa6d7ac942063114df0c8474001c5d07c9419
 githubUrl:https://github.com/mebigfatguy/fb-contrib
 repoName:mebigfatguy#fb-contrib

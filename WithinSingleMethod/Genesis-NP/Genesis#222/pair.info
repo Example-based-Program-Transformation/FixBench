@@ -2,6 +2,6 @@ Id:222
 SATName:Genesis
 modifiedFPath:API/src/main/java/org/sikuli/script/RunTime.java
 comSha:f2369b4f86f0cb8ee9dbcfb9acc5373d1f3b210e
-parentComSha:f2369b4f86f0cb8ee9dbcfb9acc5373d1f3b210e^1
+parentComSha:035f6c373aef1d2a024b6386d15242fc3ceef17c
 githubUrl:https://github.com/RaiMan/SikuliX-2014
 repoName:RaiMan#SikuliX-2014

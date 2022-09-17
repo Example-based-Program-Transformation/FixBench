@@ -2,6 +2,6 @@ Id:500
 SATName:Genesis
 modifiedFPath:wicket-core/src/main/java/org/apache/wicket/ajax/json/JsonUtils.java
 comSha:724066f406590a1b383a2476ee9983974f40ab80
-parentComSha:724066f406590a1b383a2476ee9983974f40ab80^1
+parentComSha:972c71522caddfa3c6836dafab6831a9643cbd08
 githubUrl:https://github.com/apache/wicket
 repoName:apache#wicket

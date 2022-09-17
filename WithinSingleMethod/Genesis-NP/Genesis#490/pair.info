@@ -2,6 +2,6 @@ Id:490
 SATName:Genesis
 modifiedFPath:openid-connect-server/src/main/java/org/mitre/openid/connect/service/impl/MITREidDataService_1_1.java
 comSha:16f15cc3c8c260433db9714c1b4cfddf2dbf802b
-parentComSha:16f15cc3c8c260433db9714c1b4cfddf2dbf802b^1
+parentComSha:6333b1e4b1d8d51dccc6049c96d002d1eb087d51
 githubUrl:https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server
 repoName:mitreid-connect#OpenID-Connect-Java-Spring-Server

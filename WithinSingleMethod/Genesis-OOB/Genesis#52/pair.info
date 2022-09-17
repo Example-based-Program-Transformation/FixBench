@@ -2,6 +2,6 @@ Id:52
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/diagram/ProcessDiagramCanvas.java
 comSha:73d1e4e98c50db0081a9e38f46ef134a1cc0ebd1
-parentComSha:73d1e4e98c50db0081a9e38f46ef134a1cc0ebd1^1
+parentComSha:9364cc6bcf1e309acf64d992f57db7696b4ad8d8
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

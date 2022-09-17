@@ -2,6 +2,6 @@ Id:132
 SATName:Genesis
 modifiedFPath:backend/src/main/java/com/gooddata/connector/driver/AbstractSqlDriver.java
 comSha:34df0f2
-parentComSha:34df0f2^1
+parentComSha:c27b0cbcbd61a240def7d893663458c9ba4cf41e
 githubUrl:https://github.com/lukas-krecan-gdc/GoodData-CL
 repoName:lukas-krecan-gdc#GoodData-CL

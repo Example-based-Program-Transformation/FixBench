@@ -2,6 +2,6 @@ Id:73
 SATName:Genesis
 modifiedFPath:src/main/java/net/mindengine/galen/reports/HtmlReportingListener.java
 comSha:49f54b1ef8018f5c524cecf18eb7f35ea54e88e9
-parentComSha:49f54b1ef8018f5c524cecf18eb7f35ea54e88e9^1
+parentComSha:8d70a54b3dadc24dec91017329eab80916f924b5
 githubUrl:https://github.com/galenframework/galen
 repoName:galenframework#galen

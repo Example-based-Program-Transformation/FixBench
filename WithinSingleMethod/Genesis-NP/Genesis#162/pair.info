@@ -2,6 +2,6 @@ Id:162
 SATName:Genesis
 modifiedFPath:structr-ui/src/main/java/org/structr/websocket/StructrWebSocket.java
 comSha:6e0db316232f6b50b2b9e635ce7de7c531d1db16
-parentComSha:6e0db316232f6b50b2b9e635ce7de7c531d1db16^1
+parentComSha:9bd167296c4a21dc2783b198976cf11c15256fef
 githubUrl:https://github.com/structr/structr
 repoName:structr#structr

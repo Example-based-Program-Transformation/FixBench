@@ -2,6 +2,6 @@ Id:184
 SATName:Genesis
 modifiedFPath:src/org/jcodings/specific/NonStrictUTF8Encoding.java
 comSha:e0bf3a7
-parentComSha:e0bf3a7^1
+parentComSha:baaab90b2d01c92e1b34d3acbda1a066bc4000a5
 githubUrl:https://github.com/ryenus/jcodings
 repoName:ryenus#jcodings

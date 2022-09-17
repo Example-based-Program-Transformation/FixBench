@@ -2,6 +2,6 @@ Id:8
 SATName:Genesis
 modifiedFPath:src/main/java/org/encog/util/csv/ReadCSV.java
 comSha:b0a6238b8c0453fd932f93b851547ed5aa4bea28
-parentComSha:b0a6238b8c0453fd932f93b851547ed5aa4bea28^1
+parentComSha:bdc508e644ad6bb64baa2459303b3a9df7506a28
 githubUrl:https://github.com/encog/encog-java-core
 repoName:encog#encog-java-core

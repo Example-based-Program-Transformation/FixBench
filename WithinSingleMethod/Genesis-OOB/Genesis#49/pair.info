@@ -2,6 +2,6 @@ Id:49
 SATName:Genesis
 modifiedFPath:src/main/java/org/HdrHistogram/AbstractHistogram.java
 comSha:db1801808a22217806d1f359b50f9f4aaa7a992b
-parentComSha:db1801808a22217806d1f359b50f9f4aaa7a992b^1
+parentComSha:1e0b27c3030b1d655204921fc96300cf56aaa3b2
 githubUrl:https://github.com/HdrHistogram/HdrHistogram
 repoName:HdrHistogram#HdrHistogram

@@ -2,6 +2,6 @@ Id:1
 SATName:Genesis
 modifiedFPath:optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/variable/listener/support/VariableListenerSupport.java
 comSha:0756002eb19dcb04c255ea53ed6d0f39fc701c3c
-parentComSha:0756002eb19dcb04c255ea53ed6d0f39fc701c3c^1
+parentComSha:43069718779411804387da8afd52bf1605b1b732
 githubUrl:https://github.com/droolsjbpm/optaplanner
 repoName:droolsjbpm#optaplanner

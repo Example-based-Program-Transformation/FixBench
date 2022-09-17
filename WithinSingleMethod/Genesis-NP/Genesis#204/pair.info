@@ -2,6 +2,6 @@ Id:204
 SATName:Genesis
 modifiedFPath:src/main/java/pl/project13/maven/git/JGitProvider.java
 comSha:0079f9ce7d45011d571315604875ad77fa2b4224
-parentComSha:0079f9ce7d45011d571315604875ad77fa2b4224^1
+parentComSha:77679abff2faa850b3db1919dd1d1b8fbf249f9d
 githubUrl:https://github.com/ktoso/maven-git-commit-id-plugin
 repoName:ktoso#maven-git-commit-id-plugin

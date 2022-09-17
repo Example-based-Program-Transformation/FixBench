@@ -2,6 +2,6 @@ Id:134
 SATName:Genesis
 modifiedFPath:hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java
 comSha:7bdacf53f41d7e3c6c6698c5d20fdcebaa10a1bb
-parentComSha:7bdacf53f41d7e3c6c6698c5d20fdcebaa10a1bb^1
+parentComSha:5a2ca43fa16a95d8db67e5a3d8b48e4d3f3a9aeb
 githubUrl:https://github.com/apache/hbase
 repoName:apache#hbase

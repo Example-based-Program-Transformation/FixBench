@@ -2,6 +2,6 @@ Id:420
 SATName:Genesis
 modifiedFPath:src/main/java/com/mpatric/mp3agic/ID3v2TextFrameData.java
 comSha:f7145f5a8aab67a63250357c200ce755f01636d8
-parentComSha:f7145f5a8aab67a63250357c200ce755f01636d8^1
+parentComSha:7d06d0a8217f4770fb1a2939838fc0e62ac896a1
 githubUrl:https://github.com/mpatric/mp3agic
 repoName:mpatric#mp3agic

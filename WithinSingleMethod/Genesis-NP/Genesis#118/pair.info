@@ -2,6 +2,6 @@ Id:118
 SATName:Genesis
 modifiedFPath:src/main/java/org/dynjs/cli/Main.java
 comSha:1bd6c53c220e4553936de5bd97316c1ace1a8a57
-parentComSha:1bd6c53c220e4553936de5bd97316c1ace1a8a57^1
+parentComSha:97ad6dc20146ca13f485cad3548c18665ed9534f
 githubUrl:https://github.com/dynjs/dynjs
 repoName:dynjs#dynjs

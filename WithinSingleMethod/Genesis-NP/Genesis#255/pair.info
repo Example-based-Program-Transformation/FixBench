@@ -2,6 +2,6 @@ Id:255
 SATName:Genesis
 modifiedFPath:core/src/main/java/fi/iki/elonen/NanoHTTPD.java
 comSha:2c48103a2fc2ef4ccbd5d441da96dc77c7736109
-parentComSha:2c48103a2fc2ef4ccbd5d441da96dc77c7736109^1
+parentComSha:86b4db58504a94f8ed5e5c51d623bdf4d8a7fb6d
 githubUrl:https://github.com/NanoHttpd/nanohttpd
 repoName:NanoHttpd#nanohttpd

@@ -2,6 +2,6 @@ Id:79
 SATName:Genesis
 modifiedFPath:addon-layers-repository-mongo/src/main/java/org/springframework/roo/addon/layers/repository/mongo/RepositoryMongoMetadataProviderImpl.java
 comSha:fac7382f4c4bdd636fe812255502cacc8b2bbf6c
-parentComSha:fac7382f4c4bdd636fe812255502cacc8b2bbf6c^1
+parentComSha:c9bab924f823d383b90c5c449f5328dec094c090
 githubUrl:https://github.com/spring-projects/spring-roo
 repoName:spring-projects#spring-roo

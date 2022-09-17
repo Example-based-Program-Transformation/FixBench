@@ -2,6 +2,6 @@ Id:87
 SATName:Genesis
 modifiedFPath:src/main/java/org/opencloudb/parser/druid/DruidShardingParseInfo.java
 comSha:28c4380ff7d31fb7b4b34d077c4670619a429614
-parentComSha:28c4380ff7d31fb7b4b34d077c4670619a429614^1
+parentComSha:77e7caebf80fbd14a9b83d8c03df9c0c5317c2c2
 githubUrl:https://github.com/MyCATApache/Mycat-Server
 repoName:MyCATApache#Mycat-Server

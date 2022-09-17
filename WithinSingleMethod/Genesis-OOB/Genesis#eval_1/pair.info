@@ -2,6 +2,6 @@ Id:1
 SATName:Genesis
 modifiedFPath:src/main/java/org/roaringbitmap/RunContainer.java
 comSha:29c6d59e48bfb9190fdb2be7598e7ed03bd7527e
-parentComSha:29c6d59e48bfb9190fdb2be7598e7ed03bd7527e^1
+parentComSha:112d216c6abd98ac49bd893deb1a6337dec776cc
 githubUrl:https://github.com/RoaringBitmap/RoaringBitmap
 repoName:RoaringBitmap#RoaringBitmap

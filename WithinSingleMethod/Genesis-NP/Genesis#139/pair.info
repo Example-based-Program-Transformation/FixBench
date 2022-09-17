@@ -2,6 +2,6 @@ Id:139
 SATName:Genesis
 modifiedFPath:flume-ng-configuration/src/main/java/org/apache/flume/conf/source/SourceConfiguration.java
 comSha:23b48af5db4200428972630755bff32cb5d56707
-parentComSha:23b48af5db4200428972630755bff32cb5d56707^1
+parentComSha:5b223459c36f4b0a1cc56fb3e36447072dbd4a0f
 githubUrl:https://github.com/apache/flume
 repoName:apache#flume

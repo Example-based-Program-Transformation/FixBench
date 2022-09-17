@@ -2,6 +2,6 @@ Id:436
 SATName:Genesis
 modifiedFPath:jstorm-core/src/main/java/com/alibaba/jstorm/daemon/nimbus/TopologyMetricsRunnable.java
 comSha:6dc60b06a0a8880cf37c88a462a213737703be80
-parentComSha:6dc60b06a0a8880cf37c88a462a213737703be80^1
+parentComSha:057583831649c663e16a94da0214248af009e598
 githubUrl:https://github.com/alibaba/jstorm
 repoName:alibaba#jstorm

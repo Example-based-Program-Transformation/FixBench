@@ -2,6 +2,6 @@ Id:401
 SATName:Genesis
 modifiedFPath:graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientVertexIterator.java
 comSha:cd04270a124f9501acab4c882f81d373572881c5
-parentComSha:cd04270a124f9501acab4c882f81d373572881c5^1
+parentComSha:80e2550436da767ebf8944339a885037569a8271
 githubUrl:https://github.com/orientechnologies/orientdb
 repoName:orientechnologies#orientdb

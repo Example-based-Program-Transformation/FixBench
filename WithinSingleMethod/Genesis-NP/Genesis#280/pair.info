@@ -2,6 +2,6 @@ Id:280
 SATName:Genesis
 modifiedFPath:liquibase-core/src/main/java/liquibase/integration/commandline/CommandLineResourceAccessor.java
 comSha:977e2f14a586fad887934fec1493a6c9d46933ba
-parentComSha:977e2f14a586fad887934fec1493a6c9d46933ba^1
+parentComSha:867489bb3614c7fb3a6eaf0a3146657639e2a144
 githubUrl:https://github.com/liquibase/liquibase
 repoName:liquibase#liquibase

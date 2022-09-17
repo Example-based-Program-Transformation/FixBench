@@ -2,6 +2,6 @@ Id:113
 SATName:Genesis
 modifiedFPath:org.eclipse.jgit/src/org/eclipse/jgit/lib/Repository.java
 comSha:570d862
-parentComSha:570d862^1
+parentComSha:b695f66487dfdc5cfe3e3dd22c0253801ecdc9b9
 githubUrl:https://github.com/chalstrick/jgit
 repoName:chalstrick#jgit

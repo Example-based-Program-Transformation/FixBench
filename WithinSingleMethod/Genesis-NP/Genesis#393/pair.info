@@ -2,6 +2,6 @@ Id:393
 SATName:Genesis
 modifiedFPath:components/fabric8-arquillian/src/main/java/io/fabric8/arquillian/kubernetes/SessionListener.java
 comSha:81b157a44bdce792c8822d3fe9053f98a492634c
-parentComSha:81b157a44bdce792c8822d3fe9053f98a492634c^1
+parentComSha:230182aece5aacc84f2ea7d9945b8e19d0ca6772
 githubUrl:https://github.com/fabric8io/fabric8
 repoName:fabric8io#fabric8

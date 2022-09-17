@@ -2,6 +2,6 @@ Id:205
 SATName:Genesis
 modifiedFPath:src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java
 comSha:8682c8d
-parentComSha:8682c8d^1
+parentComSha:8271475f973945e776ca91142349b8618c6f619e
 githubUrl:https://github.com/apache/commons-compress
 repoName:apache#commons-compress

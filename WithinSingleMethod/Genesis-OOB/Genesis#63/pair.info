@@ -2,6 +2,6 @@ Id:63
 SATName:Genesis
 modifiedFPath:pcap4j-core/src/main/java/org/pcap4j/packet/TcpPacket.java
 comSha:142c282
-parentComSha:142c282^1
+parentComSha:a217aabb7236e3e462037d9d35b9ec28d523b977 704cf3a0965f67f843183e74acb292a15d9f5c03
 githubUrl:https://github.com/kaitoy/pcap4j
 repoName:kaitoy#pcap4j

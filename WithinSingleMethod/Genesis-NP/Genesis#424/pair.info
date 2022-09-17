@@ -2,6 +2,6 @@ Id:424
 SATName:Genesis
 modifiedFPath:modules/swagger-models/src/main/java/io/swagger/models/properties/ArrayProperty.java
 comSha:c322bcc828db1a6f25c56601475ec9615fdac74a
-parentComSha:c322bcc828db1a6f25c56601475ec9615fdac74a^1
+parentComSha:1a7d0eb20f0542c02477224ed05dc7586c913345
 githubUrl:https://github.com/swagger-api/swagger-core
 repoName:swagger-api#swagger-core

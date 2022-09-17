@@ -2,6 +2,6 @@ Id:69
 SATName:Genesis
 modifiedFPath:src/main/java/net/greghaines/jesque/meta/dao/impl/KeysDAORedisImpl.java
 comSha:2426366
-parentComSha:2426366^1
+parentComSha:2c33b097a95ab2dbfb99279c8012b47c35e5957b 81d898780aa50adb4f8eb93eba2680886f96d42b
 githubUrl:https://github.com/gresrun/jesque
 repoName:gresrun#jesque

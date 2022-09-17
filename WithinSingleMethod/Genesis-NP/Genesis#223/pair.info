@@ -2,6 +2,6 @@ Id:223
 SATName:Genesis
 modifiedFPath:IDE/src/main/java/org/sikuli/ide/CloseableModernTabbedPaneUI.java
 comSha:94e4d5de037fd96708e3685b7d280d75bc184ffc
-parentComSha:94e4d5de037fd96708e3685b7d280d75bc184ffc^1
+parentComSha:b818e80e96a67e34d2f7bc01e63bdeae4311fb35
 githubUrl:https://github.com/RaiMan/SikuliX-2014
 repoName:RaiMan#SikuliX-2014

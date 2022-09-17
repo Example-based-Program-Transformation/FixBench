@@ -2,6 +2,6 @@ Id:33
 SATName:Genesis
 modifiedFPath:xchange-core/src/main/java/com/xeiam/xchange/BaseExchange.java
 comSha:9b30c24674f5d3db4a3aee6db141a66e06c53027
-parentComSha:9b30c24674f5d3db4a3aee6db141a66e06c53027^1
+parentComSha:fda6bdd1e5faaa5924ee9925ec56c4aef5abd481
 githubUrl:https://github.com/timmolter/XChange
 repoName:timmolter#XChange

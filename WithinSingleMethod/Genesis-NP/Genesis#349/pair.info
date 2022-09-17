@@ -2,6 +2,6 @@ Id:349
 SATName:Genesis
 modifiedFPath:lealone-sql/src/main/java/org/lealone/result/Row.java
 comSha:b2b2fe9c580ce0724fe1ce3c25ff6313902bd709
-parentComSha:b2b2fe9c580ce0724fe1ce3c25ff6313902bd709^1
+parentComSha:28e11bad167a7263d26c43f21388fdf18aebdf51
 githubUrl:https://github.com/codefollower/Lealone
 repoName:codefollower#Lealone

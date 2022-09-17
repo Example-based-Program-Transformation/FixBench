@@ -2,6 +2,6 @@ Id:81
 SATName:Genesis
 modifiedFPath:addon-dbre/src/main/java/org/springframework/roo/addon/dbre/DbreMetadata.java
 comSha:3a1716ce7368247240f33995e27490fdd9aa1504
-parentComSha:3a1716ce7368247240f33995e27490fdd9aa1504^1
+parentComSha:5a917e39d9a1b59a6fe63799f739ce2869a22f79
 githubUrl:https://github.com/spring-projects/spring-roo
 repoName:spring-projects#spring-roo

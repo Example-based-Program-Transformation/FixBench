@@ -2,6 +2,6 @@ Id:106
 SATName:Genesis
 modifiedFPath:src/main/java/org/bukkit/inventory/ItemStack.java
 comSha:f131151325726038e578c15d4917a6c3a773b2b7
-parentComSha:f131151325726038e578c15d4917a6c3a773b2b7^1
+parentComSha:187a961d2e9966159acc66e0a56cfe59ba4b023d
 githubUrl:https://github.com/Bukkit/Bukkit
 repoName:Bukkit#Bukkit

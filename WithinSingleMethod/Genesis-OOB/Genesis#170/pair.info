@@ -2,6 +2,6 @@ Id:170
 SATName:Genesis
 modifiedFPath:src/main/java/org/couchbase/mock/http/AuthContext.java
 comSha:2f3ab3c
-parentComSha:2f3ab3c^1
+parentComSha:9f9a00db31dc518dac485a6fe28ee594ce0fac29
 githubUrl:https://github.com/couchbase/CouchbaseMock
 repoName:couchbase#CouchbaseMock

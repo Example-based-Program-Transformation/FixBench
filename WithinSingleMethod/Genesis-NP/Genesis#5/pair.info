@@ -2,6 +2,6 @@ Id:5
 SATName:Genesis
 modifiedFPath:optaplanner-core/src/main/java/org/optaplanner/core/impl/exhaustivesearch/scope/ExhaustiveSearchStepScope.java
 comSha:353beee85c015e8d94f9234d2b086d997b0f2212
-parentComSha:353beee85c015e8d94f9234d2b086d997b0f2212^1
+parentComSha:e88eaa7386943535e40546d6416820975ff00e6d
 githubUrl:https://github.com/droolsjbpm/optaplanner
 repoName:droolsjbpm#optaplanner

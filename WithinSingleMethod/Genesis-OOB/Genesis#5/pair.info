@@ -2,6 +2,6 @@ Id:5
 SATName:Genesis
 modifiedFPath:core/src/main/java/com/zaxxer/hikari/HikariPool.java
 comSha:29db4359f4be74220a1d910f295008f4c2fd21cf
-parentComSha:29db4359f4be74220a1d910f295008f4c2fd21cf^1
+parentComSha:561d6f05fd48616d6e5a528b47b170371517c2af
 githubUrl:https://github.com/brettwooldridge/HikariCP
 repoName:brettwooldridge#HikariCP

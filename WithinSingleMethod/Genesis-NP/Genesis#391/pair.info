@@ -2,6 +2,6 @@ Id:391
 SATName:Genesis
 modifiedFPath:forge/addons/camel/src/main/java/io/fabric8/forge/camel/commands/project/helper/CamelCommandsHelper.java
 comSha:6b6f7aa8a9e73f2645667a568f54d8aa2223abaf
-parentComSha:6b6f7aa8a9e73f2645667a568f54d8aa2223abaf^1
+parentComSha:9c8b62139787c50dd664c589b88c747520113f89
 githubUrl:https://github.com/fabric8io/fabric8
 repoName:fabric8io#fabric8

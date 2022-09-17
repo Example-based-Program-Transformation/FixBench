@@ -2,6 +2,6 @@ Id:94
 SATName:Genesis
 modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/MultipleVariableDeclarationsCheck.java
 comSha:d6a255f36548fa0fe952d543ef0e5c0a5e14bad6
-parentComSha:d6a255f36548fa0fe952d543ef0e5c0a5e14bad6^1
+parentComSha:b097b3f002ca40474b729c27c531787bc2e79f04
 githubUrl:https://github.com/checkstyle/checkstyle
 repoName:checkstyle#checkstyle

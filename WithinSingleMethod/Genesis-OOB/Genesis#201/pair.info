@@ -2,6 +2,6 @@ Id:201
 SATName:Genesis
 modifiedFPath:src/main/java/com/googlecode/lanterna/gui2/DefaultWindowDecorationRenderer.java
 comSha:8db98d5
-parentComSha:8db98d5^1
+parentComSha:585be55a6a0fad8336d077b0d577119a667f7ce2
 githubUrl:https://github.com/Jaeyo/lanterna
 repoName:Jaeyo#lanterna

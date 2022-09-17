@@ -2,6 +2,6 @@ Id:168
 SATName:Genesis
 modifiedFPath:jpos/src/main/java/org/jpos/iso/packager/GenericSubFieldPackager.java
 comSha:df400ac
-parentComSha:df400ac^1
+parentComSha:7adf205e238b15e72aa646a6e86480c57214b7e0
 githubUrl:https://github.com/nachmadi/jPOS
 repoName:nachmadi#jPOS

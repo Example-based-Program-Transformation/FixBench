@@ -2,6 +2,6 @@ Id:186
 SATName:Genesis
 modifiedFPath:src/main/java/com/github/rnewson/couchdb/lucene/DatabaseIndexer.java
 comSha:ab7f5d8bfffd349645c90eedd3580bc70eab2781
-parentComSha:ab7f5d8bfffd349645c90eedd3580bc70eab2781^1
+parentComSha:c9d4f76fbfe354e9319c0a8e8d5100b8137ca952
 githubUrl:https://github.com/rnewson/couchdb-lucene
 repoName:rnewson#couchdb-lucene

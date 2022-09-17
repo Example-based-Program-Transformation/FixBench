@@ -2,6 +2,6 @@ Id:4
 SATName:Genesis
 modifiedFPath:optaplanner-examples/src/main/java/org/optaplanner/examples/tennis/swingui/TennisPanel.java
 comSha:0c56c3912ec02ef5d91e48f43e6a32fe084c9672
-parentComSha:0c56c3912ec02ef5d91e48f43e6a32fe084c9672^1
+parentComSha:2dd355d8cf2c2af8442d311be98f8a37eb2c5e92
 githubUrl:https://github.com/droolsjbpm/optaplanner
 repoName:droolsjbpm#optaplanner

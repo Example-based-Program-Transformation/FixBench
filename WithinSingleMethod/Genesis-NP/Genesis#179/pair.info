@@ -2,6 +2,6 @@ Id:179
 SATName:Genesis
 modifiedFPath:job/src/main/java/com/kylinolap/job2/service/ExecutableManager.java
 comSha:4ceba78b3484eb33562aae9e4eefbd9d6b7792b1
-parentComSha:4ceba78b3484eb33562aae9e4eefbd9d6b7792b1^1
+parentComSha:3d055eb5ed99aa83c251fc837d041cc4f4df3517
 githubUrl:https://github.com/KylinOLAP/Kylin
 repoName:KylinOLAP#Kylin

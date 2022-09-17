@@ -2,6 +2,6 @@ Id:341
 SATName:Genesis
 modifiedFPath:processing/src/main/java/io/druid/query/ChainedExecutionQueryRunner.java
 comSha:5ecd909f7c04527904cf3ec5b2575c3c6f69c210
-parentComSha:5ecd909f7c04527904cf3ec5b2575c3c6f69c210^1
+parentComSha:84233238b1845011d6097dd040093e12342f747e
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

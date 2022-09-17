@@ -2,6 +2,6 @@ Id:18
 SATName:Genesis
 modifiedFPath:org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java
 comSha:9597c41ea9db20d769f7b8c54eafa207824e5bd6
-parentComSha:9597c41ea9db20d769f7b8c54eafa207824e5bd6^1
+parentComSha:714f677ca54731a011b50a4559f869c9d207ce19
 githubUrl:https://github.com/eclipse/jgit
 repoName:eclipse#jgit
