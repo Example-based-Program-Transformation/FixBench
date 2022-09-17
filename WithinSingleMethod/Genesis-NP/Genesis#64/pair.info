@@ -2,6 +2,6 @@ Id:64
 SATName:Genesis
 modifiedFPath:maven-embedder/src/main/java/org/apache/maven/cli/ConsoleMavenTransferListener.java
 comSha:5ab998fa4e240118f4e7c7545b56b1de212785ee
-parentComSha:5ab998fa4e240118f4e7c7545b56b1de212785ee^1
+parentComSha:267d5370310a03321a45f19a13bed7023dd716ef
 githubUrl:https://github.com/apache/maven
 repoName:apache#maven

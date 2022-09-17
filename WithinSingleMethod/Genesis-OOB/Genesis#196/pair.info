@@ -2,6 +2,6 @@ Id:196
 SATName:Genesis
 modifiedFPath:bobo-browse/src/main/java/com/browseengine/bobo/facets/filter/BitSetFilter.java
 comSha:0bc07bf
-parentComSha:0bc07bf^1
+parentComSha:632ff7ae0387d3fbd3635c1cf864d860af964fb0
 githubUrl:https://github.com/vzhabiuk/bobo
 repoName:vzhabiuk#bobo

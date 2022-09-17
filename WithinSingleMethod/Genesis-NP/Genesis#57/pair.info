@@ -2,6 +2,6 @@ Id:57
 SATName:Genesis
 modifiedFPath:maven-compat/src/main/java/org/apache/maven/repository/MetadataResolutionResult.java
 comSha:d1dc63844f413ebce65162f1262c52d0bf15e06f
-parentComSha:d1dc63844f413ebce65162f1262c52d0bf15e06f^1
+parentComSha:d556da84348b0d2de04839ad18ec75ba7231ea8c
 githubUrl:https://github.com/apache/maven
 repoName:apache#maven

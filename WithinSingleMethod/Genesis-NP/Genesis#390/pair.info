@@ -2,6 +2,6 @@ Id:390
 SATName:Genesis
 modifiedFPath:components/kubernetes-api/src/main/java/io/fabric8/kubernetes/api/KubernetesHelper.java
 comSha:bb0b2e3c75c681bd7855edb941b4ceb558c7efe0
-parentComSha:bb0b2e3c75c681bd7855edb941b4ceb558c7efe0^1
+parentComSha:948a25b2437e2af83c1d50166582c65150fd61ee
 githubUrl:https://github.com/fabric8io/fabric8
 repoName:fabric8io#fabric8

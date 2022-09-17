@@ -2,6 +2,6 @@ Id:146
 SATName:Genesis
 modifiedFPath:structr-core/src/main/java/org/structr/core/graph/CypherQueryCommand.java
 comSha:de5bc4278b6e7a76b6d40f0409ff030b254875c6
-parentComSha:de5bc4278b6e7a76b6d40f0409ff030b254875c6^1
+parentComSha:f99e611278da14109e5649469faac36de12d8757
 githubUrl:https://github.com/structr/structr
 repoName:structr#structr

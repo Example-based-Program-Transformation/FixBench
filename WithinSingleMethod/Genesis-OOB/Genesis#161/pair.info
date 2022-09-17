@@ -2,6 +2,6 @@ Id:161
 SATName:Genesis
 modifiedFPath:src/main/java/org/elasticsearch/common/lucene/all/AllEntries.java
 comSha:c42f770
-parentComSha:c42f770^1
+parentComSha:67ec840d00c2dbcedc0913941f0214fe462733ea
 githubUrl:https://github.com/aparo/elasticsearch
 repoName:aparo#elasticsearch

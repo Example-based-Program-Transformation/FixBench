@@ -2,6 +2,6 @@ Id:275
 SATName:Genesis
 modifiedFPath:liquibase-core/src/main/java/liquibase/diff/output/changelog/core/MissingPrimaryKeyChangeGenerator.java
 comSha:d2cec2556cd1ec36c79a4562a84a935d2b93c3ec
-parentComSha:d2cec2556cd1ec36c79a4562a84a935d2b93c3ec^1
+parentComSha:be770bb13d0ff815e67f6e1f2ec5a70a6ba1aa46
 githubUrl:https://github.com/liquibase/liquibase
 repoName:liquibase#liquibase

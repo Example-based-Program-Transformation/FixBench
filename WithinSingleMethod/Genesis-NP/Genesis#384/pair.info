@@ -2,6 +2,6 @@ Id:384
 SATName:Genesis
 modifiedFPath:spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java
 comSha:10c6c4e5a26e391435c08952c868ed43386eb7ab
-parentComSha:10c6c4e5a26e391435c08952c868ed43386eb7ab^1
+parentComSha:5beebfd3ff5b4d9ab9830d4943da79f2266b8a2a
 githubUrl:https://github.com/spring-projects/spring-security-oauth
 repoName:spring-projects#spring-security-oauth

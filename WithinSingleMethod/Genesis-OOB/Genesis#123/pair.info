@@ -2,6 +2,6 @@ Id:123
 SATName:Genesis
 modifiedFPath:project/src/main/java/org/springframework/roo/project/PomManagementServiceImpl.java
 comSha:a75eaaa
-parentComSha:a75eaaa^1
+parentComSha:61090d2a9a46296540ba57c2fb6dcffef2b412c2 ded0f20dd684c49100f1f3391182ab800570ac6c
 githubUrl:https://github.com/spring-projects/spring-roo
 repoName:spring-projects#spring-roo

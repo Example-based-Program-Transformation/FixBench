@@ -2,6 +2,6 @@ Id:41
 SATName:Genesis
 modifiedFPath:src/org/nutz/lang/util/Disks.java
 comSha:e01f3726eb2ad90a50b3608e120f1b6bbfdbbdf7
-parentComSha:e01f3726eb2ad90a50b3608e120f1b6bbfdbbdf7^1
+parentComSha:c957d930aee43f88335aec64e68d476d34f9548b
 githubUrl:https://github.com/nutzam/nutz
 repoName:nutzam#nutz

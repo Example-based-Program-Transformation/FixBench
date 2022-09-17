@@ -2,6 +2,6 @@ Id:177
 SATName:Genesis
 modifiedFPath:server/src/main/java/org/apache/kylin/rest/controller/CubeDescController.java
 comSha:0b233c450aa197d01b9d3479eee1f3550c9f9a6a
-parentComSha:0b233c450aa197d01b9d3479eee1f3550c9f9a6a^1
+parentComSha:92ff93e22cdf3b50a613430fa403a8046535ae6a
 githubUrl:https://github.com/KylinOLAP/Kylin
 repoName:KylinOLAP#Kylin

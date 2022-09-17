@@ -2,6 +2,6 @@ Id:71
 SATName:Genesis
 modifiedFPath:src/main/java/net/mindengine/galen/api/Galen.java
 comSha:0cfeaab77656787a34b9579602487d0612c61b4d
-parentComSha:0cfeaab77656787a34b9579602487d0612c61b4d^1
+parentComSha:8478c42b8cc8445c7020b680e07162651543de43
 githubUrl:https://github.com/galenframework/galen
 repoName:galenframework#galen

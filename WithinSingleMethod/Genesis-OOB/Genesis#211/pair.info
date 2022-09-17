@@ -2,6 +2,6 @@ Id:211
 SATName:Genesis
 modifiedFPath:maven-reporting-impl/src/main/java/org/apache/maven/reporting/AbstractMavenReportRenderer.java
 comSha:77937e1
-parentComSha:77937e1^1
+parentComSha:207274012382311332901cc5d8e618210546935e
 githubUrl:https://github.com/krosenvold/maven-shared
 repoName:krosenvold#maven-shared

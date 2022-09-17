@@ -2,6 +2,6 @@ Id:308
 SATName:Genesis
 modifiedFPath:src/main/java/net/greghaines/jesque/utils/JedisUtils.java
 comSha:131645a7eb34792f1bdffbdbc5ca7bb2aa0909d3
-parentComSha:131645a7eb34792f1bdffbdbc5ca7bb2aa0909d3^1
+parentComSha:f6b7e6569e5117293017659a50282555e2a3ee3e
 githubUrl:https://github.com/gresrun/jesque
 repoName:gresrun#jesque

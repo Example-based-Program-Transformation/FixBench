@@ -2,6 +2,6 @@ Id:56
 SATName:Genesis
 modifiedFPath:src/main/java/hex/glm/GLM2.java
 comSha:8a615a2c1c78f5cf7f348f3d025ee64ab71bbc30
-parentComSha:8a615a2c1c78f5cf7f348f3d025ee64ab71bbc30^1
+parentComSha:bd70457629387f7f41ed9ceba952b6fe7fe74dfd
 githubUrl:https://github.com/h2oai/h2o-2
 repoName:h2oai#h2o-2

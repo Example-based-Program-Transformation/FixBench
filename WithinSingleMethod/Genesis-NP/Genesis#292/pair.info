@@ -2,6 +2,6 @@ Id:292
 SATName:Genesis
 modifiedFPath:src/main/java/org/docx4j/XmlUtils.java
 comSha:fca2edd5acf65d85345972ab1a21a44b1d9e5fd0
-parentComSha:fca2edd5acf65d85345972ab1a21a44b1d9e5fd0^1
+parentComSha:f28fbf0b23af676928aaa829c1f237ee5ea86d24
 githubUrl:https://github.com/plutext/docx4j
 repoName:plutext#docx4j

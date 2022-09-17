@@ -2,6 +2,6 @@ Id:93
 SATName:Genesis
 modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/design/MutableExceptionCheck.java
 comSha:0689f76ab3c1ba70d30da17ce888dcd57a587259
-parentComSha:0689f76ab3c1ba70d30da17ce888dcd57a587259^1
+parentComSha:0b23dba45a30f646d581297675804c8ab6b4544d
 githubUrl:https://github.com/checkstyle/checkstyle
 repoName:checkstyle#checkstyle

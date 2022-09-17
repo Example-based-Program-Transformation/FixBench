@@ -2,6 +2,6 @@ Id:194
 SATName:Genesis
 modifiedFPath:src/main/java/de/knightsoftnet/validators/shared/util/PhoneNumberUtil.java
 comSha:7e3f2f9
-parentComSha:7e3f2f9^1
+parentComSha:a1f0af1e286f18e9d117acf35c5527e89a8ece0e
 githubUrl:https://github.com/ManfredTremmel/gwt-bean-validators
 repoName:ManfredTremmel#gwt-bean-validators

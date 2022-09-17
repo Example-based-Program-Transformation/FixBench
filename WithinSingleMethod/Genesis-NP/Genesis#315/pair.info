@@ -2,6 +2,6 @@ Id:315
 SATName:Genesis
 modifiedFPath:src/main/java/org/apache/commons/lang3/text/StrBuilder.java
 comSha:1a7e46f430df71ac883706f595f0698617a8dc3d
-parentComSha:1a7e46f430df71ac883706f595f0698617a8dc3d^1
+parentComSha:d1350bf73ff5cea1fdd85ce23940c5ca96889f2a
 githubUrl:https://github.com/apache/commons-lang
 repoName:apache#commons-lang

@@ -2,6 +2,6 @@ Id:199
 SATName:Genesis
 modifiedFPath:liquibase-core/src/main/java/liquibase/datatype/core/NumberType.java
 comSha:3948f37
-parentComSha:3948f37^1
+parentComSha:7a13456302c09b34c757e83fa65c496637bebbd7
 githubUrl:https://github.com/liquibase/liquibase
 repoName:liquibase#liquibase

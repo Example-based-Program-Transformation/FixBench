@@ -2,6 +2,6 @@ Id:37
 SATName:Genesis
 modifiedFPath:src/org/nutz/mvc/impl/ServletValueProxyMaker.java
 comSha:f5b67204dcb23eba4ff8efc82d5e78cc77a7c0cf
-parentComSha:f5b67204dcb23eba4ff8efc82d5e78cc77a7c0cf^1
+parentComSha:dc8ff5a008a1c3a507477effcc7eebb38a714413
 githubUrl:https://github.com/nutzam/nutz
 repoName:nutzam#nutz

@@ -2,6 +2,6 @@ Id:99
 SATName:Genesis
 modifiedFPath:src/main/java/de/hpi/oryxengine/navigator/impl/NavigationThread.java
 comSha:ca96639
-parentComSha:ca96639^1
+parentComSha:1bee5436b3c9992d2deb950202059635ccc3e4ec
 githubUrl:https://github.com/JodaEngine/JodaEngine
 repoName:JodaEngine#JodaEngine

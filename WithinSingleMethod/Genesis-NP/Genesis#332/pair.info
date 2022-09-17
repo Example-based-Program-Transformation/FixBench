@@ -2,6 +2,6 @@ Id:332
 SATName:Genesis
 modifiedFPath:processing/src/main/java/io/druid/query/extraction/PartialDimExtractionFn.java
 comSha:bd9bbf396c164f095d724d60c915b771c2e8cfa0
-parentComSha:bd9bbf396c164f095d724d60c915b771c2e8cfa0^1
+parentComSha:703470eea50a990d1d41cc01c51e1cc0f2ccef60
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

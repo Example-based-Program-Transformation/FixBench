@@ -2,6 +2,6 @@ Id:279
 SATName:Genesis
 modifiedFPath:liquibase-core/src/main/java/liquibase/parser/core/yaml/YamlChangeLogParser.java
 comSha:34a8ec23f05e9012eca7aac44c9b4ff7b98391c4
-parentComSha:34a8ec23f05e9012eca7aac44c9b4ff7b98391c4^1
+parentComSha:bfe8eae9802505343851fcec6968c89bc6feea85
 githubUrl:https://github.com/liquibase/liquibase
 repoName:liquibase#liquibase

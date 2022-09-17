@@ -2,6 +2,6 @@ Id:256
 SATName:Genesis
 modifiedFPath:drools-compiler/src/main/java/org/drools/compiler/rule/builder/PatternBuilder.java
 comSha:cb94ef640006fded55289f871703ccba7336892e
-parentComSha:cb94ef640006fded55289f871703ccba7336892e^1
+parentComSha:bac3ffe3083886291cd55de343681f0b21553d1b
 githubUrl:https://github.com/droolsjbpm/drools
 repoName:droolsjbpm#drools

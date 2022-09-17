@@ -2,6 +2,6 @@ Id:202
 SATName:Genesis
 modifiedFPath:api/src/main/java/org/asynchttpclient/util/SslUtils.java
 comSha:7bf4e07bed6b7e94d5e45920797f166dcdc1d0cc
-parentComSha:7bf4e07bed6b7e94d5e45920797f166dcdc1d0cc^1
+parentComSha:07d28437e10a4549f9d2f91b15c4d96f49c277a0
 githubUrl:https://github.com/AsyncHttpClient/async-http-client
 repoName:AsyncHttpClient#async-http-client

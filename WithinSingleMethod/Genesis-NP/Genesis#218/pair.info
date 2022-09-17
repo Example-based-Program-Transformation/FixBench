@@ -2,6 +2,6 @@ Id:218
 SATName:Genesis
 modifiedFPath:src/main/java/io/searchbox/client/JestClientFactory.java
 comSha:31f3f483e3dadeff1e4ca632f10a468bb7cdc989
-parentComSha:31f3f483e3dadeff1e4ca632f10a468bb7cdc989^1
+parentComSha:680fad568a8d825dfe48601801f95ce3fb39b2a1
 githubUrl:https://github.com/searchbox-io/Jest
 repoName:searchbox-io#Jest

@@ -2,6 +2,6 @@ Id:274
 SATName:Genesis
 modifiedFPath:twitter4j-core/src/main/java/twitter4j/auth/OAuth2Authorization.java
 comSha:cd7fdff252d3d2907943ad2a4cf2493827dc778f
-parentComSha:cd7fdff252d3d2907943ad2a4cf2493827dc778f^1
+parentComSha:a014b8f9b756387edf0e884154b464160526bd84
 githubUrl:https://github.com/yusuke/twitter4j
 repoName:yusuke#twitter4j

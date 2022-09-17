@@ -2,6 +2,6 @@ Id:339
 SATName:Genesis
 modifiedFPath:server/src/main/java/io/druid/server/QueryResource.java
 comSha:40aa6ecaefd3becd05d685198037087fa9550f34
-parentComSha:40aa6ecaefd3becd05d685198037087fa9550f34^1
+parentComSha:e54949ca981ca5a446991c4a1ac671e2ec94736a
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

@@ -2,6 +2,6 @@ Id:72
 SATName:Genesis
 modifiedFPath:src/main/java/net/mindengine/galen/specs/reader/page/PageSpecLineProcessor.java
 comSha:e9e75e2e398028d8fbf46cca28fae4b4655a1681
-parentComSha:e9e75e2e398028d8fbf46cca28fae4b4655a1681^1
+parentComSha:36f1343f9e2b723787d1cb8abbd918b12a991018
 githubUrl:https://github.com/galenframework/galen
 repoName:galenframework#galen

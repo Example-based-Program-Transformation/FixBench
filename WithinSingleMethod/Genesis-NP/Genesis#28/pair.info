@@ -2,6 +2,6 @@ Id:28
 SATName:Genesis
 modifiedFPath:pac4j-saml/src/main/java/org/pac4j/saml/sso/impl/SAML2DefaultResponseValidator.java
 comSha:cf7aa994a1bc535330097bde72397b88bb1b39f3
-parentComSha:cf7aa994a1bc535330097bde72397b88bb1b39f3^1
+parentComSha:4dc9383ac54feaf0d7ec2de2d8013f92d1ceb9e7
 githubUrl:https://github.com/pac4j/pac4j
 repoName:pac4j#pac4j

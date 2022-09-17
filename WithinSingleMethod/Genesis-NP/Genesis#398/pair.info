@@ -2,6 +2,6 @@ Id:398
 SATName:Genesis
 modifiedFPath:core/src/main/java/com/orientechnologies/orient/core/sql/filter/OSQLFilterCondition.java
 comSha:35bbcb70a352a987d800b627d4a0c977773e8c84
-parentComSha:35bbcb70a352a987d800b627d4a0c977773e8c84^1
+parentComSha:fb9572a6cd425aac621dca08e76a5475c954d385
 githubUrl:https://github.com/orientechnologies/orientdb
 repoName:orientechnologies#orientdb

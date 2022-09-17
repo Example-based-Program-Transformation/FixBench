@@ -2,6 +2,6 @@ Id:319
 SATName:Genesis
 modifiedFPath:src/main/java/jline/WindowsTerminal.java
 comSha:7026a13b29c3cb2afec16f978eded114936fae22
-parentComSha:7026a13b29c3cb2afec16f978eded114936fae22^1
+parentComSha:6c4271a4949f79d46c17bafb0da31c8372eb2d0b
 githubUrl:https://github.com/jline/jline2
 repoName:jline#jline2

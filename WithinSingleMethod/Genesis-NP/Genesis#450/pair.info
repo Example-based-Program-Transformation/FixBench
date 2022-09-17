@@ -2,6 +2,6 @@ Id:450
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/persistence/entity/HistoricVariableInstanceEntity.java
 comSha:f2662ec7a30733d93ac21783fb9b76af961444ae
-parentComSha:f2662ec7a30733d93ac21783fb9b76af961444ae^1
+parentComSha:e450b6a75d43d26b163db2227c503c1acf92c896
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

@@ -2,6 +2,6 @@ Id:179
 SATName:Genesis
 modifiedFPath:aws-android-sdk-lambda/src/main/java/com/amazonaws/mobileconnectors/lambdainvoker/LambdaInvocationHandler.java
 comSha:a3d0dd5
-parentComSha:a3d0dd5^1
+parentComSha:d37ea337929bba92f045082d0aac3a2f3cd6345e
 githubUrl:https://github.com/aws/aws-sdk-android
 repoName:aws#aws-sdk-android

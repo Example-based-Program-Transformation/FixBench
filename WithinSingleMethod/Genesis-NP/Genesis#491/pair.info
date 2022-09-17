@@ -2,6 +2,6 @@ Id:491
 SATName:Genesis
 modifiedFPath:openid-connect-server/src/main/java/org/mitre/openid/connect/token/TofuUserApprovalHandler.java
 comSha:265624b285690976240ffd1114076f555f1343da
-parentComSha:265624b285690976240ffd1114076f555f1343da^1
+parentComSha:41e76fd6c9be1a6e9c7a947a7cfb01db5226e401
 githubUrl:https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server
 repoName:mitreid-connect#OpenID-Connect-Java-Spring-Server

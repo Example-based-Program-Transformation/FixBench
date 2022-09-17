@@ -2,6 +2,6 @@ Id:316
 SATName:Genesis
 modifiedFPath:src/main/java/jline/console/history/FileHistory.java
 comSha:6a820b4c98ab6f7fd425bed31e5b291f3641e7fc
-parentComSha:6a820b4c98ab6f7fd425bed31e5b291f3641e7fc^1
+parentComSha:3f35df5f75f048e896d44c5529a98a24541d079d
 githubUrl:https://github.com/jline/jline2
 repoName:jline#jline2

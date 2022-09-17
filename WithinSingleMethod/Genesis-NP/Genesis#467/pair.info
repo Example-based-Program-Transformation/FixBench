@@ -2,6 +2,6 @@ Id:467
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/bpmn/parser/BpmnParse.java
 comSha:f1ef80dc0d4f90c5c8db3c3df0c06aa7381ef6d3
-parentComSha:f1ef80dc0d4f90c5c8db3c3df0c06aa7381ef6d3^1
+parentComSha:652a61cc23ad2a68413771e1f78ddbb00cbf86dd
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

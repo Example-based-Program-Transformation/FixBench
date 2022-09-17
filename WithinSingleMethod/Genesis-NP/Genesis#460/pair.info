@@ -2,6 +2,6 @@ Id:460
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/cmd/GetRenderedTaskFormCmd.java
 comSha:754d8ad9092c8b9af091bfc4643768773275dc2f
-parentComSha:754d8ad9092c8b9af091bfc4643768773275dc2f^1
+parentComSha:e48130fa6f06782d189d235d19cfeaa71fd6ac5e
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

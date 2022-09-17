@@ -2,6 +2,6 @@ Id:52
 SATName:Genesis
 modifiedFPath:src/main/java/com/googlecode/objectify/impl/ObjectifyImpl.java
 comSha:a21b3e78b9ee95f1858e6be437a29fc1a2a9e034
-parentComSha:a21b3e78b9ee95f1858e6be437a29fc1a2a9e034^1
+parentComSha:3611f33d8a6cb3867535f321b8db30c89f71aa84
 githubUrl:https://github.com/objectify/objectify
 repoName:objectify#objectify

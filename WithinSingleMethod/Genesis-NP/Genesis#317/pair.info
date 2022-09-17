@@ -2,6 +2,6 @@ Id:317
 SATName:Genesis
 modifiedFPath:src/main/java/jline/internal/TerminalLineSettings.java
 comSha:4d0ec1788e4183787dcf109aedfadb6f3e1a1b44
-parentComSha:4d0ec1788e4183787dcf109aedfadb6f3e1a1b44^1
+parentComSha:3f2eafe0194e839087c81652fbcd2dff11cf229f
 githubUrl:https://github.com/jline/jline2
 repoName:jline#jline2

@@ -2,6 +2,6 @@ Id:234
 SATName:Genesis
 modifiedFPath:src/org/jgroups/stack/DiagnosticsHandler.java
 comSha:1fc6dc611923d306354c5a9a585224c8fe711710
-parentComSha:1fc6dc611923d306354c5a9a585224c8fe711710^1
+parentComSha:bd312398e3d8265d00f3e481a3fe75b0882a8530
 githubUrl:https://github.com/belaban/JGroups
 repoName:belaban#JGroups

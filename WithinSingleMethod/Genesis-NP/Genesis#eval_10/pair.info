@@ -2,6 +2,6 @@ Id:10
 SATName:Genesis
 modifiedFPath:src/main/java/org/jongo/marshall/jackson/JacksonObjectIdUpdater.java
 comSha:f46f65808e2d11b331948434e190fcec65833c4c
-parentComSha:f46f65808e2d11b331948434e190fcec65833c4c^1
+parentComSha:97431a03a6b1314548bf708b258a5b8f7363df9e
 githubUrl:https://github.com/bguerout/jongo
 repoName:bguerout#jongo

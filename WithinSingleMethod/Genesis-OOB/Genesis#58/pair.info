@@ -2,6 +2,6 @@ Id:58
 SATName:Genesis
 modifiedFPath:Source/com/drew/metadata/photoshop/PhotoshopDescriptor.java
 comSha:05f67c39447f4d87000a93c7e598766b863f5aff
-parentComSha:05f67c39447f4d87000a93c7e598766b863f5aff^1
+parentComSha:674c609605b99ab8e909af34bad651a0fb16031a
 githubUrl:https://github.com/drewnoakes/metadata-extractor
 repoName:drewnoakes#metadata-extractor

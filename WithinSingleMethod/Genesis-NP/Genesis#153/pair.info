@@ -2,6 +2,6 @@ Id:153
 SATName:Genesis
 modifiedFPath:structr-core/src/main/java/org/structr/rest/GraphObjectGSONAdapter.java
 comSha:31fb41d5fdb9177afc3f093f9c36d739af699b5e
-parentComSha:31fb41d5fdb9177afc3f093f9c36d739af699b5e^1
+parentComSha:a96a82d7e935de1cbf77c8199c46eeb0e8bfc57c
 githubUrl:https://github.com/structr/structr
 repoName:structr#structr

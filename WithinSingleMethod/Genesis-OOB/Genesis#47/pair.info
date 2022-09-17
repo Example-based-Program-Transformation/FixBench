@@ -2,6 +2,6 @@ Id:47
 SATName:Genesis
 modifiedFPath:modules/swagger-jaxrs/src/main/java/io/swagger/jaxrs/utils/ReflectionUtils.java
 comSha:ca697d491031eda677ed6168108da33d50a23300
-parentComSha:ca697d491031eda677ed6168108da33d50a23300^1
+parentComSha:c4e00f41c3c2350276e0bdc5affb93a75ba59728
 githubUrl:https://github.com/swagger-api/swagger-core
 repoName:swagger-api#swagger-core

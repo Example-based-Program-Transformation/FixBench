@@ -2,6 +2,6 @@ Id:96
 SATName:Genesis
 modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/CheckStyleTask.java
 comSha:83e23be070d55f7a408161876cc310fdd5ff113e
-parentComSha:83e23be070d55f7a408161876cc310fdd5ff113e^1
+parentComSha:3bcfcac9eec4009cac1f76dff6f946a35a063bb2
 githubUrl:https://github.com/checkstyle/checkstyle
 repoName:checkstyle#checkstyle

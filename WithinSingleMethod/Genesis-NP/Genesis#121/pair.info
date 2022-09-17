@@ -2,6 +2,6 @@ Id:121
 SATName:Genesis
 modifiedFPath:webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java
 comSha:8ffc1a7093a6b641f3294368fbf89a8685dfd76a
-parentComSha:8ffc1a7093a6b641f3294368fbf89a8685dfd76a^1
+parentComSha:8551b668a0a73548d75fd1759d46b929c9c9295f
 githubUrl:https://github.com/code4craft/webmagic
 repoName:code4craft#webmagic

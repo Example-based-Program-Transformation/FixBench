@@ -2,6 +2,6 @@ Id:124
 SATName:Genesis
 modifiedFPath:addon-web-mvc-jsp/src/main/java/org/springframework/roo/addon/web/mvc/jsp/JspViewManager.java
 comSha:28f972b
-parentComSha:28f972b^1
+parentComSha:351141f8e7034ad86260cda4d15fb7bfa9ae548c
 githubUrl:https://github.com/spring-projects/spring-roo
 repoName:spring-projects#spring-roo

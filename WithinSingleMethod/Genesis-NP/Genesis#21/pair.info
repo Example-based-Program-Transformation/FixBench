@@ -2,6 +2,6 @@ Id:21
 SATName:Genesis
 modifiedFPath:marytts-common/src/main/java/marytts/modules/phonemiser/AllophoneSet.java
 comSha:39d6fb5282d76fc0020e16ad9f85ce13a1138b00
-parentComSha:39d6fb5282d76fc0020e16ad9f85ce13a1138b00^1
+parentComSha:66d826c98133e6f9135f3735f6210e97ec644e5f
 githubUrl:https://github.com/marytts/marytts
 repoName:marytts#marytts

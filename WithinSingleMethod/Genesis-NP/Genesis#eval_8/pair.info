@@ -2,6 +2,6 @@ Id:8
 SATName:Genesis
 modifiedFPath:src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/NeedBracesCheck.java
 comSha:aaf606ee0268f140c3694baba4c13b03f7839522
-parentComSha:aaf606ee0268f140c3694baba4c13b03f7839522^1
+parentComSha:4f73fffde83e584afeec17f39935078d656b7e21
 githubUrl:https://github.com/checkstyle/checkstyle
 repoName:checkstyle#checkstyle

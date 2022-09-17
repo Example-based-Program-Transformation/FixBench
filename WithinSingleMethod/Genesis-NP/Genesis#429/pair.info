@@ -2,6 +2,6 @@ Id:429
 SATName:Genesis
 modifiedFPath:src/main/java/hivemall/ensemble/MaxRowUDAF.java
 comSha:358d447847183a2e7b595659e18aae33eb4de290
-parentComSha:358d447847183a2e7b595659e18aae33eb4de290^1
+parentComSha:7bd96b702a4eb647768558ded49d2f1ead90ce78
 githubUrl:https://github.com/myui/hivemall
 repoName:myui#hivemall

@@ -2,6 +2,6 @@ Id:264
 SATName:Genesis
 modifiedFPath:src/main/java/org/zeromq/ZFrame.java
 comSha:ec575db1f3f7d7fb388a7c8aadb19bc49241b76b
-parentComSha:ec575db1f3f7d7fb388a7c8aadb19bc49241b76b^1
+parentComSha:4b8bf753263699c4e0e03275d0f876eca4e9b5fe
 githubUrl:https://github.com/zeromq/jzmq
 repoName:zeromq#jzmq

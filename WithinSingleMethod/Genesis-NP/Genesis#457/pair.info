@@ -2,6 +2,6 @@ Id:457
 SATName:Genesis
 modifiedFPath:modules/activiti-engine/src/main/java/org/activiti/engine/impl/pvm/runtime/AtomicOperationActivityEnd.java
 comSha:9fe1e5c23c40a56b750fd33631b972503f9861c8
-parentComSha:9fe1e5c23c40a56b750fd33631b972503f9861c8^1
+parentComSha:19c9d0b8f67bc89889af05ee1b61a409214524ea
 githubUrl:https://github.com/Activiti/Activiti
 repoName:Activiti#Activiti

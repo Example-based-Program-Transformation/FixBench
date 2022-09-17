@@ -2,6 +2,6 @@ Id:187
 SATName:Genesis
 modifiedFPath:src/main/java/com/github/rnewson/couchdb/lucene/LuceneServlet.java
 comSha:8fb7e17487126d3bf0df2ad92a154d00c5b1b992
-parentComSha:8fb7e17487126d3bf0df2ad92a154d00c5b1b992^1
+parentComSha:621d13c06c9bff5c9afc07aabc9d19511c7a6fd7
 githubUrl:https://github.com/rnewson/couchdb-lucene
 repoName:rnewson#couchdb-lucene

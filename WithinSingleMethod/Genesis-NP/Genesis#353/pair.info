@@ -2,6 +2,6 @@ Id:353
 SATName:Genesis
 modifiedFPath:src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java
 comSha:ea252e39da774a9dc81718f19019ba533209f774
-parentComSha:ea252e39da774a9dc81718f19019ba533209f774^1
+parentComSha:3b016b86ecf0e167ceaa67456b170ef7b0cb0354
 githubUrl:https://github.com/mybatis/mybatis-3
 repoName:mybatis#mybatis-3

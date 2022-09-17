@@ -2,6 +2,6 @@ Id:148
 SATName:Genesis
 modifiedFPath:src/main/java/com/greplin/lucene/filter/PhraseFilter.java
 comSha:a0c4ed7
-parentComSha:a0c4ed7^1
+parentComSha:7299438b885bd3661904d98d29e5c42109aa6f54
 githubUrl:https://github.com/Cue/greplin-lucene-utils
 repoName:Cue#greplin-lucene-utils

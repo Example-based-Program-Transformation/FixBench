@@ -2,6 +2,6 @@ Id:494
 SATName:Genesis
 modifiedFPath:wicket-native-websocket/wicket-native-websocket-javax/src/main/java/org/apache/wicket/protocol/ws/javax/JavaxUpgradeHttpRequest.java
 comSha:a06d33178857561d83e7d4b4b573f2bf7189a120
-parentComSha:a06d33178857561d83e7d4b4b573f2bf7189a120^1
+parentComSha:515e2be2a5301f5caf7b1baee4a593d21c20e275
 githubUrl:https://github.com/apache/wicket
 repoName:apache#wicket

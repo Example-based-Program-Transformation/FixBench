@@ -2,6 +2,6 @@ Id:39
 SATName:Genesis
 modifiedFPath:processing/src/main/java/io/druid/segment/QueryableIndexStorageAdapter.java
 comSha:df7a39a682e60326a8db7542da54d8f2308e5df1
-parentComSha:df7a39a682e60326a8db7542da54d8f2308e5df1^1
+parentComSha:7aef463457a74bb8b68fb28dacd506af182141b9
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

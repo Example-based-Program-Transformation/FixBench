@@ -2,6 +2,6 @@ Id:298
 SATName:Genesis
 modifiedFPath:logback-core/src/main/java/ch/qos/logback/core/rolling/helper/RenameUtil.java
 comSha:b64f57bb42a7904d660a3bdd56423ad5c7dce7e2
-parentComSha:b64f57bb42a7904d660a3bdd56423ad5c7dce7e2^1
+parentComSha:993b3ccd176b85f217473b897670d78090d4c7dc
 githubUrl:https://github.com/qos-ch/logback
 repoName:qos-ch#logback

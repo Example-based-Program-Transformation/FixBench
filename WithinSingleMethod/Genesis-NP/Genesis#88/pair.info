@@ -2,6 +2,6 @@ Id:88
 SATName:Genesis
 modifiedFPath:src/main/java/org/opencloudb/jdbc/JDBCDatasource.java
 comSha:0afc1c0fe0ccb7267e302e81c7dcb213e2cb4915
-parentComSha:0afc1c0fe0ccb7267e302e81c7dcb213e2cb4915^1
+parentComSha:01a13ffb8292019882d7b1e04b15d91e6462c275
 githubUrl:https://github.com/MyCATApache/Mycat-Server
 repoName:MyCATApache#Mycat-Server

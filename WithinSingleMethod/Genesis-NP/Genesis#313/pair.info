@@ -2,6 +2,6 @@ Id:313
 SATName:Genesis
 modifiedFPath:src/main/java/net/sf/jsqlparser/util/TablesNamesFinder.java
 comSha:6d8287fcf9dd1ee5f1e0af4c9dea5bb68a3c3883
-parentComSha:6d8287fcf9dd1ee5f1e0af4c9dea5bb68a3c3883^1
+parentComSha:c3404e01e59b8d524d48db0851400348b6bd3ae7
 githubUrl:https://github.com/JSQLParser/JSqlParser
 repoName:JSQLParser#JSqlParser

@@ -2,6 +2,6 @@ Id:364
 SATName:Genesis
 modifiedFPath:activejdbc/src/main/java/org/javalite/activejdbc/ModelFinder.java
 comSha:92c4dad1060b2be2adc407af51d42a940d2c82c6
-parentComSha:92c4dad1060b2be2adc407af51d42a940d2c82c6^1
+parentComSha:b16e80a0b74a6ebc7fad3259e03e7082ca25acfd
 githubUrl:https://github.com/javalite/activejdbc
 repoName:javalite#activejdbc

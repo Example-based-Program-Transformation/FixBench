@@ -2,6 +2,6 @@ Id:487
 SATName:Genesis
 modifiedFPath:jaxrs/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines/URLConnectionEngine.java
 comSha:e2dfe89af0437d2542756205b62411eb696be01f
-parentComSha:e2dfe89af0437d2542756205b62411eb696be01f^1
+parentComSha:67ad144787c6ee0eab534e80cb523e4e406bfaee
 githubUrl:https://github.com/resteasy/Resteasy
 repoName:resteasy#Resteasy

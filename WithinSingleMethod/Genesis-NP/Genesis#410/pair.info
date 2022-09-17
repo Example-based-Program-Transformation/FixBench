@@ -2,6 +2,6 @@ Id:410
 SATName:Genesis
 modifiedFPath:graphdb/src/main/java/com/tinkerpop/blueprints/impls/orient/OrientElement.java
 comSha:bdbea916008b1fffd0dc81a5e8c8bc861cc34d67
-parentComSha:bdbea916008b1fffd0dc81a5e8c8bc861cc34d67^1
+parentComSha:d8b4d05c98239c6118b1d2a3a143fe24145081c0
 githubUrl:https://github.com/orientechnologies/orientdb
 repoName:orientechnologies#orientdb

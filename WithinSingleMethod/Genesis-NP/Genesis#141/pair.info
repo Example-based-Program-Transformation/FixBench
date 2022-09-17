@@ -2,6 +2,6 @@ Id:141
 SATName:Genesis
 modifiedFPath:src/main/java/com/github/dockerjava/api/model/ContainerConfig.java
 comSha:fbef1cd41ed5e3b3202d82f88117d907e54fea85
-parentComSha:fbef1cd41ed5e3b3202d82f88117d907e54fea85^1
+parentComSha:1cf2a462503b49b37cc32219f32df490690f4b52
 githubUrl:https://github.com/docker-java/docker-java
 repoName:docker-java#docker-java

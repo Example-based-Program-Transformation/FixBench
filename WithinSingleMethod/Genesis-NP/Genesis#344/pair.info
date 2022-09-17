@@ -2,6 +2,6 @@ Id:344
 SATName:Genesis
 modifiedFPath:client/src/main/java/com/metamx/druid/curator/inventory/CuratorInventoryManager.java
 comSha:d02f152498750f213c38e35a41e0d5e2d6a3f55a
-parentComSha:d02f152498750f213c38e35a41e0d5e2d6a3f55a^1
+parentComSha:5a57539736770af6e581622f48e0d2617f57dd1f
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

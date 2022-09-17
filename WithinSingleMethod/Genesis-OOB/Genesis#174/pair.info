@@ -2,6 +2,6 @@ Id:174
 SATName:Genesis
 modifiedFPath:src/main/java/de/thm/arsnova/ImageUtils.java
 comSha:dfa6f77
-parentComSha:dfa6f77^1
+parentComSha:012bf13e3f78340758cdc55ea2ac351aeca06160
 githubUrl:https://github.com/thm-projects/arsnova-backend
 repoName:thm-projects#arsnova-backend

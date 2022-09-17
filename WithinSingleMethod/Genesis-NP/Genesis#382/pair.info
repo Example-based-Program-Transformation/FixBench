@@ -2,6 +2,6 @@ Id:382
 SATName:Genesis
 modifiedFPath:src/main/java/org/bytedeco/javacpp/tools/Parser.java
 comSha:5c259e1ee08c65a89dd4af4a4ee8c12af9547fc8
-parentComSha:5c259e1ee08c65a89dd4af4a4ee8c12af9547fc8^1
+parentComSha:9ed94ed61c01c711b08f9fe290701ecc5f008b00
 githubUrl:https://github.com/bytedeco/javacpp
 repoName:bytedeco#javacpp

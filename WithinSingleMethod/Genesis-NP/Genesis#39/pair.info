@@ -2,6 +2,6 @@ Id:39
 SATName:Genesis
 modifiedFPath:src/org/nutz/dao/impl/entity/EntityObjectContext.java
 comSha:8a9f057fef107eca600581192b28730a3cbbbb41
-parentComSha:8a9f057fef107eca600581192b28730a3cbbbb41^1
+parentComSha:48b813e796752453c74441c8483c2420fddb21ee
 githubUrl:https://github.com/nutzam/nutz
 repoName:nutzam#nutz

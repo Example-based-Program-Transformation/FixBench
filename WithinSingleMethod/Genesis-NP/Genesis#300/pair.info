@@ -2,6 +2,6 @@ Id:300
 SATName:Genesis
 modifiedFPath:logback-core/src/main/java/ch/qos/logback/core/subst/Parser.java
 comSha:9ac1e28d95eba9dbc51bcd7bcfc8edc6215a2a73
-parentComSha:9ac1e28d95eba9dbc51bcd7bcfc8edc6215a2a73^1
+parentComSha:cef354f0b9fd6f59dc0a7012262603c1c90ce410
 githubUrl:https://github.com/qos-ch/logback
 repoName:qos-ch#logback

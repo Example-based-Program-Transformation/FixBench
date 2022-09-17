@@ -2,6 +2,6 @@ Id:322
 SATName:Genesis
 modifiedFPath:web/tapestry/src/main/java/org/appfuse/webapp/pages/PasswordRecoveryToken.java
 comSha:b65dcee16bfa145af6f4393597a5ff259eef5fa1
-parentComSha:b65dcee16bfa145af6f4393597a5ff259eef5fa1^1
+parentComSha:9a70baa713440d5e0ed6144e3d8a21880916039f
 githubUrl:https://github.com/appfuse/appfuse
 repoName:appfuse#appfuse

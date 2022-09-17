@@ -2,6 +2,6 @@ Id:117
 SATName:Genesis
 modifiedFPath:src/main/java/org/thymeleaf/standard/fragment/StandardFragment.java
 comSha:70577fe837cde8518dd5da2d4bedf5ed7302dae0
-parentComSha:70577fe837cde8518dd5da2d4bedf5ed7302dae0^1
+parentComSha:a77476394ebe9f6e5c6ab25e396cb9bd720644c2
 githubUrl:https://github.com/thymeleaf/thymeleaf
 repoName:thymeleaf#thymeleaf

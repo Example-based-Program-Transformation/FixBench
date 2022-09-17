@@ -2,6 +2,6 @@ Id:483
 SATName:Genesis
 modifiedFPath:src/main/java/com/mashape/unirest/http/utils/MapUtil.java
 comSha:0b28cbbd49ea0929dfbdff98797f92ced56846e4
-parentComSha:0b28cbbd49ea0929dfbdff98797f92ced56846e4^1
+parentComSha:3f418d7c31ca1918b6098b81ca679b478bd0c488
 githubUrl:https://github.com/Mashape/unirest-java
 repoName:Mashape#unirest-java

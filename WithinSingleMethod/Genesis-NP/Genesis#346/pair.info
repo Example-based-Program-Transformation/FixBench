@@ -2,6 +2,6 @@ Id:346
 SATName:Genesis
 modifiedFPath:indexer/src/main/java/com/metamx/druid/indexer/DeterminePartitionsJob.java
 comSha:9ac5eeebb3925ca3155f8255a7f9bbd1723c5ddc
-parentComSha:9ac5eeebb3925ca3155f8255a7f9bbd1723c5ddc^1
+parentComSha:ec2b906fada9255f779d9d3ebfb13ab9f0ef9129
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

@@ -2,6 +2,6 @@ Id:70
 SATName:Genesis
 modifiedFPath:src/main/java/net/mindengine/galen/validation/PageValidation.java
 comSha:17d5d66ec044ad5059b49fa872b448664cfae037
-parentComSha:17d5d66ec044ad5059b49fa872b448664cfae037^1
+parentComSha:1f4ec19fffec4ca1ea069839a54f579c6ebf97a7
 githubUrl:https://github.com/galenframework/galen
 repoName:galenframework#galen

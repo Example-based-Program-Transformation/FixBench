@@ -2,6 +2,6 @@ Id:158
 SATName:Genesis
 modifiedFPath:wagon-provider-api/src/main/java/org/apache/maven/wagon/PathUtils.java
 comSha:2b367be
-parentComSha:2b367be^1
+parentComSha:00d43027f740656df1423006770258c0d23611e9
 githubUrl:https://github.com/apache/maven-wagon
 repoName:apache#maven-wagon

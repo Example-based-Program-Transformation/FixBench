@@ -2,6 +2,6 @@ Id:377
 SATName:Genesis
 modifiedFPath:modules/cpr/src/main/java/org/atmosphere/cpr/AtmosphereRequest.java
 comSha:0eb7282db2ecc169917c9c6d6a592ac834a0bd08
-parentComSha:0eb7282db2ecc169917c9c6d6a592ac834a0bd08^1
+parentComSha:9c027223595a038fa94a98c90b8dabd91bcbc3e1
 githubUrl:https://github.com/Atmosphere/atmosphere
 repoName:Atmosphere#atmosphere

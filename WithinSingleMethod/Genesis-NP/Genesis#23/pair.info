@@ -2,6 +2,6 @@ Id:23
 SATName:Genesis
 modifiedFPath:src/main/java/com/zaxxer/hikari/HikariConfig.java
 comSha:d538f9864c841c36b7f47a3db6d8891e454a4789
-parentComSha:d538f9864c841c36b7f47a3db6d8891e454a4789^1
+parentComSha:eb97e3c985df1e25704d00a640e1f8e436d5aeba
 githubUrl:https://github.com/brettwooldridge/HikariCP
 repoName:brettwooldridge#HikariCP

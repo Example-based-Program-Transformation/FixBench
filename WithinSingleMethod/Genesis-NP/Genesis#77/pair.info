@@ -2,6 +2,6 @@ Id:77
 SATName:Genesis
 modifiedFPath:src/main/java/org/yinwang/pysonar/ProxyParser.java
 comSha:576047d602dcca48fd9c97c492b763189d185a75
-parentComSha:576047d602dcca48fd9c97c492b763189d185a75^1
+parentComSha:4526067ea19ce873fa0582e789a8165f1acbe08d
 githubUrl:https://github.com/yinwang0/pysonar2
 repoName:yinwang0#pysonar2

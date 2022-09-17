@@ -2,6 +2,6 @@ Id:201
 SATName:Genesis
 modifiedFPath:api/src/main/java/org/asynchttpclient/oauth/ThreadSafeHMAC.java
 comSha:6475545ea3cbc67e35cf246ee30619c2f298e1f5
-parentComSha:6475545ea3cbc67e35cf246ee30619c2f298e1f5^1
+parentComSha:fc870d8b4553854e1e6869def0f0c1ee45f5c9ff
 githubUrl:https://github.com/AsyncHttpClient/async-http-client
 repoName:AsyncHttpClient#async-http-client

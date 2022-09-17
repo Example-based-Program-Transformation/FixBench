@@ -2,6 +2,6 @@ Id:389
 SATName:Genesis
 modifiedFPath:forge/fabric8-forge-core/src/main/java/io/fabric8/forge/rest/dto/UICommands.java
 comSha:2acafacbbc3d407e5875938bc9a74cdc188f94d8
-parentComSha:2acafacbbc3d407e5875938bc9a74cdc188f94d8^1
+parentComSha:dd8ab74cbaee30f49797d09a8c94c5b77875a8e7
 githubUrl:https://github.com/fabric8io/fabric8
 repoName:fabric8io#fabric8

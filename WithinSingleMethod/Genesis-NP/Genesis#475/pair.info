@@ -2,6 +2,6 @@ Id:475
 SATName:Genesis
 modifiedFPath:src/main/java/com/lambdaworks/redis/protocol/CommandOutput.java
 comSha:701d1a7e558adfc429d52779f1ec77ee8aee5af4
-parentComSha:701d1a7e558adfc429d52779f1ec77ee8aee5af4^1
+parentComSha:074d1339d3043026bb2690534d0620940d145b71
 githubUrl:https://github.com/mrniko/redisson
 repoName:mrniko#redisson

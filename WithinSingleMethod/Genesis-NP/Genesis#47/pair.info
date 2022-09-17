@@ -2,6 +2,6 @@ Id:47
 SATName:Genesis
 modifiedFPath:src/org/encog/app/analyst/script/normalize/AnalystNormalize.java
 comSha:74e4b2b6bf6ee2ac675a9dfc74656ed670d0c97f
-parentComSha:74e4b2b6bf6ee2ac675a9dfc74656ed670d0c97f^1
+parentComSha:1209364eb6c5855800c4c6a41273f7b4f2caf796
 githubUrl:https://github.com/encog/encog-java-core
 repoName:encog#encog-java-core

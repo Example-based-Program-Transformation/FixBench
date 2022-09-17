@@ -2,6 +2,6 @@ Id:340
 SATName:Genesis
 modifiedFPath:processing/src/main/java/io/druid/segment/incremental/IncrementalIndexStorageAdapter.java
 comSha:c88cb2af16db60ae9cbc0d89929bfc4610da5fce
-parentComSha:c88cb2af16db60ae9cbc0d89929bfc4610da5fce^1
+parentComSha:f2c1f798b9858cb96b3094529a8ec479e19dd01b
 githubUrl:https://github.com/druid-io/druid
 repoName:druid-io#druid

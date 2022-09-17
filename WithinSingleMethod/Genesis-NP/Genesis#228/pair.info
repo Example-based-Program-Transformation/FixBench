@@ -2,6 +2,6 @@ Id:228
 SATName:Genesis
 modifiedFPath:src/org/jgroups/stack/RouterStubManager.java
 comSha:e4248516ada5871683db458f1403aeb5195ebad4
-parentComSha:e4248516ada5871683db458f1403aeb5195ebad4^1
+parentComSha:6bf6ad226d08367b488f38b9ba98b45357625c3d
 githubUrl:https://github.com/belaban/JGroups
 repoName:belaban#JGroups
